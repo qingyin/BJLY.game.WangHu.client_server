@@ -1,0 +1,265 @@
+﻿	<LoadSkin Skin="Script/HNHomeSkin.xml"/>
+	<Widget  Name="HomeScencePlane" SkinTempName="Empty">
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/changjing.png"/>
+			<Property Key="Pos" Value="640 360"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/dingbuuibantoumingdi.png"/>
+			<Property Key="Pos" Value="640 660"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/zhuanzhuanmajiangdabiaotidi.png"/>
+			<Property Key="Pos" Value="640 660"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/hunanmajiang11.png"/>
+			<Property Key="Pos" Value="640 660"/>
+		</Widget>
+			
+		<Widget Name="" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 570"/>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/paomadengbeijing.png"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/xiaolaba.png"/>
+				<Property Key="Pos" Value="-410 0"/>
+			</Widget>
+			<Widget Name="LayoutNode" SkinTempName="LayoutEmpty">
+				<Property Key="Size" Value="840 40"/>
+				<Property Key="HideBack"/>
+				<Property Key="Pos" Value="50 0"/>
+				<Property Key="AnchorPos" Value="0.5 0.5"/>
+				<Widget SkinTempName="Empty">
+					<Property Key="Pos" Value="5 20"/>
+					<Widget Name="SysSpeakerTxt" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="25"/>
+						<Property Key="AnchorPos" Value="0 0.5"/>
+					</Widget>
+				</Widget>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="HeadImagic" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/head_img_male.png"/>
+			<Property Key="Pos" Value="70 660"/>
+			<Property Key="Scale" Value="0.9"/>
+		</Widget>
+		<Widget Name="Button_HomeHead" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceHome/public_frame_head.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="70 660"/>
+		</Widget>
+		<Widget Name="HomeName" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="名字"/>
+			<Property Key="Pos" Value="130 695"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="100 100 0"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="ID:"/>
+			<Property Key="Pos" Value="130 665"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="100 100 0"/>
+		</Widget>
+		<Widget Name="HomeID" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="2625147"/>
+			<Property Key="Pos" Value="170 665"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="100 100 0"/>
+		</Widget>
+		<Widget Name="Button_HomeAddGold" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceHome/fangkaxiaobeijing.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="220 630"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+		
+		<Widget Name="Button_HomeAddGold" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceHome/addcard.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="300 630"/>
+			<Property Key="Scale" Value="0.9"/>
+		</Widget>
+		
+		<Widget Name="HomeGold" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="100"/>
+			<Property Key="Pos" Value="200 630"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/fangka.png"/>
+			<Property Key="Pos" Value="160 630"/>
+		</Widget>
+		<Widget Name="Button_HomeSet" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceHome/Button_SheZhi.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="1230 660"/>
+		</Widget>
+		<Widget Name="Button_BangZhu" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceHome/help.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="1150 660"/>
+		</Widget>
+		<Widget Name="Button_Message" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceHome/xiaoxi.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="1070 660"/>
+		</Widget>
+		<Widget Name="Button_zhanji" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceHome/Button_zhanji.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="990 660"/>
+		</Widget>
+		<Widget Name="Button_share" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceHome/sharenew.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="910 660"/>
+			<Action Key="Show" Value="SharePlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Empty">
+			<Property Key="Pos" Value="320 280"/>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/chuangjianfangjianxiaochangjing.png"/>
+				<Property Key="Pos" Value="0 0"/>
+			</Widget>
+			<Widget Name="Button_Show_Create_Private" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/Button_Room.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/hongseanniu.png"/>
+				<Property Key="Pos" Value="0 -130"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/chuangjianfangjian.png"/>
+				<Property Key="Pos" Value="0 -130"/>
+			</Widget>
+		</Widget>
+		<Widget Name="" SkinTempName="Empty">
+			<Property Key="Pos" Value="960 280"/>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/jiaruyouxixiaochangjing.png"/>
+				<Property Key="Pos" Value="0 0"/>
+			</Widget>
+			<Widget Name="Button_Show_Join_Private" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/Button_Room.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/hongseanniu.png"/>
+				<Property Key="Pos" Value="0 -130"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/jiaruyouxi.png"/>
+				<Property Key="Pos" Value="0 -130"/>
+			</Widget>
+		</Widget>
+		<Widget Name="BuyPlane" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget  SkinTempName="BtnFullEmpty">
+				<Action Key="Hide" Value="BuyPlane"/>
+			</Widget>
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="Size" Value="800 400"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="46"/>
+				<Property Key="ShowTxt" Value="提示"/>
+				<Property Key="Pos" Value="640 520"/>
+				<Property Key="Color" Value="250 250 0"/>
+				<Property Key="OutLine" Value="250 250 250 250:1"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="房卡购买请加微信:youxi36524"/>
+				<Property Key="Pos" Value="640 380"/>
+				<Property Key="Color" Value="0 0 0"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="并附上您的玩家ID"/>
+				<Property Key="Pos" Value="640 340"/>
+				<Property Key="Color" Value="0 0 0"/>
+			</Widget>
+		</Widget>
+		<Widget Name="ChannelPlane" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget  SkinTempName="BtnFullEmpty">
+			</Widget>
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="Size" Value="800 400"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget  SkinTempName="Button_Close">
+				<Property Key="Pos" Value="1020 540"/>
+				<Action Key="Hide" Value="ChannelPlane"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="46"/>
+				<Property Key="ShowTxt" Value="提示"/>
+				<Property Key="Pos" Value="640 520"/>
+				<Property Key="Color" Value="250 250 0"/>
+				<Property Key="OutLine" Value="250 250 250 250:1"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="设置渠道号后可获得3个房卡"/>
+				<Property Key="Pos" Value="640 420"/>
+				<Property Key="Color" Value="70 70 0"/>
+			</Widget>
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="public/EditBack.png"/>
+				<Property Key="Size" Value="400 70"/>
+				<Property Key="Pos" Value="640 340"/>
+			</Widget>
+			<Widget Name="Edit_HomeChannel" SkinTempName="AcountEdit">
+				<Property Key="Pos" Value="640 340"/>
+			</Widget>
+			<Widget Name="Button_SetChannel" SkinTempName="ButtonTxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="提交"/>
+				<Property Key="Pos" Value="640 240"/>
+			</Widget>
+		</Widget>
+		
+		
+		<Widget Name="SharePlane" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget  SkinTempName="BtnFullEmpty">
+				<Action Key="Hide" Value="SharePlane"/>
+			</Widget>
+		
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="ScenceHome/public_frame_a.png"/>
+				<Property Key="Size" Value="600 400"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/fenxiangdao.png"/>
+				<Property Key="Pos" Value="640 480"/>
+			</Widget>
+			
+			<Widget Name="Button_sharePengYou" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/haoyouqun.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="520 330"/>
+			</Widget>
+			
+			<Widget Name="Button_shareQuan" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/pengyouquan.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="760 330"/>
+			</Widget>
+			
+		</Widget>
+	</Widget>
+	

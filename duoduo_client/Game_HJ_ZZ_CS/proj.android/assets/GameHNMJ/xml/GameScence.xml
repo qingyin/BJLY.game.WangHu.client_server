@@ -1,0 +1,1061 @@
+﻿ <root>
+	<LoadSkin Skin="GameHNMJ/xml/GameSkin.xml"/>
+	<Widget Name="GameHNMJPlane" SkinTempName="Empty">
+		<Widget Name="GameBackImagic" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameHNMJ/Back.png"/>
+			<Property Key="Scale" Value="1.15"/>
+			<Property Key="Pos" Value="640 360"/>
+		</Widget>
+		
+		<Widget Name="Player1" SkinTempName="Empty">
+			<Property Key="Pos" Value="1137 360"/>
+		
+			<Widget Name="CardNode1" SkinTempName="Empty">
+			</Widget>
+			<Widget Name="CardNode2" SkinTempName="Empty">
+			</Widget>
+			<Widget Name="Head" SkinTempName="HNMJ_PLAYER_HEAD">
+				<UserInfo Key="SrcPos" Value="0 0"/>
+				<UserInfo Key="DestPos" Value="80 80"/>
+				<Property Key="Pos" Value="0 0"/>
+				<Property Key="ChildProperty" Value="TalkTxtNode:Pos:-170 70"/>
+				<Property Key="ChildProperty" Value="public_9sprite:FlipX:true"/>
+				<Property Key="ChildProperty" Value="BiaoQingNode:Pos:-100 0"/>
+			</Widget>
+			
+			<Widget Name="MJPoint" SkinTempName="GameMJPoint1">
+			</Widget>
+			
+			<Widget Name="HandPosNode" SkinTempName="Empty">
+				<UserInfo Key="HandAddPos" Value="0 23.33"/>
+				<UserInfo Key="NewInAddPos" Value="0 67"/>
+				<UserInfo Key="AddOder" Value="-1"/>
+				
+				<Property Key="Pos" Value="0 -130"/>
+				
+			</Widget>
+			
+			<Widget Name="OutPosNode" SkinTempName="Empty">
+				<UserInfo Key="OutAddPos" Value="0 23.33"/>
+				<UserInfo Key="NextAddPos" Value="-40 0"/>
+				<UserInfo Key="AddOder" Value="-1"/>
+			
+				<Property Key="Pos" Value="-60 -100"/>
+			</Widget>
+			<Widget Name="BigOutNode" SkinTempName="HNMJ_BIG_OUT">
+				<Property Key="Pos" Value="-200 0"/>
+				<Property Key="Visible" Value="false"/>
+				<UserInfo Key="OutHandScale" Value="0.8"/>
+				<UserInfo Key="SelfPos" Value="-200 0"/>
+			</Widget>
+			<Widget Name="" SkinTempName="HNMJ_PlayerStatusNode">
+				<Property Key="Pos" Value="-200 0"/>
+			</Widget>
+			
+			<Widget Name="CSGangCardBg" SkinTempName="CSGangCardBg_9Sprite">
+				<Property Key="Pos" Value="-200 0"/>
+				<Widget Name="CSGangCard1" SkinTempName="HNMJ_BIG_OUT">
+					<UserInfo Key="ChiIndex" Value="1"/>
+					<Property Key="Pos" Value="60 80"/>
+				</Widget>
+				<Widget Name="CSGangCard2" SkinTempName="HNMJ_BIG_OUT">
+					<UserInfo Key="ChiIndex" Value="2"/>
+					<Property Key="Pos" Value="160 80"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="AnimateNode" SkinTempName="THJActionAni">
+				<Property Key="Pos" Value="-85 40"/>
+			</Widget>
+			<Widget Name="NiaoFlyNode" SkinTempName="NiaoFlyAni">
+				<Property Key="Pos" Value="0 -250"/>
+				<UserInfo Key="FlyFrom" Value="-350 0"/>
+				<UserInfo Key="FlyTo" Value="80 80"/>
+			</Widget>
+			
+		</Widget>
+		<Widget Name="Player2" SkinTempName="Empty">
+			<Property Key="Pos" Value="670 640"/>
+			
+			<Widget Name="CardNode1" SkinTempName="Empty">
+			</Widget>
+			<Widget Name="CardNode2" SkinTempName="Empty">
+			</Widget>
+			<Widget Name="MJPoint" SkinTempName="GameMJPoint2">
+			</Widget>
+			<Widget Name="Head" SkinTempName="HNMJ_PLAYER_HEAD">
+				<UserInfo Key="SrcPos" Value="0 -0"/>
+				<UserInfo Key="DestPos" Value="-450 30"/>
+				<Property Key="Pos" Value="0 0"/>
+				<Property Key="ChildProperty" Value="TalkFile:Pos:70 0"/>
+				<Property Key="ChildProperty" Value="TalkTxtNode:Pos:170 -150"/>
+				<Property Key="ChildProperty" Value="BiaoQingNode:Pos:100 0"/>
+				<Property Key="ChildProperty" Value="public_9sprite:FlipY:true"/>
+				<Property Key="ChildProperty" Value="LayoutNode:Pos:0 -4"/>
+			</Widget>
+			<Widget Name="HandPosNode" SkinTempName="Empty">
+				<UserInfo Key="HandAddPos" Value="-51 0"/>
+				<UserInfo Key="NewInAddPos" Value="-61 0"/>
+				
+				<Property Key="Pos" Value="362 0"/>
+				
+			</Widget>
+			
+			<Widget Name="OutPosNode" SkinTempName="Empty">
+				<UserInfo Key="OutAddPos" Value="-42.5 0"/>
+				<UserInfo Key="NextAddPos" Value="0 -55"/>
+			
+				<Property Key="Pos" Value="212 -85"/>
+			</Widget>
+			<Widget Name="BigOutNode" SkinTempName="HNMJ_BIG_OUT">
+				<Property Key="Pos" Value="45 -100"/>
+				<Property Key="Visible" Value="false"/>
+				<UserInfo Key="OutHandScale" Value="0.5"/>
+				<UserInfo Key="SelfPos" Value="45 -100"/>
+			</Widget>
+			<Widget Name="" SkinTempName="HNMJ_PlayerStatusNode">
+				<Property Key="Pos" Value="0 -160"/>
+			</Widget>
+			
+			<Widget Name="CSGangCardBg" SkinTempName="CSGangCardBg_9Sprite">
+				<Property Key="Pos" Value="0 -100"/>
+				<Widget Name="CSGangCard1" SkinTempName="HNMJ_BIG_OUT">
+					<UserInfo Key="ChiIndex" Value="1"/>
+					<Property Key="Pos" Value="60 80"/>
+				</Widget>
+				<Widget Name="CSGangCard2" SkinTempName="HNMJ_BIG_OUT">
+					<UserInfo Key="ChiIndex" Value="2"/>
+					<Property Key="Pos" Value="160 80"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="AnimateNode" SkinTempName="THJActionAni">
+				<Property Key="Pos" Value="0 -100"/>
+			</Widget>
+			<Widget Name="NiaoFlyNode" SkinTempName="NiaoFlyAni">
+				<Property Key="Pos" Value="0 -250"/>
+				<UserInfo Key="FlyFrom" Value="0 -250"/>
+				<UserInfo Key="FlyTo" Value="-350 30"/>
+			</Widget>
+		</Widget>
+		<Widget Name="Player3" SkinTempName="Empty">
+			<Property Key="Pos" Value="144 360"/>
+			
+			<Widget Name="CardNode2" SkinTempName="Empty">
+			</Widget>
+			<Widget Name="CardNode1" SkinTempName="Empty">
+			</Widget>
+			
+			<Widget Name="Head" SkinTempName="HNMJ_PLAYER_HEAD">
+				<UserInfo Key="SrcPos" Value="0 0"/>
+				<UserInfo Key="DestPos" Value="-80 80"/>
+				<Property Key="Pos" Value="0 0"/>
+				<Property Key="ChildProperty" Value="TalkTxtNode:Pos:170 80"/>
+				<Property Key="ChildProperty" Value="BiaoQingNode:Pos:100 0"/>
+			</Widget>
+			
+			<Widget Name="MJPoint" SkinTempName="GameMJPoint3">
+			</Widget>
+			<Widget Name="HandPosNode" SkinTempName="Empty">
+				<UserInfo Key="HandAddPos" Value="0 -23.33"/>
+				<UserInfo Key="NewInAddPos" Value="0 -60"/>
+				
+				<Property Key="Pos" Value="0 220"/>
+				
+			</Widget>
+			
+			<Widget Name="OutPosNode" SkinTempName="Empty">
+				<UserInfo Key="OutAddPos" Value="0 -23.33"/>
+				<UserInfo Key="NextAddPos" Value="40 0"/>
+			
+				<Property Key="Pos" Value="60 190"/>
+			</Widget>
+			<Widget Name="BigOutNode" SkinTempName="HNMJ_BIG_OUT">
+				<Property Key="Pos" Value="200 100"/>
+				<Property Key="Visible" Value="false"/>
+				<UserInfo Key="OutHandScale" Value="0.8"/>
+				<UserInfo Key="SelfPos" Value="200 100"/>
+			</Widget>
+			<Widget Name="" SkinTempName="HNMJ_PlayerStatusNode">
+				<Property Key="Pos" Value="200 0"/>
+			</Widget>
+			
+			<Widget Name="CSGangCardBg" SkinTempName="CSGangCardBg_9Sprite">
+				<Property Key="Pos" Value="200 0"/>
+				<Widget Name="CSGangCard1" SkinTempName="HNMJ_BIG_OUT">
+					<UserInfo Key="ChiIndex" Value="1"/>
+					<Property Key="Pos" Value="60 80"/>
+				</Widget>
+				<Widget Name="CSGangCard2" SkinTempName="HNMJ_BIG_OUT">
+					<UserInfo Key="ChiIndex" Value="2"/>
+					<Property Key="Pos" Value="160 80"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="AnimateNode" SkinTempName="THJActionAni">
+				<Property Key="Pos" Value="85 40"/>
+			</Widget>
+			<Widget Name="NiaoFlyNode" SkinTempName="NiaoFlyAni">
+				<Property Key="Pos" Value="0 -250"/>
+				<UserInfo Key="FlyFrom" Value="350 0"/>
+				<UserInfo Key="FlyTo" Value="-80 80"/>
+			</Widget>
+		</Widget>
+	
+		
+		<Widget Name="TimeNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 380"/>
+			<Widget Name="TimeNodeChild" SkinTempName="Empty">
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameHNMJ/TimeBack.png"/>
+				</Widget>
+				<Widget Name="TimePoint0" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameHNMJ/TimePoint2.png"/>
+					<Property Key="Pos" Value="0 -46"/>
+					<Property Key="Rotation" Value="180"/>
+				</Widget>
+				<Widget Name="TimePoint1" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameHNMJ/TimePoint3.png"/>
+					<Property Key="Pos" Value="-46 0"/>
+				</Widget>
+				<Widget Name="TimePoint2" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameHNMJ/TimePoint0.png"/>
+					<Property Key="Pos" Value="0 46"/>
+					<Property Key="Rotation" Value="180"/>
+				</Widget>
+				<Widget Name="TimePoint3" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameHNMJ/TimePoint1.png"/>
+					<Property Key="Pos" Value="46 0"/>
+				</Widget>
+			</Widget>
+			<Widget Name="ActPlayerLastTime" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="ShowTxt" Value="6"/>
+				<Property Key="Pos" Value="0 0"/>
+				<Property Key="Color" Value="255 255 0"/>
+			</Widget>
+		</Widget>
+		<Widget Name="LastCardNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 300"/>
+			<Property Key="Visible" Value="true"/>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="24"/>
+				<Property Key="ShowTxt" Value="剩余"/>
+				<Property Key="Pos" Value="-30 0"/>
+				<Property Key="Color" Value="210 240 255"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="24"/>
+				<Property Key="ShowTxt" Value="张"/>
+				<Property Key="Pos" Value="40 0"/>
+				<Property Key="Color" Value="210 240 255"/>
+			</Widget>
+			<Widget Name="LastCardCout" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="24"/>
+				<Property Key="ShowTxt" Value="20"/>
+				<Property Key="Pos" Value="12 0"/>
+				<Property Key="Color" Value="210 240 255"/>
+			</Widget>
+		</Widget>
+		<Widget Name="Player0" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 0"/>
+			
+			<Widget Name="CardNode2" SkinTempName="Empty">
+			</Widget>
+			<Widget Name="CardNode1" SkinTempName="Empty">
+				<Property Key="Pos" Value="0 20"/>
+			</Widget>
+			
+			<Widget Name="Head" SkinTempName="HNMJ_PLAYER_HEAD">
+				<UserInfo Key="SrcPos" Value="0 180"/>
+				<UserInfo Key="DestPos" Value="-580 250"/>
+				<Property Key="Pos" Value="0 180"/>
+				<Property Key="ChildProperty" Value="TalkTxtNode:Pos:170 80"/>
+				<Property Key="ChildProperty" Value="BiaoQingNode:Pos:100 0"/>
+			</Widget>
+			
+			<Widget Name="MJPoint" SkinTempName="GameMJPoint0">
+			</Widget>
+			<Widget Name="HandPosNode" SkinTempName="Empty">
+				<UserInfo Key="HandAddPos" Value="85 0"/>
+				<UserInfo Key="NewInAddPos" Value="105 0"/>
+				<Property Key="Pos" Value="-610 70"/>
+				<Property Key="Oder" Value="1"/>
+			</Widget>
+			<Widget Name="OutPosNode" SkinTempName="Empty">
+				<UserInfo Key="OutAddPos" Value="42.5 0"/>
+				<UserInfo Key="NextAddPos" Value="0 55"/>
+				<UserInfo Key="AddOder" Value="-1"/>
+				<Property Key="Pos" Value="-212 195"/>
+			</Widget>
+			<Widget Name="BigOutNode" SkinTempName="HNMJ_BIG_OUT">
+				<Property Key="Pos" Value="-45 220"/>
+				<Property Key="Visible" Value="false"/>
+				<UserInfo Key="OutHandScale" Value="0.5"/>
+				<UserInfo Key="SelfPos" Value="-45 210"/>
+			</Widget>
+			<Widget Name="" SkinTempName="HNMJ_PlayerStatusNode">
+				<Property Key="Pos" Value="0 260"/>
+			</Widget>
+			
+			<Widget Name="CSGangCardBg" SkinTempName="CSGangCardBg_9Sprite">
+				<Property Key="Pos" Value="0 220"/>
+				<Widget Name="CSGangCard1" SkinTempName="HNMJ_BIG_OUT">
+					<UserInfo Key="ChiIndex" Value="1"/>
+					<Property Key="Pos" Value="60 80"/>
+				</Widget>
+				<Widget Name="CSGangCard2" SkinTempName="HNMJ_BIG_OUT">
+					<UserInfo Key="ChiIndex" Value="2"/>
+					<Property Key="Pos" Value="160 80"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="TingNode" SkinTempName="Empty">
+				<Property Key="Visible" Value="false"/>
+				<Property Key="Scale" Value="0.4"/>
+				<UserInfo Key="TingAddPos" Value="85 0"/>
+				<UserInfo Key="TimgStartPos" Value="-1420 70"/>
+				<UserInfo Key="CellSize" Value="85 140"/>
+				<Widget Name="TingBg" SkinTempName="public_9sprite">
+					<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+					<Property Key="Size" Value="700 140"/>
+					<Property Key="Pos" Value="-1580 70"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+				<Widget Name="JieSuan_Title" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameHNMJ/ting.png"/>
+					<Property Key="Pos" Value="-1500 70"/>
+				</Widget>
+				<Widget Name="TingCardNode" SkinTempName="Empty">
+				</Widget>
+			</Widget>
+			
+			<Widget Name="AnimateNode" SkinTempName="THJActionAni">
+				<Property Key="Pos" Value="0 210"/>
+			</Widget>
+			<Widget Name="NiaoFlyNode" SkinTempName="NiaoFlyAni">
+				<UserInfo Key="FlyFrom" Value="0 250"/>
+				<UserInfo Key="FlyTo" Value="-580 250"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="PrivateInfo" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="房号:"/>
+				<Property Key="Pos" Value="10 695"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="255 0 0"/>
+			</Widget>
+			<Widget Name="RoomID" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="24561"/>
+				<Property Key="Pos" Value="75 695"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="255 0 0"/>
+			</Widget>
+			<Widget Name="RoomNum" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="2/5局"/>
+				<UserInfo Key="Txt" Value="#局"/>
+				<Property Key="Pos" Value="10 660"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule0" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 630"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule1" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 600"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule2" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 570"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule3" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 540"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule4" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 510"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule5" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 480"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="RoomGameRule6" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 480"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="RoomGameRule7" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 480"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="Button_PrivateWeiXinFriend" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/GamePrivate/btn_weixin_invite.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget Name="TalkImagic" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/GamePrivate/play_huatong.png"/>
+				<Property Key="Pos" Value="640 360"/>
+				<Property Key="Visible" Value="false"/>
+			</Widget>
+			<Widget Name="HNMJButton_Talk" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/GamePrivate/play_huatong.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="1210 270"/>
+				<Property Key="Scale" Value="1.3"/>
+			</Widget>
+			
+			<Widget Name="GameTypeScenceNode" SkinTempName="Empty">
+			</Widget>
+			<!--ScenceXml File="GameHNMJ/xml/GameTalkScence.xml">
+			</ScenceXml-->
+		</Widget>
+		
+		<Widget Name="GoldRoomInfo" SkinTempName="Empty">
+			<Widget Name="HNMJButton_GameExit" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/GamePrivate/btn_back_sala.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="1160 665"/>
+			</Widget>
+			<Widget Name="GoldRoomGameRule0" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 690"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="GoldRoomGameRule1" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 660"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="GoldRoomGameRule2" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 630"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<UserInfo Key="HNGameTypeDiFen" Value="底分:#"/>
+			</Widget>
+		</Widget>
+		
+		
+		<Widget Name="SelfActionNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 200"/>
+			<Property Key="Visible" Value="false"/>
+			<UserInfo Key="StartPos" Value="500 0"/>
+			<UserInfo Key="AddPos" Value="-140 0"/>
+			<UserInfo Key="ImagicFront" Value="GameHNMJ/2/mingmah_"/>
+			
+			<Widget Name="HNMJButton_GuoAction" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/Button_GuoAction.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="500 0"/>
+			</Widget>
+			<Widget Name="HNMJButton_GangAction" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/Button_GangAction.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="360 0"/><Widget Name="GangActionNode" SkinTempName="Empty">
+					<Property Key="Pos" Value="40 160"/>
+					<Widget Name="GangBackPlane" SkinTempName="public_9sprite">
+						<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+						<Property Key="Size" Value="200 80"/>
+						<Property Key="Pos" Value="0 0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode0" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="0 0"/>
+						<UserInfo Key="Idex" Value="0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode1" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="0 0"/>
+						<UserInfo Key="Idex" Value="0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode2" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="120 0"/>
+						<UserInfo Key="Idex" Value="1"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode3" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="120 0"/>
+						<UserInfo Key="Idex" Value="1"/>
+					</Widget>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="HNMJButton_GangCS" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/Button_GangAction.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="360 0"/><Widget Name="GangActionNode" SkinTempName="Empty">
+					<Property Key="Pos" Value="40 160"/>
+					<Widget Name="GangBackPlane" SkinTempName="public_9sprite">
+						<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+						<Property Key="Size" Value="200 80"/>
+						<Property Key="Pos" Value="0 0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode0" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="0 0"/>
+						<UserInfo Key="Idex" Value="0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode1" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="0 0"/>
+						<UserInfo Key="Idex" Value="0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode2" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="120 0"/>
+						<UserInfo Key="Idex" Value="1"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode3" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="120 0"/>
+						<UserInfo Key="Idex" Value="1"/>
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget Name="HNMJButton_BuAction" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/btn_bu_cs.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-200 0"/>
+				<Widget Name="GangActionNode" SkinTempName="Empty">
+					<Property Key="Pos" Value="40 160"/>
+					<Widget Name="GangBackPlane" SkinTempName="public_9sprite">
+						<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+						<Property Key="Size" Value="200 80"/>
+						<Property Key="Pos" Value="0 0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode0" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="0 0"/>
+						<UserInfo Key="Idex" Value="0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode1" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="0 0"/>
+						<UserInfo Key="Idex" Value="0"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode2" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="120 0"/>
+						<UserInfo Key="Idex" Value="1"/>
+					</Widget>
+					<Widget Name="HNMJButton_GangActionNode3" SkinTempName="ButtonEmpty">
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="120 0"/>
+						<UserInfo Key="Idex" Value="1"/>
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget Name="HNMJButton_PengAction" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/Button_PengAction.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="220 0"/>
+				<Widget Name="HNMJButton_PengAction_Card" SkinTempName="ButtonEmpty">
+					<Property Key="Scale" Value="0.5"/>
+					<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="115 40"/>
+				</Widget>
+			</Widget>
+			<Widget Name="HNMJButton_HuAction" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/Button_HuAction.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="80 0"/>
+				<Widget Name="HNMJButton_HuAction_Card" SkinTempName="ButtonEmpty">
+					<Property Key="Scale" Value="0.5"/>
+					<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="115 40"/>
+				</Widget>
+			</Widget>
+			<Widget Name="HNMJButton_ChiAction" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/Button_ChiAction.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-60 0"/>
+				<Widget Name="HNMJButton_ChiAction_Card" SkinTempName="ButtonEmpty">
+					<Property Key="Scale" Value="0.5"/>
+					<Property Key="NomalTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="115 40"/>
+				</Widget>
+				
+				<Widget Name="ChiCardBg" SkinTempName="public_9sprite">
+					<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+					<Property Key="Size" Value="600 160"/>
+					<Property Key="Pos" Value="45 120"/>
+					<Property Key="AnchorPos" Value="0.5 0.5"/>
+					<Property Key="Scale" Value="0.5"/>
+					<Property Key="Visible" Value="false"/>
+					<UserInfo Key="TowSize" Value="600 160"/>
+					<UserInfo Key="ThreeSize" Value="900 160"/>
+					<UserInfo Key="ImagicFront" Value="GameHNMJ/2/mingmah_"/>
+					
+					<Widget Name="Chi_Card_Temp1" SkinTempName="Chi_Card_Temp">
+						<UserInfo Key="ChiIndex" Value="1"/>
+						<Property Key="Pos" Value="150 80"/>
+					</Widget>
+					
+					<Widget Name="Chi_Card_Temp2" SkinTempName="Chi_Card_Temp">
+						<UserInfo Key="ChiIndex" Value="2"/>
+						<Property Key="Pos" Value="450 80"/>
+					</Widget>
+					
+					<Widget Name="Chi_Card_Temp3" SkinTempName="Chi_Card_Temp">
+						<UserInfo Key="ChiIndex" Value="3"/>
+						<Property Key="Pos" Value="750 80"/>
+					</Widget>
+				</Widget>
+				
+			</Widget>
+			<Widget Name="HNMJButton_XiaoHuAction" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/Button_HuAction.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="80 0"/>
+			</Widget>
+		</Widget>
+		
+		
+		<Widget Name="CSGangActionNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Property Key="Visible" Value="false"/>
+			<UserInfo Key="StartPos" Value="450 0"/>
+			<UserInfo Key="AddPos" Value="-230 0"/>
+			<UserInfo Key="ImagicFront" Value="GameHNMJ/2/mingmah_"/>
+			
+			<Widget Name="" SkinTempName="public_9sprite">
+				<Property Key="Size" Value="800 550"/>
+			</Widget>
+			<Widget SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+				<Property Key="Size" Value="740 120"/>
+				<Property Key="Pos" Value="0 30"/>
+			</Widget>
+			<Widget SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+				<Property Key="Size" Value="740 120"/>
+				<Property Key="Pos" Value="0 -95"/>
+			</Widget>
+			
+			<Widget Name="CSGangImagicHead0" SkinTempName="ImagicEmpty">
+				<Property Key="Scale" Value="0.6"/>
+				<Property Key="ImagicTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+				<Property Key="Pos" Value="230 135"/>
+			</Widget>
+			
+			<Widget Name="CSGangImagicHead1" SkinTempName="ImagicEmpty">
+				<Property Key="Scale" Value="0.6"/>
+				<Property Key="ImagicTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+				<Property Key="Pos" Value="310 135"/>
+			</Widget>
+			
+			<Widget Name="CSGangImagicHead1" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/66mj_pjxz_bt.png"/>
+				<Property Key="Pos" Value="0 220"/>
+			</Widget>
+				
+			<Widget Name="CSGangActionTxt" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="#开杠，依次为:"/>
+				<UserInfo Key="Txt" Value="#开杠，依次为:"/>
+				<Property Key="Pos" Value="-350 160"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="70 20 20"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="请你选择可以进行的操作"/>
+				<Property Key="Pos" Value="-350 120"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="70 20 20"/>
+			</Widget>
+			<Widget Name="CSGangActionNode0" SkinTempName="Empty">
+				<Property Key="Pos" Value="-40 30"/>
+				<Widget Name="CSGangImagicLine0" SkinTempName="ImagicEmpty">
+					<Property Key="Scale" Value="0.6"/>
+					<Property Key="ImagicTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+					<Property Key="Pos" Value="-280 0"/>
+				</Widget>
+				<Widget Name="HNMJButton_ChiAction" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Button_ChiAction.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="-170 0"/>
+					<UserInfo Key="CSGangIdex" Value="0"/>
+					
+					<Widget Name="ChiCardBg" SkinTempName="public_9sprite">
+						<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+						<Property Key="Size" Value="600 160"/>
+						<Property Key="Pos" Value="45 120"/>
+						<Property Key="AnchorPos" Value="0.5 0.5"/>
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="Visible" Value="false"/>
+						<UserInfo Key="TowSize" Value="600 160"/>
+						<UserInfo Key="ThreeSize" Value="900 160"/>
+						<UserInfo Key="ImagicFront" Value="GameHNMJ/2/mingmah_"/>
+						
+						<Widget Name="Chi_Card_Temp1" SkinTempName="Chi_Card_Temp">
+							<UserInfo Key="ChiIndex" Value="1"/>
+							<UserInfo Key="CSGangIdex" Value="0"/>
+							<Property Key="Pos" Value="150 80"/>
+						</Widget>
+						<Widget Name="Chi_Card_Temp2" SkinTempName="Chi_Card_Temp">
+							<UserInfo Key="ChiIndex" Value="2"/>
+							<UserInfo Key="CSGangIdex" Value="0"/>
+							<Property Key="Pos" Value="450 80"/>
+						</Widget>
+						<Widget Name="Chi_Card_Temp3" SkinTempName="Chi_Card_Temp">
+							<UserInfo Key="ChiIndex" Value="3"/>
+							<UserInfo Key="CSGangIdex" Value="0"/>
+							<Property Key="Pos" Value="750 80"/>
+						</Widget>
+					</Widget>
+				</Widget>
+				
+				<Widget Name="HNMJButton_PengAction" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Button_PengAction.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="-50 0"/>
+					<UserInfo Key="CSGangIdex" Value="0"/>
+				</Widget>
+				<Widget Name="HNMJButtonCS_GangCS" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Button_GangAction.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="70 0"/>
+					<UserInfo Key="CSGangIdex" Value="0"/>
+				</Widget>
+				<Widget Name="HNMJButtonCS_BuAction" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/btn_bu_cs.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="190 0"/>
+					<UserInfo Key="CSGangIdex" Value="0"/>
+				</Widget>
+				
+				<Widget Name="HNMJButton_HuAction" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Button_HuAction.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="310 0"/>
+					<UserInfo Key="CSGangIdex" Value="0"/>
+				</Widget>
+			</Widget>
+			<Widget Name="CSGangActionNode1" SkinTempName="Empty">
+				<Property Key="Pos" Value="-40 -95"/>
+				<Widget Name="CSGangImagicLine1" SkinTempName="ImagicEmpty">
+					<Property Key="Scale" Value="0.6"/>
+					<Property Key="ImagicTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+					<Property Key="Pos" Value="-280 0"/>
+				</Widget>
+				<Widget Name="HNMJButton_ChiAction" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Button_ChiAction.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="-170 0"/>
+					<UserInfo Key="CSGangIdex" Value="1"/>
+					
+					<Widget Name="ChiCardBg" SkinTempName="public_9sprite">
+						<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+						<Property Key="Size" Value="600 160"/>
+						<Property Key="Pos" Value="45 120"/>
+						<Property Key="AnchorPos" Value="0.5 0.5"/>
+						<Property Key="Scale" Value="0.5"/>
+						<Property Key="Visible" Value="false"/>
+						<UserInfo Key="TowSize" Value="600 160"/>
+						<UserInfo Key="ThreeSize" Value="900 160"/>
+						<UserInfo Key="ImagicFront" Value="GameHNMJ/2/mingmah_"/>
+						<Widget Name="Chi_Card_Temp1" SkinTempName="Chi_Card_Temp">
+							<UserInfo Key="ChiIndex" Value="1"/>
+							<UserInfo Key="CSGangIdex" Value="1"/>
+							<Property Key="Pos" Value="150 80"/>
+						</Widget>
+						<Widget Name="Chi_Card_Temp2" SkinTempName="Chi_Card_Temp">
+							<UserInfo Key="ChiIndex" Value="2"/>
+							<UserInfo Key="CSGangIdex" Value="1"/>
+							<Property Key="Pos" Value="450 80"/>
+						</Widget>
+						<Widget Name="Chi_Card_Temp3" SkinTempName="Chi_Card_Temp">
+							<UserInfo Key="ChiIndex" Value="3"/>
+							<UserInfo Key="CSGangIdex" Value="1"/>
+							<Property Key="Pos" Value="750 80"/>
+						</Widget>
+					</Widget>
+				</Widget>
+				
+				<Widget Name="HNMJButton_PengAction" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Button_PengAction.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="-50 0"/>
+					<UserInfo Key="CSGangIdex" Value="1"/>
+				</Widget>
+				<Widget Name="HNMJButtonCS_GangCS" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Button_GangAction.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="70 0"/>
+					<UserInfo Key="CSGangIdex" Value="1"/>
+				</Widget>
+				<Widget Name="HNMJButtonCS_BuAction" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/btn_bu_cs.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="190 0"/>
+					<UserInfo Key="CSGangIdex" Value="1"/>
+				</Widget>
+				
+				<Widget Name="HNMJButton_HuAction" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Button_HuAction.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="310 0"/>
+					<UserInfo Key="CSGangIdex" Value="1"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="HNMJButton_GuoAction" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="过"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="0 -205"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="FreeStateNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 320"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="HNMJButton_Ready" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="准备"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="TuoGuanStateNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 60"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget SkinTempName="BtnFullEmpty">
+				<Property Key="Aple" Value="0"/>
+			</Widget>
+			<Widget Name="HNMJButton_QuXiaoTuoGuan" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="取消托管"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="SaiZiNode" SkinTempName="HNMJ_Animation">
+			<Property Key="Pos" Value="640 400"/>
+		</Widget>
+		
+		<Widget Name="Button_Master" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="GameHNMJ/GameMaster/Button_Master.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="1240 200"/>
+			<Property Key="Visible" Value="false"/>
+		</Widget>
+			
+		<Widget Name="GameEndNiaoCardAni" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget SkinTempName="BtnFullEmpty">
+			</Widget>
+			<Widget Name="" SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="GameHNMJ/play_wanfakuang.png"/>
+				<Property Key="Size" Value="700 280"/>
+			</Widget>
+		
+			<Widget Name="NiaoCardAniNode" SkinTempName="Empty">
+				<Property Key="Scale" Value="1"/>
+				<UserInfo Key="JieSuanAddPos" Value="85 0"/>
+				<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+				<Property Key="Pos" Value="0 0"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="GameHaiDiNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget SkinTempName="BtnFullEmpty">
+				<Property Key="Aple" Value="0"/>
+			</Widget>
+			<Widget SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="GameHNMJ/over_jieshuUI.png"/>
+				<Property Key="Size" Value="650 350"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="50"/>
+				<Property Key="ShowTxt" Value="海底捞一把？"/>
+				<Property Key="Pos" Value="10 70"/>
+			</Widget>
+			
+			<Widget Name="HNMJButton_HaiDiYao" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="要"/>
+				<Property Key="Pos" Value="-150 -70"/>
+			</Widget>
+			<Widget Name="HNMJButton_HaiDiGuo" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="过"/>
+				<Property Key="Pos" Value="150 -70"/>
+			</Widget>
+		</Widget>
+		<Widget Name="GameJieSuanNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget SkinTempName="BtnFullEmpty">
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/JieSuan/over_bj.jpg"/>
+			</Widget>
+			<Widget Name="JieSuan_NPC" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/JieSuan/over_xiao.png"/>
+				<UserInfo Key="NPC_Smile" Value="GameHNMJ/JieSuan/over_xiao.png"/>
+				<UserInfo Key="NPC_Cry" Value="GameHNMJ/JieSuan/over_ku.png"/>
+				<Property Key="Pos" Value="480 -100"/>
+			</Widget>
+			
+			<Widget SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="JieSuan/main_mianban.png"/>
+				<Property Key="Size" Value="1280 115"/>
+				<Property Key="Pos" Value="0 315"/>
+				<Property Key="FlipY" Value="true"/>
+			</Widget>
+			
+			<Widget SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="GameHNMJ/JieSuan/main_mianban.png"/>
+				<Property Key="Size" Value="1280 115"/>
+				<Property Key="Pos" Value="0 -315"/>
+			</Widget>
+			
+			<Widget Name="JieSuan_Title" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/JieSuan/over_peida.png"/>
+				<UserInfo Key="Title_Win" Value="GameHNMJ/JieSuan/over_hupai.png"/>
+				<UserInfo Key="Title_Lose" Value="GameHNMJ/JieSuan/over_shule.png"/>
+				<UserInfo Key="Title_Ping" Value="GameHNMJ/JieSuan/over_peida.png"/>
+				<UserInfo Key="Title_LiuJu" Value="GameHNMJ/JieSuan/over_liuju.png"/>
+				<Property Key="Pos" Value="0 310"/>
+			</Widget>
+			
+			<Widget Name="JieSuan_JuShu" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="第1局"/>
+				<UserInfo Key="Txt" Value="第#局"/>
+				<Property Key="Pos" Value="440 310"/>
+				<Property Key="Color" Value="235 98 195"/>
+			</Widget>
+			
+			
+			<Widget Name="JieSuanInfo0" SkinTempName="HNMJJieSuanInfoNode">
+				<Property Key="Pos" Value="-150 190"/>
+			</Widget>
+			<Widget Name="JieSuanInfo1" SkinTempName="HNMJJieSuanInfoNode">
+				<Property Key="Pos" Value="-150 63"/>
+			</Widget>
+			<Widget Name="JieSuanInfo2" SkinTempName="HNMJJieSuanInfoNode">
+				<Property Key="Pos" Value="-150 -63"/>
+			</Widget>
+			<Widget Name="JieSuanInfo3" SkinTempName="HNMJJieSuanInfoNode">
+				<Property Key="Pos" Value="-150 -190"/>
+			</Widget>
+			
+			<Widget Name="PlaneGameEndLastCard" SkinTempName="Empty">
+				<Property Key="Pos" Value="485 0"/>
+				<Widget SkinTempName="public_9sprite">
+					<Property Key="ImagicTexture" Value="GameHNMJ/JieSuan/over_jieshuUI.png"/>
+					<Property Key="Size" Value="290 500"/>
+				</Widget>
+				<Widget SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="30"/>
+					<Property Key="ShowTxt" Value="剩下牌:"/>
+					<Property Key="Pos" Value="0 220"/>
+				</Widget>
+				<Widget Name="GameEndLastCardNode" SkinTempName="Empty">
+				</Widget>
+			</Widget>
+			
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="扎鸟:"/>
+				<Property Key="Pos" Value="-550 -315"/>
+			</Widget>
+			
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="无"/>
+				<Property Key="Pos" Value="-470 -315"/>
+			</Widget>
+			
+			<Widget Name="JieSuan_CardNiao" SkinTempName="Empty">
+				<Property Key="Scale" Value="0.5"/>
+				<UserInfo Key="JieSuanAddPos" Value="85 0"/>
+				<UserInfo Key="JieSuanChiHuPos" Value="105 0"/>
+				<UserInfo Key="JieSuanWeaveGap" Value="10 0"/>
+				<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+				<Property Key="Pos" Value="-490 -315"/>
+			</Widget>
+			
+			<Widget Name="HNMJButton_JieSuanShare" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/JieSuan/over_xuanyao.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="0 -315"/>
+			</Widget>
+			
+			<Widget Name="HNMJButton_JieSuanStart" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/JieSuan/over_kaishi.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="350 -315"/>
+			</Widget>
+			
+			<Widget Name="HNMJButton_JieSuanClose" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/JieSuan/new_chacha.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="580 310"/>
+				<Action Key="Hide" Value="GameJieSuanNode"/>
+			</Widget>
+			
+		</Widget>
+		
+	</Widget>
+ </root>

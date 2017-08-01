@@ -1,0 +1,64 @@
+﻿ <root>
+	<Widget Name="ShopPlane" SkinTempName="PopNode">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="Empty">
+			<Property Key="Scale" Value="0.8"/>
+			<Widget SkinTempName="BtnFullEmpty">
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceShop/Back.png"/>
+			</Widget>
+			<Widget SkinTempName="Button_Close">
+				<Action Key="ActionEnd" Value="ShopPlane"/>
+				<Property Key="Pos" Value="540 310"/>
+			</Widget>
+			<Widget Name="NoticeName" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="商店"/>
+				<Property Key="FontSize" Value="55"/>
+				<Property Key="Pos" Value="0 280"/>
+				<Property Key="OutLine" Value="255 0 0 255"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="如想购买金币，你通过以下两种方式。"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="0 130"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="电话:"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="-200 30"/>
+				<Property Key="AnchorPos" Value="1 0.5"/>
+			</Widget>
+			<Widget Name="ShopPhoneTxt" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="12345678901"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="-190 30"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="Button_CallPhone" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="呼叫"/>
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Pos" Value="180 30"/>
+				<Property Key="Scale" Value="1.3"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="QQ群:"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="-200 -80"/>
+				<Property Key="AnchorPos" Value="1 0.5"/>
+			</Widget>
+			<Widget Name="QQTxt" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="12345678901"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="-190 -80"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="Button_QQGroup" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="进群"/>
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Pos" Value="180 -80"/>
+				<Property Key="Scale" Value="1.3"/>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

@@ -1,0 +1,1 @@
+python E:\sy\GameBase\proj.android\build_native.py

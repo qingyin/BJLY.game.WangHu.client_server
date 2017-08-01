@@ -1,0 +1,588 @@
+
+ <root>
+	<LoadSkin Skin="Script/GameLP/LPGameSkin.xml"/>
+	<Widget Name="GamePlane" SkinTempName="Empty">
+		<Property Key="Scale" Value="0.96"/>
+		
+		<Widget Name="LPGameBg" SkinTempName="LPGameBg">
+			<Property Key="Pos" Value="560 0"/>
+			<Property Key="Pos" Value="51.2 0"/>
+			<Widget  SkinTempName="ToolBarBg">
+				<Property Key="Pos" Value="360 68.5"/>
+			</Widget>
+			
+			<Widget  SkinTempName="ChipBg">
+				<Property Key="Pos" Value="740 60"/>
+				
+				<Widget Name="LPChipsBtn_Effect" SkinTempName="LPChipsBtn_Effect">
+					<Property Key="Pos" Value="55 46"/>
+				</Widget>
+					
+				<Widget Name="LPButton_Zhu_0" SkinTempName="ButtonTxtEmpty">
+					<Property Key="NomalTexture" Value="GameLP/Button_Zhu0.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="FontSize" Value="26"/>
+					<Property Key="ShowTxt" Value="100"/>
+					<Property Key="Color" Value="0 0 0"/>
+					<Property Key="Pos" Value="55 46"/>
+					<UserInfo Key="Idex" Value="100"/>
+				</Widget>
+				<Widget Name="LPButton_Zhu_1" SkinTempName="ButtonTxtEmpty">
+					<Property Key="NomalTexture" Value="GameLP/Button_Zhu1.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="FontSize" Value="26"/>
+					<Property Key="ShowTxt" Value="500"/>
+					<Property Key="Color" Value="0 0 0"/>
+					<Property Key="Pos" Value="155 46"/>
+					<UserInfo Key="Idex" Value="500"/>
+				</Widget>
+				<Widget Name="LPButton_Zhu_2" SkinTempName="ButtonTxtEmpty">
+					<Property Key="NomalTexture" Value="GameLP/Button_Zhu2.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="FontSize" Value="26"/>
+					<Property Key="ShowTxt" Value="1000"/>
+					<Property Key="Color" Value="0 0 0"/>
+					<Property Key="Pos" Value="255 46"/>
+					<UserInfo Key="Idex" Value="1000"/>
+				</Widget>
+				<Widget Name="LPButton_Zhu_3" SkinTempName="ButtonTxtEmpty">
+					<Property Key="NomalTexture" Value="GameLP/Button_Zhu3.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="FontSize" Value="26"/>
+					<Property Key="ShowTxt" Value="5000"/>
+					<Property Key="Color" Value="0 0 0"/>
+					<Property Key="Pos" Value="355 46"/>
+					<UserInfo Key="Idex" Value="5000"/>
+				</Widget>
+				<Widget Name="LPButton_Zhu_4" SkinTempName="ButtonTxtEmpty">
+					<Property Key="NomalTexture" Value="GameLP/Button_Zhu3.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="FontSize" Value="26"/>
+					<Property Key="ShowTxt" Value="1万"/>
+					<Property Key="Color" Value="0 0 0"/>
+					<Property Key="Pos" Value="455 46"/>
+					<UserInfo Key="Idex" Value="10000"/>
+				</Widget>
+				
+			</Widget>
+			
+			<Widget Name="LPButton_Rule" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameLP/LPButton_Rule.png"/>
+				<Property Key="PressTexture" Value="GameLP/LPButton_Rule.png"/>
+				<Property Key="DisableTexture" Value="GameLP/LPButton_Rule1.png"/>
+				<Property Key="Pos" Value="1210 60"/>
+			</Widget>
+			<Widget Name="LPButton_LastBet" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameLP/LPButton_LastBet.png"/>
+				<Property Key="PressTexture" Value="GameLP/LPButton_LastBet.png"/>
+				<Property Key="DisableTexture" Value="GameLP/LPButton_LastBet1.png"/>
+				<Property Key="Pos" Value="1070 60"/>
+			</Widget>
+			
+			<Widget Name="LPButton_ResetAll" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameLP/LPButton_ResetAll.png"/>
+				<Property Key="PressTexture" Value="GameLP/LPButton_ResetAll.png"/>
+				<Property Key="DisableTexture" Value="GameLP/LPButton_ResetAll1.png"/>
+				<Property Key="Pos" Value="390 60"/>
+			</Widget>
+			<Widget Name="LPButton_Reset" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameLP/LPButton_Reset.png"/>
+				<Property Key="PressTexture" Value="GameLP/LPButton_Reset.png"/>
+				<Property Key="DisableTexture" Value="GameLP/LPButton_Reset1.png"/>
+				<Property Key="Pos" Value="200 60"/>
+			</Widget>
+			<Widget Name="LPButton_History" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameLP/LPButton_History.png"/>
+				<Property Key="PressTexture" Value="GameLP/LPButton_History.png"/>
+				<Property Key="DisableTexture" Value="GameLP/LPButton_History.png"/>
+				<Property Key="Pos" Value="30 60"/>
+			</Widget>
+			
+			<Widget  Name="LPGoldBg"  SkinTempName="ImagicEmpty">
+				<Property Key="Pos" Value="530 160"/>
+				<Property Key="ImagicTexture" Value="GameLP/gold_bg.png"/>
+				
+				<Widget  Name="LPGold_Icon"  SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/gold_icon.png"/>
+					<Property Key="Pos" Value="22 20"/>
+				</Widget>
+				
+				<Widget Name="LPGold_Num" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="30"/>
+					<Property Key="Pos" Value="48 20"/>
+					<Property Key="FontSize" Value="38"/>
+					<Property Key="Color" Value="255 230 0"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+			</Widget>	
+			
+			<Widget  Name="LPTimeNode"  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameLP/time_bg.png"/>
+				<Property Key="Visible" Value="false"/>
+				<Property Key="Pos" Value="160 210"/>
+			
+				<Widget  Name="LPTimeRotate"  SkinTempName="LPTimeRotate">
+					<Property Key="Pos" Value="58 58"/>
+				</Widget>
+				
+				<Widget Name="LPTime_Num" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="30"/>
+					<Property Key="Pos" Value="58 58"/>
+					<Property Key="FontSize" Value="38"/>
+					<Property Key="Color" Value="255 230 0"/>
+				</Widget>
+				
+			</Widget>	
+			
+			<Widget  Name="LPPointNode"  SkinTempName="ImagicEmpty">
+				<Property Key="Visible" Value="false"/>
+				<Property Key="ImagicTexture" Value="GameLP/point_bg.png"/>
+				<Property Key="Pos" Value="160 210"/>
+			
+				<Widget  Name="LPTimeRotate"  SkinTempName="LPPointBlink">
+					<Property Key="Pos" Value="68 68"/>
+				</Widget>
+				
+				<Widget Name="LPPoint_Num" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="30"/>
+					<Property Key="Pos" Value="75 70"/>
+					<Property Key="FontSize" Value="38"/>
+					<Property Key="Color" Value="255 230 255"/>
+				</Widget>
+				
+			</Widget>	
+			
+			
+			<Widget  Name="LPChartBg"  SkinTempName="LPChartBg">
+				<Property Key="Pos" Value="710 680"/>
+			</Widget>	
+			
+			<Widget Name="LPButton_Others" SkinTempName="ButtonTxtEmpty">
+				<Property Key="Visible" Value="false"/>
+				<Property Key="NomalTexture" Value="GameLP/LPButton_Others.png"/>
+				<Property Key="PressTexture" Value="GameLP/LPButton_Others.png"/>
+				<Property Key="DisableTexture" Value="GameLP/LPButton_Others.png"/>
+				<Property Key="Pos" Value="1170 680"/>
+			</Widget>
+			
+			<Widget  Name="LPTableNode"  SkinTempName="Empty">
+				<UserInfo Key="LosePos" Value="0 700"/>
+				<UserInfo Key="WinPos" Value="440 162"/>
+				<UserInfo Key="OtherPos" Value="1168 680"/>
+				
+				<Widget  Name="LPTableBg"  SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/LPTable3.png"/>
+					<Property Key="Pos" Value="700 400"/>
+				</Widget>
+				<Widget Name="CheckNode" SkinTempName="Empty">
+					<Widget  Name="LP_0" SkinTempName="LPCheckImg1">
+						<Property Key="Pos" Value="213 532"/>
+						<UserInfo Key="Number" Value="0"/>
+					</Widget>
+					<Widget  Name="LP_1" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="288 370"/>
+						<UserInfo Key="Number" Value="1"/>
+					</Widget>
+					<Widget  Name="LP_2" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="288 463"/>
+						<UserInfo Key="Number" Value="2"/>
+					</Widget>
+					<Widget  Name="LP_3" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="288 556"/>
+						<UserInfo Key="Number" Value="3"/>
+					</Widget>
+					
+					<Widget  Name="LP_4" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="364 370"/>
+						<UserInfo Key="Number" Value="4"/>
+					</Widget>
+					<Widget  Name="LP_5" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="364 463"/>
+						<UserInfo Key="Number" Value="5"/>
+					</Widget>
+					<Widget  Name="LP_6" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="364 556"/>
+						<UserInfo Key="Number" Value="6"/>
+					</Widget>
+					<Widget  Name="LP_7" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="439 370"/>
+						<UserInfo Key="Number" Value="7"/>
+					</Widget>
+					<Widget  Name="LP_8" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="439 463"/>
+						<UserInfo Key="Number" Value="8"/>
+					</Widget>
+					<Widget  Name="LP_9" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="439 556"/>
+						<UserInfo Key="Number" Value="9"/>
+					</Widget>
+					
+					<Widget  Name="LP_10" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="514 370"/>
+						<UserInfo Key="Number" Value="10"/>
+					</Widget>
+					<Widget  Name="LP_11" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="514 463"/>
+						<UserInfo Key="Number" Value="11"/>
+					</Widget>
+					<Widget  Name="LP_12" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="514 556"/>
+						<UserInfo Key="Number" Value="12"/>
+					</Widget>
+					
+					<Widget  Name="LP_13" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="588 370"/>
+						<UserInfo Key="Number" Value="13"/>
+					</Widget>
+					<Widget  Name="LP_14" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="588 463"/>
+						<UserInfo Key="Number" Value="14"/>
+					</Widget>
+					<Widget  Name="LP_15" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="588 556"/>
+						<UserInfo Key="Number" Value="15"/>
+					</Widget>
+					
+					<Widget  Name="LP_16" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="662 370"/>
+						<UserInfo Key="Number" Value="16"/>
+					</Widget>
+					<Widget  Name="LP_17" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="662 463"/>
+						<UserInfo Key="Number" Value="17"/>
+					</Widget>
+					<Widget  Name="LP_18" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="662 556"/>
+						<UserInfo Key="Number" Value="18"/>
+					</Widget>
+					
+					<Widget  Name="LP_19" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="736 370"/>
+						<UserInfo Key="Number" Value="19"/>
+					</Widget>
+					<Widget  Name="LP_20" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="736 463"/>
+						<UserInfo Key="Number" Value="20"/>
+					</Widget>
+					<Widget  Name="LP_21" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="736 556"/>
+						<UserInfo Key="Number" Value="21"/>
+					</Widget>
+					
+					<Widget  Name="LP_22" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="812 370"/>
+						<UserInfo Key="Number" Value="22"/>
+					</Widget>
+					<Widget  Name="LP_23" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="812 463"/>
+						<UserInfo Key="Number" Value="23"/>
+					</Widget>
+					<Widget  Name="LP_24" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="812 556"/>
+						<UserInfo Key="Number" Value="24"/>
+					</Widget>
+					
+					<Widget  Name="LP_25" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="888 370"/>
+						<UserInfo Key="Number" Value="25"/>
+					</Widget>
+					<Widget  Name="LP_26" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="888 463"/>
+						<UserInfo Key="Number" Value="26"/>
+					</Widget>
+					<Widget  Name="LP_27" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="888 556"/>
+						<UserInfo Key="Number" Value="27"/>
+					</Widget>
+					
+					<Widget  Name="LP_28" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="963 370"/>
+						<UserInfo Key="Number" Value="28"/>
+					</Widget>
+					<Widget  Name="LP_29" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="963 463"/>
+						<UserInfo Key="Number" Value="29"/>
+					</Widget>
+					<Widget  Name="LP_30" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="963 556"/>
+						<UserInfo Key="Number" Value="30"/>
+					</Widget>
+					
+					<Widget  Name="LP_31" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1038 370"/>
+						<UserInfo Key="Number" Value="31"/>
+					</Widget>
+					<Widget  Name="LP_32" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1038 463"/>
+						<UserInfo Key="Number" Value="32"/>
+					</Widget>
+					<Widget  Name="LP_33" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1038 556"/>
+						<UserInfo Key="Number" Value="33"/>
+					</Widget>
+					
+					<Widget  Name="LP_34" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1112 370"/>
+						<UserInfo Key="Number" Value="34"/>
+					</Widget>
+					<Widget  Name="LP_35" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1112 463"/>
+						<UserInfo Key="Number" Value="35"/>
+					</Widget>
+					<Widget  Name="LP_36" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1112 556"/>
+						<UserInfo Key="Number" Value="36"/>
+					</Widget>
+					<Widget  Name="LP_37" SkinTempName="LPCheckImg1">
+						<Property Key="Pos" Value="213 394"/>
+						<UserInfo Key="Number" Value="37"/>
+						<Property Key="FlipY" Value="true"/>
+					</Widget>
+					
+					<!--行-->
+					<Widget  Name="LP_38" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1188 370"/>
+						<UserInfo Key="Number" Value="38"/>
+					</Widget>
+					<Widget  Name="LP_39" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1188 463"/>
+						<UserInfo Key="Number" Value="39"/>
+					</Widget>
+					<Widget  Name="LP_40" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="1188 556"/>
+						<UserInfo Key="Number" Value="40"/>
+					</Widget>
+					
+					<!--1-12 13-24  24-36 -->
+					<Widget  Name="LP_41" SkinTempName="LPCheckImg2">
+						<Property Key="Pos" Value="400 292"/>
+						<UserInfo Key="Number" Value="41"/>
+						<Property Key="PreferredSize" Value="300 62"/>
+					</Widget>
+					<Widget  Name="LP_42" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="700 292"/>
+						<UserInfo Key="Number" Value="42"/>
+						<Property Key="ImagicSize" Value="298 62"/>
+					</Widget>
+					<Widget  Name="LP_43" SkinTempName="LPCheckImg2">
+						<Property Key="Pos" Value="1000 292"/>
+						<UserInfo Key="Number" Value="43"/>
+						<Property Key="PreferredSize" Value="300 62"/>
+						<Property Key="FlipX" Value="true"/>
+					</Widget>
+					
+					<!--1-18 单 红 黑 双 19-36 -->
+					<Widget  Name="LP_44" SkinTempName="LPCheckImg2">=
+						<Property Key="Pos" Value="350 228"/>
+						<UserInfo Key="Number" Value="44"/>
+					</Widget>
+					<Widget Name="LP_45" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="486 228"/>
+						<UserInfo Key="Number" Value="45"/>
+						<Property Key="ImagicSize" Value="127 63"/>
+					</Widget>
+					<Widget Name="LP_46" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="626 228"/>
+						<UserInfo Key="Number" Value="46"/>
+						<Property Key="ImagicSize" Value="145 63"/>
+					</Widget>
+					<Widget Name="LP_47" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="775 228"/>
+						<UserInfo Key="Number" Value="47"/>
+						<Property Key="ImagicSize" Value="146 63"/>
+					</Widget>
+					<Widget  Name="LP_48" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="915 228"/>
+						<UserInfo Key="Number" Value="48"/>
+						<Property Key="ImagicSize" Value="127 63"/>
+					</Widget>
+					<Widget  Name="LP_49" SkinTempName="LPCheckImg2">
+						<Property Key="Pos" Value="1050 228"/>
+						<UserInfo Key="Number" Value="49"/>
+						<Property Key="FlipX" Value="true"/>
+					</Widget>
+					
+					
+					<Widget  Name="LP_50" SkinTempName="LPCheckImg">
+						<Property Key="Pos" Value="700 610"/>
+						<UserInfo Key="Number" Value="50"/>
+						<Property Key="ImagicSize" Value="900 15"/>
+						<!--Property Key="Aple" Value="0"/-->
+					</Widget>
+					
+				</Widget>				
+			</Widget>	
+			
+			<Widget  Name="LPWheelBg"  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameLP/wheelContainer.png"/>
+				<Property Key="Pos" Value="-220 400"/>
+			</Widget>	
+			<Widget  Name="LPWheelNode"  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameLP/wheel_temp.png"/>
+				<Property Key="Pos" Value="-220 400"/>
+				<Widget  Name="LPWheel"  SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/wheel.png"/>
+					<Property Key="Pos" Value="235 235"/>	
+					<Widget  Name="LPWheel_mid"  SkinTempName="WheelMidle">
+					</Widget>
+				</Widget>
+				
+				<Widget  Name="wheel_temp" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/wheel_temp.png"/>
+					<Property Key="Pos" Value="235 235"/>	
+					
+					<Widget  Name="img_ball" SkinTempName="LPImgBall">
+						<Property Key="Pos" Value="235 492"/>
+						<Widget  Name="ball_effect" SkinTempName="LPImgBall_Effect">
+							<Property Key="Pos" Value="18.5 -18.5"/>
+							<Property Key="Oder" Value="-1"/>
+						</Widget>
+					</Widget>
+				</Widget>
+					
+			</Widget>
+			
+			<Widget  Name="LPWheelPointNode"  SkinTempName="ImagicEmpty">
+				<Property Key="Visible" Value="false"/>
+				<Property Key="ImagicTexture" Value="GameLP/wheelPointBg.png"/>
+				<Property Key="Pos" Value="-218 402"/>
+				
+				<Widget  Name="LPWheelPointNode"  SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/wheelPointBg1.png"/>
+					<Property Key="Pos" Value="126 121"/>
+				</Widget>
+				<Widget Name="LPWheelPointNum" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="36"/>
+					<Property Key="FontSize" Value="70"/>
+					<Property Key="Pos" Value="126 121"/>
+				</Widget>
+			</Widget>
+			
+			
+			<Widget  Name="LPTipNode_Start"  SkinTempName="StartBet">
+				<Property Key="Pos" Value="640 360"/>
+				<Widget   SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/tip_startbet.png"/>
+					<Property Key="Pos" Value="225 47"/>
+				</Widget>
+			</Widget>
+			
+			<Widget  Name="LPTipNode_Stop"  SkinTempName="StartBet">
+				<Property Key="Pos" Value="640 360"/>
+				<Widget  SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/tip_stopbet.png"/>
+					<Property Key="Pos" Value="225 47"/>
+				</Widget>
+			</Widget>
+			
+			<Widget  Name="LPTip_NoBet"  SkinTempName="LPBetTip">
+				<Property Key="Visible" Value="false"/>
+				<Property Key="Pos" Value="640 360"/>
+				<Widget Name="LPTipTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="您当前还没有下注记录！"/>
+					<Property Key="FontSize" Value="25"/>
+					<Property Key="Pos" Value="150 80"/>
+				</Widget>
+			</Widget>
+			
+			<Widget  Name="LPTip_JieSuan"  SkinTempName="LPJieSuan">
+				<Property Key="Visible" Value="false"/>
+				<Property Key="Pos" Value="640 360"/>
+				
+				<Widget  SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/win_this.png"/>
+					<Property Key="Pos" Value="359 140"/>
+				</Widget>
+				<Widget  SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameLP/chip_jiesuan.png"/>
+					<Property Key="Pos" Value="225 70"/>
+				</Widget>
+				
+				<Widget Name="LPJieSuan_WinNum" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="+10000"/>
+					<Property Key="FontSize" Value="50"/>
+					<Property Key="Color" Value="255 255 0"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+					<Property Key="Pos" Value="300 70"/>
+				</Widget>
+			</Widget>
+			
+			
+		</Widget>
+		<Widget Name="LPButton_Return" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="Common/res_common_TY040.png"/>
+			<Property Key="PressTexture" Value="Common/res_common_TY040.png"/>
+			<Property Key="DisableTexture" Value="Common/res_common_TY040.png"/>
+			<Property Key="Pos" Value="60 700"/>
+		</Widget>
+		<Widget  Name="LPHistoryBg"  SkinTempName="LPHistoryNode">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="LPButton_CloseHistory" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="Common/res_common_TY015.png"/>
+				<Property Key="PressTexture" Value="Common/res_common_TY015.png"/>
+				<Property Key="DisableTexture" Value="Common/res_common_TY015.png"/>
+				<Property Key="Pos" Value="1200 540"/>
+			</Widget>
+			<Widget Name="LPHistory_Row1" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="290 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row2" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="360 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row3" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="430 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row4" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="500 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row5" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="570 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row6" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="640 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row7" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="710 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row8" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="780.1 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row9" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="850.1 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row10" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="920.1 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row11" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="990.5 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row12" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="1060.5 325"/>
+			</Widget>
+			<Widget Name="LPHistory_Row13" SkinTempName="LPRowTemp">
+				<Property Key="Pos" Value="1130.5 325"/>
+			</Widget>
+		</Widget>
+		
+		
+		<!--Widget  Name="LPRuleNode"  SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="BtnFullEmpty">
+				<Property Key="Aple" Value="0.1"/>
+				<Action Key="Hide" Value="LPRuleNode"/>
+			</Widget>
+			<Widget Name="LPButton_Return" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameLP/img_rule.png"/>
+				<Property Key="PressTexture" Value="GameLP/img_rule.png"/>
+				<Property Key="DisableTexture" Value="GameLP/img_rule.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+		</Widget-->
+		
+	</Widget>
+	<!--Widget SkinTempName="ImagicEmpty">
+		<Property Key="ImagicTexture" Value="mini_game/test.jpg"/>
+		<Property Key="Pos" Value="240 400"/>
+		<Property Key="OPacity" Value="70"/>
+	</Widget-->
+ </root>

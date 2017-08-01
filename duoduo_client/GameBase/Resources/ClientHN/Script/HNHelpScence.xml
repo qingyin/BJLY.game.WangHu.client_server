@@ -1,0 +1,64 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNHelpSkin.xml"/>
+	<Widget Name="HelpPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceGameRecord/public_bg.png"/>
+		</Widget>
+		<Widget Name="Button_BackHome" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="-580 310"/>
+			<Action Key="Hide" Value="HelpPlane"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceHome/laoyue_bg.png"/>
+			<Property Key="Size" Value="1180 600"/>
+			<Property Key="Pos" Value="0 -50"/>
+		</Widget>
+		
+		<Widget Name="RuleList_ZZ" SkinTempName="List">
+			<Property Key="Size" Value="1150 555"/>
+			<Property Key="Pos" Value="-575 -323"/>
+			<Property Key="HideBack" Value=""/>
+			<Widget Name="" SkinTempName="HelpListItem">
+			</Widget>
+		</Widget>
+		
+		<Widget Name="RuleList_CS" SkinTempName="List">
+			<Property Key="Size" Value="1150 555"/>
+			<Property Key="Pos" Value="-575 -323"/>
+			<Property Key="Visible" Value="false"/>
+			<Property Key="HideBack" Value=""/>
+			<Widget Name="" SkinTempName="HelpListItem">
+			</Widget>
+		</Widget>
+		
+		<Widget Name="ButtonRule_ZhuanZhuanMj" SkinTempName="ButtonHelpTable">
+			<Property Key="Pos" Value="-200 314"/>
+			<Action Key="Able" Value="ButtonRule_ChangShaMj"/>
+			<Action Key="Disable" Value="ButtonRule_ZhuanZhuanMj"/>
+			<Action Key="Show" Value="RuleList_ZZ"/>
+			<Action Key="Hide" Value="RuleList_CS"/>
+		</Widget>
+		
+		<Widget Name="ButtonRule_ChangShaMj" SkinTempName="ButtonHelpTable">
+			<Property Key="Pos" Value="200 314"/>
+			<Action Key="Able" Value="ButtonRule_ZhuanZhuanMj"/>
+			<Action Key="Disable" Value="ButtonRule_ChangShaMj"/>
+			<Action Key="Show" Value="RuleList_CS"/>
+			<Action Key="Hide" Value="RuleList_ZZ"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/changshamajiang_press.png"/>
+			<Property Key="Pos" Value="-200 314"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/zhuanzhuanmajiang_press.png"/>
+			<Property Key="Pos" Value="200 314"/>
+		</Widget>
+	</Widget>
+ </root>

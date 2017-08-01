@@ -1,0 +1,104 @@
+﻿ <root>
+	<WidgetNode Name="PrivateEndPlayerInfo" >
+		<WidgetImagic Name="Head" TextureInfo="Head/Head0.png">
+			<Property Key="Pos" Value="-80 210"/>
+			<Property Key="Scale" Value="0.7"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="玩家昵称" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-30 230"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="OutLine" Value="0 0 0 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="ID:" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-30 190"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="ID" ShowTxt="15468" FontName="" FontSize="28">
+			<Property Key="Pos" Value="15 190"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="自摸次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 130"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt0" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="接炮次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 80"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt1" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="点炮次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 30"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt2" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="暗杠次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 -20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt3" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="明杠次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 -70"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt4" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="总成绩" FontName="" FontSize="28">
+			<Property Key="Pos" Value="0 -150"/>
+			<Property Key="Color" Value="255 255 0"/>
+			<Property Key="OutLine" Value="0 0 0 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="TotalScore" ShowTxt="100" FontName="" FontSize="45">
+			<Property Key="Pos" Value="0 -200"/>
+			<Property Key="Color" Value="255 255 0"/>
+		</WidgetTxt>
+	</WidgetNode>
+	
+	<WidgetNode Name="JieSuanInfoNode">
+		<Widget9Sprite Name="public_9sprite" BackTexture="JieSuan/over_jieshuUI.png" Size="960 120">	
+		</Widget9Sprite>
+		<WidgetImagic Name="JieSuan_Zhuang" TextureInfo="JieSuan/over_zhuangjia.png">
+			<Property Key="Pos" Value="-470 -20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Jiesuan_Nicke" ShowTxt="微笑" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-410 42"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		
+		<WidgetNode Name="JieSuanCardNode">
+			<Property Key="Scale" Value="0.5"/>
+			<UserInfo Key="JieSuanAddPos" Value="85 0"/>
+			<UserInfo Key="JieSuanChiHuPos" Value="105 0"/>
+			<UserInfo Key="JieSuanWeaveGap" Value="10 0"/>
+			
+			<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+			<Property Key="Pos" Value="-285 -15"/>
+			<Property Key="Oder" Value="1"/>
+		</WidgetNode>
+		
+		<WidgetTxt Name="Jiesuan_GoldNum" ShowTxt="+400" FontName="" FontSize="35">
+			<Property Key="Pos" Value="270 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		
+		<WidgetImagic Name="JieSuan_Hu" TextureInfo="JieSuan/over_hu.png">
+			<Property Key="Pos" Value="410 0"/>
+		</WidgetImagic>
+	</WidgetNode>
+	
+ </root>

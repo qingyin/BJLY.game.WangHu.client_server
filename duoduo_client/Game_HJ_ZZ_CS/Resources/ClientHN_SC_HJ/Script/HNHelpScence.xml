@@ -1,0 +1,41 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNHelpSkin.xml"/>
+	<Widget Name="HelpPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceGameRecord/public_bg.png"/>
+		</Widget>
+		<Widget Name="Button_BackHome" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="-580 310"/>
+			<Action Key="Hide" Value="HelpPlane"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceHome/laoyue_bg.png"/>
+			<Property Key="Size" Value="1180 600"/>
+			<Property Key="Pos" Value="0 -50"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="List">
+			<Property Key="Size" Value="1150 555"/>
+			<Property Key="Pos" Value="-575 -323"/>
+			<Property Key="HideBack" Value=""/>
+			<Widget Name="" SkinTempName="HelpListItem">
+			</Widget>
+		</Widget>
+		
+		
+		<Widget Name="" SkinTempName="ButtonHelpTable">
+			<Property Key="Pos" Value="0 314"/>
+			<Property Key="Enable" Value="false"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="Pos" Value="0 314"/>
+			<Property Key="FontSize" Value="60"/>
+			<Property Key="ShowTxt" Value="游戏规则"/>
+		</Widget>
+	</Widget>
+ </root>

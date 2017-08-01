@@ -1,0 +1,137 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNGameRecordSkin.xml"/>
+	<Widget Name="GameRecordScencePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceGameRecord/public_bg.png"/>
+		</Widget>
+		<Widget Name="Button_GameRecordBack" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="-580 310"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceGameRecord/hist_rec_title_bg_1.png"/>
+			<Property Key="Pos" Value="0 310"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="ShowTxt" Value="游戏记录"/>
+			<Property Key="Pos" Value="0 310"/>
+		</Widget>
+		<Widget Name="RecordListPlane" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="public/9Scale2.png"/>
+				<Property Key="Size" Value="1150 560"/>
+				<Property Key="Pos" Value="0 -50"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="结果"/>
+				<Property Key="Pos" Value="-480 190"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="房间号"/>
+				<Property Key="Pos" Value="-330 190"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="分数"/>
+				<Property Key="Pos" Value="-0 190"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="时间"/>
+				<Property Key="Pos" Value="400 190"/>
+			</Widget>
+			<Widget Name="RecordList0" SkinTempName="List">
+				<Property Key="Size" Value="1180 480"/>
+				<Property Key="Pos" Value="-590 -320"/>
+				<Property Key="HideBack" Value="false"/>
+				<Widget Name="" SkinTempName="GameReocrdListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdListItem">
+				</Widget>
+			</Widget>
+		</Widget>
+	
+		<Widget Name="RecordTotalPlane" SkinTempName="Empty">
+			<Widget Name="" SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="public/9Scale2.png"/>
+				<Property Key="Size" Value="1150 560"/>
+				<Property Key="Pos" Value="0 -50"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="序号"/>
+				<Property Key="Pos" Value="-500 190"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="开始时间"/>
+				<Property Key="Pos" Value="-330 190"/>
+			</Widget>
+			<Widget Name="PlayerName0" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="分数"/>
+				<Property Key="Pos" Value="-150 190"/>
+			</Widget>
+			<Widget Name="PlayerName1" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="分数"/>
+				<Property Key="Pos" Value="10 190"/>
+			</Widget>
+			<Widget Name="PlayerName2" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="分数"/>
+				<Property Key="Pos" Value="170 190"/>
+			</Widget>
+			<Widget Name="PlayerName3" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Color" Value="250 0 0"/>
+				<Property Key="ShowTxt" Value="分数"/>
+				<Property Key="Pos" Value="330 190"/>
+			</Widget>
+			<Widget Name="RecordList1" SkinTempName="List">
+				<Property Key="Size" Value="1180 480"/>
+				<Property Key="Pos" Value="-590 -320"/>
+				<Property Key="HideBack" Value="false"/>
+				<Widget Name="" SkinTempName="GameReocrdTotalItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdTotalItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdTotalItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdTotalItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdTotalItem">
+				</Widget>
+				<Widget Name="" SkinTempName="GameReocrdTotalItem">
+				</Widget>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

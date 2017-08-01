@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "d49d58e0-8f3e-8e4c-b759-6a8cc76de35f++6965",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "d49d58e0-8f3e-8e4c-b759-6a8cc76de35f++6965" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "d49d58e0-8f3e-8e4c-b759-6a8cc76de35f++6965" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "29664545-76FD-4489-9025-F3C86DF0D024",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "d49d58e0-8f3e-8e4c-b759-6a8cc76de35f++6965" : "taitan\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "GameBase",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Game_HJ_15\/proj.ios_macSC\/GameBase.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/121.42.148.209\/svn\/Titan",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "d49d58e0-8f3e-8e4c-b759-6a8cc76de35f++6965"
+    }
+  ]
+}

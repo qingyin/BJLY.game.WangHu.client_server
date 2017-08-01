@@ -1,0 +1,87 @@
+﻿ <root>
+	<ScriptValueStr Key="HuRight0"  Value=" 碰碰胡"/>
+	<ScriptValueStr Key="HuRight1"  Value=" 将将胡"/>
+	<ScriptValueStr Key="HuRight2"  Value=" 清一色"/>
+	<ScriptValueStr Key="HuRight3"  Value=" 海底捞"/>
+	<ScriptValueStr Key="HuRight4"  Value=" 海底捞"/>
+	<ScriptValueStr Key="HuRight5"  Value=" 七小对"/>
+	<ScriptValueStr Key="HuRight6"  Value=" 豪华七小对"/>
+	<ScriptValueStr Key="HuRight7"  Value=" 杠上开花"/>
+	<ScriptValueStr Key="HuRight8"  Value=" 抢杠胡"/>
+	<ScriptValueStr Key="HuRight9"  Value=" 杠上炮"/>
+	<ScriptValueStr Key="HuRight10" Value=" 全求人"/>
+	<ScriptValueStr Key="HuRight11" Value=" 大四喜"/>
+	<ScriptValueStr Key="HuRight12" Value=" 板板胡"/>
+	<ScriptValueStr Key="HuRight13" Value=" 缺一色"/>
+	<ScriptValueStr Key="HuRight14" Value=" 六六顺"/>
+	<ScriptValueStr Key="HuRight15" Value=" 双豪华七小对"/>
+	<ScriptValueStr Key="HuRight16" Value=" 无红中多加一鸟"/>
+	<ScriptValueStr Key="HuRight17" Value=" 天胡"/>
+	<ScriptValueStr Key="HuRight18" Value=" 杠上双开*2"/>
+	
+	<ScriptValueStr Key="HuRight_Gen" Value="根"/>
+	<ScriptValueStr Key="HuRight_Fan" Value="番 "/>
+	
+	<ScriptValueStr Key="HuRight_ZiMo" Value="自摸 "/>
+	<ScriptValueStr Key="HuRight_PingHu" Value="平胡 "/>
+	
+	
+	<ScriptValueStr Key="HU_TYPE_ZIMO" Value=" 自摸"/>
+	<ScriptValueStr Key="HU_TYPE_JIEPAO" Value=" 接炮"/>
+	<ScriptValueStr Key="HU_TYPE_FANGPAO" Value=" 放炮"/>
+	
+	<ScriptValueStr Key="MingGang" Value=" 明杠"/>
+	<ScriptValueStr Key="ZiMoMingGang" Value=" 自摸明杠"/>
+	<ScriptValueStr Key="AnGang" Value=" 暗杠"/>
+	
+	<ScriptValueStr Key="ZHONG_NIAO" Value="  中鸟"/>
+	<ScriptValueStr Key="ZHONG_GE" Value="个"/>
+	
+	<ScriptValueStr Key="HNGameType0" Value="转转麻将"/>
+	<ScriptValueStr Key="HNGameType1" Value="长沙麻将"/>
+	
+	<ScriptValueStr Key="MJRule0" Value="258做将"/>
+	<ScriptValueStr Key="MJRule1" Value="自模胡"/>
+	<ScriptValueStr Key="MJRule2" Value="可胡七对"/>
+	<ScriptValueStr Key="MJRule3" Value="可抢杠胡"/>
+	<ScriptValueStr Key="MJRule4" Value="扎鸟2个"/>
+	<ScriptValueStr Key="MJRule5" Value="扎鸟4个"/>
+	<ScriptValueStr Key="MJRule6" Value="扎鸟6个"/>
+	<ScriptValueStr Key="MJRule7" Value="红中癞子"/>
+	<ScriptValueStr Key="MJRule8" Value="庄闲分"/>
+	<ScriptValueStr Key="MJRule9" Value="扎鸟3个"/>
+	<ScriptValueStr Key="MJRule10" Value="扎鸟5个"/>
+	<ScriptValueStr Key="MJRule11" Value="258做将"/>
+	
+	
+	
+	<ScriptValueStr Key="HNGameTypeLevel0" Value="初级场"/>
+	<ScriptValueStr Key="HNGameTypeLevel1" Value="中级场"/>
+	<ScriptValueStr Key="HNGameTypeLevel2" Value="高级场"/>
+	
+	<ScriptValueStr Key="GameTalkTxt0" Value="你太牛了"/>
+	<ScriptValueStr Key="GameTalkTxt1" Value="哈哈，手气真好"/>
+	<ScriptValueStr Key="GameTalkTxt2" Value="快点出牌噢"/>
+	<ScriptValueStr Key="GameTalkTxt3" Value="今天真高兴"/>
+	<ScriptValueStr Key="GameTalkTxt4" Value="这个吃的好"/>
+	<ScriptValueStr Key="GameTalkTxt5" Value="你放炮我不胡"/>
+	<ScriptValueStr Key="GameTalkTxt6" Value="你家里是开银行的吧"/>
+	<ScriptValueStr Key="GameTalkTxt7" Value="不好意思，我有事先走一步了"/>
+	<ScriptValueStr Key="GameTalkTxt8" Value="你的牌打的太好了"/>
+	<ScriptValueStr Key="GameTalkTxt9" Value="大家好，很高兴见到各位"/>
+	<ScriptValueStr Key="GameTalkTxt9" Value="怎么又断线了啊，网络怎么这么差啊"/>
+	
+	<ScriptValueStr Key="SureDismissPrivate" Value="你确定要解散房间吗？"/>
+	
+	<ScriptValueStr Key="HNMJHeadImgic" Value="Head/Head0.png"/>
+	
+	<ScriptValueStr Key="HNWeiXinSharTitle" Value="长沙麻将"/>
+	<ScriptValueStr Key="HNWeiXinSharDes" Value="【#】 房号:[#],#局,#速度来玩吧!"/>
+	<ScriptValueStr Key="HNWeiXinSharUrl" Value="http://www.baidu.com"/>
+	
+	<ScriptValueStr Key="HZWeiXinSharTitle" Value="房间号【#】【#】"/>
+	<ScriptValueStr Key="HZWeiXinSharTitleQu" Value="红中一区"/>
+	<ScriptValueStr Key="HZWeiXinSharDes" Value="我在[红中麻将]#开了#局，#个码的房间，快来一起玩吧"/>
+	<ScriptValueStr Key="HZWeiXinSharUrl" Value="http://www.baidu.com"/>
+ </root>
+ 

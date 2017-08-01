@@ -1,0 +1,14 @@
+﻿ <root>
+ 
+	<WidgetButton Name="ButtonHelpTable" NomalTexture="ScenceHome/Button_Title2.png" PressTexture="ScenceHome/Button_Title2.png" DisableTexture="ScenceHome/table_red.png">
+		<Property Key="FontSize" Value="30"/>
+	</WidgetButton>
+	
+	<WidgetNodeUI Name="HelpListItem">
+		<Property Key="Size" Value="1130 3630"/>
+		
+		<WidgetImagic Name="" TextureInfo="HelpScence/guize_ziti.png">
+			<Property Key="Pos" Value="460 1900"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+ </root>

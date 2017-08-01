@@ -1,0 +1,8 @@
+﻿ <root>
+	<WidgetProgressBar Name="GameSetBar" BackTexture="GameHNMJ/ScenceSet/setting_bar_bg.png" BarTexture="GameHNMJ/ScenceSet/setting_bar.png">
+	</WidgetProgressBar>
+	<WidgetSider Name="GameSetBarSider" NomalTexture="GameHNMJ/ScenceSet/setting_dice.png" PressTexture="GameHNMJ/ScenceSet/setting_dice.png" MaxPosY="365" MaxValue="100" MoveByX="true">
+		<Action Key="ButtonProgress" Value=""/>
+	</WidgetSider>
+	
+ </root>

@@ -1,0 +1,30 @@
+﻿ <root>
+	<Widget Name="NoticeMsgBack" SkinTempName="ImagicEmpty">
+		<Property Key="ImagicTexture" Value="UI/prompt_msg_bk1.png"/>
+		<Property Key="Pos" Value="640 370"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget Name="NoticeMsg1" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="圣诞快乐和反抗螺丝钉好烦"/>
+			<Property Key="Pos" Value="622 56"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Color" Value="15 94 153"/>
+		</Widget>
+		<Widget Name="NoticeMsg2" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="圣诞快乐和反抗螺丝钉好烦"/>
+			<Property Key="Pos" Value="620 58"/>
+			<Property Key="FontSize" Value="36"/>
+		</Widget>
+	</Widget>
+	
+	<Widget SkinTempName="Empty">
+		<Property Key="Pos" Value="640 743"/>
+		<Widget Name="TopNoticeMsgBack" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="UI/TopBack.png"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="TopMsg" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="Pos" Value="640 23"/>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

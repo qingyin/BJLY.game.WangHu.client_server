@@ -1,0 +1,408 @@
+﻿ <root>
+	<LoadSkin Skin="Script/SCMatchSkin.xml"/>
+	<Widget Name="MatchInfoPlane" SkinTempName="Empty">
+		<Property Key="Visible" Value="false"/>
+		<Property Key="Pos" Value="640 390"/>
+		<Widget Name="" SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="Size" Value="1100 670"/>
+			<Property Key="Pos" Value="0 -40"/>
+		</Widget>
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceMatch/9Scale.png"/>
+			<Property Key="Size" Value="1000 400"/>
+			<Property Key="Pos" Value="0 -70"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="ShowTxt" Value="比赛信息"/>
+			<Property Key="Pos" Value="0 260"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Close">
+			<Property Key="Pos" Value="540 280"/>
+			<Action Key="Hide" Value="MatchInfoPlane"/>
+		</Widget>
+		<Widget Name="Button_ActSignupMatch" SkinTempName="ButtonTxtEmpty">
+			<Property Key="Pos" Value="0 -310"/>
+			<Property Key="ShowTxt" Value="报名"/>
+		</Widget>
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="0 -10"/>
+			<Widget Name="MacthButton0" SkinTempName="MacthButtonTxt">
+				<Property Key="ShowTxt" Value="概况"/>
+				<Property Key="Pos" Value="-300 177"/>
+				<Property Key="Oder" Value="2"/>
+				<Action Key="Disable" Value="MacthButton0"/>
+				<Action Key="Able" Value="MacthButton1"/>
+				<Action Key="Able" Value="MacthButton2"/>
+				<Action Key="Show" Value="MatchInfoPlane0"/>
+				<Action Key="Hide" Value="MatchInfoPlane1"/>
+				<Action Key="Hide" Value="MatchInfoPlane2"/>
+				<UserInfo Key="Idex" Value="0"/>
+			</Widget>
+			<Widget Name="MacthButton1" SkinTempName="MacthButtonTxt">
+				<Property Key="ShowTxt" Value="奖励"/>
+				<Property Key="Pos" Value="0 177"/>
+				<Property Key="Oder" Value="1"/>
+				<Action Key="Able" Value="MacthButton0"/>
+				<Action Key="Disable" Value="MacthButton1"/>
+				<Action Key="Able" Value="MacthButton2"/>
+				<Action Key="Hide" Value="MatchInfoPlane0"/>
+				<Action Key="Show" Value="MatchInfoPlane1"/>
+				<Action Key="Hide" Value="MatchInfoPlane2"/>
+				<UserInfo Key="Idex" Value="1"/>
+			</Widget>
+			<Widget Name="MacthButton2" SkinTempName="MacthButtonTxt">
+				<Property Key="ShowTxt" Value="规则"/>
+				<Property Key="Pos" Value="300 177"/>
+				<Property Key="Oder" Value="0"/>
+				<Action Key="Able" Value="MacthButton0"/>
+				<Action Key="Able" Value="MacthButton1"/>
+				<Action Key="Disable" Value="MacthButton2"/>
+				<Action Key="Hide" Value="MatchInfoPlane0"/>
+				<Action Key="Hide" Value="MatchInfoPlane1"/>
+				<Action Key="Show" Value="MatchInfoPlane2"/>
+				<UserInfo Key="Idex" Value="2"/>
+			</Widget>
+		</Widget>
+		<Widget Name="MatchInfoPlane0" SkinTempName="Empty">
+			<Property Key="Pos" Value="-420 -360"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="赛事名称:"/>
+				<Property Key="Pos" Value="220 440"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+			</Widget>
+			<Widget Name="Info0Name" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="赛事名称:"/>
+				<Property Key="Pos" Value="420 440"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="赛事条件:"/>
+				<Property Key="Pos" Value="220 360"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+			</Widget>
+			<Widget Name="Info0Need" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="赛事条件:"/>
+				<Property Key="Pos" Value="420 360"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<UserInfo Key="Txt" Value="#金币准入"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="报名费用:"/>
+				<Property Key="Pos" Value="220 280"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+			</Widget>
+			<Widget Name="Info0Cost" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="报名费用:"/>
+				<Property Key="Pos" Value="420 280"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<Property Key="Txt1" Value="免费"/>
+				<UserInfo Key="Txt2" Value="#金币"/>
+			</Widget>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="赛事规则:"/>
+				<Property Key="Pos" Value="220 200"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+			</Widget>
+			<Widget Name="Info0Rule" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="赛事规则:"/>
+				<Property Key="Pos" Value="420 200"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<UserInfo Key="Txt1" Value="每天:#"/>
+				<UserInfo Key="Txt2" Value="满#人开赛"/>
+			</Widget>
+		</Widget>
+		<Widget Name="MatchInfoPlane1" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="Pos" Value="-640 -360"/>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceMatch/rank1.png"/>
+				<Property Key="Pos" Value="400 440"/>
+				<Property Key="Scale" Value="0.5"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceMatch/rank2.png"/>
+				<Property Key="Pos" Value="400 380"/>
+				<Property Key="Scale" Value="0.5"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceMatch/rank3.png"/>
+				<Property Key="Pos" Value="400 320"/>
+				<Property Key="Scale" Value="0.5"/>
+			</Widget>
+			<Widget Name="AwardInfoRank0" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="第1名:"/>
+				<Property Key="Pos" Value="470 440"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<UserInfo Key="Txt" Value="第#名:"/>
+				<Widget Name="AwardInfo" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="30"/>
+					<Property Key="ShowTxt" Value="赛事规则:"/>
+					<Property Key="Pos" Value="150 15"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+					<Property Key="Color" Value="100 100 20"/>
+					<UserInfo Key="Txt" Value="奖励#金币"/>
+				</Widget>
+			</Widget>
+			<Widget Name="AwardInfoRank1" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="赛事规则:"/>
+				<Property Key="Pos" Value="470 380"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<UserInfo Key="Txt" Value="第#名:"/>
+				<Widget Name="AwardInfo" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="30"/>
+					<Property Key="ShowTxt" Value="赛事规则:"/>
+					<Property Key="Pos" Value="150 15"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+					<Property Key="Color" Value="100 100 20"/>
+					<UserInfo Key="Txt" Value="奖励#金币"/>
+				</Widget>
+			</Widget>
+			<Widget Name="AwardInfoRank2" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="赛事规则:"/>
+				<Property Key="Pos" Value="470 320"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<UserInfo Key="Txt" Value="第#名:"/>
+				<Widget Name="AwardInfo" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="30"/>
+					<Property Key="ShowTxt" Value="赛事规则:"/>
+					<Property Key="Pos" Value="150 15"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+					<Property Key="Color" Value="100 100 20"/>
+					<UserInfo Key="Txt" Value="奖励#金币"/>
+				</Widget>
+			</Widget>
+			<Widget Name="AwardInfoRank3" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="赛事规则:"/>
+				<Property Key="Pos" Value="470 260"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<UserInfo Key="Txt" Value="第#名:"/>
+				<Widget Name="AwardInfo" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="30"/>
+					<Property Key="ShowTxt" Value="赛事规则:"/>
+					<Property Key="Pos" Value="150 15"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+					<Property Key="Color" Value="100 100 20"/>
+					<UserInfo Key="Txt" Value="奖励#金币"/>
+				</Widget>
+			</Widget>
+			<Widget Name="AwardInfoRank4" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="赛事规则:"/>
+				<Property Key="Pos" Value="470 200"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<UserInfo Key="Txt" Value="第#名:"/>
+				<Widget Name="AwardInfo" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="30"/>
+					<Property Key="ShowTxt" Value="赛事规则:"/>
+					<Property Key="Pos" Value="150 15"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+					<Property Key="Color" Value="100 100 20"/>
+					<UserInfo Key="Txt" Value="奖励#金币"/>
+				</Widget>
+			</Widget>
+			<Widget Name="AwardInfoRank5" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="赛事规则:"/>
+				<Property Key="Pos" Value="470 140"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="100 100 20"/>
+				<UserInfo Key="Txt" Value="第#名:"/>
+				<Widget Name="AwardInfo" SkinTempName="TxtEmpty">
+					<Property Key="FontSize" Value="30"/>
+					<Property Key="ShowTxt" Value="赛事规则:"/>
+					<Property Key="Pos" Value="150 15"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+					<Property Key="Color" Value="100 100 20"/>
+					<UserInfo Key="Txt" Value="奖励#金币"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget Name="MatchInfoPlane2" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="AwardInfo" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="30"/>
+				<Property Key="ShowTxt" Value="比赛规则"/>
+				<Property Key="Color" Value="100 100 20"/>
+			</Widget>
+		</Widget>
+	</Widget>
+	<Widget Name="MatchWaitePeoplePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget Name="" SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="Size" Value="640 360"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="稍候"/>
+			<Property Key="Pos" Value="0 140"/>
+		</Widget>
+		<Widget Name="WaiteTxt" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="40"/>
+			<UserInfo Key="Txt1" Value="参赛人数：#/#"/>
+			<UserInfo Key="Txt2" Value="正在等待其他玩家：#/#"/>
+			<Property Key="Pos" Value="0 40"/>
+			<Property Key="Color" Value="250 100 0"/>
+		</Widget>
+		<Widget Name="Button_ExitImmediateMatch" SkinTempName="ButtonTxtEmpty">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="退出比赛"/>
+			<Property Key="Pos" Value="0 -100"/>
+			<Action Key="Hide" Value="MatchWaitePeoplePlane"/>
+		</Widget>
+	</Widget>
+	<Widget Name="MatchPopInfoPlane" SkinTempName="VisibleNode">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget Name="" SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="Size" Value="640 360"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="比赛信息"/>
+			<Property Key="Pos" Value="0 140"/>
+		</Widget>
+		<Widget Name="MatchPopInfoTxt0" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="参数人数"/>
+			<Property Key="Pos" Value="-150 40"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="MatchPopInfoTxt1" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="参数人数"/>
+			<Property Key="Pos" Value="-150 0"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="MatchPopInfoTxt2" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="参数人数"/>
+			<Property Key="Pos" Value="-150 -40"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="MatchPopInfoTxt3" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="参数人数"/>
+			<Property Key="Pos" Value="-150 -80"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+	</Widget>
+	<Widget Name="MatchWaitePlane" SkinTempName="VisibleNode">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget Name="" SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="Size" Value="700 400"/>
+		</Widget>
+		<Widget Name="Name" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="血战到底"/>
+			<Property Key="Pos" Value="0 160"/>
+		</Widget>
+		<Widget Name="MatchWaiteTxt0" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="您目前积分:# 排名:#"/>
+			<UserInfo Key="Txt" Value="您目前积分:# 排名:#"/>
+			<Property Key="Pos" Value="0 60"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="Pos" Value="-300 60"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="MatchWaiteTxt1" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="请耐心等待，还有 # 桌未完成比赛。"/>
+			<UserInfo Key="Txt" Value="请耐心等待，还有 # 桌未完成比赛。"/>
+			<Property Key="Pos" Value="-300 0"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="MatchWaiteTxt2" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="您已经率先完成第 # 局，处于本桌第 # 名。"/>
+			<UserInfo Key="Txt" Value="您已经率先完成第 # 局，处于本桌第 # 名。"/>
+			<Property Key="Pos" Value="-300 -60"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="MatchWaiteTxt3" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="请等待其他桌游戏结束后，确定最后排名。"/>
+			<Property Key="Pos" Value="-300 -120"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+	</Widget>
+	<Widget Name="MatchResoultPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget Name="" SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="Size" Value="800 400"/>
+		</Widget>
+		<Widget Name="Name" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="比赛结果"/>
+			<Property Key="Pos" Value="0 160"/>
+		</Widget>
+		<Widget Name="MatchResoult0" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="25"/>
+			<Property Key="Pos" Value="0 60"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="Pos" Value="-330 60"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="MatchResoultTxt1" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="获得金币:#"/>
+			<UserInfo Key="Txt" Value="获得金币:#"/>
+			<Property Key="Pos" Value="-330 0"/>
+			<Property Key="Color" Value="250 100 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="Button_ExitMatchResoult" SkinTempName="ButtonTxtEmpty">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="退出比赛"/>
+			<Property Key="Pos" Value="0 -100"/>
+			<Action Key="Hide" Value="MatchResoultPlane"/>
+		</Widget>
+	</Widget>
+ </root>

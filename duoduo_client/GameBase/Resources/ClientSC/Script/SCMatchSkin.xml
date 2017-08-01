@@ -1,0 +1,13 @@
+﻿ <root>
+	<WidgetButton Name="MacthButtonTxt" NomalTexture="ScenceAddRank/Button_Title3.png" 
+		PressTexture="AutoPress" DisableTexture="ScenceAddRank/Button_Title2.png">
+		<Property Key="FontSize" Value="45"/>
+	</WidgetButton>
+	<WidgetNode Name="VisibleNode">
+		<Visible Visible="true" Name="ActionStart" SaveAction="true">
+			<WaiteTime Time="3">
+				<Visible Visible="false"/>
+			</WaiteTime>
+		</Visible>
+	</WidgetNode>
+ </root>

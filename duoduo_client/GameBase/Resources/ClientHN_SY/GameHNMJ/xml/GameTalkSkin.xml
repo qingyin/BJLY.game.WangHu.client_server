@@ -1,0 +1,17 @@
+﻿ <root>
+	<WidgetNodeUI Name="GameTalkListItem">
+		<Property Key="Size" Value="350 55"/>
+		<WidgetButton Name="Button_TalkDefine" NomalTexture="GameHNMJ/Talk/over_jieshuUI.png" PressTexture="AutoPress">
+			<Property Key="Scale9" Value="true"/>
+			<Property Key="Size" Value="250 45"/>
+			<Property Key="Pos" Value="130 25"/>
+		</WidgetButton>
+		<WidgetTxt Name="TalkListItemTxt" ShowTxt="1000" FontName="" FontSize="22">
+			<Property Key="ShowTxt" Value="这是什么手咯，简直是.."/>
+			<Property Key="Pos" Value="130 25"/>
+		</WidgetTxt>
+	</WidgetNodeUI>
+	<WidgetEdit Name="GameTalkEdit" BackTexture="UI/Empty.png" Size="150 45" ShowTxt="输入内容">
+		<Property Key="FontSize" Value="25"/>
+	</WidgetEdit>
+ </root>

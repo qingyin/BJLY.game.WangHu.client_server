@@ -1,0 +1,33 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNHelpSkin.xml"/>
+	<Widget Name="HelpPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 350"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="HelpScence/main_touxiangk1.png"/>
+			<Property Key="Size" Value="1000 620"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="HelpScence/set_kuang2.png"/>
+			<Property Key="Size" Value="1000 620"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="HelpScence/guize_wanfa.png"/>
+			<Property Key="Pos" Value="0 310"/>
+		</Widget>
+		<Widget  SkinTempName="Button_Close">
+			<Property Key="Pos" Value="490 300"/>
+			<Action Key="Hide" Value="HelpPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="List">
+			<Property Key="Size" Value="1150 555"/>
+			<Property Key="Pos" Value="-455 -298"/>
+			<Property Key="HideBack" Value=""/>
+			<Widget Name="" SkinTempName="HelpListItem">
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

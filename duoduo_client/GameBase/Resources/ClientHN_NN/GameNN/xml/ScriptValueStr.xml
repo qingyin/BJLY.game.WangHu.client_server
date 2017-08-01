@@ -1,0 +1,13 @@
+﻿ <root>
+	<ScriptValueStr Key="NNGameType0" Value="随机庄家"/>
+	<ScriptValueStr Key="NNGameType1" Value="看牌抢庄"/>
+	
+	<ScriptValueStr Key="NNBuQiang" Value="不抢"/>
+	<ScriptValueStr Key="NNResoultYou" Value="有牛"/>
+	<ScriptValueStr Key="NNResoultWu" Value="没牛"/>
+	
+	<ScriptValueStr Key="NNPrivateTxt1" Value="房号:#，牛哥斗牛，速度来啊！"/>
+	<ScriptValueStr Key="NNWeiXinSharTitle" Value="牛哥斗牛"/>
+	<ScriptValueStr Key="NNWeiXinSharUrl" Value="http://www.hnqianhu.com"/>
+ </root>
+ 

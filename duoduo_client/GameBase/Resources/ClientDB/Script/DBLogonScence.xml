@@ -1,0 +1,159 @@
+﻿ <root>
+	<LoadSkin Skin="Script/DBLogonSkin.xml"/>
+	<Widget SkinTempName="Empty">
+		<Widget Name="LogonPlane" SkinTempName="Empty">
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceLogin/Back.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget SkinTempName="public_Clipper">
+				<Property Key="Pos" Value="640 480"/>
+				<Widget Name="LogoStencil" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceLogin/Logo.png"/>
+				</Widget>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceLogin/Logo.png"/>
+				</Widget>
+				<Widget SkinTempName="Empty">
+					<Widget SkinTempName="LoginLogoEffect">
+					</Widget>
+				</Widget>
+				<Property Key="Stencil" Value="LogoStencil"/>
+				<Property Key="alphaThreshold" Value="0.8"/>
+				<Property Key="inverted" Value="false"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect1">
+				<Property Key="Pos" Value="400 275"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect2">
+				<Property Key="Pos" Value="390 270"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect3">
+				<Property Key="Pos" Value="820 275"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect4">
+				<Property Key="Pos" Value="810 270"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect5">
+				<Property Key="Pos" Value="432 525"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect6">
+				<Property Key="Pos" Value="432 525"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect7">
+				<Property Key="Pos" Value="637 325"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect8">
+				<Property Key="Pos" Value="637 325"/>
+			</Widget>
+			<Widget SkinTempName="LoginLogoEffect9">
+				<Property Key="Pos" Value="785 569"/>
+			</Widget>
+			<Widget SkinTempName="Empty">
+				<Property Key="Pos" Value="950 469"/>
+				<Widget SkinTempName="LoginLogoEffect20">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect21">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect20">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect21">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect20">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect21">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect20">
+				</Widget>
+			</Widget>
+			<Widget SkinTempName="Empty">
+				<Property Key="Pos" Value="350 469"/>
+				<Widget SkinTempName="LoginLogoEffect21">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect20">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect21">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect20">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect21">
+				</Widget>
+				<Widget SkinTempName="LoginLogoEffect20">
+				</Widget>
+			</Widget>
+			<Widget Name="" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="帐号登录"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="420 160"/>
+				<Property Key="Visible" Value="false"/>
+				<Action Key="Show" Value="AccountPlane"/>
+			</Widget>
+			<Widget Name="Button_Visitor" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="游客登录"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="640 160"/>
+			</Widget>
+		</Widget>
+		<Widget Name="AccountPlane" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="Pos" Value="640 360"/>
+			<Widget SkinTempName="BtnFullEmpty">
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceLogin/AccountPlane.png"/>
+				<Property Key="Scale" Value="0.7"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="帐号登录"/>
+				<Property Key="FontSize" Value="36"/>
+				<Property Key="Pos" Value="0 190"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="帐号:"/>
+				<Property Key="FontSize" Value="36"/>
+				<Property Key="Pos" Value="-250 80"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="AcountEdit" SkinTempName="LogonEdit">
+				<Property Key="Pos" Value="-140 80"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="密码:"/>
+				<Property Key="FontSize" Value="36"/>
+				<Property Key="Pos" Value="-250 00"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="PasswordEdit" SkinTempName="LogonEdit">
+				<Property Key="Pos" Value="-140 00"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="PlaceHolderTxt" Value="请输入密码"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="Button_Login" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="登录"/>
+				<Property Key="FontSize" Value="45"/>
+				<Property Key="Pos" Value="160 -130"/>
+				<Property Key="Scale" Value="0.7"/>
+			</Widget>
+			<Widget Name="Button_Close"  SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="取消"/>
+				<Property Key="FontSize" Value="45"/>
+				<Action Key="Hide" Value="AccountPlane"/>
+				<Property Key="Pos" Value="-160 -130"/>
+				<Property Key="Scale" Value="0.7"/>
+			</Widget>
+		</Widget>
+	</Widget>
+	
+ </root>

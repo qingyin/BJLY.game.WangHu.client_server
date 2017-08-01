@@ -1,0 +1,78 @@
+﻿ <root>
+	<LoadSkin Skin="Script/SCSignInSkin.xml"/>
+	<Widget Name="SignInPlane" SkinTempName="PopNode">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="public_9sprite">
+			<Property Key="Size" Value="1040 640"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="新手活动"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 280"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Close">
+			<Property Key="FoSize" Value="40"/>
+			<Property Key="Pos" Value="500 300"/>
+			<Action Key="ActionEnd" Value="SignInPlane"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSignIn/bg3.png"/>
+			<Property Key="Pos" Value="0 35"/>
+		</Widget>
+		<Widget SkinTempName="public_9spriteSiginLayer">
+			<Property Key="Pos" Value="0 -250"/>
+			<Property Key="Size" Value="1010 100"/>
+		</Widget>
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="0 40"/>
+			<Widget Name="SignItem0" SkinTempName="SignInItemEmpty">
+				<Property Key="Pos" Value="-380 0"/>
+			</Widget>
+			<Widget Name="SignItem1" SkinTempName="SignInItemEmpty">
+				<Property Key="Pos" Value="-190 0"/>
+			</Widget>
+			<Widget Name="SignItem2" SkinTempName="SignInItemEmpty">
+			</Widget>
+			<Widget Name="SignItem3" SkinTempName="SignInItemEmpty">
+				<Property Key="Pos" Value="190 0"/>
+			</Widget>
+			<Widget Name="SignItem4" SkinTempName="SignInItemEmpty">
+				<Property Key="Pos" Value="380 0"/>
+			</Widget>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="本月签到:"/>
+			<Property Key="FontSize" Value="33"/>
+			<Property Key="Pos" Value="-370 -250"/>
+			<Property Key="Color" Value="100 100 20"/>
+		</Widget>
+		<Widget Name="SignInDayTxt" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="12"/>
+			<Property Key="FontSize" Value="33"/>
+			<Property Key="Pos" Value="-270 -250"/>
+			<Property Key="Color" Value="150 150 20"/>
+			<Property Key="OutLine" Value="150 150 20 255:1"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="次"/>
+			<Property Key="FontSize" Value="33"/>
+			<Property Key="Pos" Value="-220 -250"/>
+			<Property Key="Color" Value="100 100 20"/>
+		</Widget>
+		<Widget Name="TodaySignIn" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="已签到"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="370 -250"/>
+		</Widget>
+		<Widget Name="Button_SignInAction" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="签到"/>
+			<Property Key="FontSize" Value="38"/>
+			<Property Key="Pos" Value="370 -250"/>
+		</Widget>
+	</Widget>
+	
+ </root>

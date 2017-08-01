@@ -1,0 +1,16 @@
+﻿ <root>
+	<WidgetEdit Name="PlayerInfoNameEdit" BackTexture="PlayerInfo/EditBack.png" Size="180 45" ShowTxt="请输入名字">
+		<Property Key="Color" Value="0 0 0"/>
+		<Property Key="MaxCout" Value="12"/>
+	</WidgetEdit>
+	<WidgetEdit Name="PlayerInfoPhoneEdit" BackTexture="PlayerInfo/EditBack.png" Size="380 45" ShowTxt="">
+		<Property Key="Color" Value="70 20 20"/>
+		<Property Key="MaxCout" Value="12"/>
+	</WidgetEdit>
+	<WidgetEdit Name="PlayerInfoPhoneAccept" BackTexture="PlayerInfo/EditBack.png" Size="180 45" ShowTxt="">
+		<Property Key="Color" Value="70 20 20"/>
+		<Property Key="MaxCout" Value="12"/>
+	</WidgetEdit>
+	<Widget9Sprite Name="public_9sprite" BackTexture="public/9Scale.png" Size="100 100">	
+	</Widget9Sprite>
+ </root>

@@ -1,0 +1,21 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNRouletteSkin.xml"/>
+	<Widget Name="RoulettePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget  SkinTempName="Button_Close">
+			<Action Key="Hide" Value="RoulettePlane"/>
+			<Property Key="Pos" Value="140 260"/>
+		</Widget>
+		<Widget Name="RouletteImgaic" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="RouletteScence/reward_zhuanpan.png"/>
+			<Property Key="Pos" Value="-200 0"/>
+		</Widget>
+		<Widget Name="Button_RouletteDone" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="RouletteScence/reward_zhizhen.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="-200 0"/>
+		</Widget>
+	</Widget>
+ </root>

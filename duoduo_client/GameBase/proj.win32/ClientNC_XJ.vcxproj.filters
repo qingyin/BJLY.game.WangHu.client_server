@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{51909714-0bd1-40ed-abd9-96ed3320f948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientNC">
+      <UniqueIdentifier>{d5f09012-3d88-4964-9522-d228be8b2932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientNC\Scene">
+      <UniqueIdentifier>{7d3bbea5-f9bb-4f45-92e1-1b5021f395d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\ClientSC\WindowsMain\main.cpp" />
+    <ClCompile Include="..\Classes\ClientNC_XJ\NCGameManager.cpp">
+      <Filter>ClientNC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\NCGameManager_Game.cpp">
+      <Filter>ClientNC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Main\AppDelegate.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Main\NCGame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCGameRecord.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCHelpScence.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCHomeScence.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCHomeScence_Button.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCHomeScence_Sink.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCLogonScence.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCNewsScence.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCRouletteScence.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCScenceManager.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCSetScence.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCShopScence.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientNC_XJ\Scene\NCPrivateScenceNC.cpp">
+      <Filter>ClientNC\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\ClientSC\WindowsMain\main.h" />
+    <ClInclude Include="..\Classes\ClientSC\Game\GameDefine.h" />
+    <ClInclude Include="..\Classes\ClientNC_XJ\NCGameManager.h">
+      <Filter>ClientNC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Main\AppDelegate.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Main\NCGame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCGameRecord.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCHelpScence.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCHomeScence.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCLogonScence.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCNewsScence.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCRouletteScence.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCScenceManager.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCSetScence.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCShopScence.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientNC_XJ\Scene\NCPrivateScenceNC.h">
+      <Filter>ClientNC\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

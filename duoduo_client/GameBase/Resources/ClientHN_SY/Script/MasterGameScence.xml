@@ -1,0 +1,50 @@
+﻿ <root>
+	<LoadSkin Skin="Script/MasterGameSkin.xml"/>
+	<Widget Name="GameMaterPlane" SkinTempName="Empty">
+		<Property Key="Visible" Value="true"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceGameMaster/MasterBack.png"/>
+			<Property Key="Pos" Value="640 360"/>
+		</Widget>
+		
+		<Widget Name="MasterCardNode" SkinTempName="Empty">
+			<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+			<UserInfo Key="HandAddPosX" Value="61 0"/>
+			<UserInfo Key="HandAddPosY" Value="0 -100"/>
+			<Property Key="Pos" Value="320 510"/>
+			
+			
+			<!--Widget SkinTempName="NHMJ_MASTER_LEFTCARD">
+				<Property Key="Scale" Value="0.6"/>
+			</Widget-->
+			
+		</Widget>
+		
+		<Widget Name="Button_MasterClose" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/coin_close.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="980 540"/>
+			<Action Key="Hide" Value="GameMaterPlane"/>
+		</Widget>
+		
+		<Widget Name="Button_Master" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceGameMaster/Button_MasterUpdate.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="940 310"/>
+		</Widget>
+		
+		
+		<Widget Name="MasterCheakCard" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+			<Property Key="Pos" Value="920 210"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="Visible" Value="false"/>
+			<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+		</Widget>
+		
+		
+		
+	</Widget>
+ </root>

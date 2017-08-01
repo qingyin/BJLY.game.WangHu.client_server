@@ -1,0 +1,108 @@
+﻿ <root>
+	<LoadSkin Skin="GameHNMJ/xml/GameSetSkin.xml"/>
+	<Widget Name="GameSetPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/popBack.png"/>
+			<Property Key="Size" Value="700 500"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget Name="HNMJ_Button_HideSet" SkinTempName="Button_Close">
+			<Property Key="Pos" Value="340 240"/>
+			<Action Key="Hide" Value="GameSetPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/setting_title.png"/>
+			<Property Key="Pos" Value="0 200"/>
+		</Widget>
+		<Widget Name="HuaSelectPlane" SkinTempName="Empty">
+			<Property Key="Pos" Value="0 110"/>
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/over_jieshuUI.png"/>
+				<Property Key="Size" Value="680 90"/>
+				<Property Key="Pos" Value="0 -0"/>
+				<Property Key="Aple" Value="0.3"/>
+			</Widget>
+			<Widget Name="HuaSelectPic1" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/settingnewfangyan.png"/>
+				<Property Key="Pos" Value="-220 0"/>
+			</Widget>
+			<Widget Name="HuaSelectPic2"  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/settingnewputong.png"/>
+				<Property Key="Pos" Value="100 0"/>
+			</Widget>
+			<Widget Name="HNMJ_Button_Cheak_ChangSha" SkinTempName="public_CheckBox">
+				<Property Key="UnSelectTexture" Value="GameHNMJ/ScenceSet/btn_checkbox.png"/>
+				<Property Key="SelectTexture" Value="GameHNMJ/ScenceSet/check_mark.png"/>
+				<UserInfo Key="Idex" Value="0"/>
+				<Property Key="Pos" Value="-100 0"/>
+			</Widget>
+			<Widget Name="HNMJ_Button_Cheak_PuTong" SkinTempName="public_CheckBox">
+				<Property Key="UnSelectTexture" Value="GameHNMJ/ScenceSet/btn_checkbox.png"/>
+				<Property Key="SelectTexture" Value="GameHNMJ/ScenceSet/check_mark.png"/>
+				<UserInfo Key="Idex" Value="1"/>
+				<Property Key="Pos" Value="210 0"/>
+			</Widget>
+		</Widget>
+		<Widget Name="" SkinTempName="Empty">
+			<Property Key="Pos" Value="0 -50"/>
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/over_jieshuUI.png"/>
+				<Property Key="Size" Value="680 200"/>
+				<Property Key="Pos" Value="0 -0"/>
+				<Property Key="Aple" Value="0.3"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/setting_sound_effect.png"/>
+				<Property Key="Pos" Value="-290 50"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/setting_min_sound_sign.png"/>
+				<Property Key="Pos" Value="-220 50"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/setting_max_sound_sign.png"/>
+				<Property Key="Pos" Value="260 50"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/setting_music.png"/>
+				<Property Key="Pos" Value="-290 -50"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/setting_min_sound_sign.png"/>
+				<Property Key="Pos" Value="-220 -50"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameHNMJ/ScenceSet/setting_max_sound_sign.png"/>
+				<Property Key="Pos" Value="260 -50"/>
+			</Widget>
+			<Widget Name="SetBar1" SkinTempName="GameSetBar">
+				<Property Key="Pos" Value="20 50"/>
+				<Widget Name="SetBarSider1" SkinTempName="GameSetBarSider">
+					<Property Key="Pos" Value="-180 0"/>
+				</Widget>
+			</Widget>
+			<Widget Name="SetBar2" SkinTempName="GameSetBar">
+				<Property Key="Pos" Value="20 -50"/>
+				<Widget Name="SetBarSider2" SkinTempName="GameSetBarSider">
+					<Property Key="Pos" Value="-180 0"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget Name="SetExitPlane" SkinTempName="Empty">
+			<Property Key="Pos" Value="0 -50"/>
+			<Widget Name="HNMJButton_GameExit" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/GamePrivate/btn_back_sala.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="0 -150"/>
+			</Widget>
+			<Widget Name="Button_DismissPrivate" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameHNMJ/GamePrivate/btn_dismiss_room.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="0 -150"/>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

@@ -1,0 +1,14 @@
+﻿ <root>
+	<WidgetButton Name="NHMJ_MASTER_LEFTCARD" NomalTexture="GameHNMJ/2/mingmah_11.png" PressTexture="AutoPress">
+		<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+		<UserInfo Key="HuScale" Value="0.6"/>
+		
+		<WidgetTxt Name="LeftNum" ShowTxt="4" FontName="" FontSize="35">
+			<Property Key="Pos" Value="45 -10"/>
+		</WidgetTxt>
+		
+	</WidgetButton>
+	
+	<WidgetCheckBox Name="Master_CheckBox_ZhaNiao" UnSelectTexture="GameHNMJ/GameMaster/btn_checkbox_HZ.png" SelectTexture="GameHNMJ/GameMaster/btn_checkbox1.png">	
+	</WidgetCheckBox>
+ </root>

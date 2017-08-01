@@ -1,0 +1,230 @@
+﻿ <root>
+	<LoadSkin Skin="Script/SCLogonSkin.xml"/>
+	<Widget Name="AcountPlaneVisitor" SkinTempName="PopNode">
+		<Property Key="Visible" Value="false"/>
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="public_9sprite">
+			<Property Key="Size" Value="640 420"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="提示"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 170"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="您当前的账号是游客账号"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="0 60"/>
+			<Property Key="Color" Value="150 150 0"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="退出账号后您的话费就会被回收"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="0 20"/>
+			<Property Key="Color" Value="150 150 0"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Close">
+			<Property Key="FoSize" Value="40"/>
+			<Property Key="Pos" Value="300 200"/>
+			<Action Key="ActionEnd" Value="AcountPlaneVisitor"/>
+		</Widget>
+		<Widget Name="Button_AccountLogonPhone" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="帐号登录"/>
+			<Property Key="FontSize" Value="38"/>
+			<Property Key="Pos" Value="-140 -90"/>
+			<Action Key="ActionStart" Value="AccountLogonPlane"/>
+			<Action Key="ActionEnd" Value="AcountPlaneVisitor"/>
+		</Widget>
+		<Widget Name="Button_BindPhone" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="绑定帐号"/>
+			<Property Key="FontSize" Value="38"/>
+			<Property Key="Pos" Value="140 -90"/>
+			<Action Key="ActionStart" Value="BindPhonePlane"/>
+			<Action Key="ActionEnd" Value="AcountPlaneVisitor"/>
+		</Widget>
+	</Widget>
+	<Widget Name="AcountPlanePhone" SkinTempName="PopNode">
+		<Property Key="Visible" Value="false"/>
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="public_9sprite">
+			<Property Key="Size" Value="640 320"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Close">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="Pos" Value="300 150"/>
+			<Action Key="ActionEnd" Value="AcountPlanePhone"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="提示"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 120"/>
+		</Widget>
+		<Widget Name="Button_AccountLogonPhone" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="切换帐号"/>
+			<Property Key="FontSize" Value="38"/>
+			<Property Key="Pos" Value="0 -50"/>
+			<Action Key="ActionStart" Value="AccountLogonPlane"/>
+		</Widget>
+	</Widget>
+	<Widget Name="BindPhonePlane" SkinTempName="PopNode">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="public_9sprite">
+			<Property Key="Size" Value="840 460"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Close">
+			<Property Key="FoSize" Value="40"/>
+			<Property Key="Pos" Value="400 220"/>
+			<Action Key="ActionEnd" Value="BindPhonePlane"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="绑定手机"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 190"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="手机号:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 100"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="180 180 0"/>
+		</Widget>
+		<Widget Name="PhoneEdit" SkinTempName="PlayerInfoPhoneEdit">
+			<Property Key="Pos" Value="-140 100"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="PlaceHolderTxt" Value="请输入帐号"/>
+			<Property Key="MaxCout" Value="11"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="验证码:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 20"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="180 180 0"/>
+		</Widget>
+		<Widget Name="AcceptEdit" SkinTempName="PlayerInfoPhoneAccept">
+			<Property Key="Pos" Value="-140 20"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="PlaceHolderTxt" Value="验证码"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="MaxCout" Value="6"/>
+		</Widget>
+		<Widget Name="Button_GerPhoneAccept" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="获取验证码"/>
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="Pos" Value="140 20"/>
+			<Property Key="Scale" Value="0.8"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="密码:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 -60"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="180 180 0"/>
+		</Widget>
+		<Widget Name="PasswordEdit" SkinTempName="PlayerInfoPhoneEdit">
+			<Property Key="Pos" Value="-140 -60"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="PlaceHolderTxt" Value="请设置密码"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		
+		
+		<Widget Name="Button_BindPhone" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="确定"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="160 -155"/>
+		</Widget>
+		<Widget Name="Button_Close"  SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="取消"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="-160 -155"/>
+			<Action Key="ActionEnd" Value="BindPhonePlane"/>
+		</Widget>
+	</Widget>
+	
+	<Widget Name="AccountLogonPlane" SkinTempName="PopNode">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="public_9sprite">
+			<Property Key="Size" Value="840 460"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Close">
+			<Property Key="FoSize" Value="40"/>
+			<Property Key="Pos" Value="400 220"/>
+			<Action Key="ActionEnd" Value="AccountLogonPlane"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="切换帐号"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 190"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="手机号:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 60"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="180 180 0"/>
+		</Widget>
+		<Widget Name="PhoneEdit" SkinTempName="PlayerInfoPhoneEdit">
+			<Property Key="Pos" Value="-140 60"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="PlaceHolderTxt" Value="请输入帐号"/>
+			<Property Key="MaxCout" Value="11"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="密码:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 -30"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="180 180 0"/>
+		</Widget>
+		<Widget Name="PasswordEdit" SkinTempName="PlayerInfoPhoneEdit">
+			<Property Key="Pos" Value="-140 -30"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="PlaceHolderTxt" Value="请设置密码"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		
+		
+		<Widget Name="Button_BindPhone" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="确定"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="160 -150"/>
+		</Widget>
+		<Widget Name="Button_Close"  SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="取消"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="-160 -150"/>
+			<Action Key="ActionEnd" Value="AccountLogonPlane"/>
+		</Widget>
+	</Widget>
+ </root>

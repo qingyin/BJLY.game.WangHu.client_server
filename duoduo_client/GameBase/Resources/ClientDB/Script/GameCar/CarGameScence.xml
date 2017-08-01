@@ -1,0 +1,532 @@
+﻿ <root>
+	<LoadSkin Skin="Script/GameCar/CarGameSkin.xml"/>
+	<Widget Name="GameCarPlane" SkinTempName="Empty">
+		<Property Key="Scale" Value="1.13"/>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameCar/garage_bg2.png"/>
+			<Property Key="Pos" Value="568 320"/>
+		</Widget>
+		
+		<Widget Name="CarItem1" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_vw.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_vw.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_vw_disable.png"/>
+			<Property Key="Pos" Value="131 570"/>
+		</Widget>
+		<Widget Name="CarItem2" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_benz.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_benz.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_benz_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_benz_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_benz_disable.png"/>
+			<Property Key="Pos" Value="216 570"/>
+		</Widget>
+		<Widget Name="CarItem3" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_ferrari.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_ferrari.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_ferrari_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_ferrari_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_ferrari_disable.png"/>
+			<Property Key="Pos" Value="304 570"/>
+		</Widget>
+		<Widget Name="CarItem4" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_lexus.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_lexus.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_lexus_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_lexus_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_lexus_disable.png"/>
+			<Property Key="Pos" Value="391 570"/>
+		</Widget>
+		<Widget Name="CarItem5" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_bmw.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_bmw.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_bmw_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_bmw_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_bmw_disable.png"/>
+			<Property Key="Pos" Value="479 570"/>
+		</Widget>
+		<Widget Name="CarItem6" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_masserati.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_masserati.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_masserati_disable.png"/>
+			<Property Key="ChildProperty" Value="CarBg:ImagicTexture:GameCar/rolling_conner.png"/>
+			<Property Key="ChildProperty" Value="CarBg:Rotation:180"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_masserati_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_masserati_disable.png"/>
+			<Property Key="Pos" Value="565 569"/>
+		</Widget>
+		
+		<Widget Name="CarItem7" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_vw.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_vw.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_vw_disable.png"/>
+			<Property Key="ChildProperty" Value="CarBg:ImagicTexture:GameCar/rolling_horizontal.png"/>
+			<Property Key="Pos" Value="565 484"/>
+		</Widget>
+		<Widget Name="CarItem8" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_benz.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_benz.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_benz_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_benz_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_benz_disable.png"/>
+			<Property Key="Pos" Value="565 400"/>
+		</Widget>
+		<Widget Name="CarItem9" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_lamborghini.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_lamborghini.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_lamborghini_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_lamborghini_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_lamborghini_disable.png"/>
+			<Property Key="Pos" Value="565 320"/>
+		</Widget>
+		<Widget Name="CarItem10" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_lexus.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_lexus.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_lexus_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_lexus_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_lexus_disable.png"/>
+			<Property Key="Pos" Value="565 238"/>
+		</Widget>
+		<Widget Name="CarItem11" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_bmw.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_bmw.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_bmw_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_bmw_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_bmw_disable.png"/>
+			<Property Key="Pos" Value="565 158"/>
+		</Widget>
+		<Widget Name="CarItem12" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_porsche.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_porsche.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_porsche_disable.png"/>
+			<Property Key="ChildProperty" Value="CarBg:ImagicTexture:GameCar/rolling_conner.png"/>
+			<Property Key="ChildProperty" Value="CarBg:Rotation:270"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_porsche_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_porsche_disable.png"/>
+			<Property Key="Pos" Value="565 72"/>
+		</Widget>
+		
+		<Widget Name="CarItem13" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_vw.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_vw.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_vw_disable.png"/>
+			<Property Key="Pos" Value="480 72"/>
+		</Widget>
+		<Widget Name="CarItem14" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_benz.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_benz.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_benz_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_benz_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_benz_disable.png"/>
+			<Property Key="Pos" Value="392 72"/>
+		</Widget>
+		<Widget Name="CarItem15" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_ferrari.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_ferrari.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_ferrari_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_ferrari_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_ferrari_disable.png"/>
+			<Property Key="Pos" Value="305 72"/>
+		</Widget>
+		<Widget Name="CarItem16" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_lexus.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_lexus.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_lexus_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_lexus_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_lexus_disable.png"/>
+			<Property Key="Pos" Value="217 72"/>
+		</Widget>
+		<Widget Name="CarItem17" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_bmw.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_bmw.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_bmw_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_bmw_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_bmw_disable.png"/>
+			<Property Key="Pos" Value="132 72"/>
+		</Widget>
+		<Widget Name="CarItem18" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_masserati.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_masserati.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_masserati_disable.png"/>
+			<Property Key="ChildProperty" Value="CarBg:ImagicTexture:GameCar/rolling_conner.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_masserati_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_masserati_disable.png"/>
+			<Property Key="Pos" Value="45 72"/>
+		</Widget>
+		
+		<Widget Name="CarItem19" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_vw.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_vw.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_vw_disable.png"/>
+			<Property Key="Pos" Value="45 158"/>
+		</Widget>
+		<Widget Name="CarItem20" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_benz.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_benz.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_benz_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_benz_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_benz_disable.png"/>
+			<Property Key="Pos" Value="45 238"/>
+		</Widget>
+		<Widget Name="CarItem21" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_lamborghini.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_lamborghini.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_lamborghini_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_lamborghini_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_lamborghini_disable.png"/>
+			<Property Key="Pos" Value="45 320"/>
+		</Widget>
+		<Widget Name="CarItem22" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_lexus.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_lexus.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_lexus_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_lexus_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_lexus_disable.png"/>
+			<Property Key="Pos" Value="45 400"/>
+		</Widget>
+		<Widget Name="CarItem23" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_bmw.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_bmw.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_bmw_disable.png"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_bmw_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_bmw_disable.png"/>
+			<Property Key="Pos" Value="45 483"/>
+		</Widget>
+		<Widget Name="CarItem24" SkinTempName="CarNode">
+			<UserInfo Key="LogoImg" Value="GameCar/logo_porsche.png"/>
+			<UserInfo Key="LogoImg_mask" Value="GameCar/eff_mask_porsche.png"/>
+			<UserInfo Key="RecordFile" Value="GameCar/reel_porsche_disable.png"/>
+			<Property Key="ChildProperty" Value="CarBg:ImagicTexture:GameCar/rolling_conner.png"/>
+			<Property Key="ChildProperty" Value="CarBg:Rotation:90"/>
+			<Property Key="ChildProperty" Value="CarEnable:ImagicTexture:GameCar/reel_porsche_enable.png"/>
+			<Property Key="ChildProperty" Value="CarDisable:ImagicTexture:GameCar/reel_porsche_disable.png"/>
+			<Property Key="Pos" Value="45 569"/>
+		</Widget>
+		
+		
+		<Widget Name="CarBtn_Bet1" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_ferrari_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_ferrari_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_ferrari_disable.png"/>
+			<Property Key="Pos" Value="675 80"/>
+			<Action Key="Sound" Value="CarSound/Y201.mp3"/>
+		</Widget>
+		<Widget Name="CarBtn_Bet2" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_benz_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_benz_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_benz_disable.png"/>
+			<Property Key="Pos" Value="735 80"/>
+			<Action Key="Sound" Value="CarSound/Y202.mp3"/>
+		</Widget>
+		<Widget Name="CarBtn_Bet3" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_lamborghini_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_ferrari_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_ferrari_disable.png"/>
+			<Property Key="Pos" Value="795 80"/>
+			<Action Key="Sound" Value="CarSound/Y203.mp3"/>
+		</Widget>
+		<Widget Name="CarBtn_Bet4" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_bmw_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_bmw_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_bmw_disable.png"/>
+			<Property Key="Pos" Value="855 80"/>
+			<Action Key="Sound" Value="CarSound/Y204.mp3"/>
+		</Widget>
+		<Widget Name="CarBtn_Bet5" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_masserati_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_masserati_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_masserati_disable.png"/>
+			<Property Key="Pos" Value="915 80"/>
+			<Action Key="Sound" Value="CarSound/Y205.mp3"/>
+		</Widget>
+		<Widget Name="CarBtn_Bet6" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_lexus_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_lexus_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_lexus_disable.png"/>
+			<Property Key="Pos" Value="975 80"/>
+			<Action Key="Sound" Value="CarSound/Y206.mp3"/>
+		</Widget>
+		<Widget Name="CarBtn_Bet7" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_porsche_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_porsche_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_porsche_disable.png"/>
+			<Property Key="Pos" Value="1035 80"/>
+			<Action Key="Sound" Value="CarSound/Y207.mp3"/>
+		</Widget>
+		<Widget Name="CarBtn_Bet8" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_vw_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_vw_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_vw_disable.png"/>
+			<Property Key="Pos" Value="1095 80"/>
+			<Action Key="Sound" Value="CarSound/Y208.mp3"/>
+		</Widget>
+		
+		<Widget Name="CarBtn_Switch" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_garage_switch_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_garage_switch_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_garage_switch_disable.png"/>
+			<Property Key="Pos" Value="750 288"/>
+		</Widget>
+		<Widget Name="CarBtn_ReBet" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_garage_repeatbet_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_garage_repeatbet_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_garage_repeatbet_disable.png"/>
+			<Property Key="Pos" Value="875 285"/>
+		</Widget>
+		<Widget Name="CarBtn_AutoBet" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_garage_autobet_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_garage_autobet_select.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_garage_autobet_disable.png"/>
+			<Property Key="Pos" Value="995 277"/>
+		</Widget>
+		
+		<Widget Name="Car_TimeLine" SkinTempName="TimeLineNode">
+		</Widget>
+		
+		<Widget Name="Car_TxtAtlasTime" SkinTempName="CarTimeTxtAtlas">
+			<Property Key="ShowTxt" Value="36"/>
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Pos" Value="875 390"/>
+		</Widget>
+		
+		<Widget Name="Car_TxtAtlasWin" SkinTempName="CarGoldTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="802 395"/>
+		</Widget>
+		<Widget Name="Car_TxtAtlasGold" SkinTempName="CarGoldTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="1116 395"/>
+		</Widget>
+		
+		<Widget Name="Car_TxtDanzhu" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="单注:100000"/>
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="22"/>
+			<Property Key="Pos" Value="736 316"/>
+		</Widget>
+		
+		<Widget Name="Car_TxtGenzhu" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="跟注:0轮"/>
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="22"/>
+			<Property Key="Pos" Value="1000 316"/>
+		</Widget>
+		
+		
+		<Widget Name="CarBetTxt1" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="692 188"/>
+		</Widget>
+		<Widget Name="CarBetTxt2" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="752 188"/>
+		</Widget>
+		<Widget Name="CarBetTxt3" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="812 188"/>
+		</Widget>
+		<Widget Name="CarBetTxt4" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="872 188"/>
+		</Widget>
+		<Widget Name="CarBetTxt5" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="930 188"/>
+		</Widget>
+		<Widget Name="CarBetTxt6" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="990 188"/>
+		</Widget>
+		<Widget Name="CarBetTxt7" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="1050 188"/>
+		</Widget>
+		<Widget Name="CarBetTxt8" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="1110 188"/>
+		</Widget>
+		
+		<Widget Name="CarAllBetTxt1" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="692 158"/>
+		</Widget>
+		<Widget Name="CarAllBetTxt2" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="752 158"/>
+		</Widget>
+		<Widget Name="CarAllBetTxt3" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="812 158"/>
+		</Widget>
+		<Widget Name="CarAllBetTxt4" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="872 158"/>
+		</Widget>
+		<Widget Name="CarAllBetTxt5" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="930 158"/>
+		</Widget>
+		<Widget Name="CarAllBetTxt6" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="990 158"/>
+		</Widget>
+		<Widget Name="CarAllBetTxt7" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="1050 158"/>
+		</Widget>
+		<Widget Name="CarAllBetTxt8" SkinTempName="CarBetTxtAtlas">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Pos" Value="1110 158"/>
+		</Widget>
+		
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="昵称:"/>
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="680 590"/>
+		</Widget>
+		
+		<Widget Name="Car_TxtNickName" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="奔驰宝马"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="720 590"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="金币:"/>
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="680 550"/>
+		</Widget>
+		
+		<Widget Name="Car_TxtUserGold" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="10000"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="720 550"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="可用:"/>
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="680 510"/>
+		</Widget>
+		
+		<Widget Name="Car_TxtKeYong" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="10000"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="720 510"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="成绩:"/>
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="680 470"/>
+		</Widget>
+		
+		<Widget Name="Car_TxtResult" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="240 237 48"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="720 470"/>
+		</Widget>
+		
+		<Widget Name="Car_TimeStatus" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="空闲时间"/>
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Color" Value="255 255 0"/>
+			<Property Key="FontSize" Value="18"/>
+			<Property Key="Pos" Value="876 350"/>
+		</Widget>
+		
+		<Widget Name="CarBtn_Return" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameCar/btn_back_normal.png"/>
+			<Property Key="PressTexture" Value="GameCar/btn_back_down.png"/>
+			<Property Key="DisableTexture" Value="GameCar/btn_back_down.png"/>
+			<Property Key="Pos" Value="1060 580"/>
+		</Widget>
+		
+		<Widget Name="CarLogoImg" SkinTempName="public_Clipper">
+			<Property Key="Pos" Value="300 340"/>
+			<Widget Name="CarLogoStencil" SkinTempName="CarLogoImg">
+				<Property Key="Visible" Value="false"/>
+			</Widget>
+			<Widget SkinTempName="Empty">
+				<Widget Name="CarLogoEff" SkinTempName="CarLogoEffect">
+					<Property Key="Aple" Value="0.8"/>
+					<Property Key="Visible" Value="false"/>
+				</Widget>
+			</Widget>
+			<Property Key="Stencil" Value="CarLogoStencil"/>
+			<Property Key="alphaThreshold" Value="0.01"/>
+			<Property Key="inverted" Value="false"/>
+		</Widget>
+		
+		<Widget Name="CarRecordItem1" SkinTempName="CarRecord">
+			<Property Key="Pos" Value="490 150"/>
+		</Widget>
+		<Widget Name="CarRecordItem2" SkinTempName="CarRecord">
+			<Property Key="Pos" Value="438 150"/>
+		</Widget>
+		<Widget Name="CarRecordItem3" SkinTempName="CarRecord">
+			<Property Key="Pos" Value="385 150"/>
+		</Widget>
+		<Widget Name="CarRecordItem4" SkinTempName="CarRecord">
+			<Property Key="Pos" Value="332 150"/>
+		</Widget>
+		<Widget Name="CarRecordItem5" SkinTempName="CarRecord">
+			<Property Key="Pos" Value="279 150"/>
+		</Widget>
+		<Widget Name="CarRecordItem6" SkinTempName="CarRecord">
+			<Property Key="Pos" Value="226 150"/>
+		</Widget>
+		<Widget Name="CarRecordItem7" SkinTempName="CarRecord">
+			<Property Key="Pos" Value="173 150"/>
+		</Widget>
+		<Widget Name="CarRecordItem8" SkinTempName="CarRecord">
+			<Property Key="Pos" Value="120 150"/>
+		</Widget>
+		
+		<Widget Name="CarRecordItemTemp" SkinTempName="CarRecordTemp">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="Pos" Value="490 150"/>
+		</Widget>
+		
+		<Widget Name="CarDaoShu" SkinTempName="DaoShu">
+			<Property Key="Scale" Value="0"/>
+		</Widget>
+		
+	</Widget>
+ </root>

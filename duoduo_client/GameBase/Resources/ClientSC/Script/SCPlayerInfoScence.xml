@@ -1,0 +1,256 @@
+﻿ <root>
+	<LoadSkin Skin="Script/SCPlayerInfoSkin.xml"/>
+	<Widget Name="PlayerInfoPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/Back.png"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScencePlayerInfo/Back.png"/>
+			<Property Key="Pos" Value="0 -40"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScencePlayerInfo/Title.png"/>
+			<Property Key="Pos" Value="0 291"/>
+		</Widget>
+		<Widget Name="Button_BackHome" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="-560 300"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScencePlayerInfo/HeadBack.png"/>
+			<Property Key="Pos" Value="-400 50"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="个人信息"/>
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="Pos" Value="0 291"/>
+			<Property Key="Color" Value="250 250 0"/>
+		</Widget>
+		<Widget Name="PlayerInfoHead" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="-400 50"/>
+			<Property Key="ImagicTexture" Value="Head/Head0.png"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="ID:"/>
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="Pos" Value="-470 -140"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="PlayerInfoID" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="155856"/>
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="Pos" Value="-420 -140"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="-30 30"/>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="Pos" Value="200 100"/>
+				<Property Key="ImagicTexture" Value="ScencePlayerInfo/Line1.png"/>
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="Pos" Value="200 20"/>
+				<Property Key="ImagicTexture" Value="ScencePlayerInfo/Line1.png"/>
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="Pos" Value="200 -60"/>
+				<Property Key="ImagicTexture" Value="ScencePlayerInfo/Line1.png"/>
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="Pos" Value="200 -140"/>
+				<Property Key="ImagicTexture" Value="ScencePlayerInfo/Line1.png"/>
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="Pos" Value="200 -220"/>
+				<Property Key="ImagicTexture" Value="ScencePlayerInfo/Line1.png"/>
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="Pos" Value="55 -20"/>
+				<Property Key="ImagicTexture" Value="ScencePlayerInfo/Line2.png"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="昵称"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-140 140"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="PlayerInfoName" SkinTempName="PlayerInfoNameEdit">
+				<Property Key="ShowTxt" Value="i125365"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-60 140"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="帐号"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-140 60"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="PlayerInfoAccount" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-60 60"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="性别"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-140 -20"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="PlayerInfoGender" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="男"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-60 -20"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="Button_Gender1" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScencePlayerInfo/Button_Gender1.png"/>
+				<Property Key="PressTexture" Value="ScencePlayerInfo/Button_Gender2.png"/>
+				<Property Key="DisableTexture" Value="ScencePlayerInfo/Button_Gender2.png"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Pos" Value="-40 -20"/>
+				<UserInfo Key="Idex" Value="0"/>
+				<Action Key="Able" Value="Button_Gender2"/>
+				<Action Key="Disable" Value="Button_Gender1"/>
+			</Widget>
+			<Widget Name="PlayerInfoGender" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="女"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="80 -20"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="Button_Gender2" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScencePlayerInfo/Button_Gender1.png"/>
+				<Property Key="PressTexture" Value="ScencePlayerInfo/Button_Gender2.png"/>
+				<Property Key="DisableTexture" Value="ScencePlayerInfo/Button_Gender2.png"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Pos" Value="100 -20"/>
+				<UserInfo Key="Idex" Value="1"/>
+				<Action Key="Able" Value="Button_Gender1"/>
+				<Action Key="Disable" Value="Button_Gender2"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="金币"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-140 -100"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="PlayerInfoGold" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="10000"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-60 -100"/>
+				<Property Key="Color" Value="250 250 0"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget  Name="PlayerInfo_PhoneTip" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="手机"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-140 -180"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="PlayerInfo_PhoneNumber" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="无"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-60 -180"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="Button_ChangePlayerInfo" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="确定修改"/>
+				<Property Key="Pos" Value="160 -250"/>
+			</Widget>
+		</Widget>
+		<Widget Name="Button_PasswordAction" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScencePlayerInfo/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="修改密码"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="-400 -220"/>
+			<Action Key="Show" Value="ChangePasswordPlane"/>
+			<Action Key="Hide" Value="PlayerInfoPlane"/>
+		</Widget>
+		<Widget Name="Button_BindPhoneAction" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScencePlayerInfo/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="绑定手机"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="-400 -220"/>
+		</Widget>
+	</Widget>
+	<Widget Name="ChangePasswordPlane" SkinTempName="Empty">
+		<Property Key="Visible" Value="false"/>
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="public_9sprite">
+			<Property Key="Size" Value="840 460"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="修改密码"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 190"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="手机号:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 90"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="180 180 0"/>
+		</Widget>
+		<Widget Name="PhoneEdit" SkinTempName="PlayerInfoPasswordEdit">
+			<Property Key="Pos" Value="-140 90"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="PlaceHolderTxt" Value="请输入帐号"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="当前密码:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 10"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="180 180 0"/>
+		</Widget>
+		<Widget Name="PasswordEdit" SkinTempName="PlayerInfoPasswordEdit">
+			<Property Key="Pos" Value="-140 10"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="PlaceHolderTxt" Value="请输入当前密码"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="设置密码:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 -70"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="180 180 0"/>
+		</Widget>
+		<Widget Name="PasswordEdit" SkinTempName="PlayerInfoPasswordEdit">
+			<Property Key="Pos" Value="-140 -70"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="PlaceHolderTxt" Value="请输入设置密码"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		
+		
+		<Widget Name="Button_ChangePassword" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScencePlayerInfo/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="确定"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="160 -160"/>
+		</Widget>
+		<Widget Name="Button_Close"  SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScencePlayerInfo/Button_Public.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="取消"/>
+			<Property Key="FontSize" Value="45"/>
+			<Action Key="Hide" Value="ChangePasswordPlane"/>
+			<Action Key="Show" Value="PlayerInfoPlane"/>
+			<Property Key="Pos" Value="-160 -160"/>
+		</Widget>
+	</Widget>
+ </root>

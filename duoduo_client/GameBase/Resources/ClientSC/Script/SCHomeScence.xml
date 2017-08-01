@@ -1,0 +1,366 @@
+﻿	<LoadSkin Skin="Script/SCHomeSkin.xml"/>
+	<Widget SkinTempName="Empty">
+		<Widget Name="LogonPlane" SkinTempName="Empty">
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/Back.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget Name="TopPlane" SkinTempName="HomeMoveActionUp">
+				<Property Key="Pos" Value="0 650"/>
+				<UserInfo Key="ComePos" Value="0 650"/>
+				<UserInfo Key="OutPos" Value="0 800"/>
+				<Widget Name="Button_HomeBack" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_HomeBack.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="67 15"/>
+				</Widget>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/HeadBack.png"/>
+					<Property Key="Pos" Value="280 15"/>
+					<Widget Name="Button_PlayerInfoScence" SkinTempName="ButtonEmpty">
+						<Property Key="NomalTexture" Value="Head/Head0.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="42 42"/>
+						<Property Key="Scale" Value="0.24"/>
+					</Widget>
+					<Widget Name="HeadIcon" SkinTempName="ImagicEmpty">
+						<Property Key="ImagicTexture" Value="Head/Head0.png"/>
+						<Property Key="Pos" Value="42 42"/>
+						<Property Key="Scale" Value="0.24"/>
+					</Widget>
+					
+					<Widget Name="HomeName" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value="玩家昵称"/>
+						<Property Key="FontSize" Value="32"/>
+						<Property Key="Pos" Value="90 55"/>
+						<Property Key="AnchorPos" Value="0 0.5"/>
+					</Widget>
+				</Widget>
+				<Widget SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_ShouChong.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="530 15"/>
+				</Widget>
+				<Widget SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_AddGold.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="850 30"/>
+					<Widget Name="HomeGold" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="30"/>
+						<Property Key="Pos" Value="213 25"/>
+						<Property Key="AnchorPos" Value="1 0.5"/>
+					</Widget>
+				</Widget>
+				<Widget SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_Exchange.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="1130 30"/>
+					<Widget Name="HomeDimon" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="30"/>
+						<Property Key="Pos" Value="213 25"/>
+						<Property Key="AnchorPos" Value="1 0.5"/>
+					</Widget>
+				</Widget>
+				<Widget SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_SystemMsg.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="640 -50"/>
+					<Widget Name="HomeDimon" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="25"/>
+						<Property Key="Pos" Value="60 25"/>
+						<Property Key="AnchorPos" Value="0 0.5"/>
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget Name="PeoplePlane" SkinTempName="HomeMoveAction">
+				<Property Key="Pos" Value="640 -550"/>
+				<UserInfo Key="ComePos" Value="640 0"/>
+				<UserInfo Key="OutPos" Value="640 -550"/>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/People.png"/>
+					<Property Key="Pos" Value="0 250"/>
+				</Widget>
+			</Widget>
+			<Widget Name="ButtomPlane" SkinTempName="HomeMoveActionDown">
+				<Property Key="Pos" Value="640 -150"/>
+				<UserInfo Key="ComePos" Value="640 0"/>
+				<UserInfo Key="OutPos" Value="640 -150"/>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/ButtomBack.png"/>
+					<Property Key="Pos" Value="0 30"/>
+				</Widget>
+				<Widget Name="Button_DuiHuan" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_DuiHuan.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="-500 50"/>
+				</Widget>
+				<Widget Name="Button_SheZhi" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_SheZhi.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="-350 50"/>
+				</Widget>
+				<Widget Name="Button_YouJian" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_YouJian.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="-200 50"/>
+				</Widget>
+				<Widget Name="Button_ShangCheng" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_ShangCheng.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="0 75"/>
+				</Widget>
+				<Widget Name="Button_BeginnerScence" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_HuoDong.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="200 50"/>
+				</Widget>
+				<Widget Name="Button_AddRanScence" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_PaiHangBang.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="350 50"/>
+				</Widget>
+				<Widget Name="Button_RenWu" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_RenWu.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="500 50"/>
+				</Widget>
+			</Widget>
+			<Widget Name="LeftPlane" SkinTempName="HomeMoveActionLeft">
+				<Property Key="Pos" Value="-400 310"/>
+				<UserInfo Key="ComePos" Value="0 310"/>
+				<UserInfo Key="OutPos" Value="-400 310"/>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/LeftBack.png"/>
+					<Property Key="Pos" Value="210 0"/>
+				</Widget>
+				<Widget Name="Button_TalkPlane" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_Left2.png"/>
+					<Property Key="PressTexture" Value="ScenceHome/Button_Left1.png"/>
+					<Property Key="DisableTexture" Value="ScenceHome/Button_Left1.png"/>
+					<Property Key="Pos" Value="120 220"/>
+					<Property Key="Enable" Value="120 220"/>
+					<Action Key="Disable" Value="Button_TalkPlane"/>
+					<Action Key="Able" Value="Button_RankPlane"/>
+					<Action Key="Show" Value="Button_TalkPlanePic"/>
+					<Action Key="Show" Value="LeftPlane1"/>
+					<Action Key="Hide" Value="LeftPlane2"/>
+				</Widget>
+				<Widget Name="Button_RankPlane" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_Left2.png"/>
+					<Property Key="PressTexture" Value="ScenceHome/Button_Left1.png"/>
+					<Property Key="DisableTexture" Value="ScenceHome/Button_Left1.png"/>
+					<Property Key="Pos" Value="270 220"/>
+					<Action Key="Able" Value="Button_TalkPlane"/>
+					<Action Key="Disable" Value="Button_RankPlane"/>
+					<Action Key="Hide" Value="Button_TalkPlanePic"/>
+					<Action Key="Show" Value="LeftPlane2"/>
+					<Action Key="Hide" Value="LeftPlane1"/>
+				</Widget>
+				<Widget Name="Button_TalkPlanePic" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/Button_Left1.png"/>
+					<Property Key="Pos" Value="120 220"/>
+				</Widget>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/LeftPic1.png"/>
+					<Property Key="Pos" Value="100 220"/>
+				</Widget>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/LeftPic2.png"/>
+					<Property Key="Pos" Value="270 220"/>
+				</Widget>
+				<Widget Name="LeftPlane1" SkinTempName="Empty">
+					<Widget Name="Button_TalkEdit" SkinTempName="ButtonEmpty">
+						<Property Key="NomalTexture" Value="ScenceHome/Button_TalkEdit.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="210 -180"/>
+					</Widget>
+				</Widget>
+				<Widget Name="LeftPlane2" SkinTempName="Empty">
+					<Property Key="Visible" Value="false"/>
+					<Widget SkinTempName="List">
+						<Property Key="Size" Value="380 370"/>
+						<Property Key="Pos" Value="20 -185"/>
+						<Property Key="HideBack" Value=""/>
+						<Widget SkinTempName="HomeRankNode">
+						</Widget>
+						<Widget SkinTempName="HomeRankNode">
+						</Widget>
+						<Widget SkinTempName="HomeRankNode">
+						</Widget>
+						<Widget SkinTempName="HomeRankNode">
+						</Widget>
+						<Widget SkinTempName="HomeRankNode">
+						</Widget>
+					</Widget>
+				</Widget>
+			</Widget>
+			<Widget Name="RightPlane" SkinTempName="HomeMoveActionRight">
+				<Property Key="Pos" Value="450 310"/>
+				<UserInfo Key="ComePos" Value="0 310"/>
+				<UserInfo Key="OutPos" Value="450 310"/>
+				<Widget Name="Button_PuTongFang" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_PuTongFang.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="1030 170"/>
+					<Action Key="Hide" Value="LeftPlane"/>
+					<Action Key="Hide" Value="RightPlane"/>
+					<Action Key="Hide" Value="Button_HomeBack"/>
+					<Action Key="Hide" Value="ButtomPlane"/>
+					<Action Key="Show" Value="GameRoom1"/>
+				</Widget>
+				<Widget Name="Button_ZhuanJinFang" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_ZhuanJinFang.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="952 40"/>
+				</Widget>
+				<Widget Name="Button_GengDuo" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_GengDuo.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="1135 40"/>
+				</Widget>
+				<Widget Name="Button_BiShaiFang" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_BiShaiFang.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="1030 -95"/>
+					<Action Key="Hide" Value="LeftPlane"/>
+					<Action Key="Hide" Value="RightPlane"/>
+					<Action Key="Hide" Value="Button_HomeBack"/>
+					<Action Key="Hide" Value="ButtomPlane"/>
+					<Action Key="Show" Value="GameRoom2"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget Name="GameRoom1" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 295"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="ScenceHome/GameRoom1/9Scale.png"/>
+				<Property Key="Size" Value="1150 565"/>
+				<Property Key="Pos" Value="0 -5"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/Button_HomeBack.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-574 370"/>
+				<Action Key="Hide" Value="GameRoom1"/>
+				<Action Key="Show" Value="LeftPlane"/>
+				<Action Key="Show" Value="RightPlane"/>
+				<Action Key="Show" Value="ButtomPlane"/>
+				<Action Key="Show" Value="Button_HomeBack"/>
+			</Widget>
+			<Widget Name="Button_List_XZDD" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/GameRoom1/Button_List_XZDD.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-380 200"/>
+			</Widget>
+			<Widget Name="Button_List_XLCH" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/GameRoom1/Button_List_XLCH.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-380 65"/>
+			</Widget>
+			<Widget Name="Button_List_CDMJ" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/GameRoom1/Button_List_CDMJ.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-380 -70"/>
+			</Widget>
+			<Widget Name="Button_List_XLCH" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/GameRoom1/Button_List_XLCH.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-380 -205"/>
+			</Widget>
+			<Widget Name="Button_GameRoom_Quick" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/GameRoom1/Button_GameRoom_Quick.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="160 -225"/>
+			</Widget>
+			<Widget Name="XZDDListRoom1" SkinTempName="List">
+				<Property Key="Size" Value="680 420"/>
+				<Property Key="Pos" Value="-150 -160"/>
+				<Property Key="HideBack" Value=""/>
+			</Widget>
+		</Widget>
+		<Widget Name="GameRoom2" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 295"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="ScenceMatch/9Scale.png"/>
+				<Property Key="Size" Value="1150 565"/>
+				<Property Key="Pos" Value="0 -5"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/Button_HomeBack.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-574 370"/>
+				<Action Key="Hide" Value="GameRoom2"/>
+				<Action Key="Show" Value="LeftPlane"/>
+				<Action Key="Show" Value="RightPlane"/>
+				<Action Key="Show" Value="ButtomPlane"/>
+				<Action Key="Show" Value="Button_HomeBack"/>
+			</Widget>
+			<Widget Name="XZDDListRoom2" SkinTempName="List">
+				<Property Key="Size" Value="1090 520"/>
+				<Property Key="Pos" Value="-550 -260"/>
+				<Property Key="HideBack" Value=""/>
+				<Widget Name="" SkinTempName="HomeMacthRoomNode">
+				</Widget>
+				<Widget Name="" SkinTempName="HomeMacthRoomNode">
+				</Widget>
+				<Widget Name="" SkinTempName="HomeMacthRoomNode">
+				</Widget>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="SCMatchInfoNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="public/9Scale.png"/>
+				<Property Key="Size" Value="800 600"/>
+				<Property Key="Pos" Value="0 -25"/>
+			</Widget>
+			
+			<Widget  SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="ScenceMatch/9Scale.png"/>
+				<Property Key="Size" Value="600 400"/>
+				<Property Key="Pos" Value="80 -20"/>
+			</Widget>
+			
+			<Widget Name="HomeDimon" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="赛事详情"/>
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="Pos" Value="0 235"/>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceMatch/Button_SignupMatch.png"/>
+				<Property Key="ShowTxt" Value="概 况"/>
+				<Property Key="Size" Value="160 90"/>
+				<Property Key="Scale9" Value="true"/>
+				<Property Key="Pos" Value="-300 100"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceMatch/Button_SignupMatch.png"/>
+				<Property Key="ShowTxt" Value="奖励"/>
+				<Property Key="Size" Value="160 90"/>
+				<Property Key="Scale9" Value="true"/>
+				<Property Key="Pos" Value="-300 0"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceMatch/Button_SignupMatch.png"/>
+				<Property Key="ShowTxt" Value="规则"/>
+				<Property Key="Size" Value="160 90"/>
+				<Property Key="Scale9" Value="true"/>
+				<Property Key="Pos" Value="-300 -100"/>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="报 名"/>
+				<Property Key="Pos" Value="0 -260"/>
+			</Widget>
+			
+		</Widget>
+		
+	</Widget>

@@ -1,0 +1,68 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNSetSkin.xml"/>
+	<Widget Name="SetPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceHome/public_frame_a.png"/>
+			<Property Key="Size" Value="800 500"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceHome/fangkaxiaobeijing.png"/>
+			<Property Key="Size" Value="700 300"/>
+			<Property Key="Pos" Value="0 -0"/>
+			<Property Key="Aple" Value="0.3"/>
+		</Widget>
+		<Widget Name="Button_HideSet" SkinTempName="Button_Close">
+			<Property Key="Pos" Value="380 230"/>
+			<Action Key="Hide" Value="SetPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/setting_title.png"/>
+			<Property Key="Pos" Value="0 190"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/setting_sound_effect.png"/>
+			<Property Key="Pos" Value="-290 50"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/setting_min_sound_sign.png"/>
+			<Property Key="Pos" Value="-220 50"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/setting_max_sound_sign.png"/>
+			<Property Key="Pos" Value="260 50"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/setting_music.png"/>
+			<Property Key="Pos" Value="-290 -50"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/setting_min_sound_sign.png"/>
+			<Property Key="Pos" Value="-220 -50"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/setting_max_sound_sign.png"/>
+			<Property Key="Pos" Value="260 -50"/>
+		</Widget>
+		<Widget Name="SetBar1" SkinTempName="SetBar">
+			<Property Key="Pos" Value="20 50"/>
+			<Widget Name="SetBarSider1" SkinTempName="SetBarSider">
+				<Property Key="Pos" Value="-180 0"/>
+			</Widget>
+		</Widget>
+		<Widget Name="SetBar2" SkinTempName="SetBar">
+			<Property Key="Pos" Value="20 -50"/>
+			<Widget Name="SetBarSider2" SkinTempName="SetBarSider">
+				<Property Key="Pos" Value="-180 0"/>
+			</Widget>
+		</Widget>
+		<Widget Name="Button_HomeExit" SkinTempName="ButtonTxtEmpty">
+			<Property Key="ShowTxt" Value="退出游戏"/>
+			<Property Key="Pos" Value="0 -195"/>
+			<Property Key="Visible" Value="false"/>
+		</Widget>
+	</Widget>
+ </root>

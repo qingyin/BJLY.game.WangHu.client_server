@@ -1,0 +1,329 @@
+﻿ <root>
+	<LoadSkin Skin="Script/DBBankSkin.xml"/>
+	<Widget Name="BankPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceBank/Back.png"/>
+		</Widget>
+		<Widget SkinTempName="Button_Close">
+			<Property Key="Pos" Value="340 240"/>
+			<Action Key="Hide" Value="BankPlane"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="银行"/>
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="Pos" Value="0 220"/>
+			<Property Key="Color" Value="250 250 0"/>
+		</Widget>
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="40 -10"/>
+			<Widget SkinTempName="Bank_9sprite">
+				<Property Key="Size" Value="600 80"/>
+				<Property Key="Pos" Value="-20 -10"/>
+			</Widget>
+			<Widget SkinTempName="Bank_9sprite">
+				<Property Key="Size" Value="600 80"/>
+				<Property Key="Pos" Value="-20 100"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="您的金币:"/>
+				<Property Key="FontSize" Value="36"/>
+				<Property Key="Pos" Value="-290 100"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="OutLine" Value="0 0 250 250:1"/>
+			</Widget>
+			<Widget Name="BankTakeScore0" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="1000000"/>
+				<Property Key="FontSize" Value="36"/>
+				<Property Key="Pos" Value="-120 100"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="255 255 0"/>
+				<Property Key="OutLine" Value="0 0 250 250:1"/>
+			</Widget>
+			<Widget Name="BankButton_Take" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceBank/Button_BindPhone.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="取款"/>
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="Pos" Value="160 100"/>
+				<Property Key="Scale" Value="1.1"/>
+				<Action Key="Show" Value="BankTakePlane"/>
+			</Widget>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="银行存款:"/>
+				<Property Key="FontSize" Value="36"/>
+				<Property Key="Pos" Value="-290 -10"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="OutLine" Value="0 0 250 250:1"/>
+			</Widget>
+			<Widget Name="BankSaveScore0" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="1000000"/>
+				<Property Key="FontSize" Value="36"/>
+				<Property Key="Pos" Value="-120 -10"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="255 255 0"/>
+				<Property Key="OutLine" Value="0 0 250 250:1"/>
+			</Widget>
+			<Widget Name="BankButton_Save" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="ScenceBank/Button_BindPhone.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="存款"/>
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="Pos" Value="160 -10"/>
+				<Property Key="Scale" Value="1.1"/>
+				<Action Key="Show" Value="BankSavePlane"/>
+			</Widget>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="取款税率:"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="-140 -90"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="RevenueTakeTxt" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="50%"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="-130 -90"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="BankButton_ChangeBankPassword" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceBank/Button_BindPhone.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="修改银行密码"/>
+			<Property Key="FontSize" Value="18"/>
+			<Property Key="Pos" Value="0 -200"/>
+			<Property Key="Scale" Value="1.3"/>
+			<Action Key="Show" Value="BankChangePasswordPlane"/>
+		</Widget>
+	</Widget>
+	<Widget Name="BankSavePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceBank/AccountPlane.png"/>
+			<Property Key="Scale" Value="0.6"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="存款"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 165"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="你的金币:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 80"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="OutLine" Value="0 0 250 250:1"/>
+		</Widget>
+		<Widget Name="BankTakeScore1" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="1000000"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-0 80"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="255 255 0"/>
+			<Property Key="OutLine" Value="0 0 250 250:1"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="金额:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="BankSaveEdit" SkinTempName="BankGoldNameEdit">
+			<Property Key="Pos" Value="-140 0"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="Button_SaveGoldAction" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="确定"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="160 -120"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+		<Widget Name=""  SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="取消"/>
+			<Property Key="FontSize" Value="45"/>
+			<Action Key="Hide" Value="BankSavePlane"/>
+			<Property Key="Pos" Value="-160 -120"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+	</Widget>
+	<Widget Name="BankTakePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceBank/AccountPlane.png"/>
+			<Property Key="Scale" Value="0.6"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="取款"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 165"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="银行存款:"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-170 80"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="OutLine" Value="0 0 250 250:1"/>
+		</Widget>
+		<Widget Name="BankSaveScore1" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="1000000"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="-0 80"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="255 255 0"/>
+			<Property Key="OutLine" Value="0 0 250 250:1"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="金额:"/>
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="Pos" Value="-160 20"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="BankTakeEdit" SkinTempName="BankGoldNameEdit">
+			<Property Key="Pos" Value="-140 20"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="银行密码:"/>
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="Pos" Value="-160 -50"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="BankTalkPasswordEdit" SkinTempName="BankGoldNameEdit">
+			<Property Key="Pos" Value="-140 -50"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="PlaceHolderTxt" Value="请输入银行密码"/>
+		</Widget>
+		<Widget Name="Button_TakeGoldAction" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="确定"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="160 -140"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+		<Widget Name=""  SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="取消"/>
+			<Property Key="FontSize" Value="45"/>
+			<Action Key="Hide" Value="BankTakePlane"/>
+			<Property Key="Pos" Value="-160 -140"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+	</Widget>
+	<Widget Name="BankSetPasswordPlane" SkinTempName="Empty">
+		<Property Key="Visible" Value="false"/>
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceBank/AccountPlane.png"/>
+			<Property Key="Scale" Value="0.6"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="请先设置银行密码"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 165"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="银行密码:"/>
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="Pos" Value="-160 0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="SetBankPasswordEdit" SkinTempName="BankGoldNameEdit">
+			<Property Key="Pos" Value="-140 0"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="PlaceHolderTxt" Value="请输入银行密码"/>
+		</Widget>
+		<Widget Name="Button_SetBankPasswordAction" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="确定"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="160 -140"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+		<Widget Name=""  SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="取消"/>
+			<Property Key="FontSize" Value="45"/>
+			<Action Key="Hide" Value="BankSetPasswordPlane"/>
+			<Property Key="Pos" Value="-160 -140"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+	</Widget>
+	<Widget Name="BankChangePasswordPlane" SkinTempName="Empty">
+		<Property Key="Visible" Value="false"/>
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceBank/AccountPlane.png"/>
+			<Property Key="Scale" Value="0.6"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="修改银行密码"/>
+			<Property Key="FontSize" Value="36"/>
+			<Property Key="Pos" Value="0 165"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="旧密码:"/>
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="Pos" Value="-160 50"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="SrcBankPasswordEdit" SkinTempName="BankGoldNameEdit">
+			<Property Key="Pos" Value="-140 50"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="PlaceHolderTxt" Value="请输入旧的银行密码"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="新密码:"/>
+			<Property Key="FontSize" Value="32"/>
+			<Property Key="Pos" Value="-160 -30"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="DestBankPasswordEdit" SkinTempName="BankGoldNameEdit">
+			<Property Key="Pos" Value="-140 -30"/>
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="PlaceHolderTxt" Value="请输入新的银行密码"/>
+		</Widget>
+		<Widget Name="Button_ChangeBankPasswordAction" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="确定"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="160 -140"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+		<Widget Name=""  SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_Pic.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="ShowTxt" Value="取消"/>
+			<Property Key="FontSize" Value="45"/>
+			<Action Key="Hide" Value="BankChangePasswordPlane"/>
+			<Property Key="Pos" Value="-160 -140"/>
+			<Property Key="Scale" Value="0.7"/>
+		</Widget>
+	</Widget>
+ </root>

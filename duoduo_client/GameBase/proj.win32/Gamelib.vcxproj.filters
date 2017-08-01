@@ -1,0 +1,2052 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Tools">
+      <UniqueIdentifier>{c22505e4-d23a-431b-afae-f9c59975c4cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{1cdf04f4-52d3-4f12-8e1b-76cf2ccd50f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel">
+      <UniqueIdentifier>{8baddb85-174e-4015-89b8-2c2085c5e636}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="pthread">
+      <UniqueIdentifier>{dac0b8fe-7fe7-4245-9355-88e28d833cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\core">
+      <UniqueIdentifier>{d8d545d0-2f34-4a57-b09b-c4a7fa1f1d6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tools\tools">
+      <UniqueIdentifier>{2219e3c1-123c-4226-af90-0a3e10589544}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\kernel">
+      <UniqueIdentifier>{3fb2531c-b835-4928-a0c9-95c76cf25ffe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\network">
+      <UniqueIdentifier>{b7cf47cf-dc27-4bc8-8779-b7e05abe3d56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\socket">
+      <UniqueIdentifier>{a90eb4f4-bb93-42f6-8c18-95b312103fa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\kernel\game">
+      <UniqueIdentifier>{c43a041e-f167-4148-b99d-dea571fe9a3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\kernel\server">
+      <UniqueIdentifier>{04157174-4098-4df2-bb15-2ff14d608db8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\kernel\user">
+      <UniqueIdentifier>{1a78be4b-37fc-4fe7-aa91-18196c22ece7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\FV">
+      <UniqueIdentifier>{4d1fddc1-2c4a-454a-915f-7fbb08d892dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Script">
+      <UniqueIdentifier>{1308a2b3-26af-48e3-a24a-03cd8e1a492f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Widget">
+      <UniqueIdentifier>{dfb9da27-4b58-430d-9489-079bc1a0c7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Platform">
+      <UniqueIdentifier>{6ee38556-0ce3-43aa-bf89-2aa7a06deb1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Platform\PFDefine">
+      <UniqueIdentifier>{aa6fc214-74c6-4b1d-a04c-588f0d3686d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Platform\PFDefine\data">
+      <UniqueIdentifier>{8b5dd6e0-de82-45cd-8eab-cdb658cf79ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Platform\PFDefine\df">
+      <UniqueIdentifier>{1bf2cf9c-535f-4827-b4a6-fe651a75026b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Platform\PFDefine\msg">
+      <UniqueIdentifier>{2b7f1925-cd61-4653-b75b-b483fe37f5a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Kernel\Platform\PFKernel">
+      <UniqueIdentifier>{7df89e3e-2fec-48f4-a922-1ad381cccfe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game">
+      <UniqueIdentifier>{2e27f6c5-b79f-47a2-8f2f-95bb5f8cc855}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameNet">
+      <UniqueIdentifier>{19b8b33c-0413-478a-9e8e-40dece3aa667}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameNet\cocosHttp">
+      <UniqueIdentifier>{17c270e7-269c-4276-9f2c-9e500da157c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="JniCross">
+      <UniqueIdentifier>{26fed972-abaf-487d-be98-0cb9bd332cdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sound">
+      <UniqueIdentifier>{8a399322-9c0d-4bdf-a29e-2316232065ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Sound\amr_nb">
+      <UniqueIdentifier>{429fce9b-8b63-4025-99f1-87c171e76b11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game\HNMJ">
+      <UniqueIdentifier>{03994d63-5cc1-4de7-91f1-f8960cfbbc34}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game\XZDD">
+      <UniqueIdentifier>{c779bfa1-a114-4862-9243-5079d5946c93}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Game\NIUNIU">
+      <UniqueIdentifier>{b34b1fcc-a95f-4179-b239-fe52af0c27a4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\GameLib\Tools\ToolsHeader.h">
+      <Filter>Tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Tools\core\CCUserDefault.h">
+      <Filter>Tools\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Tools\core\Encrypt.h">
+      <Filter>Tools\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Tools\core\MD5.h">
+      <Filter>Tools\core</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Tools\tools\Convert.h">
+      <Filter>Tools\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\pthread\sched.h">
+      <Filter>pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\pthread\semaphore.h">
+      <Filter>pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\pthread\pthread.h">
+      <Filter>pthread</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\data\GlobalUserInfo.h">
+      <Filter>Kernel\Platform\PFDefine\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\data\OptionParameter.h">
+      <Filter>Kernel\Platform\PFDefine\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\data\ServerListData.h">
+      <Filter>Kernel\Platform\PFDefine\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\data\GlobalUnits.h">
+      <Filter>Kernel\Platform\PFDefine\data</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\DF.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\GameLog.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\Macro.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\Module.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\Packet.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\Platform.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\Property.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\RightDefine.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\ServerRule.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\Struct.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\types.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\datastream.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\Define.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\msg\CMD_LogonServer.h">
+      <Filter>Kernel\Platform\PFDefine\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\msg\CMD_GameServer.h">
+      <Filter>Kernel\Platform\PFDefine\msg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\GlobalConfig.h">
+      <Filter>Kernel\Platform\PFDefine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPFaceMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPIndividualMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPInsureMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPKefuMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPLoginMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPLowProtectMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPMachineMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPMessageMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPPasswordMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPPersonalInfoMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPSignInMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPTimeAwardMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPUnderWriteMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\GPMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\game\IClientKernelSink.h">
+      <Filter>Kernel\kernel\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\server\CServerItem.h">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\server\IServerItem.h">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\server\IServerItemSink.h">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\server\ITableViewFrame.h">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\server\TableViewFrame.h">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\user\ClientUserManager.h">
+      <Filter>Kernel\kernel\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\user\IClientUserItem.h">
+      <Filter>Kernel\kernel\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\user\IUserManagerSink.h">
+      <Filter>Kernel\kernel\user</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\IGameFrameSink.h">
+      <Filter>Kernel\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\IRoomFrameSink.h">
+      <Filter>Kernel\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\IStringMessageSink.h">
+      <Filter>Kernel\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\IChatSink.h">
+      <Filter>Kernel\kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\network\CSocketEngine.h">
+      <Filter>Kernel\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\network\CSocketMission.h">
+      <Filter>Kernel\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\network\ISocketEngine.h">
+      <Filter>Kernel\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\network\ISocketEngineSink.h">
+      <Filter>Kernel\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\network\QPCipher.h">
+      <Filter>Kernel\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\socket\Socket.h">
+      <Filter>Kernel\socket</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\FvDoubleLink.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\FvKernel.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\FvMask.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\FvProvider.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\FvReferencePtr.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\FvSingleton.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\FvSmartPointer.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\NetLog.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\FV\FvDebug.h">
+      <Filter>Game\FV</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\ScriptData.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\ScriptXMLparse.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\SoundFun.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\StructType.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\TimeManager.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\TimeNode.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\utility.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\UtilityBase.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\WindowInfo.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Script\ActionEx.h">
+      <Filter>Game\Script</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\ButtonEx.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\CCScale9Sprite.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\ColorTxt.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\EditBoxWidget.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\FvNode.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\LabelAtlasAction.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\ListViewEx.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\OutLineEffect.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\ProgressBarWidget.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\QYActionDefine.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\QYLabel.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\QYRenderTarget.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\SelectBox.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\SliderMenu.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\SpriteBlur.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\WidgetDefine.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\WidgetFun.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\WidgetManager.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\WidgetScenceXmlParse.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\WidgetSkinXMLparse.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\ActionTagDefine.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\AnimationWidget.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFDefine\df\PacketAide.h">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\UserInfo.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\NoticeMsg.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPublicNoticMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\EffectScence.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\GameBase.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\GamePlayer.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\ScenceManagerBase.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\GameManagerBase.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\GameDefine.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\PopScence.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPBeginnerMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPAddRankMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\network\CCallMission.h">
+      <Filter>Kernel\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGMatchMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPRoomListOnLineMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\server\IServerMatchSink.h">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\QYCardTurnManager.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\QYCardTurn.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Widget\QYPageTurn3D.h">
+      <Filter>Game\Widget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Kernel\kernel\server\IServerPrivateSink.h">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\ImagicDownManager.h">
+      <Filter>GameNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\MCWebReq.h">
+      <Filter>GameNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\MLClientInetAddress.h">
+      <Filter>GameNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\MLClientNetDelegate.h">
+      <Filter>GameNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\MLClientScoket.h">
+      <Filter>GameNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\MLNetDefine.h">
+      <Filter>GameNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\cocosHttp\HttpClientEx.h">
+      <Filter>GameNet\cocosHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\cocosHttp\HttpRequestEx.h">
+      <Filter>GameNet\cocosHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\GameNet\cocosHttp\HttpResponseEx.h">
+      <Filter>GameNet\cocosHttp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\JniCross\JniCallback.h">
+      <Filter>JniCross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\JniCross\JniFun.h">
+      <Filter>JniCross</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\MissionWeiXin.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\GameLib.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPShopInfoMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPGameRecord.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\ArmFun.h">
+      <Filter>Game\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\add.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\agc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\amrdecode.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\amrencode.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\autocorr.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\az_lsp.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\b_cn_cod.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\basic_op.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\basic_op_arm_gcc_v5.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\basic_op_c_equivalent.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\basicop_malloc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\bgnscd.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\bitno_tab.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\bitreorder_tab.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\bytesused.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\c_g_aver.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\c2_9pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\c2_11pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\c3_14pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\c4_17pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\c8_31pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\c1035pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\calc_cor.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\calc_en.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\cbsearch.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\cl_ltp.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\cnst.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\cnst_vad.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\cod_amr.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\convolve.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\cor_h.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\cor_h_x.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\cor_h_x2.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d_gain_c.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d_gain_p.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d_plsf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d2_9pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d2_11pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d3_14pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d4_17pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d8_31pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\d1035pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\dec_amr.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\dec_gain.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\dec_lag3.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\dec_lag6.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\decoder_gsm_amr.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\div_32.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\div_s.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\dtx_common_def.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\dtx_dec.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\dtx_enc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\ec_gains.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\enc_lag3.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\enc_lag6.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\ets_to_if2.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\ets_to_wmf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\ex_ctrl.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\frame.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\frame_type_3gpp.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\g_adapt.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\g_code.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\g_pitch.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\gain_q.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\gc_pred.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\get_const_tbls.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\gmed_n.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\gsm_amr_typedefs.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\gsmamr_dec.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\gsmamr_enc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\gsmamr_encoder_wrapper.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\hp_max.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\if2_to_ets.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\int_lpc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\int_lsf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\inter_36.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\inter_36_tab.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\interf_dec.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\interf_enc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\inv_sqrt.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_abs.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_add.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_add_c.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_comp.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_extract.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_mac.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_msu.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_mult.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_negate.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_shl.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_shr.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_shr_r.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\l_sub.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lag_wind.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lag_wind_tab.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\levinson.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\log2.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\log2_norm.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lpc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lsfwt.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lsp.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lsp_avg.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lsp_az.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lsp_lsf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\lsp_tab.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\mac_32.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\mode.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\mpy_32.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\mpy_32_16.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\mult.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\mult_r.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\n_proc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\negate.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\norm_l.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\norm_s.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\ol_ltp.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\oper_32b.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\oscl_base.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\oscl_base_macros.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\oscl_mem.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\p_ol_wgh.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\ph_disp.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pitch_fr.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pitch_ol.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\post_pro.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pow2.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pre_big.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pre_proc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pred_lt.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\preemph.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\prm2bits.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pstfilt.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pvamrnbdecoder_api.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pvgsmamr.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pvgsmamrdecoder.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pvgsmamrdecoder_dpi.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\pvgsmamrdecoderinterface.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\q_gain_c.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\q_gain_p.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\q_plsf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\q_plsf_3_tbl.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\q_plsf_5_tbl.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\qgain475.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\qgain475_tab.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\qgain795.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\qua_gain.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\qua_gain_tbl.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\reorder.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\residu.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\reverse_bits.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\round.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\s10_8pf.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\set_sign.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\set_zero.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\shl.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\shr.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\shr_r.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\sid_sync.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\sp_dec.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\sp_enc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\spreproc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\spstproc.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\sqrt_l.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\sub.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\syn_filt.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\ton_stab.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\typedef.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\vad.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\vad1.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\vad2.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\wavreader.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\wavwriter.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\weight_a.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\window_tab.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\wmf_to_ets.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\a_refl.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Sound\amr_nb\abs_s.h">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\HNPrivateScenceBase.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGUserInGameServerInfo.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPRouletteMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPReqPlayerInfoMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Platform\PFKernel\CGPExchangeMission.h">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\HNMJ\HNMJPlayer.h">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\HNMJ\HNMJSoundFun.h">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\HNMJ\CMD_HNMJ.h">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\HNMJ\HNMJGameLogic.h">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence.h">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\UserScript.h">
+      <Filter>Game\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\NIUNIU\NNPlayer.h">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\NIUNIU\NNSoundFun.h">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\NIUNIU\CMD_Ox.h">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\NIUNIU\NNGameLogic.h">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\NIUNIU\NNGameScence.h">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\XZDD\XZDDGameScence.h">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\XZDD\XZDDPlayer.h">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\XZDD\XZDDSoundFun.h">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\XZDD\CMD_XZDD.h">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClInclude>
+    <ClInclude Include="..\GameLib\Game\Game\XZDD\XZDDGameLogic.h">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\GameLib\Tools\core\CCUserDefault.cpp">
+      <Filter>Tools\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Tools\core\Encrypt.cpp">
+      <Filter>Tools\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Tools\core\MD5.cpp">
+      <Filter>Tools\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Tools\tools\Convert.cpp">
+      <Filter>Tools\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFDefine\data\OptionParameter.cpp">
+      <Filter>Kernel\Platform\PFDefine\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFDefine\data\ServerListData.cpp">
+      <Filter>Kernel\Platform\PFDefine\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFDefine\data\GlobalUnits.cpp">
+      <Filter>Kernel\Platform\PFDefine\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFDefine\data\GlobalUserInfo.cpp">
+      <Filter>Kernel\Platform\PFDefine\data</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFDefine\df\DF.cpp">
+      <Filter>Kernel\Platform\PFDefine\df</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPIndividualMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPInsureMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPKefuMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPLoginMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPLowProtectMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPMachineMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPMessageMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPPasswordMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPPersonalInfoMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPSignInMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPTimeAwardMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPUnderWriteMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPFaceMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\CServerItem.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\CServerItemAction.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\CServerItemEventSocket.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\CServerItemFrameSink.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\CServerItemUser.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainConfig.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainGameFrame.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainInsure.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainLogon.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainManager.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainMatch.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainStatus.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainSystem.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainUser.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\TableViewFrame.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\user\ClientUserManager.cpp">
+      <Filter>Kernel\kernel\user</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\network\CSocketMission.cpp">
+      <Filter>Kernel\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\network\QPCipher.cpp">
+      <Filter>Kernel\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\network\CSocketEngine.cpp">
+      <Filter>Kernel\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\socket\Socket.cpp">
+      <Filter>Kernel\socket</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\FV\FvReferencePtr.cpp">
+      <Filter>Game\FV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\FV\NetLog.cpp">
+      <Filter>Game\FV</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Script\ScriptXMLparse.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Script\SoundFun.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Script\TimeManager.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Script\TimeNode.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Script\utility.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Script\WindowInfo.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Script\ActionEx.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Script\ScriptData.cpp">
+      <Filter>Game\Script</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\CCScale9Sprite.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\ColorTxt.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\EditBoxWidget.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\FvNode.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\LabelAtlasAction.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\ListViewEx.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\OutLineEffect.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\ProgressBarWidget.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\QYLabel.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\QYRenderTarget.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\SelectBox.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\SliderMenu.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\SpriteBlur.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\WidgetFun.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\WidgetManager.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\WidgetManager_QYAction.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\WidgetScenceXmlParse.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\WidgetSkinXMLparse.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\AnimationWidget.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\ButtonEx.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\UserInfo.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NoticeMsg.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPublicNoticMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\EffectScence.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\GameBase.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\GameBase_Logic.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\GameBase_Match.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\GameBase_User.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\GameBase_Main.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\GamePlayer.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\ScenceManagerBase.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\GameManagerBase.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\PopScence.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPBeginnerMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPAddRankMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\network\CCallMission.cpp">
+      <Filter>Kernel\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGMatchMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPRoomListOnLineMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\QYCardTurnManager.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\QYCardTurn.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Widget\QYPageTurn3D.cpp">
+      <Filter>Game\Widget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Kernel\kernel\server\SocketMainPrivate.cpp">
+      <Filter>Kernel\kernel\server</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\GameNet\ImagicDownManager.cpp">
+      <Filter>GameNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\GameNet\MCWebReq.cpp">
+      <Filter>GameNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\GameNet\MLClientInetAddress.cpp">
+      <Filter>GameNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\GameNet\MLClientNetDelegate.cpp">
+      <Filter>GameNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\GameNet\MLClientScoket.cpp">
+      <Filter>GameNet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\GameNet\cocosHttp\HttpClientEx.cpp">
+      <Filter>GameNet\cocosHttp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\JniCross\JniCallback.cpp">
+      <Filter>JniCross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\JniCross\JniFun.cpp">
+      <Filter>JniCross</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\MissionWeiXin.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPShopInfoMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPGameRecord.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\ArmFun.cpp">
+      <Filter>Game\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\add.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\agc.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\amrdecode.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\amrencode.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\autocorr.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\az_lsp.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\b_cn_cod.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\bgnscd.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\bitno_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\bitreorder_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\bits2prm.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\c_g_aver.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\c2_9pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\c2_9pf_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\c2_11pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\c3_14pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\c4_17pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\c8_31pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\c1035pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\calc_cor.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\calc_en.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\cbsearch.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\cl_ltp.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\cod_amr.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\convolve.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\copy.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\cor_h.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\cor_h_x.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\cor_h_x2.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\corrwght_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d_gain_c.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d_gain_p.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d_plsf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d_plsf_3.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d_plsf_5.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d2_9pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d2_11pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d3_14pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d4_17pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d8_31pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\d1035pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\dec_amr.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\dec_gain.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\dec_input_format_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\dec_lag3.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\dec_lag6.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\decoder_gsm_amr.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\div_32.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\div_s.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\dtx_dec.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\dtx_enc.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\ec_gains.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\enc_lag3.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\enc_lag6.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\enc_output_format_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\ets_to_if2.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\ets_to_wmf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\ex_ctrl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\extract_h.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\extract_l.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\g_adapt.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\g_code.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\g_pitch.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\gain_q.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\gains_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\gc_pred.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\get_const_tbls.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\gmed_n.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\gray_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\grid_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\gsmamr_encoder_wrapper.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\hp_max.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\if2_to_ets.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\int_lpc.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\int_lsf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\inter_36.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\inter_36_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\inv_sqrt.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\inv_sqrt_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\l_abs.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\l_comp.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\l_deposit_h.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\l_deposit_l.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\l_extract.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\l_negate.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\l_shr_r.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lag_wind.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lag_wind_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\levinson.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lflg_upd.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\log2.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\log2_norm.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\log2_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lpc.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lsfwt.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lsp.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lsp_avg.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lsp_az.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lsp_lsf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lsp_lsf_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\lsp_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\mult_r.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\negate.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\norm_l.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\norm_s.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\ol_ltp.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\overflow_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\p_ol_wgh.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\ph_disp.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\ph_disp_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pitch_fr.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pitch_ol.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\post_pro.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pow2.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pow2_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pre_big.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pre_proc.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pred_lt.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\preemph.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\prm2bits.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pstfilt.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\pvgsmamrdecoder.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\q_gain_c.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\q_gain_p.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\q_plsf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\q_plsf_3.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\q_plsf_3_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\q_plsf_5.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\q_plsf_5_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\qgain475.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\qgain475_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\qgain795.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\qua_gain.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\qua_gain_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\r_fft.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\reorder.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\residu.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\round.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\s10_8pf.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\set_sign.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\set_zero.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\shr.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\shr_r.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\sid_sync.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\sp_dec.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\sp_enc.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\spreproc.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\spstproc.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\sqrt_l.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\sqrt_l_tbl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\sub.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\syn_filt.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\ton_stab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\vad1.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\wavreader.c">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\wavwriter.c">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\weight_a.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\window_tab.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\wmf_to_ets.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\wrapper.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Sound\amr_nb\a_refl.cpp">
+      <Filter>Game\Sound\amr_nb</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNPrivateScenceBase.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGUserInGameServerInfo.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPRouletteMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPReqPlayerInfoMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Platform\PFKernel\CGPExchangeMission.cpp">
+      <Filter>Kernel\Platform\PFKernel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_CB.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_Master.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_Net.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_Player.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_Private.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_Record.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_Touch.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJPlayer.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJPlayer_Card.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJPlayer_Master.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJSoundFun.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameLogic.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_Button.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\UserScript.cpp">
+      <Filter>Game\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNGameScence_Button.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNGameScence_CB.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNGameScence_Net.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNGameScence_Player.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNGameScence_Private.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNGameScence_Touch.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNPlayer.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNPlayer_Card.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNSoundFun.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNGameLogic.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\NIUNIU\NNGameScence.cpp">
+      <Filter>Game\Game\NIUNIU</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence_Button.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence_CB.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence_Command.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence_Net.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence_Player.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence_Private.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence_Record.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameScence_Touch.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDPlayer.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDPlayer_Card.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDSoundFun.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\XZDD\XZDDGameLogic.cpp">
+      <Filter>Game\Game\XZDD</Filter>
+    </ClCompile>
+    <ClCompile Include="..\GameLib\Game\Game\HNMJ\HNMJGameScence_Set.cpp">
+      <Filter>Game\Game\HNMJ</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\GameLib\Game\FV\FvDoubleLink.inl">
+      <Filter>Game\FV</Filter>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>

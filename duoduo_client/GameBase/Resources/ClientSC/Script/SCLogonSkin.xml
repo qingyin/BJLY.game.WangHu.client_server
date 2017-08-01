@@ -1,0 +1,10 @@
+﻿ <root>
+	<WidgetEdit Name="PlayerInfoPhoneEdit" BackTexture="ScenceLogin/EditBack.png" Size="340 50" ShowTxt="">
+		<Property Key="Color" Value="150 120 20"/>
+		<Property Key="MaxCout" Value="12"/>
+	</WidgetEdit>
+	<WidgetEdit Name="PlayerInfoPhoneAccept" BackTexture="ScenceLogin/EditBack.png" Size="180 50" ShowTxt="">
+		<Property Key="Color" Value="150 120 20"/>
+		<Property Key="MaxCout" Value="12"/>
+	</WidgetEdit>
+ </root>

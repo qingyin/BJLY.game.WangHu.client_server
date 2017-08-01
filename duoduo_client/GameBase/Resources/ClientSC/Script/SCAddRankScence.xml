@@ -1,0 +1,125 @@
+﻿ <root>
+	<LoadSkin Skin="Script/SCAddRankSkin.xml"/>
+	<Widget Name="AddRankPlane" SkinTempName="PopNode">
+		<Property Key="Visible" Value="true"/>
+		<Property Key="Pos" Value="640 345"/>
+		<Widget SkinTempName="BtnFullEmpty">
+			<Property Key="Aple" Value="0.7"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="-570 315"/>
+			<Action Key="ActionEnd" Value="AddRankPlane"/>
+		</Widget>
+		
+		<Widget SkinTempName="Empty">
+			<Widget Name="AddRankButton_Rank0" SkinTempName="AddBankButtonTxt">
+				<Property Key="ShowTxt" Value="周榜"/>
+				<Property Key="Pos" Value="-300 300"/>
+				<Property Key="Oder" Value="2"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank0:2"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank1:1"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank2:0"/>
+				<Action Key="Show" Value="Rank0"/>
+				<Action Key="Hide" Value="Rank1"/>
+				<Action Key="Hide" Value="Rank2"/>
+				<UserInfo Key="Idex" Value="0"/>
+			</Widget>
+			<Widget Name="AddRankButton_Rank1" SkinTempName="AddBankButtonTxt">
+				<Property Key="ShowTxt" Value="季榜"/>
+				<Property Key="Pos" Value="0 300"/>
+				<Property Key="Oder" Value="1"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank0:0"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank1:1"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank2:0"/>
+				<Action Key="Hide" Value="Rank0"/>
+				<Action Key="Show" Value="Rank1"/>
+				<Action Key="Hide" Value="Rank2"/>
+				<UserInfo Key="Idex" Value="1"/>
+			</Widget>
+			<Widget Name="AddRankButton_Rank2" SkinTempName="AddBankButtonTxt">
+				<Property Key="ShowTxt" Value="年榜"/>
+				<Property Key="Pos" Value="300 300"/>
+				<Property Key="Oder" Value="0"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank0:0"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank1:0"/>
+				<Action Key="SetOder" Value="AddRankButton_Rank2:1"/>
+				<Action Key="Hide" Value="Rank0"/>
+				<Action Key="Hide" Value="Rank1"/>
+				<Action Key="Show" Value="Rank2"/>
+				<UserInfo Key="Idex" Value="2"/>
+			</Widget>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceAddRank/Back.png"/>
+			<Property Key="Pos" Value="0 -30"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceAddRank/bg3.png"/>
+			<Property Key="Pos" Value="0 -260"/>
+		</Widget>
+		<Widget Name="Rank0" SkinTempName="Empty">
+			<Widget Name="Rank_List" SkinTempName="List">
+				<Property Key="Size" Value="1180 440"/>
+				<Property Key="Pos" Value="-590 -203"/>
+				<Property Key="HideBack" Value=""/>
+			</Widget>
+			<Widget Name="SelfRank" SkinTempName="RankListItemChild">
+				<Property Key="Pos" Value="-301 -260"/>
+				<Property Key="ChildProperty" Value="RankTxt:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankOutTxt:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankName:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankPoint:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankPointTxt:Color:255 255 255"/>
+			</Widget>
+			<Widget Name="Button_AwardShow" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="排名奖励"/>
+				<Property Key="Pos" Value="480 -260"/>
+				<Property Key="Idex" Value="0"/>
+			</Widget>
+		</Widget>
+		<Widget Name="Rank1" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="Rank_List" SkinTempName="List">
+				<Property Key="Size" Value="1180 440"/>
+				<Property Key="Pos" Value="-590 -203"/>
+				<Property Key="HideBack" Value=""/>
+			</Widget>
+			<Widget Name="SelfRank" SkinTempName="RankListItemChild">
+				<Property Key="Pos" Value="-301 -260"/>
+				<Property Key="ChildProperty" Value="RankTxt:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankOutTxt:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankName:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankPoint:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankPointTxt:Color:255 255 255"/>
+			</Widget>
+			<Widget Name="Button_AwardShow" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="排名奖励"/>
+				<Property Key="Pos" Value="480 -260"/>
+				<Property Key="Idex" Value="1"/>
+			</Widget>
+		</Widget>
+		<Widget Name="Rank2" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="Rank_List" SkinTempName="List">
+				<Property Key="Size" Value="1180 440"/>
+				<Property Key="Pos" Value="-590 -203"/>
+				<Property Key="HideBack" Value=""/>
+			</Widget>
+			<Widget Name="SelfRank" SkinTempName="RankListItemChild">
+				<Property Key="Pos" Value="-301 -260"/>
+				<Property Key="ChildProperty" Value="RankTxt:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankOutTxt:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankName:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankPoint:Color:255 255 255"/>
+				<Property Key="ChildProperty" Value="RankPointTxt:Color:255 255 255"/>
+			</Widget>
+			<Widget Name="Button_AwardShow" SkinTempName="ButtonTxtEmpty">
+				<Property Key="ShowTxt" Value="排名奖励"/>
+				<Property Key="Pos" Value="480 -260"/>
+				<Property Key="Idex" Value="2"/>
+			</Widget>
+		</Widget>
+		
+	</Widget>
+	
+ </root>

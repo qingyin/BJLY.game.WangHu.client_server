@@ -1,0 +1,93 @@
+﻿生成启动时间为 2017/3/16 12:58:48。
+     1>项目“E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\ClientHN_SC.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\cocos\audio\include" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\external" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\external\win32-specific\icon\include" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\external\chipmunk\include\chipmunk" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\extensions" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\\" /I..\..\GameBase /I..\..\GameBase\GameLib /I..\Classes /I.. /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\cocos\editor-support" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\cocos" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\cocos\platform" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\cocos\platform\desktop" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\external\glfw3\include\win32" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\freetype2" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\external\freetype2\include\win32\\" /I"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\2d\..\..\external" /Z7 /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _VARIADIC_MAX=10 /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Game_HJ_15.win32\\" /Fd"Game_HJ_15.win32\vc110.pdb" /Gd /TP /wd4819 /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\ClientHN_SC\HNGameManager.cpp ..\Classes\ClientHN_SC\HNGameManager_Game.cpp ..\Classes\ClientHN_SC\Main\AppDelegate.cpp ..\Classes\ClientHN_SC\Main\HNGame.cpp ..\Classes\ClientHN_SC\Scene\HNGameRecord.cpp ..\Classes\ClientHN_SC\Scene\HNHelpScence.cpp ..\Classes\ClientHN_SC\Scene\HNHomeScence.cpp ..\Classes\ClientHN_SC\Scene\HNHomeScence_Button.cpp ..\Classes\ClientHN_SC\Scene\HNHomeScence_Sink.cpp ..\Classes\ClientHN_SC\Scene\HNLogonScence.cpp ..\Classes\ClientHN_SC\Scene\HNPrivateScenceHN.cpp ..\Classes\ClientHN_SC\Scene\HNScenceManager.cpp ..\Classes\ClientHN_SC\Scene\HNSetScence.cpp ..\Classes\ClientHN_SC\Scene\HNShopScence.cpp ..\Classes\ClientHN_SC\WindowsMain\main.cpp
+         HNGameManager.cpp
+         HNGameManager_Game.cpp
+         AppDelegate.cpp
+         HNGame.cpp
+     1>e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\classes\clienthn_sc\main\HNGame.h(17): warning C4996: 'cocos2d::CCScene': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(690) : 参见“cocos2d::CCScene”的声明
+     1>e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\classes\clienthn_sc\main\HNGame.h(17): warning C4996: 'cocos2d::CCScene': 被声明为已否决 (..\Classes\ClientHN_SC\Main\AppDelegate.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(690) : 参见“cocos2d::CCScene”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(14): warning C4996: 'cocos2d::CCScene': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(690) : 参见“cocos2d::CCScene”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(16): warning C4996: 'cocos2d::CCScene': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(690) : 参见“cocos2d::CCScene”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(38): warning C4996: 'cocos2d::Layer::setTouchEnabled': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCLayer.h(179) : 参见“cocos2d::Layer::setTouchEnabled”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(39): warning C4996: 'cocos2d::Layer::setTouchMode': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCLayer.h(181) : 参见“cocos2d::Layer::setTouchMode”的声明
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCLayer.h(181) : 参见“cocos2d::Layer::setTouchMode”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(40): warning C4996: 'cocos2d::Layer::setKeyboardEnabled': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCLayer.h(207) : 参见“cocos2d::Layer::setKeyboardEnabled”的声明
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCLayer.h(207) : 参见“cocos2d::Layer::setKeyboardEnabled”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(48): warning C4996: 'cocos2d::CCMenuItemImage': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(733) : 参见“cocos2d::CCMenuItemImage”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(52): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCMenuItem.h(428) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(52): warning C4996: 'cocos2d::CCMenuItemImage': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(733) : 参见“cocos2d::CCMenuItemImage”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(54): warning C4996: 'cocos2d::ccp': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(56): warning C4996: 'cocos2d::CCMenuItemImage': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(733) : 参见“cocos2d::CCMenuItemImage”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(60): warning C4996: 'cocos2d::MenuItemImage::create': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCMenuItem.h(428) : 参见“cocos2d::MenuItemImage::create”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(62): warning C4996: 'cocos2d::ccp': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(63): warning C4996: 'cocos2d::ccp': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(49) : 参见“cocos2d::ccp”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(65): warning C4996: 'cocos2d::CCMenu': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(735) : 参见“cocos2d::CCMenu”的声明
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(735) : 参见“cocos2d::CCMenu”的声明
+     1>..\Classes\ClientHN_SC\Main\HNGame.cpp(188): warning C4996: 'cocos2d::Director::sharedDirector': 被声明为已否决 (..\Classes\ClientHN_SC\Main\HNGame.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\base/CCDirector.h(138) : 参见“cocos2d::Director::sharedDirector”的声明
+     1>..\Classes\ClientHN_SC\Main\AppDelegate.cpp(49): warning C4305: “参数”: 从“double”到“float”截断 (..\Classes\ClientHN_SC\Main\AppDelegate.cpp)
+         HNGameRecord.cpp
+         HNHelpScence.cpp
+         HNHomeScence.cpp
+         HNHomeScence_Button.cpp
+     1>..\Classes\ClientHN_SC\Scene\HNHomeScence_Button.cpp(58): warning C4018: “<”: 有符号/无符号不匹配 (..\Classes\ClientHN_SC\Scene\HNHomeScence_Button.cpp)
+     1>..\Classes\ClientHN_SC\Scene\HNHomeScence_Button.cpp(113): warning C4996: 'cocos2d::Director::sharedDirector': 被声明为已否决 (..\Classes\ClientHN_SC\Scene\HNHomeScence_Button.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\base/CCDirector.h(138) : 参见“cocos2d::Director::sharedDirector”的声明
+         HNHomeScence_Sink.cpp
+         HNLogonScence.cpp
+         HNPrivateScenceHN.cpp
+         HNScenceManager.cpp
+     1>..\Classes\ClientHN_SC\Scene\HNHomeScence_Sink.cpp(83): warning C4996: 'cocos2d::CCAction': 被声明为已否决 (..\Classes\ClientHN_SC\Scene\HNHomeScence_Sink.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\deprecated/CCDeprecated.h(560) : 参见“cocos2d::CCAction”的声明
+     1>..\Classes\ClientHN_SC\Scene\HNHomeScence_Sink.cpp(83): warning C4996: 'cocos2d::CallFunc::create': 被声明为已否决 (..\Classes\ClientHN_SC\Scene\HNHomeScence_Sink.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCActionInstant.h(339) : 参见“cocos2d::CallFunc::create”的声明
+     1>..\Classes\ClientHN_SC\Scene\HNHomeScence_Sink.cpp(97): warning C4996: 'cocos2d::CallFunc::create': 被声明为已否决 (..\Classes\ClientHN_SC\Scene\HNHomeScence_Sink.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\2d/CCActionInstant.h(339) : 参见“cocos2d::CallFunc::create”的声明
+     1>..\Classes\ClientHN_SC\Scene\HNScenceManager.cpp(118): warning C4996: 'cocos2d::Director::sharedDirector': 被声明为已否决 (..\Classes\ClientHN_SC\Scene\HNScenceManager.cpp)
+                 e:\湖南麻将发给客户\客户端\duoduo_new\game_hj_zz_cs\cocos2d\cocos\base/CCDirector.h(138) : 参见“cocos2d::Director::sharedDirector”的声明
+         HNSetScence.cpp
+         HNShopScence.cpp
+         main.cpp
+     1>..\Classes\ClientHN_SC\Scene\HNShopScence.cpp(58): warning C4996: 'cocos2d::ui::ListView::refreshView': 被声明为已否决 (..\Classes\ClientHN_SC\Scene\HNShopScence.cpp)
+                 E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\cocos2d\cocos\ui/UIListView.h(383) : 参见“cocos2d::ui::ListView::refreshView”的声明
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\../../GameBase/proj.win32/Debug.win32\Game_HJ_15.exe" /INCREMENTAL /NOLOGO /LIBPATH:"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\../../GameBase/proj.win32/Debug.win32\\" /LIBPATH:"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\../../GameBase/proj.win32/Debug.win32\\" pthreadVCE2.lib GameLib.lib libcocos2d.lib opengl32.lib glew32.lib libzlib.lib libwebp.lib libiconv.lib freetype.lib winmm.lib ws2_32.lib libbox2d.lib libSpine.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\../../GameBase/proj.win32/Debug.win32\Game_HJ_15.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\../../GameBase/proj.win32/Debug.win32\Game_HJ_15.lib" /MACHINE:X86 /SAFESEH Game_HJ_15.win32\HNGameManager.obj
+         Game_HJ_15.win32\HNGameManager_Game.obj
+         Game_HJ_15.win32\AppDelegate.obj
+         Game_HJ_15.win32\HNGame.obj
+         Game_HJ_15.win32\HNGameRecord.obj
+         Game_HJ_15.win32\HNHelpScence.obj
+         Game_HJ_15.win32\HNHomeScence.obj
+         Game_HJ_15.win32\HNHomeScence_Button.obj
+         Game_HJ_15.win32\HNHomeScence_Sink.obj
+         Game_HJ_15.win32\HNLogonScence.obj
+         Game_HJ_15.win32\HNPrivateScenceHN.obj
+         Game_HJ_15.win32\HNScenceManager.obj
+         Game_HJ_15.win32\HNSetScence.obj
+         Game_HJ_15.win32\HNShopScence.obj
+         Game_HJ_15.win32\main.obj
+            正在创建库 E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\../../GameBase/proj.win32/Debug.win32\Game_HJ_15.lib 和对象 E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\../../GameBase/proj.win32/Debug.win32\Game_HJ_15.exp
+         ClientHN_SC.vcxproj -> E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\../../GameBase/proj.win32/Debug.win32\Game_HJ_15.exe
+     1>已完成生成项目“E:\湖南麻将发给客户\客户端\duoduo_new\Game_HJ_ZZ_CS\proj.win32\ClientHN_SC.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:02:22.27

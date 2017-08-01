@@ -1,0 +1,14 @@
+﻿ <root>
+	<ScriptValueFloat Key="UseWidth" Value="1280"/>
+	<ScriptValueFloat Key="UseHeight" Value="720"/>
+	
+	<ScriptValueStr Key="address" Value="123.57.77.152"/><!--123.57.77.152-->
+	<ScriptValueInt Key="Port" Value="8300"/>
+	<ScriptValueStr Key="Host" Value=""/><!-- 120.24.73.186 www.qf23.com 123.57.77.152 10.173.35.19  -->
+	<ScriptValueStr Key="PCImei" Value="17"/>
+	
+	<ScriptValueStr Key="UITest" Value=""/> <!--"Script/GameLP/LPGameScence.xml"-->
+	<ScriptValueInt Key="UITestMaskAple" Value="200"/>
+	
+	
+ </root>

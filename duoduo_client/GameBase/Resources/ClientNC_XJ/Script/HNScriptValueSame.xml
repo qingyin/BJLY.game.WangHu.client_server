@@ -1,0 +1,16 @@
+﻿ <root>
+	<ScriptValueStr Key="NetError" Value="网络错误。"/>
+	
+	<ScriptValueStr Key="GameExitKeyBack" Value="你确定要退出游戏返回大厅吗？"/>
+	<ScriptValueStr Key="HomeExitKeyBack" Value="你确定要退出游戏吗？"/>
+	
+	<ScriptValueStr Key="NetReconnectError" Value="网络异常，正在尝试重连。"/>
+	<ScriptValueStr Key="JoinRoomNumError" Value="没有找到该房间，可能房主已经退出。"/>
+	
+	<ScriptValueStr Key="WeiXinSharTitle" Value="长沙麻将"/>
+	<ScriptValueStr Key="WeiXinSharDes" Value="和朋友一起来玩吧！"/>
+	<ScriptValueStr Key="PrivateTxt1" Value="房号:#，闲来麻将，速度来啊！"/>
+	<ScriptValueStr Key="WeiXinSharUrl" Value="http://www.baidu.com"/>
+	
+ </root>
+ 

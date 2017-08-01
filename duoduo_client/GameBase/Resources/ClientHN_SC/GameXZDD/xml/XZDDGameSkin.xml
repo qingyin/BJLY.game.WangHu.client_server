@@ -1,0 +1,710 @@
+﻿ <root>
+ 	<WidgetNode Name="GameMJPoint0" >
+		<WaiteTime Name="Start" Time="1.2" SaveAction="true">
+			<Visible Visible="true">
+				<CallAction OtherNodeName="GameMJPointPic" OtherActionName="Start">
+				</CallAction>
+			</Visible>
+		</WaiteTime>
+		<Visible Name="End" Visible="false" SaveAction="true">
+			<CallAction OtherNodeName="GameMJPointPic" OtherActionName="End">
+			</CallAction>
+		</Visible>
+		<WidgetNode>
+			<Property Key="Pos" Value="23 30"/>
+			<WidgetImagic Name="GameMJPointPic" TextureInfo="GameXZDD/play_biaoji.png">
+				<MoveTo Name="Start" Time="0.5" Pos="0 20">
+					<MoveTo Time="0.5" Pos="0 0">
+						<CallAction SelfActionName="Start">
+						</CallAction>
+					</MoveTo>
+				</MoveTo>
+				<StopAllAction Name="End" SaveAction="true">
+				</StopAllAction>
+			</WidgetImagic>
+		</WidgetNode>
+	</WidgetNode>
+	<WidgetNode Name="GameMJPoint1" >
+		<WaiteTime Name="Start" Time="1.2" SaveAction="true">
+			<Visible Visible="true">
+				<CallAction OtherNodeName="GameMJPointPic" OtherActionName="Start">
+				</CallAction>
+			</Visible>
+		</WaiteTime>
+		<Visible Name="End" Visible="false" SaveAction="true">
+			<CallAction OtherNodeName="GameMJPointPic" OtherActionName="End">
+			</CallAction>
+		</Visible>
+		<WidgetNode>
+			<Property Key="Pos" Value="-21 40"/>
+			<WidgetImagic Name="GameMJPointPic" TextureInfo="GameXZDD/play_biaoji.png">
+				<MoveTo Name="Start" Time="0.5" Pos="0 20">
+					<MoveTo Time="0.5" Pos="0 0">
+						<CallAction SelfActionName="Start">
+						</CallAction>
+					</MoveTo>
+				</MoveTo>
+				<StopAllAction Name="End" SaveAction="true">
+				</StopAllAction>
+			</WidgetImagic>
+		</WidgetNode>
+	</WidgetNode>
+	<WidgetNode Name="GameMJPoint2" >
+		<WaiteTime Name="Start" Time="1.2" SaveAction="true">
+			<Visible Visible="true">
+				<CallAction OtherNodeName="GameMJPointPic" OtherActionName="Start">
+				</CallAction>
+			</Visible>
+		</WaiteTime>
+		<Visible Name="End" Visible="false" SaveAction="true">
+			<CallAction OtherNodeName="GameMJPointPic" OtherActionName="End">
+			</CallAction>
+		</Visible>
+		<WidgetNode>
+			<Property Key="Pos" Value="-23 30"/>
+			<WidgetImagic Name="GameMJPointPic" TextureInfo="GameXZDD/play_biaoji.png">
+				<MoveTo Name="Start" Time="0.5" Pos="0 20">
+					<MoveTo Time="0.5" Pos="0 0">
+						<CallAction SelfActionName="Start">
+						</CallAction>
+					</MoveTo>
+				</MoveTo>
+				<StopAllAction Name="End" SaveAction="true">
+				</StopAllAction>
+			</WidgetImagic>
+		</WidgetNode>
+	</WidgetNode>
+	<WidgetNode Name="GameMJPoint3" >
+		<WaiteTime Name="Start" Time="1.2" SaveAction="true">
+			<Visible Visible="true">
+				<CallAction OtherNodeName="GameMJPointPic" OtherActionName="Start">
+				</CallAction>
+			</Visible>
+		</WaiteTime>
+		<Visible Name="End" Visible="false" SaveAction="true">
+			<CallAction OtherNodeName="GameMJPointPic" OtherActionName="End">
+			</CallAction>
+		</Visible>
+		<WidgetNode>
+			<Property Key="Pos" Value="21 -5"/>
+			<WidgetImagic Name="GameMJPointPic" TextureInfo="GameXZDD/play_biaoji.png">
+				<MoveTo Name="Start" Time="0.5" Pos="0 20">
+					<MoveTo Time="0.5" Pos="0 0">
+						<CallAction SelfActionName="Start">
+						</CallAction>
+					</MoveTo>
+				</MoveTo>
+				<StopAllAction Name="End" SaveAction="true">
+				</StopAllAction>
+			</WidgetImagic>
+		</WidgetNode>
+	</WidgetNode>
+ 
+ 
+ 
+	<WidgetNode Name="XZDD_Animation" >
+		<Property Key="Visible" Value="false"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/shaiziAnim/shaizi"/>
+		
+		<Visible Name="ActionStart1" Visible="true" SaveAction="true">
+			<CallAction OtherNodeName="Animation" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi0" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi1" OtherActionName="Start">
+			</CallAction>
+			<WaiteTime Time="3">
+				<Visible Visible="false">
+				</Visible>
+				<CallButton ButtonName="XZDDButtonAction_ShowNext">
+				</CallButton>
+			</WaiteTime>
+			
+		</Visible>
+		<Visible Name="ActionStart2" Visible="true" SaveAction="true">
+			<CallAction OtherNodeName="Animation" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi0" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi1" OtherActionName="Start">
+			</CallAction>
+			<WaiteTime Time="3">
+				<Visible Visible="false">
+				</Visible>
+				<CallButton ButtonName="XZDDButtonAction_ShowCard">
+				</CallButton>
+			</WaiteTime>
+		</Visible>
+		
+		
+		<Visible Name="ActionStart_HuanPai" Visible="true" SaveAction="true">
+			<CallAction OtherNodeName="Animation" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi0" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi1" OtherActionName="Start">
+			</CallAction>
+			<WaiteTime Time="3">
+				<Visible Visible="false">
+				</Visible>
+				<CallButton ButtonName="XZDDButtonAction_HuanPaiChengDu">
+				</CallButton>
+			</WaiteTime>
+		</Visible>
+		
+		<WidgetAnimation Name="Animation">
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+			<RunAnim Name="Start" AnimName="GameXZDD/shaiziAnim/shaizi_anmi:1:11:.png" SaveAction="true">
+			</RunAnim>
+		</WidgetAnimation>
+		<WidgetImagic Name="SaiZi0" TextureInfo="GameXZDD/shaiziAnim/shaizi1.png">
+			<Property Key="Pos" Value="-50 -20"/>
+			<Visible Name="Start" Visible="false" SaveAction="true">
+				<WaiteTime Time="1.1">
+					<Visible Visible="true">
+					</Visible>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+		<WidgetImagic Name="SaiZi1" TextureInfo="GameXZDD/shaiziAnim/shaizi1.png">
+			<Property Key="Pos" Value="50 -10"/>
+			<Visible Name="Start" Visible="false" SaveAction="true">
+				<WaiteTime Time="1.1">
+					<Visible Visible="true">
+					</Visible>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+	</WidgetNode>
+ 
+	<!--自己-->
+	<WidgetNode Name="XZDD_PENG_0" >
+		<Property Key="Scale" Value="0.7"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/2/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="0 -84"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="85 -84"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="170 -84"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="XZDD_GANG_0" >
+		<Property Key="Scale" Value="0.7"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/2/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="0 -84"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="85 -84"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="170 -84"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card3" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="85 -50"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetImagic Name="XZDD_HAND_0" TextureInfo="GameXZDD/2/handmah_11.png">
+		<UserInfo Key="Imagic" Value="GameXZDD/2/handmah_"/>
+		<UserInfo Key="MingImagic" Value="GameXZDD/2/mingmah_"/>
+		<Property Key="AnchorPos" Value="0 0.5"/>
+		<UserInfo Key="HuScale" Value="1"/>
+		<UserInfo Key="StandUp" Value="0 90"/>
+		
+		<SetPos  Pos="0 300" Name="HuanPaiAni" SaveAction="true">
+			<SetScale Scale="0.4"/>
+			<MoveTo Time="0.8" Pos="Key:CardPos">
+			</MoveTo>
+			<ScaleTo Time="0.8" Scale="1">
+			</ScaleTo>
+		</SetPos>
+		
+	</WidgetImagic>
+	<WidgetImagic Name="XZDD_OUT_0" TextureInfo="GameXZDD/2/mingmah_16.png">
+		<UserInfo Key="Imagic" Value="GameXZDD/2/mingmah_"/>
+		<Property Key="Scale" Value="0.5"/>
+		<Property Key="AnchorPos" Value="0 0.5"/>
+		
+		<Visible Visible="false" Name="OutAni" SaveAction="true">
+			<WaiteTime Time="1.2" >
+				<Visible Visible="true"/>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<!--左边-->
+	<WidgetNode Name="XZDD_PENG_1" >
+		<Property Key="Scale" Value="0.8"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/1/mingmah_"/>
+		<WidgetImagic Name="Card2" TextureInfo="GameXZDD/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 46.666"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameXZDD/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 23.333"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card0" TextureInfo="GameXZDD/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="XZDD_GANG_1" >
+		<Property Key="Scale" Value="0.8"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/1/mingmah_"/>
+		<WidgetImagic Name="Card2" TextureInfo="GameXZDD/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 46.666"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameXZDD/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 23.333"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card3" TextureInfo="GameXZDD/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 36"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card0" TextureInfo="GameXZDD/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetImagic Name="XZDD_HAND_1" TextureInfo="GameXZDD/hand_right.png">
+		<UserInfo Key="MingImagic" Value="GameXZDD/1/mingmah_"/>
+		<Property Key="AnchorPos" Value="1 0"/>
+		<Property Key="Scale" Value="0.7"/>
+		<UserInfo Key="HuScale" Value="0.8"/>
+	</WidgetImagic>
+	<WidgetImagic Name="XZDD_OUT_1" TextureInfo="GameXZDD/1/mingmah_11.png">
+		<UserInfo Key="Imagic" Value="GameXZDD/1/mingmah_"/>
+		<Property Key="AnchorPos" Value="1 0"/>
+		<Property Key="Scale" Value="0.8"/>
+		
+		<Visible Visible="false" Name="OutAni" SaveAction="true">
+			<WaiteTime Time="1.2" >
+				<Visible Visible="true"/>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<!--对面-->
+	<WidgetNode Name="XZDD_PENG_2" >
+		<Property Key="Scale" Value="0.8"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/2/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="0 -46"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="-51 -46"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="-102 -46"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="XZDD_GANG_2" >
+		<Property Key="Scale" Value="0.8"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/2/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="0 -46"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="-51 -46"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="-102 -46"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card3" TextureInfo="GameXZDD/2/mingmah_11.png">
+			<Property Key="Pos" Value="-51 -26"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetImagic Name="XZDD_HAND_2" TextureInfo="GameXZDD/hand_top.png">
+		<UserInfo Key="MingImagic" Value="GameXZDD/2/mingmah_"/>
+		<Property Key="AnchorPos" Value="1 0.5"/>
+		<UserInfo Key="HuScale" Value="0.6"/>
+	</WidgetImagic>
+	<WidgetImagic Name="XZDD_OUT_2" TextureInfo="GameXZDD/2/mingmah_11.png">
+		<UserInfo Key="Imagic" Value="GameXZDD/2/mingmah_"/>
+		<Property Key="Scale" Value="0.5"/>
+		<Property Key="AnchorPos" Value="1 0.5"/>
+		
+		<Visible Visible="false" Name="OutAni" SaveAction="true">
+			<WaiteTime Time="1.2" >
+				<Visible Visible="true"/>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<!--右边-->
+	<WidgetNode Name="XZDD_PENG_3" >
+		<Property Key="Scale" Value="0.8"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/3/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameXZDD/3/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameXZDD/3/mingmah_11.png">
+			<Property Key="Pos" Value="0 -23.333"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameXZDD/3/mingmah_11.png">
+			<Property Key="Pos" Value="0 -46.666"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="XZDD_GANG_3" >
+		<Property Key="Scale" Value="0.8"/>
+		<UserInfo Key="Imagic" Value="GameXZDD/3/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameXZDD/3/mingmah_17.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameXZDD/3/mingmah_17.png">
+			<Property Key="Pos" Value="0 -23.333"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameXZDD/3/mingmah_17.png">
+			<Property Key="Pos" Value="0 -46.666"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card3" TextureInfo="GameXZDD/3/mingmah_11.png">
+			<Property Key="Pos" Value="0 -11"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetImagic Name="XZDD_HAND_3" TextureInfo="GameXZDD/hand_left.png">
+		<UserInfo Key="MingImagic" Value="GameXZDD/3/mingmah_"/>
+		<Property Key="AnchorPos" Value="0 1"/>
+		<Property Key="Scale" Value="0.7"/>
+		<UserInfo Key="HuScale" Value="0.8"/>
+	</WidgetImagic>
+	<WidgetImagic Name="XZDD_OUT_3" TextureInfo="GameXZDD/1/mingmah_11.png">
+		<UserInfo Key="Imagic" Value="GameXZDD/1/mingmah_"/>
+		<Property Key="AnchorPos" Value="0 1"/>
+		<Property Key="Scale" Value="0.8"/>
+		
+		<Visible Visible="false" Name="OutAni" SaveAction="true">
+			<WaiteTime Time="1.2" >
+				<Visible Visible="true"/>
+			</WaiteTime>
+		</Visible>
+		
+	</WidgetImagic>
+	<!--玩家出牌大图效果-->
+	<WidgetImagic Name="XZDD_BIG_OUT" TextureInfo="GameXZDD/2/mingmah_11.png">
+		<UserInfo Key="Imagic" Value="GameXZDD/2/mingmah_"/>
+		
+		<Visible Visible="true"  Name="Start" SaveAction="true">
+			<WaiteTime Time="1" >
+				<MoveTo Time="0.2" Pos="Key:OutHandPos">
+				</MoveTo>
+				<ScaleTo Time="0.2" Scale="0.5">
+					<Visible Visible="false"/>
+					<SetScale Scale="1"/>
+					<SetPos Pos="Key:SelfPos"/>
+				</ScaleTo>
+			</WaiteTime>
+		</Visible>
+		
+	</WidgetImagic>
+	<!--玩家头像-->
+	<WidgetNode Name="XZDD_PLAYER_HEAD" >
+		<EmptyAction Name="Start" SaveAction="true">
+			<MoveTo Time="1.0" Pos="Key:DestPos">
+			</MoveTo>
+			<ScaleTo Time="1.0" Scale="0.7">
+			</ScaleTo>
+		</EmptyAction>
+		<EmptyAction Name="End" SaveAction="true">
+			<SetPos Pos="Key:SrcPos">
+			</SetPos>
+			<SetScale Scale="1">
+			</SetScale>
+		</EmptyAction>
+		
+		<EmptyAction Name="StartNoTime" SaveAction="true">
+			<SetPos Pos="Key:DestPos">
+			</SetPos>
+			<SetScale Time="1.0" Scale="0.7">
+			</SetScale>
+		</EmptyAction>
+
+		<WidgetButton Name="ButtonPlayerHeadClick" NomalTexture="GameXZDD/HeadBack.png" PressTexture="AutoPress">
+		</WidgetButton>
+	
+		<WidgetImagic Name="HeadImagicEmpty" TextureInfo="GameXZDD/HeadImagic.png">
+			<Property Key="Pos" Value="-0.5 -2"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetImagic Name="HeadImagic" TextureInfo="Head/Head0.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="Scale" Value="0.7"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Zhuang" TextureInfo="GameXZDD/zhuang.png">
+			<Property Key="Pos" Value="35 35"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Offline" TextureInfo="GameXZDD/off_line_sign.png">
+			<Property Key="Pos" Value="35 35"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="名字" FontName="" FontSize="30">
+			<Property Key="Pos" Value="0 -67"/>
+			<Property Key="Color" Value="220 220 250"/>
+		</WidgetTxt>
+		<WidgetImagic Name="GoldImagic" TextureInfo="GameXZDD/GoldBack.png">
+			<Property Key="Pos" Value="30 -70"/>
+			<Property Key="Pos" Value="0 -105"/>
+			<EmptyAction Name="Start" SaveAction="true">
+				<MoveTo Time="1.0" Pos="30 -70">
+				</MoveTo>
+			</EmptyAction>
+			<EmptyAction Name="End" SaveAction="true">
+				<SetPos Pos="0 -105">
+				</SetPos>
+			</EmptyAction>
+			<WidgetTxt Name="GoldTxt" ShowTxt="100" FontName="" FontSize="30">
+				<Property Key="Pos" Value="77 17"/>
+			</WidgetTxt>
+		</WidgetImagic>
+		<WidgetTxt Name="AddGoldTxt" ShowTxt="1000" FontName="" FontSize="60">
+			<Property Key="Color" Value="250 252 0"/>
+			<Property Key="Visible" Value="false"/>
+			<Visible Visible="true" Name="Start" SaveAction="true">
+				<WaiteTime Time="4" >
+					<Visible Visible="false">
+					</Visible>
+				</WaiteTime>
+				<SetPos Pos="0 0">
+				</SetPos>
+				<MoveTo Time="0.5" Pos="0 60">
+				</MoveTo>
+			</Visible>
+		</WidgetTxt>
+	</WidgetNode>
+	
+	
+	
+	<WidgetNode Name="XZDDPlayerStatusNode">
+		<WidgetImagic Name="ReadyState" TextureInfo="GameXZDD/Status_Ready.png">
+			<UserInfo Key="Ready" Value="GameXZDD/Status_Ready.png"/>
+			<UserInfo Key="ZiMo" Value="GameXZDD/Status_ZiMo.png"/>
+			<UserInfo Key="Hu" Value="GameXZDD/Status_Hu.png"/>
+		</WidgetImagic>
+		<WidgetImagic Name="EffectImagic" TextureInfo="GameXZDD/Status_Ready.png">
+			<UserInfo Key="Hu" Value="GameXZDD/Effect_Hu.png"/>
+			<Property Key="Visible" Value="false"/>
+			<Visible Visible="true" Name="Start" SaveAction="true">
+				<WaiteTime Time="4" >
+					<Visible Visible="false">
+					</Visible>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="XZDDGameResoultState">
+		<WidgetTxt Name="Name" ShowTxt="就看见" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-470 0"/>
+			<Property Key="Color" Value="70 20 20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="Des" ShowTxt="就看见就看就看见就看" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-260 0"/>
+			<Property Key="Color" Value="70 20 20"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="GoldTxt" ShowTxt="-1000" FontName="" FontSize="30">
+			<Property Key="Pos" Value="360 0"/>
+			<Property Key="Color" Value="150 150 20"/>
+		</WidgetTxt>
+	</WidgetNode>
+	<WidgetNode Name="XZDDGameResoultStateList">
+		<WidgetSkinChild Name="GameResoultInfo0" SkinTempName="XZDDGameResoultState">
+			<Property Key="Pos" Value="0 0"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo1" SkinTempName="XZDDGameResoultState">
+			<Property Key="Pos" Value="0 -50"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo2" SkinTempName="XZDDGameResoultState">
+			<Property Key="Pos" Value="0 -100"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo3" SkinTempName="XZDDGameResoultState">
+			<Property Key="Pos" Value="0 -150"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo4" SkinTempName="XZDDGameResoultState">
+			<Property Key="Pos" Value="0 -200"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo5" SkinTempName="XZDDGameResoultState">
+			<Property Key="Pos" Value="0 -250"/>
+		</WidgetSkinChild>
+	</WidgetNode>
+	
+	<WidgetImagic Name="XZDDQueColorIcon" TextureInfo="GameXZDD/room_color1.png">
+		<Visible  Visible="true" Name="QueColorAni" SaveAction="true">
+			<SetPos Pos="Key:QueColorIconSrcPos"/>
+			<SetScale Scale="1"/>
+			<MoveBy Time="0.2" Pos="0 30">
+				<MoveBy Time="0.2" Pos="0 -30">
+					<MoveBy Time="0.2" Pos="0 20">
+						<MoveBy Time="0.2" Pos="0 -20">
+							<WaiteTime Time="1" >
+								<ScaleTo Time="0.5" Scale="0.5">
+								</ScaleTo>
+								<MoveTo Time="0.5" Pos="Key:QueColorIconPos">
+								</MoveTo>
+							</WaiteTime>
+						</MoveBy>
+					</MoveBy>
+				</MoveBy>
+			</MoveBy>
+		</Visible>
+		
+		<SetPos Pos="Key:QueColorIconPos" Name="QueColor_NoAni" SaveAction="true" >
+			<SetScale Scale="0.5"/>
+		</SetPos>
+		
+		<SetPos Pos="Key:QueColorIconSrcPos" Name="QueColorAni_Reset" SaveAction="true" >
+			<SetScale Scale="1"/>
+		</SetPos>
+	</WidgetImagic>
+	
+	<WidgetAnimation Name="XZDDDianPaoAni" PlistFile="" ImgFile="">
+		<Property Key="Visible" Value="true"/>
+		<Property Key="runFrames" Value="Animation/dianpao:1:25:.png"/>
+		<Property Key="Time" Value="0.1"/>
+		<Property Key="Loop" Value="false"/>
+	</WidgetAnimation>
+	
+	<WidgetNode Name="XZDDZiMoAni">
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/zimoren:1:8:.png"/>
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+		</WidgetAnimation>
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="runFrames" Value="Animation/zimozi:1:7:.png"/>
+			<Property Key="Time" Value="0.2"/>
+			<Property Key="Loop" Value="false"/>
+			<Property Key="DelayTime" Value="0.6"/>
+		</WidgetAnimation>
+	</WidgetNode>
+	
+	<WidgetNode Name="XZDDMingGangAni">
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/guafengren:1:17:.png"/>
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+			<Property Key="DelayTime" Value="1.2"/>
+		</WidgetAnimation>
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/guafengqian:1:10:.png"/>
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+			<Property Key="DelayTime" Value="1.2"/>
+		</WidgetAnimation>
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Pos" Value="-50 0"/>
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/guafengyanwu:1:12:.png"/>
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+		</WidgetAnimation>
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Pos" Value="-50 0"/>
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/guafeng:1:7:.png"/>
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+			<Property Key="DelayTime" Value="0.4"/>
+		</WidgetAnimation>
+	</WidgetNode>
+	
+	<WidgetNode Name="XZDDAnGangAni">
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/xiayuren:1:6:.png"/>
+			<Property Key="Time" Value="0.2"/>
+			<Property Key="Loop" Value="false"/>
+			<Property Key="DelayTime" Value="0.2"/>
+		</WidgetAnimation>
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Visible" Value="true"/>
+			<Property Key="Pos" Value="0 67"/>
+			<Property Key="runFrames" Value="Animation/xiayuyun:1:6:.png"/>
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+		</WidgetAnimation>
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/xiayuzi:1:7:.png"/>
+			<Property Key="Time" Value="0.15"/>
+			<Property Key="Loop" Value="false"/>
+			<Property Key="DelayTime" Value="0.9"/>
+		</WidgetAnimation>
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Pos" Value="0 -67"/>
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/xiayujinbi:1:4:.png"/>
+			<Property Key="Time" Value="0.15"/>
+			<Property Key="Loop" Value="false"/>
+			<Property Key="DelayTime" Value="0.2"/>
+		</WidgetAnimation>
+	</WidgetNode>
+	
+	<WidgetNode Name="XZDDPengAni">
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/pengren:1:11:.png"/>
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+		</WidgetAnimation>
+		<WidgetAnimation Name="" PlistFile="" ImgFile="">
+			<Property Key="Visible" Value="true"/>
+			<Property Key="runFrames" Value="Animation/pengzi:1:11:.png"/>
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+			<Property Key="DelayTime" Value="0.8"/>
+		</WidgetAnimation>
+	</WidgetNode>
+ </root>

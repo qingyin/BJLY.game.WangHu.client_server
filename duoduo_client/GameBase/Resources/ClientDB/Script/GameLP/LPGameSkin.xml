@@ -1,0 +1,208 @@
+﻿ <root>
+	<WidgetImagic Name="LPCheckImg" TextureInfo="GameLP/selected.png">
+		<Property Key="Visible" Value="true"/>
+		<Property Key="ImagicSize" Value="72 90"/>
+		
+		<Visible Visible="true" Name="Start" SaveAction="true">
+			<ApleTo Time="0.4" Aple="1">
+				<ApleTo Time="0.4" Aple="0" >
+					<CallAction ActionParentName="Start">
+					</CallAction>
+				</ApleTo>
+			</ApleTo>
+			
+			<WaiteTime Time="5" >
+				<Visible  Visible="false" />
+				<StopAllAction />
+			</WaiteTime>
+		</Visible>
+		
+	</WidgetImagic>
+	
+	<WidgetImagic Name="LPCheckImg1" TextureInfo="GameLP/selected1.png">
+		
+		<Visible Visible="true" Name="Start" SaveAction="true">
+			<ApleTo Time="0.4" Aple="1">
+				<ApleTo Time="0.4" Aple="0" >
+					<CallAction ActionParentName="Start">
+					</CallAction>
+				</ApleTo>
+			</ApleTo>
+			
+			<WaiteTime Time="5" >
+				<Visible  Visible="false" />
+				<StopAllAction />
+			</WaiteTime>
+		</Visible>
+		
+	</WidgetImagic>
+	
+	<Widget9Sprite Name="LPCheckImg2" BackTexture="GameLP/selected2.png" Size="140 63"  InsetsRect="30 30 5 5">
+		
+		
+		<Visible Visible="true" Name="Start" SaveAction="true">
+		
+			<ApleTo Time="0.4" Aple="1">
+				<ApleTo Time="0.4" Aple="0" >
+					<CallAction ActionParentName="Start">
+					</CallAction>
+				</ApleTo>
+			</ApleTo>
+			
+			<WaiteTime Time="5" >
+				<Visible  Visible="false" />
+				<StopAllAction />
+			</WaiteTime>
+			
+		</Visible>
+	</Widget9Sprite>
+	
+	
+	<Widget9Sprite Name="ToolBarBg" BackTexture="GameLP/res_roulettewheel_LPD008.png" Size="1840 137">
+	</Widget9Sprite>
+	<Widget9Sprite Name="ChipBg" BackTexture="GameLP/res_roulettewheel_LPD011.png" Size="500 95">
+	</Widget9Sprite>
+	
+	<Widget9Sprite Name="LPChartBg" BackTexture="GameLP/LPChartBg.png" Size="1080 121">
+	</Widget9Sprite>
+	
+	<WidgetNode Name="LPGameBg">
+		<WidgetImagic  TextureInfo="GameLP/res_roulettewheel_LPD016.png">
+			<Property Key="Pos" Value="-100 375"/>
+		</WidgetImagic>
+		<WidgetImagic  TextureInfo="GameLP/res_roulettewheel_LPD016.png">
+			<Property Key="Pos" Value="820 375"/>
+			<Property Key="FlipX" Value="true"/>
+		</WidgetImagic>
+		
+		<MoveTo Time="1" Pos="560 0" Name="MoveToR" SaveAction="true">
+		</MoveTo>
+		<MoveTo Time="1" Pos="51.2 0" Name="MoveToL" SaveAction="true">
+		</MoveTo>
+	</WidgetNode>
+	
+	<WidgetNode Name="WheelMidle">
+		<WidgetImagic  TextureInfo="GameLP/wheel_mid1.png">
+			 <Property Key="Pos" Value="241 241"/>
+		</WidgetImagic>
+		<WidgetImagic  TextureInfo="GameLP/wheel_mid2.png">
+			<Property Key="Pos" Value="241 241"/>
+		</WidgetImagic>
+		<WidgetImagic  TextureInfo="GameLP/wheel_mid3.png">
+			 <Property Key="Pos" Value="241 241"/>
+		</WidgetImagic>
+		<WidgetImagic  TextureInfo="GameLP/wheel_mid4.png">
+			<Property Key="Pos" Value="241 241"/>
+		</WidgetImagic>
+	</WidgetNode>
+	
+	<WidgetImagic Name="StartBet" TextureInfo="GameLP/tip_bg.png">
+		<Property Key="Visible" Value="false"/>
+		<Visible Visible="true" Name="Start" SaveAction="true">
+			<SetPos Pos="640 360"/>
+			<MoveTo Time="0.3" Pos="640 460">
+				<WaiteTime Time="0.5" >
+					<Visible  Visible="false" />
+				</WaiteTime>
+			</MoveTo>
+		</Visible>
+	</WidgetImagic>
+	
+	
+	<WidgetImagic Name="LPTimeRotate" TextureInfo="GameLP/time_rotate.png">
+		<SetRota Rota="0" Name="Start" SaveAction="true">
+			<RotaTo Time="1" Rota="180">
+				<RotaTo Time="1" Rota="360">
+					<CallAction ActionParentName="Start">
+					</CallAction>
+				</RotaTo>
+			</RotaTo>
+		</SetRota>
+		
+		<StopAllAction  Name="Stop" SaveAction="true">
+		</StopAllAction>
+	</WidgetImagic>
+	
+	<WidgetImagic Name="LPPointBlink" TextureInfo="GameLP/point_bg1.png">
+		<ApleTo Time="0.5" Aple="1" Name="Start" SaveAction="">
+			<ApleTo Time="0.5" Aple="0">
+				<CallAction ActionParentName="Start">
+				</CallAction>
+			</ApleTo>
+		</ApleTo>
+		
+		<StopAllAction  Name="Stop" SaveAction="true">
+		</StopAllAction>
+	</WidgetImagic>
+	
+	<WidgetImagic Name="LPImgBall" TextureInfo="GameLP/ball.png">
+		<SetPos Pos="235 492" Name="MoveDown" SaveAction="true">
+			<MoveTo Time="6" Pos="235 392">
+			</MoveTo>
+		</SetPos>
+	</WidgetImagic>
+	<WidgetImagic Name="LPImgBall_Effect" TextureInfo="GameLP/ball_effect.png">
+		<Property Key="Visible" Value="false"/>
+		<Visible Visible="true" Name="Blink" SaveAction="true">
+			<ApleTo Time="0.2" Aple="0">
+				<ApleTo Time="0.2" Aple="1" >
+					<CallAction ActionParentName="Blink">
+					</CallAction>
+				</ApleTo>
+			</ApleTo>
+		</Visible>
+		
+		<Visible Visible="false" Name="Hide" SaveAction="true">
+		</Visible>
+		
+	</WidgetImagic>
+	
+	<WidgetImagic Name="LPRowTemp" TextureInfo="GameLP/num_bg.png">
+		<WidgetTxt Name="RowTx1" ShowTxt="11" FontName="" FontSize="50">
+			<Property Key="Pos" Value="35 120"/>
+			<Property Key="Color" Value="255 0 0"/>
+		
+		</WidgetTxt>
+		<WidgetTxt Name="RowTx2" ShowTxt="15" FontName="" FontSize="50">
+			<Property Key="Pos" Value="35 40"/>
+			<Property Key="Color" Value="0 0 0"/>
+		
+		</WidgetTxt>
+	</WidgetImagic>
+	<WidgetPanle Name="LPHistoryNode" Size="1380 750" Color="0 0 0" >
+		<Property Key="Aple" Value="0.7"/>
+		<Widget9Sprite BackTexture="GameLP/res_roulettewheel_LPD043.png" Size="1010 357"InsetsRect="30 30 5 5">
+				<Property Key="Pos" Value="710 375"/>
+		</Widget9Sprite>
+	</WidgetPanle>
+	
+	<WidgetImagic Name="LPChipsBtn_Effect" TextureInfo="GameLP/LPChipsBtn_Effect.png">
+		<Visible Visible="true" Name="Blink" SaveAction="">
+			<ApleTo Time="0.5" Aple="0">
+				<ApleTo Time="0.5" Aple="1" >
+					<CallAction ActionParentName="Blink">
+					</CallAction>
+				</ApleTo>
+			</ApleTo>
+		</Visible>
+	</WidgetImagic>
+	
+	<WidgetImagic Name="LPBetTip" TextureInfo="GameLP/res_baccarat_BJL013.png">
+		<Visible Visible="true" Name="TipMove" SaveAction="true">
+			<WaiteTime Time="2">
+				<Visible Visible="false" />
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	
+	<WidgetImagic Name="LPJieSuan" TextureInfo="GameLP/tip_bg1.png">
+		<Visible Visible="true" Name="Start" SaveAction="">
+			<SetPos Pos="640 360"/>
+			<MoveBy Time="0.3" Pos="0 100">
+				<WaiteTime Time="1.5" >
+					<Visible  Visible="false" />
+				</WaiteTime>
+			</MoveBy>
+		</Visible>
+	</WidgetImagic>
+ </root>

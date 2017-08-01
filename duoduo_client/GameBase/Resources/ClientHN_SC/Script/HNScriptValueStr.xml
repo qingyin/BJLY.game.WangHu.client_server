@@ -1,0 +1,61 @@
+﻿ <root>
+	<ScriptValueStr Key="NetError" Value="网络错误。"/>
+	<ScriptValueStr Key="YouKe" Value="游客"/>
+	<ScriptValueStr Key="HuRight0" Value=" 素番1番"/>
+	<ScriptValueStr Key="HuRight1" Value=" 天胡6番"/>
+	<ScriptValueStr Key="HuRight2" Value=" 地胡6番"/>
+	<ScriptValueStr Key="HuRight3" Value=" 大对子2番"/>
+	<ScriptValueStr Key="HuRight4" Value=" 清一色3番"/>
+	<ScriptValueStr Key="HuRight5" Value=" 七小对3番"/>
+	<ScriptValueStr Key="HuRight6" Value=" 带幺3番"/>
+	<ScriptValueStr Key="HuRight7" Value=" 将对4番"/>
+	<ScriptValueStr Key="HuRight8" Value=" 清对4番"/>
+	<ScriptValueStr Key="HuRight9" Value=" 龙七对5番 "/>
+	<ScriptValueStr Key="HuRight10" Value=" 清七对5番"/>
+	<ScriptValueStr Key="HuRight11" Value=" 清幺九5番"/>
+	<ScriptValueStr Key="HuRight12" Value=" 清龙七对6番"/>
+	<ScriptValueStr Key="HuRight13" Value=" 杠上炮1翻"/>
+	<ScriptValueStr Key="HuRight14" Value=" 杠上花1翻"/>
+	
+	<ScriptValueStr Key="HuRight_Gen" Value=" 根"/>
+	<ScriptValueStr Key="HuRight_Fan" Value=" 番 "/>
+
+	<ScriptValueStr Key="HuRight_ZiMo" Value=" 自摸 "/>
+	<ScriptValueStr Key="HuRight_PingHu" Value=" 平胡 "/>
+	<ScriptValueStr Key="HuRight_ChaDaJiao" Value=" 查大叫 "/>
+	<ScriptValueStr Key="HuRight_ChaHuaZhu" Value=" 查花猪 "/>
+
+	<ScriptValueStr Key="HU_TYPE_ZIMO" Value=" 自摸"/>
+	<ScriptValueStr Key="HU_TYPE_JIEPAO" Value=" 接炮"/>
+	<ScriptValueStr Key="HU_TYPE_FANGPAO" Value=" 放炮"/>
+	
+	<ScriptValueStr Key="MingGang" Value=" 明杠"/>
+	<ScriptValueStr Key="ZiMoMingGang" Value=" 自摸明杠"/>
+	<ScriptValueStr Key="AnGang" Value=" 暗杠"/>
+	
+	
+	
+	<ScriptValueStr Key="GFXY" Value="刮风下雨"/>
+	<ScriptValueStr Key="RoomFull" Value="抱歉，房间人数已满，请选择其他房间。"/>
+	
+	<ScriptValueStr Key="Match_Free1" Value="参加比赛将扣除#金币，是否报名？"/>
+	
+	<ScriptValueStr Key="TitleName" Value="四川圈圈麻将"/>
+
+	<ScriptValueStr Key="PrivateTxt0" Value="解散房间不扣房卡，是否解散？"/>
+	<ScriptValueStr Key="PrivateTxt1" Value="房号:#，四川圈圈麻将，速度来啊！"/>
+	<ScriptValueStr Key="PrivateTxt3" Value="房卡不够，请设置先设置渠道号免费获得3张房卡！"/>
+	
+	<ScriptValueStr Key="ChannelError" Value="渠道号错误"/>
+	
+	<ScriptValueStr Key="NetReconnectError" Value="网络异常，正在尝试重连。"/>
+	
+	<ScriptValueStr Key="HuanPaiError0" Value="只能选择三张牌。"/>
+	<ScriptValueStr Key="JoinRoomNumError" Value="没有找到该房间，可能房主已经退出。"/>
+	
+	
+	<ScriptValueStr Key="MJRule2" Value="血战到底"/>
+	<ScriptValueStr Key="MJRule3" Value="血流成河"/>
+	
+ </root>
+ 

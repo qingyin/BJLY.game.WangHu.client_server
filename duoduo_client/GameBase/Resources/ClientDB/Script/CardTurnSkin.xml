@@ -1,0 +1,49 @@
+﻿ <root>
+	
+	<WidgetNode Name="CardTurnOpenShadowInfo">
+		<WidgetImagic Name="InfoBg" TextureInfo="GameBJL/res_baccarat_BJL107.png">
+			<Property Key="Pos" Value="640 510"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Looking" TextureInfo="GameBJL/res_baccarat_BJL107-1.png">
+			<Property Key="Pos" Value="640 495"/>
+		</WidgetImagic>
+		<WidgetImagic Name="TimerBg" TextureInfo="GameBJL/res_baccarat_BJL072.png">
+			<Property Key="Pos" Value="640 590"/>
+		</WidgetImagic>
+		<WidgetImagic Name="TimerBar" TextureInfo="GameBJL/res_baccarat_BJL073.png">
+			<Property Key="Pos" Value="640 590"/>
+		</WidgetImagic>
+		
+		<WidgetTxt Name="LookPlayerName" ShowTxt="布莱恩特" FontName="" FontSize="24">
+			<Property Key="Pos" Value="640 525"/>
+			<Property Key="Color" Value="180 233 180"/>
+		</WidgetTxt>
+		<WidgetTxt Name="TimeNum" ShowTxt="10" FontName="" FontSize="32">
+			<Property Key="Pos" Value="640 590"/>
+		</WidgetTxt>
+		
+		<WidgetButton Name="BJL_OpenCard" NomalTexture="GameBJL/res_baccarat_BJL056.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="640 665"/>
+			<WidgetImagic  TextureInfo="GameBJL/res_baccarat_BJL057.png" >
+				<Property Key="Pos" Value="105 46"/>
+			</WidgetImagic>
+		</WidgetButton>
+		
+		<WaiteTime Time="0.4" Name="ShowShadowInfo" SaveAction="true">
+			<Visible Visible="true"/>
+		</WaiteTime>
+		
+		<Visible Visible="false" Name="HideShadowInfo" SaveAction="true">
+		</Visible>
+		
+	</WidgetNode >
+	
+	<WidgetNode Name="TurnCardSkin1">
+		<!--WidgetButton Name="Button_Rotate" NomalTexture="ScencePokerTurn/Back.png" PressTexture="AutoPress">
+		</WidgetButton-->
+		<WidgetImagic Name="Img_RotateImg" TextureInfo="ScencePokerTurn/TurnButton_Rotate.png">
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode >
+	
+ </root>

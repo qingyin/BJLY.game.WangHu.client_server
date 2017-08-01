@@ -1,0 +1,30 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNHelpSkin.xml"/>
+	<Widget Name="HelpPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 350"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="Size" Value="1200 650"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="46"/>
+			<Property Key="ShowTxt" Value="玩法"/>
+			<Property Key="Pos" Value="0 285"/>
+			<Property Key="Color" Value="250 250 0"/>
+			<Property Key="OutLine" Value="250 250 250 250:1"/>
+		</Widget>
+		<Widget  SkinTempName="Button_Close">
+			<Property Key="Pos" Value="580 310"/>
+			<Action Key="Hide" Value="HelpPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="List">
+			<Property Key="Size" Value="1150 555"/>
+			<Property Key="Pos" Value="-575 -303"/>
+			<Property Key="HideBack" Value=""/>
+			<Widget Name="" SkinTempName="HelpListItemIos">
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

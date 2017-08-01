@@ -1,0 +1,16 @@
+﻿ <root>
+	<ScriptValueStr Key="NetError" Value="网络错误。"/>
+	<ScriptValueStr Key="CarUnitBet" Value="单注:" />
+	<ScriptValueStr Key="BankSaveOut" Value="你存入的金币过多！"/>
+	
+	<ScriptValueStr Key="BankTalkOut" Value="你取出的金币过多！"/>
+	<ScriptValueStr Key="BankTakePercent" Value="取出需要#%手续费。"/>
+	<ScriptValueStr Key="Car_TimeStatus1" Value="空闲时间" />
+	<ScriptValueStr Key="Car_TimeStatus2" Value="下注时间" />
+	<ScriptValueStr Key="Car_TimeStatus3" Value="开奖时间" />
+	
+	<ScriptValueStr Key="RoomFull" Value="抱歉，房间人数已满，请选择其他房间。"/>
+	
+	<ScriptValueStr Key="Wan" Value="万"/>
+	<ScriptValueStr Key="NetReconnectError" Value="网络异常，正在尝试重连。"/>
+ </root>

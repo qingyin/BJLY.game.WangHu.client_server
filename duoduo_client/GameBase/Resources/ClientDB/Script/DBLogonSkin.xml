@@ -1,0 +1,163 @@
+﻿ <root>
+	<WidgetEdit Name="LogonEdit" BackTexture="ScenceLogin/EditBack.png" Size="380 45" ShowTxt="请输入帐号">
+		<Property Key="Color" Value="70 20 20"/>
+	</WidgetEdit>
+	
+	<WidgetImagic Name="LoginLogoEffect" TextureInfo="ScenceLogin/EffectLight.png">
+		<SetPos Pos="-400 0" Name="Start" SaveAction="">
+			<MoveTo Time="3.5" Pos="400 0">
+				<CallAction ActionParentName="Start">
+				</CallAction>
+			</MoveTo>
+		</SetPos>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect1" TextureInfo="ScenceLogin/EffectLight1.png">
+		<Property Key="AnchorPos" Value="0.95 0.05"/>
+		<RotaTo Time="2.0" Rota="-40" Name="Start" SaveAction="">
+			<RotaTo Time="2.0" Rota="0">
+				<CallAction ActionParentName="Start">
+				</CallAction>
+			</RotaTo>
+		</RotaTo>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect2" TextureInfo="ScenceLogin/EffectLight2.png">
+		<Property Key="AnchorPos" Value="0.95 0.05"/>
+		<SetRota Rota="-10" Name="Start" SaveAction="">
+			<RotaTo Time="2.0" Rota="20" >
+				<RotaTo Time="2.0" Rota="-10">
+					<CallAction ActionParentName="Start">
+					</CallAction>
+				</RotaTo>
+			</RotaTo>
+		</SetRota>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect3" TextureInfo="ScenceLogin/EffectLight3.png">
+		<Property Key="AnchorPos" Value="0.05 0.05"/>
+		<Property Key="Rotation" Value="30"/>
+		<RotaTo Time="2.0" Rota="-10" Name="Start" SaveAction="">
+			<RotaTo Time="2.0" Rota="30">
+				<CallAction ActionParentName="Start">
+				</CallAction>
+			</RotaTo>
+		</RotaTo>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect4" TextureInfo="ScenceLogin/EffectLight4.png">
+		<Property Key="AnchorPos" Value="0.05 0.05"/>
+		<SetRota Rota="-10" Name="Start" SaveAction="">
+			<RotaTo Time="2.0" Rota="20">
+				<RotaTo Time="2.0" Rota="-10">
+					<CallAction ActionParentName="Start">
+					</CallAction>
+				</RotaTo>
+			</RotaTo>
+		</SetRota>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect5" TextureInfo="ScenceLogin/EffectLight5.png">
+		<Property Key="AnchorPos" Value="0.05 0.05"/>
+		<Visible Visible="true" Name="Start" SaveAction="">
+			<WaiteTime Time="0.5" >
+				<Visible Visible="false">
+					<WaiteTime Time="0.5" >
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</WaiteTime>
+				</Visible>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect6" TextureInfo="ScenceLogin/EffectLight6.png">
+		<Property Key="AnchorPos" Value="0.05 0.05"/>
+		<Visible Visible="false" Name="Start" SaveAction="">
+			<WaiteTime Time="0.5" >
+				<Visible Visible="true">
+					<WaiteTime Time="0.5" >
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</WaiteTime>
+				</Visible>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect7" TextureInfo="ScenceLogin/EffectLight7.png">
+		<Visible Visible="true" Name="Start" SaveAction="">
+			<WaiteTime Time="0.5" >
+				<Visible Visible="false">
+					<WaiteTime Time="0.5" >
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</WaiteTime>
+				</Visible>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect8" TextureInfo="ScenceLogin/EffectLight8.png">
+		<Visible Visible="false" Name="Start" SaveAction="">
+			<WaiteTime Time="0.5" >
+				<Visible Visible="true">
+					<WaiteTime Time="0.5" >
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</WaiteTime>
+				</Visible>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect9" TextureInfo="ScenceLogin/EffectLight9.png">
+		<Visible Visible="true" Name="Start" SaveAction="">
+			<WaiteTime Time="0.5" >
+				<Visible Visible="false">
+					<WaiteTime Time="0.5" >
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</WaiteTime>
+				</Visible>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect10" TextureInfo="ScenceLogin/EffectLight10.png">
+		<Visible Visible="false" Name="Start" SaveAction="">
+			<WaiteTime Time="0.5" >
+				<Visible Visible="true">
+					<WaiteTime Time="0.5" >
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</WaiteTime>
+				</Visible>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect20" TextureInfo="ScenceLogin/EffectLight20.png">
+		<Property Key="Scale" Value="0.5"/>
+		<Visible Visible="true" Name="Start" SaveAction="">
+			<SetPos Pos="-50 -100:50 100">
+			<SetAple Aple="0">
+			<WaiteTime Time="0.3:1" >
+				<ApleTo Time="1.0:2.5" Aple="1">
+					<Visible Visible="false">
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</Visible>
+				</ApleTo>
+			</WaiteTime>
+			</SetAple>
+			</SetPos>
+		</Visible>
+	</WidgetImagic>
+	<WidgetImagic Name="LoginLogoEffect21" TextureInfo="ScenceLogin/EffectLight21.png">
+		<Property Key="Scale" Value="0.5"/>
+		<Visible Visible="true" Name="Start" SaveAction="">
+			<SetPos Pos="-50 -100:50 100">
+			<SetAple Aple="0">
+			<WaiteTime Time="0.3:1" >
+				<ApleTo Time="1.0:2.5" Aple="1">
+					<Visible Visible="false">
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</Visible>
+				</ApleTo>
+			</WaiteTime>
+			</SetAple>
+			</SetPos>
+		</Visible>
+	</WidgetImagic>
+ </root>

@@ -1,0 +1,21 @@
+﻿ <root>
+	<Widget Name="Button_GameSet" SkinTempName="ButtonEmpty">
+		<Property Key="NomalTexture" Value="GameHNMJ/shezhi.png"/>
+		<Property Key="PressTexture" Value="AutoPress"/>
+		<Property Key="Pos" Value="1100 665"/>
+		<Action Key="Show" Value="GameSetPlane"/>
+	</Widget>
+	<Widget Name="Button_wanfa" SkinTempName="ButtonEmpty">
+		<Property Key="NomalTexture" Value="GameHNMJ/wanfa.png"/>
+		<Property Key="PressTexture" Value="AutoPress"/>
+		<Property Key="Pos" Value="1200 665"/>
+	</Widget>
+	<Widget Name="Button_LiaoTian" SkinTempName="ButtonEmpty">
+		<Property Key="NomalTexture" Value="GameHNMJ/Talk/play_liaotian.png"/>
+		<Property Key="PressTexture" Value="AutoPress"/>
+		<Property Key="Pos" Value="1210 565"/>
+		<Action Key="Show" Value="GameTalkPlane"/>
+	</Widget>
+	<ScenceXml File="GameHNMJ/xml/GameTalkScence.xml">
+	</ScenceXml>
+ </root>

@@ -1,0 +1,38 @@
+﻿ <root>
+	<LoadSkin Skin="GameHNMJ/xml/GameTalkSkin.xml"/>
+	<Widget Name="GameTalkPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="1000 400"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+			<Action Key="Hide" Value="GameTalkPlane"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="GameHNMJ/Talk/liaotian_bj.png"/>
+			<Property Key="PressTexture" Value="GameHNMJ/Talk/liaotian_bj.png"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="GameHNMJ/Talk/liaotian_kuang.png"/>
+			<Property Key="Size" Value="270 440"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget Name="GameTalkList" SkinTempName="List">
+			<Property Key="Size" Value="260 350"/>
+			<Property Key="Pos" Value="-130 -170"/>
+			<Property Key="HideBack" Value="false"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="GameHNMJ/Talk/liaotian_kuang1.png"/>
+			<Property Key="Size" Value="250 45"/>
+			<Property Key="Pos" Value="0 -185"/>
+		</Widget>
+		<Widget  Name="GameTalkEdit" SkinTempName="GameTalkEdit">
+			<Property Key="Pos" Value="-30 -185"/>
+		</Widget>
+		<Widget Name="Button_Send_TalkStr" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="GameHNMJ/Talk/liaotian_fasong.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="80 -185"/>
+		</Widget>
+	</Widget>
+ </root>

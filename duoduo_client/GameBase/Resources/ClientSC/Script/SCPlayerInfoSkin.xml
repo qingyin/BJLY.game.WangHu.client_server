@@ -1,0 +1,10 @@
+﻿ <root>
+	<WidgetEdit Name="PlayerInfoNameEdit" BackTexture="ScencePlayerInfo/EditBack.png" Size="340 50" ShowTxt="请输入名字">
+		<Property Key="Color" Value="150 120 20"/>
+		<Property Key="MaxCout" Value="12"/>
+	</WidgetEdit>
+	<WidgetEdit Name="PlayerInfoPasswordEdit" BackTexture="ScencePlayerInfo/EditBack.png" Size="340 50" ShowTxt="">
+		<Property Key="Color" Value="150 120 20"/>
+		<Property Key="MaxCout" Value="12"/>
+	</WidgetEdit>
+ </root>

@@ -1,0 +1,75 @@
+﻿ <root>
+	<WidgetImagic Name="Error" TextureInfo="public/Error.png">
+	</WidgetImagic>
+	
+	<WidgetImagic Name="ImagicEmpty" TextureInfo="UI/Empty.png">
+	</WidgetImagic>
+	
+	<WidgetNode Name="Empty">
+	</WidgetNode>
+	
+	<Widget9Sprite Name="public_9sprite" BackTexture="public/9Scale.png" Size="100 100">	
+	</Widget9Sprite>
+	
+	<WidgetCheckBox Name="public_CheckBox" UnSelectTexture="UI/Empty.png" SelectTexture="UI/Empty.png">	
+	</WidgetCheckBox>
+	
+	
+	<WidgetClipper Name="public_Clipper">	
+	</WidgetClipper>
+	
+	<WidgetLayout Name="LayoutEmpty">
+		<Property Key="ClippingEnabled" Value="true"/>
+	</WidgetLayout>
+	
+	<WidgetButton Name="ButtonEmpty" NomalTexture="public/Button_Public.png" PressTexture="AutoPress">
+	</WidgetButton>
+	
+	<WidgetButton Name="ButtonTxtEmpty" NomalTexture="public/Button_Public.png" PressTexture="AutoPress" DisableTexture="public/Button_Public.png">
+		<Property Key="FontSize" Value="30"/>
+	</WidgetButton>
+	
+	<WidgetButton Name="Button_Close" NomalTexture="public/Button_Close.png" PressTexture="AutoPress">
+	</WidgetButton>
+	
+	<WidgetButton Name="Button_Back" NomalTexture="public/Button_Back.png" PressTexture="AutoPress">
+	</WidgetButton>
+	
+	<WidgetButton Name="Button_Sure" NomalTexture="public/Button_Sure.png" PressTexture="AutoPress">
+	</WidgetButton>
+	
+	<WidgetTxt Name="TxtEmpty" ShowTxt="Empty" FontName="" FontSize="32">
+	</WidgetTxt>
+	
+	<WidgetButton Name="BtnFullEmpty" NomalTexture="UI/FullEmpty.png" PressTexture="UI/FullEmpty.png"  >
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Aple" Value="0.5"/>
+		<Property Key="Scale" Value="10"/>
+		<Action Key="Sound" Value=""/>
+	</WidgetButton>
+	
+	<WidgetList Name="List">
+	</WidgetList>
+	
+	<WidgetEdit Name="AcountEdit" BackTexture="UI/Empty.png" Size="380 50" FontSize="25" ShowTxt="请输入渠道号">
+		<Property Key="Color" Value="70 20 20"/>
+	</WidgetEdit>
+	
+	<WidgetNode Name="PopNode">
+		<Property Key="Visible" Value="false"/>
+		<SetScale Scale="0" Name="ActionStart" SaveAction="true">
+			<Visible Visible="true" />
+			<ScaleTo Time="0.2" Scale="1.2">
+				<ScaleTo Time="0.1" Scale="1.0">
+				</ScaleTo>
+			</ScaleTo>
+		</SetScale>
+		<SetScale Scale="1" Name="ActionEnd" SaveAction="true">
+			<ScaleTo Time="0.1" Scale="1.2">
+				<ScaleTo Time="0.2" Scale="0">
+					<Visible Visible="false" />
+				</ScaleTo>
+			</ScaleTo>
+		</SetScale>
+	</WidgetNode>
+ </root>

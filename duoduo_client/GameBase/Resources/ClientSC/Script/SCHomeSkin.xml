@@ -1,0 +1,167 @@
+﻿ <root>
+	<WidgetNodeUI Name="HomeRankNode">
+		<Property Key="Size" Value="350 110"/>
+		<Widget9Sprite Name="public_9sprite" BackTexture="ScenceHome/RankBack.png" Size="360 100">	
+			<Property Key="Pos" Value="190 55"/>
+		</Widget9Sprite>
+		<WidgetImagic Name="HeadIcon" TextureInfo="Head/Head0.png">
+			<Property Key="Pos" Value="60 55"/>
+			<Property Key="Scale" Value="0.24"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/rank1.png">
+			<Property Key="Pos" Value="40 88"/>
+			<Property Key="Scale" Value="0.5"/>
+			<Property Key="Rotation" Value="-30"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="玩家昵称" FontName="" FontSize="28">
+			<Property Key="Pos" Value="110 70"/>
+			<Property Key="Color" Value="70 20 20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="ValueName" ShowTxt="名字" FontName="" FontSize="25">
+			<Property Key="Pos" Value="110 30"/>
+			<Property Key="Color" Value="70 20 20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+	</WidgetNodeUI>
+	
+	
+	<WidgetNode Name="HomeMoveAction">
+		<MoveTo Time="0.5:0.7" Pos="Key:ComePos" Name="Come" SaveAction="true">
+		</MoveTo>
+		<MoveTo Time="0.6" Pos="Key:OutPos" Name="Out" SaveAction="true">
+		</MoveTo>
+	</WidgetNode>
+	
+	<WidgetNode Name="HomeMoveActionLeft">
+		<MoveTo Time="0.5:0.7" Pos="Key:ComePos" Name="Come" SaveAction="true">
+			<MoveBy Time="0.1" Pos="-15 0"  >
+				<MoveBy Time="0.15" Pos="20 0" >
+					<MoveBy Time="0.06" Pos="-5 0" >
+					</MoveBy>
+				</MoveBy>
+			</MoveBy>
+		</MoveTo>
+		<MoveTo Time="0.6" Pos="Key:OutPos" Name="Out" SaveAction="true">
+		</MoveTo>
+	</WidgetNode>
+	
+	<WidgetNode Name="HomeMoveActionRight">
+		<MoveTo Time="0.5:0.7" Pos="Key:ComePos" Name="Come" SaveAction="true">
+			<MoveBy Time="0.1" Pos="15 0" >
+				<MoveBy Time="0.15" Pos="-20 0" >
+					<MoveBy Time="0.06" Pos="5 0" >
+					</MoveBy>
+				</MoveBy>
+			</MoveBy>
+		</MoveTo>
+		<MoveTo Time="0.6" Pos="Key:OutPos" Name="Out" SaveAction="true">
+		</MoveTo>
+	</WidgetNode>
+	
+	<WidgetNode Name="HomeMoveActionUp">
+		<MoveTo Time="0.5:0.7" Pos="Key:ComePos" Name="Come" SaveAction="true">
+			<MoveBy Time="0.1" Pos="0 15" >
+				<MoveBy Time="0.15" Pos="0 -20" >
+					<MoveBy Time="0.06" Pos="0 5" >
+					</MoveBy>
+				</MoveBy>
+			</MoveBy>
+		</MoveTo>
+		<MoveTo Time="0.6" Pos="Key:OutPos" Name="Out" SaveAction="true">
+		</MoveTo>
+	</WidgetNode>
+	
+	<WidgetNode Name="HomeMoveActionDown">
+		<MoveTo Time="0.5:0.7" Pos="Key:ComePos" Name="Come" SaveAction="true">
+			<MoveBy Time="0.1" Pos="0 -15" >
+				<MoveBy Time="0.15" Pos="0 20" >
+					<MoveBy Time="0.06" Pos="0 -5" >
+					</MoveBy>
+				</MoveBy>
+			</MoveBy>
+		</MoveTo>
+		<MoveTo Time="0.6" Pos="Key:OutPos" Name="Out" SaveAction="true">
+		</MoveTo>
+	</WidgetNode>
+	
+	
+	<WidgetNodeUI Name="HomeGameRoomNode">
+		<Property Key="Size" Value="320 210"/>
+		<WidgetNodeUI Name="Room0">
+			<WidgetButton Name="Button_GameRoom" NomalTexture="ScenceHome/GameRoom1/RoomBack.png" 
+				PressTexture="AutoPress">
+				<Property Key="Pos" Value="158 101"/>
+			</WidgetButton>
+			<WidgetTxt Name="Name" ShowTxt="菜鸟房" FontName="" FontSize="40">
+				<Property Key="Pos" Value="158 150"/>
+			</WidgetTxt>
+			<WidgetTxt Name="OnlineTxt" ShowTxt="0000人" FontName="" FontSize="25">
+				<Property Key="Pos" Value="15 30"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+			<WidgetTxt Name="NeedGoldTxt" ShowTxt="2千-8万" FontName="" FontSize="25">
+				<Property Key="Pos" Value="300 30"/>
+				<Property Key="AnchorPos" Value="1 0.5"/>
+			</WidgetTxt>
+		</WidgetNodeUI>
+		<WidgetNodeUI Name="Room1">
+			<Property Key="Pos" Value="340 0"/>
+			<WidgetButton Name="Button_GameRoom" NomalTexture="ScenceHome/GameRoom1/RoomBack.png" 
+				PressTexture="AutoPress">
+				<Property Key="Pos" Value="158 101"/>
+			</WidgetButton>
+			<WidgetTxt Name="Name" ShowTxt="菜鸟房" FontName="" FontSize="40">
+				<Property Key="Pos" Value="158 150"/>
+			</WidgetTxt>
+			<WidgetTxt Name="OnlineTxt" ShowTxt="0000人" FontName="" FontSize="25">
+				<Property Key="Pos" Value="15 30"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+			<WidgetTxt Name="NeedGoldTxt" ShowTxt="2千-8万" FontName="" FontSize="25">
+				<Property Key="Pos" Value="300 30"/>
+				<Property Key="AnchorPos" Value="1 0.5"/>
+			</WidgetTxt>
+		</WidgetNodeUI>
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="HomeMacthRoomNode">
+		<Property Key="Size" Value="320 170"/>
+		<Widget9Sprite Name="public_9sprite" BackTexture="ScenceMatch/9Scale.png" Size="1080 170">	
+			<Property Key="Pos" Value="550 80"/>
+		</Widget9Sprite>
+		<WidgetButton Name="Button_ShowMatchSignup" NomalTexture="ScenceMatch/Button_SignupMatch.png" 
+			PressTexture="AutoPress">
+			<Property Key="Pos" Value="958 81"/>
+			<Property Key="ShowTxt" Value="免费报名"/>
+			<UserInfo Key="Txt" Value="报名
+			#金币"/>
+			<Property Key="Alignment" Value="1"/>
+			<Property Key="FontSize" Value="30"/>
+		</WidgetButton>
+		<WidgetImagic Name="" TextureInfo="ScenceMatch/HeadBack.png">
+			<Property Key="Pos" Value="100 85"/>
+		</WidgetImagic>
+		<WidgetImagic Name="MatchType" TextureInfo="ScenceMatch/MatchType0.png">
+			<Property Key="Pos" Value="100 85"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="菜鸟房" FontName="" FontSize="42">
+			<Property Key="Pos" Value="210 120"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="MatchTypeTxt" ShowTxt="血战到底" FontName="" FontSize="30">
+			<Property Key="Pos" Value="210 50"/>
+			<Property Key="OutLine" Value="0 0 0 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="NeedGold" ShowTxt="1000金币准入" FontName="" FontSize="25">
+			<Property Key="Pos" Value="470 50"/>
+			<UserInfo Key="Txt" Value="#金币准入"/>
+		</WidgetTxt>
+		<WidgetTxt Name="StartTxt" ShowTxt="每天10：0-24：00" FontName="" FontSize="25">
+			<Property Key="Pos" Value="700 50"/>
+			<UserInfo Key="Txt1" Value="每天:#"/>
+			<UserInfo Key="Txt2" Value="满#人开赛"/>
+		</WidgetTxt>
+	</WidgetNodeUI>
+ </root>

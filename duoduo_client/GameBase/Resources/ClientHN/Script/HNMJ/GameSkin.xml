@@ -1,0 +1,511 @@
+﻿ <root>
+	<WidgetNode Name="HNMJ_Animation" >
+		<Property Key="Visible" Value="false"/>
+		<UserInfo Key="Imagic" Value="GameHNMJ/shaiziAnim/shaizi"/>
+		
+		<Visible Name="ActionStart1" Visible="true" SaveAction="true">
+			<CallAction OtherNodeName="Animation" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi0" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi1" OtherActionName="Start">
+			</CallAction>
+			<WaiteTime Time="3">
+				<Visible Visible="false">
+				</Visible>
+				<CallButton ButtonName="HNMJButtonAction_ShowNext">
+				</CallButton>
+			</WaiteTime>
+			
+		</Visible>
+		<Visible Name="ActionStart2" Visible="true" SaveAction="true">
+			<CallAction OtherNodeName="Animation" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi0" OtherActionName="Start">
+			</CallAction>
+			<CallAction OtherNodeName="SaiZi1" OtherActionName="Start">
+			</CallAction>
+			<WaiteTime Time="3">
+				<Visible Visible="false">
+				</Visible>
+				<CallButton ButtonName="HNMJButtonAction_ShowCard">
+				</CallButton>
+			</WaiteTime>
+		</Visible>
+		<WidgetAnimation Name="Animation">
+			<Property Key="Time" Value="0.1"/>
+			<Property Key="Loop" Value="false"/>
+			<RunAnim Name="Start" AnimName="GameHNMJ/shaiziAnim/shaizi_anmi:1:11:.png" SaveAction="true">
+			</RunAnim>
+		</WidgetAnimation>
+		<WidgetImagic Name="SaiZi0" TextureInfo="GameHNMJ/shaiziAnim/shaizi1.png">
+			<Property Key="Pos" Value="-50 -20"/>
+			<Visible Name="Start" Visible="false" SaveAction="true">
+				<WaiteTime Time="1.1">
+					<Visible Visible="true">
+					</Visible>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+		<WidgetImagic Name="SaiZi1" TextureInfo="GameHNMJ/shaiziAnim/shaizi1.png">
+			<Property Key="Pos" Value="50 -10"/>
+			<Visible Name="Start" Visible="false" SaveAction="true">
+				<WaiteTime Time="1.1">
+					<Visible Visible="true">
+					</Visible>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+	</WidgetNode>
+ 
+	<!--自己-->
+	<WidgetNode Name="HNMJ_PENG_0" >
+		<UserInfo Key="Imagic" Value="GameHNMJ/2/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="85 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="170 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="HNMJ_GANG_0" >
+		<UserInfo Key="Imagic" Value="GameHNMJ/2/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="85 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="170 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card3" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="85 28"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetImagic Name="HNMJ_HAND_0" TextureInfo="GameHNMJ/2/handmah_11.png">
+		<UserInfo Key="Imagic" Value="GameHNMJ/2/handmah_"/>
+		<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+		<Property Key="AnchorPos" Value="0 0.5"/>
+		<UserInfo Key="HuScale" Value="1"/>
+	</WidgetImagic>
+	<WidgetImagic Name="HNMJ_OUT_0" TextureInfo="GameHNMJ/2/mingmah_16.png">
+		<UserInfo Key="Imagic" Value="GameHNMJ/2/mingmah_"/>
+		<Property Key="Scale" Value="0.5"/>
+		<Property Key="AnchorPos" Value="0 0.5"/>
+		
+		<Visible Visible="false" Name="OutAni" SaveAction="true">
+			<WaiteTime Time="1.2" >
+				<Visible Visible="true"/>
+			</WaiteTime>
+		</Visible>
+		
+	</WidgetImagic>
+	<!--左边-->
+	<WidgetNode Name="HNMJ_PENG_1" >
+		<UserInfo Key="Imagic" Value="GameHNMJ/1/mingmah_"/>
+		<WidgetImagic Name="Card2" TextureInfo="GameHNMJ/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 46.666"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameHNMJ/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 23.333"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card0" TextureInfo="GameHNMJ/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="HNMJ_GANG_1" >
+		<UserInfo Key="Imagic" Value="GameHNMJ/1/mingmah_"/>
+		<WidgetImagic Name="Card2" TextureInfo="GameHNMJ/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 46.666"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameHNMJ/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 23.333"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card3" TextureInfo="GameHNMJ/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 36"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card0" TextureInfo="GameHNMJ/1/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="1 0"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetImagic Name="HNMJ_HAND_1" TextureInfo="GameHNMJ/hand_right.png">
+		<UserInfo Key="MingImagic" Value="GameHNMJ/1/mingmah_"/>
+		<Property Key="AnchorPos" Value="1 0"/>
+		<Property Key="Scale" Value="0.7"/>
+		<UserInfo Key="HuScale" Value="0.8"/>
+	</WidgetImagic>
+	<WidgetImagic Name="HNMJ_OUT_1" TextureInfo="GameHNMJ/1/mingmah_11.png">
+		<UserInfo Key="Imagic" Value="GameHNMJ/1/mingmah_"/>
+		<Property Key="AnchorPos" Value="1 0"/>
+		<Property Key="Scale" Value="0.8"/>
+		
+		
+		<Visible Visible="false" Name="OutAni" SaveAction="true">
+			<WaiteTime Time="1.2" >
+				<Visible Visible="true"/>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<!--对面-->
+	<WidgetNode Name="HNMJ_PENG_2" >
+		<UserInfo Key="Imagic" Value="GameHNMJ/2/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="-51 0"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="-102 0"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="HNMJ_GANG_2" >
+		<UserInfo Key="Imagic" Value="GameHNMJ/2/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="-51 0"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="-102 0"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card3" TextureInfo="GameHNMJ/2/mingmah_11.png">
+			<Property Key="Pos" Value="-51 20"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetImagic Name="HNMJ_HAND_2" TextureInfo="GameHNMJ/hand_top.png">
+		<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+		<Property Key="AnchorPos" Value="1 0.5"/>
+		<UserInfo Key="HuScale" Value="0.6"/>
+	</WidgetImagic>
+	<WidgetImagic Name="HNMJ_OUT_2" TextureInfo="GameHNMJ/2/mingmah_11.png">
+		<UserInfo Key="Imagic" Value="GameHNMJ/2/mingmah_"/>
+		<Property Key="Scale" Value="0.5"/>
+		<Property Key="AnchorPos" Value="1 0.5"/>
+		
+		<Visible Visible="false" Name="OutAni" SaveAction="true">
+			<WaiteTime Time="1.2" >
+				<Visible Visible="true"/>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<!--右边-->
+	<WidgetNode Name="HNMJ_PENG_3" >
+		<UserInfo Key="Imagic" Value="GameHNMJ/3/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameHNMJ/3/mingmah_11.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameHNMJ/3/mingmah_11.png">
+			<Property Key="Pos" Value="0 -23.333"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameHNMJ/3/mingmah_11.png">
+			<Property Key="Pos" Value="0 -46.666"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="HNMJ_GANG_3" >
+		<UserInfo Key="Imagic" Value="GameHNMJ/3/mingmah_"/>
+		<WidgetImagic Name="Card0" TextureInfo="GameHNMJ/3/mingmah_17.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card1" TextureInfo="GameHNMJ/3/mingmah_17.png">
+			<Property Key="Pos" Value="0 -23.333"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card2" TextureInfo="GameHNMJ/3/mingmah_17.png">
+			<Property Key="Pos" Value="0 -46.666"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Card3" TextureInfo="GameHNMJ/3/mingmah_11.png">
+			<Property Key="Pos" Value="0 -23.333"/>
+			<Property Key="AnchorPos" Value="0 1"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetImagic Name="HNMJ_HAND_3" TextureInfo="GameHNMJ/hand_left.png">
+		<UserInfo Key="MingImagic" Value="GameHNMJ/3/mingmah_"/>
+		<Property Key="AnchorPos" Value="0 1"/>
+		<Property Key="Scale" Value="0.7"/>
+		<UserInfo Key="HuScale" Value="0.8"/>
+	</WidgetImagic>
+	<WidgetImagic Name="HNMJ_OUT_3" TextureInfo="GameHNMJ/1/mingmah_11.png">
+		<UserInfo Key="Imagic" Value="GameHNMJ/1/mingmah_"/>
+		<Property Key="AnchorPos" Value="0 1"/>
+		<Property Key="Scale" Value="0.8"/>
+		
+		<Visible Visible="false" Name="OutAni" SaveAction="true">
+			<WaiteTime Time="1.2" >
+				<Visible Visible="true"/>
+			</WaiteTime>
+		</Visible>
+	</WidgetImagic>
+	<!--玩家出牌大图效果-->
+	<WidgetImagic Name="HNMJ_BIG_OUT" TextureInfo="GameHNMJ/2/mingmah_11.png">
+		<UserInfo Key="Imagic" Value="GameHNMJ/2/mingmah_"/>
+		
+		<Visible Visible="true"  Name="Start" SaveAction="true">
+			<WaiteTime Time="1" >
+				<MoveTo Time="0.2" Pos="Key:OutHandPos">
+				</MoveTo>
+				<ScaleTo Time="0.2" Scale="0.5">
+					<Visible Visible="false"/>
+					<SetScale Scale="1"/>
+					<SetPos Pos="Key:SelfPos"/>
+				</ScaleTo>
+			</WaiteTime>
+		</Visible>
+		
+		
+	</WidgetImagic>
+	<!--玩家头像-->
+	<WidgetNode Name="HNMJ_PLAYER_HEAD" >
+		<EmptyAction Name="Start" SaveAction="true">
+			<MoveTo Time="1.0" Pos="Key:DestPos">
+			</MoveTo>
+			<ScaleTo Time="1.0" Scale="0.7">
+			</ScaleTo>
+		</EmptyAction>
+		<EmptyAction Name="End" SaveAction="true">
+			<SetPos Pos="Key:SrcPos">
+			</SetPos>
+			<SetScale Scale="1">
+			</SetScale>
+		</EmptyAction>
+		
+		<EmptyAction Name="StartNoTime" SaveAction="true">
+			<SetPos Pos="Key:DestPos">
+			</SetPos>
+			<SetScale Time="1.0" Scale="0.7">
+			</SetScale>
+		</EmptyAction>
+		
+		<WidgetImagic Name="HeadImagicEmpty" TextureInfo="GameHNMJ/HeadImagic.png">
+			<Property Key="Pos" Value="-0.5 0"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetImagic Name="HeadImagic" TextureInfo="Head/Head0.png">
+			<Property Key="Pos" Value="0 0"/>
+			<Property Key="Scale" Value="0.6"/>
+		</WidgetImagic>
+		<WidgetButton Name="ButtonPlayerHeadClick" NomalTexture="GameHNMJ/HeadBack.png" PressTexture="AutoPress">
+		</WidgetButton>
+		<WidgetImagic Name="Zhuang" TextureInfo="GameHNMJ/zhuang.png">
+			<Property Key="Pos" Value="60 -22"/>
+			<Property Key="Visible" Value="true"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Offline" TextureInfo="GameHNMJ/off_line_sign.png">
+			<Property Key="Pos" Value="35 35"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetImagic Name="FangZhu" TextureInfo="GameHNMJ/fangzhu.png">
+			<Property Key="Pos" Value="35 35"/>
+			<Property Key="Visible" Value="true"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="名字" FontName="" FontSize="30">
+			<Property Key="Pos" Value="0 -67"/>
+		</WidgetTxt>
+		<WidgetImagic Name="GoldImagic" TextureInfo="GameHNMJ/GoldBack.png">
+			<Property Key="Pos" Value="30 -70"/>
+			<Property Key="Pos" Value="0 -105"/>
+			<EmptyAction Name="Start" SaveAction="true">
+				<MoveTo Time="1.0" Pos="30 -70">
+				</MoveTo>
+			</EmptyAction>
+			<EmptyAction Name="End" SaveAction="true">
+				<SetPos Pos="0 -105">
+				</SetPos>
+			</EmptyAction>
+			<WidgetTxt Name="GoldTxt" ShowTxt="100" FontName="" FontSize="30">
+				<Property Key="Pos" Value="77 17"/>
+			</WidgetTxt>
+		</WidgetImagic>
+		<WidgetTxt Name="AddGoldTxt" ShowTxt="1000" FontName="" FontSize="60">
+			<Property Key="Color" Value="250 252 0"/>
+			<Property Key="Visible" Value="false"/>
+			<Visible Visible="true" Name="Start" SaveAction="true">
+				<WaiteTime Time="4" >
+					<Visible Visible="false">
+					</Visible>
+				</WaiteTime>
+				<SetPos Pos="0 0">
+				</SetPos>
+				<MoveTo Time="0.5" Pos="0 60">
+				</MoveTo>
+			</Visible>
+		</WidgetTxt>
+	</WidgetNode>
+	
+	
+	
+	<WidgetNode Name="HNMJ_PlayerStatusNode">
+		<WidgetImagic Name="ReadyState" TextureInfo="GameHNMJ/Status_Ready.png">
+			<UserInfo Key="Ready" Value="GameHNMJ/Status_Ready.png"/>
+			<UserInfo Key="ZiMo" Value="GameHNMJ/Status_ZiMo.png"/>
+			<UserInfo Key="Hu" Value="GameHNMJ/Status_Hu.png"/>
+		</WidgetImagic>
+		<WidgetImagic Name="EffectImagic" TextureInfo="GameHNMJ/Status_Ready.png">
+			<UserInfo Key="Hu" Value="GameHNMJ/Effect_Hu.png"/>
+			<Property Key="Visible" Value="false"/>
+			<Visible Visible="true" Name="Start" SaveAction="true">
+				<WaiteTime Time="4" >
+					<Visible Visible="false">
+					</Visible>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="HNMJ_GameResoultState">
+		<WidgetTxt Name="Name" ShowTxt="就看见" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-470 0"/>
+			<Property Key="Color" Value="70 20 20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="Des" ShowTxt="就看见就看就看见就看" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-260 0"/>
+			<Property Key="Color" Value="70 20 20"/>
+			<Property Key="AnchorPos" Value="0 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="GoldTxt" ShowTxt="-1000" FontName="" FontSize="30">
+			<Property Key="Pos" Value="360 0"/>
+			<Property Key="Color" Value="150 150 20"/>
+		</WidgetTxt>
+	</WidgetNode>
+	<WidgetNode Name="HNMJ_GameResoultStateList">
+		<WidgetSkinChild Name="GameResoultInfo0" SkinTempName="HNMJ_GameResoultState">
+			<Property Key="Pos" Value="0 0"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo1" SkinTempName="HNMJ_GameResoultState">
+			<Property Key="Pos" Value="0 -50"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo2" SkinTempName="HNMJ_GameResoultState">
+			<Property Key="Pos" Value="0 -100"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo3" SkinTempName="HNMJ_GameResoultState">
+			<Property Key="Pos" Value="0 -150"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo4" SkinTempName="HNMJ_GameResoultState">
+			<Property Key="Pos" Value="0 -200"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="GameResoultInfo5" SkinTempName="HNMJ_GameResoultState">
+			<Property Key="Pos" Value="0 -250"/>
+		</WidgetSkinChild>
+	</WidgetNode>
+	
+	
+	<WidgetNode Name="JieSuanInfoNode">
+		<Widget9Sprite Name="public_9sprite" BackTexture="JieSuan/over_jieshuUI.png" Size="960 120">	
+		</Widget9Sprite>
+		<WidgetImagic Name="JieSuan_Zhuang" TextureInfo="JieSuan/over_zhuangjia.png">
+			<Property Key="Pos" Value="-470 -20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Jiesuan_Nicke" ShowTxt="微笑" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-410 42"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		
+		<WidgetTxt Name="Jiesuan_HuType" ShowTxt="自摸" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-310 42"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="222 222 0"/>
+		</WidgetTxt>
+		
+		<WidgetNode Name="JieSuanCardNode">
+			<Property Key="Scale" Value="0.5"/>
+			<UserInfo Key="JieSuanAddPos" Value="85 0"/>
+			<UserInfo Key="JieSuanChiHuPos" Value="105 0"/>
+			<UserInfo Key="JieSuanWeaveGap" Value="10 0"/>
+			
+			<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+			<Property Key="Pos" Value="-285 -15"/>
+			<Property Key="Oder" Value="1"/>
+		</WidgetNode>
+		
+		<WidgetTxt Name="Jiesuan_GoldNum" ShowTxt="+400" FontName="" FontSize="35">
+			<Property Key="Pos" Value="270 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		
+		<WidgetImagic Name="JieSuan_Hu" TextureInfo="JieSuan/over_hu.png">
+			<Property Key="Pos" Value="430 0"/>
+		</WidgetImagic>
+	</WidgetNode>
+	
+	
+	
+	<WidgetImagic Name="THJActionAni" TextureInfo="Animation/eff_peng.png">
+		<UserInfo Key="PengAni" Value="Animation/eff_peng.png"/>
+		<UserInfo Key="ChiAni"  Value="Animation/eff_chi.png"/>
+		<UserInfo Key="GangAni" Value="Animation/eff_gang.png"/>
+		<UserInfo Key="HuAni"   Value="Animation/eff_hu.png"/>
+		<UserInfo Key="BanBanHuAni" Value="Animation/eff_banhu.png"/>
+		<UserInfo Key="66ShunAni"   Value="Animation/eff_liushun.png"/>
+		<UserInfo Key="QueYiSeAni"  Value="Animation/eff_quese.png"/>
+		<UserInfo Key="XiaoSiXiAni" Value="Animation/eff_sixi.png"/>
+		
+		<Visible  Visible="true" Name="Start" SaveAction="">
+			<SetScale Scale="0"/>
+			<SetAple Aple="0"/>
+			<ScaleTo Time="0.5" Scale="1">
+			</ScaleTo>
+			<ApleTo Time="0.5" Aple="1">
+				<WaiteTime Time="1" >
+					<ApleTo Time="0.2" Aple="0">
+							<Visible  Visible="false"/>
+					</ApleTo>
+				</WaiteTime>
+			</ApleTo>
+		</Visible>
+	</WidgetImagic>
+	
+ </root>

@@ -1,0 +1,219 @@
+﻿ <root>
+	<WidgetTxtAtlas Name="CarTimeTxtAtlas" Texture="GameCar/number/garage_number.png" Width="32" Height="32" StartChar="48" >
+	</WidgetTxtAtlas>
+	<WidgetTxtAtlas Name="CarGoldTxtAtlas" Texture="GameCar/number/garage_number_small.png" Width="18" Height="17" StartChar="45" >
+	</WidgetTxtAtlas>
+	<WidgetTxtAtlas Name="CarBetTxtAtlas" Texture="GameCar/number/garage_goldennumber.png" Width="12" Height="16" StartChar="48" >
+	</WidgetTxtAtlas>
+
+	<WidgetNode Name="CarNode" >
+		<WidgetImagic Name="CarBg" TextureInfo="GameCar/rolling_horizontal.png">
+			<SetAple Aple="1" Name="Start" SaveAction="true">
+				<Visible Visible="true">
+					<ApleTo Time="0.2" Aple="0">
+					</ApleTo>
+				</Visible>
+			</SetAple>
+			<SetAple Aple="1" Name="Show" SaveAction="true">
+				<Visible Visible="true">
+				</Visible>
+			</SetAple>
+			<Visible Visible="true" Name="blink" SaveAction="true">
+				<WaiteTime Time="4" >
+					<StopAllAction />
+				</WaiteTime>
+				<WaiteTime Name="test" Time="0.2" >
+					<SetAple Aple="0">
+						<WaiteTime Time="0.3" >
+							<SetAple Aple="1">
+								<CallAction ActionParentName="test">
+								</CallAction>
+							</SetAple>
+						</WaiteTime>
+					</SetAple>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+		
+		<WidgetImagic Name="CarDisable" TextureInfo="GameCar/reel_vw_disable.png">
+		</WidgetImagic>
+		
+		<WidgetImagic Name="CarEnable" TextureInfo="GameCar/reel_vw_enable.png">
+			<SetAple Aple="1" Name="Start" SaveAction="true">
+				<Visible Visible="true">
+					<ApleTo Time="0.2" Aple="0">
+					</ApleTo>
+				</Visible>
+			</SetAple>
+			<SetAple Aple="1" Name="Show" SaveAction="true">
+				<Visible Visible="true">
+				</Visible>
+			</SetAple>
+			<Visible Visible="true" Name="blink" SaveAction="true">
+				<WaiteTime Time="4" >
+					<StopAllAction />
+				</WaiteTime>
+				<WaiteTime Name="test" Time="0.2" >
+					<SetAple Aple="0">
+						<WaiteTime Time="0.3" >
+							<SetAple Aple="1">
+								<CallAction ActionParentName="test">
+								</CallAction>
+							</SetAple>
+						</WaiteTime>
+					</SetAple>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+	</WidgetNode>
+	
+	<WidgetImagic Name="CarLogoImg" TextureInfo="GameCar/logo_ferrari.png">
+		<SetScale Scale="3" Name="Start" SaveAction="true">
+			<Visible Visible="true">
+			</Visible>
+			<SetAple  Aple ="0.01" >
+			</SetAple>
+			<ApleTo Time="0.6" Aple ="1" >
+			</ApleTo>
+			<ScaleTo Time="0.6" Scale="1" >
+				<WaiteTime Time="2.2" >
+					<ScaleTo Time="0.3" Scale="1.2" >
+						<ApleTo Time="0.2" Aple ="0" >
+							<Visible Visible="false">
+							</Visible>
+						</ApleTo>
+					</ScaleTo>
+				</WaiteTime>
+			</ScaleTo>
+		</SetScale>
+	</WidgetImagic>
+	
+	<WidgetImagic Name="CarLogoEffect" TextureInfo="GameCar/eff_bingo_ref_add.png">
+		<SetPos Pos="-100 -100" Name="Start" SaveAction="true">
+			<WaiteTime Time="2" >
+				<Visible Visible="true">
+				</Visible>
+				<MoveTo Time="0.8" Pos="100 100">
+					<Visible Visible="false">
+					</Visible>
+				</MoveTo>
+			</WaiteTime>
+		</SetPos>
+	</WidgetImagic>
+
+	<WidgetImagic Name="CarRecord" TextureInfo="GameCar/reel_vw_disable.png">
+		<Property Key="Scale" Value="0.65"/>
+		<SetPos Pos="Key:OldPos"  Name="MoveByX" SaveAction="true">
+			<MoveBy Time="0.6" Pos="53 0">
+				<SetPos Pos="Key:OldPos">
+					<SetImage ImageFile="Key:NewReordFile">
+					</SetImage>
+				</SetPos>
+			</MoveBy>
+		</SetPos>
+		
+		<ScaleTo Time="0.6" Scale="0"  Name="ScaleFirst" SaveAction="true">
+			<SetScale Scale="0.65">
+				<SetImage ImageFile="Key:NewReordFile">
+				</SetImage>
+			</SetScale>
+		</ScaleTo>
+		
+		<WaiteTime Time="0.6" Name="ShowCarRecord" SaveAction="true">
+			<Visible Visible="true">
+			</Visible>
+		</WaiteTime>
+		
+		
+		<WidgetImagic Name="NewIcon" TextureInfo="GameCar/new.png">
+			<Property Key="Pos" Value="50 25"/>
+			<WaiteTime Time="0.6" Name="ShowNewIccon" SaveAction="true">
+				<Visible Visible="true">
+				</Visible>
+			</WaiteTime>
+		</WidgetImagic>
+	</WidgetImagic>
+	
+	<WidgetImagic Name="CarRecordTemp" TextureInfo="GameCar/reel_vw_disable.png">
+		<Property Key="Scale" Value="0.65"/>
+		<UserInfo Key="FromPos" Value="0 0"/>
+		<UserInfo Key="ToPos" Value="100 100"/>
+		<SetPos Pos="Key:FromPos" Name="NewItemMove" SaveAction="true">
+			<Visible Visible="true" >
+				<SetScale Scale="1.2">
+					<MoveTo Time="0.6" Pos="Key:ToPos">
+						<Visible Visible="false"> 
+						</Visible>
+					</MoveTo>
+					<ScaleTo Time="0.6" Scale="0.65">
+					</ScaleTo>
+				</SetScale>
+			</Visible>
+		</SetPos>
+	</WidgetImagic>
+	
+	<WidgetNode Name="TimeLineNode" >
+		<WidgetImagic Name="Line1" TextureInfo="GameCar/eff_countdown_c.png">
+			<Property Key="Pos" Value="875 386"/>
+			<ApleTo Time="0.5" Aple="1" Name="Start" SaveAction="">
+				<ApleTo Time="0.5" Aple="0.1">
+					<CallAction ActionParentName="Start">
+					</CallAction>
+				</ApleTo>
+			</ApleTo>
+		</WidgetImagic>
+		<WidgetImagic Name="Line2" TextureInfo="GameCar/eff_countdown_b.png">
+			<Property Key="Pos" Value="875 388"/>
+			<WaiteTime Time="0.25" Name="Start" SaveAction="">
+				<ApleTo Time="0.5" Aple="1" >
+					<ApleTo Time="0.5" Aple="0.1">
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</ApleTo>
+				</ApleTo>
+			</WaiteTime>
+		</WidgetImagic>
+		<WidgetImagic Name="Line3" TextureInfo="GameCar/eff_countdown_a.png">
+			<Property Key="Pos" Value="875 390"/>
+			<WaiteTime Time="0.5" Name="Start" SaveAction="">
+				<ApleTo Time="0.5" Aple="1" >
+					<ApleTo Time="0.5" Aple="0.1">
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</ApleTo>
+				</ApleTo>
+			</WaiteTime>
+		</WidgetImagic>
+	</WidgetNode>
+	
+	<WidgetImagic Name="DaoShu" TextureInfo="GameCar/countdown_3.png">
+		<Property Key="Pos" Value="300 340"/>
+		<SetImage ImageFile="GameCar/countdown_3.png" Name="Start" SaveAction="true">
+			<SetScale Scale="0" >
+				<ScaleTo Time="0.3" Scale="1" >
+					<WaiteTime Time="0.4">
+						<ScaleTo Time="0.3" Scale="0" >
+							<SetImage ImageFile="GameCar/countdown_2.png">
+								<ScaleTo Time="0.3" Scale="1" >
+									<WaiteTime Time="0.4">
+										<ScaleTo Time="0.3" Scale="0" >
+											<SetImage ImageFile="GameCar/countdown_1.png">
+												<ScaleTo Time="0.3" Scale="1" >
+													<WaiteTime Time="0.4">
+														<ScaleTo Time="0.3" Scale="0" >
+														</ScaleTo>
+													</WaiteTime>
+												</ScaleTo>
+											</SetImage>
+										</ScaleTo>
+									</WaiteTime>
+								</ScaleTo>
+							</SetImage>
+						</ScaleTo>
+					</WaiteTime>
+				</ScaleTo>
+			</SetScale>
+		</SetImage>
+	</WidgetImagic>
+	
+ </root>

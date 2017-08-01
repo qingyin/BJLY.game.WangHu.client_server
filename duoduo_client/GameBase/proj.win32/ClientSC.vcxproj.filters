@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{51909714-0bd1-40ed-abd9-96ed3320f948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientSC">
+      <UniqueIdentifier>{d5f09012-3d88-4964-9522-d228be8b2932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientSC\Scene">
+      <UniqueIdentifier>{7d3bbea5-f9bb-4f45-92e1-1b5021f395d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\ClientSC\SCGameManager.cpp">
+      <Filter>ClientSC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\SCGameManager_Game.cpp">
+      <Filter>ClientSC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCHomeScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCHomeScence_Button.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCHomeScence_Sink.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCLogonScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCScenceManager.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Main\AppDelegate.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Main\SCGame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCSignInScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCLowProtectScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCPlayerInfoScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCBeginnerScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCAddRankScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\WindowsMain\main.cpp" />
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCMatchScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCShopScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientSC\Scene\SCExchangeScence.cpp">
+      <Filter>ClientSC\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\ClientSC\SCGameManager.h">
+      <Filter>ClientSC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCHomeScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCLogonScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCScenceManager.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Main\AppDelegate.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Main\SCGame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCSignInScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCLowProtectScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCPlayerInfoScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCBeginnerScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCAddRankScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\WindowsMain\main.h" />
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCMatchScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Game\GameDefine.h" />
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCShopScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientSC\Scene\SCExchangeScence.h">
+      <Filter>ClientSC\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

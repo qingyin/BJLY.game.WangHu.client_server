@@ -1,0 +1,165 @@
+﻿	<LoadSkin Skin="Script/DBHomeSkin.xml"/>
+	<Widget SkinTempName="Empty">
+		<Widget Name="LogonPlane" SkinTempName="Empty">
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/Back.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/TopBack.png"/>
+				<Property Key="Pos" Value="640 660"/>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/GoldBack.png"/>
+					<Property Key="Pos" Value="400 75"/>
+				</Widget>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/GoldBack1.png"/>
+					<Property Key="Pos" Value="200 75"/>
+				</Widget>
+				<Widget Name="HomeGold" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="41110"/>
+					<Property Key="FontSize" Value="34"/>
+					<Property Key="Pos" Value="240 75"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+				<Widget Name="Button_HallAddGold" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_HomeAddGold.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="592 75"/>
+				</Widget>
+				<Widget Name="Button_HallReturn" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/btn_return.png"/>
+					<Property Key="PressTexture" Value="ActionPress"/>
+					<Property Key="Pos" Value="95 70"/>
+				</Widget>
+			</Widget>
+			
+			
+			<Widget Name="" SkinTempName="HomeEffect20">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect20">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect21">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect20">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect21">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect20">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect20">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect20">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect21">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect20">
+			</Widget>
+			<Widget Name="" SkinTempName="HomeEffect21">
+			</Widget>
+			<Widget Name="Game_List" SkinTempName="HallList">
+				<Property Key="Visible" Value="true"/>
+				<Property Key="Size" Value="1200 470"/>
+				<Property Key="Direction" Value="2"/>
+				<Property Key="Pos" Value="0 140"/>
+				<Property Key="ClippingEnabled" Value="false"/>
+				<Property Key="HideBack" Value=""/>
+				<Widget Name="" SkinTempName="HomeGameNode1">
+				</Widget>
+				<Widget Name="" SkinTempName="HomeGameNode3">
+				</Widget>
+				<Widget Name="" SkinTempName="HomeGameNode4">
+				</Widget>
+				<Widget Name="" SkinTempName="HomeGameNode5">
+				</Widget>
+			</Widget>
+			
+			<Widget Name="Game_HallList" SkinTempName="HallList">
+				<Property Key="Visible" Value="false"/>
+				<Property Key="Size" Value="1200 470"/>
+				<Property Key="Direction" Value="2"/>
+				<Property Key="Pos" Value="0 140"/>
+				<Property Key="ClippingEnabled" Value="false"/>
+				<Property Key="HideBack" Value=""/>
+			</Widget>
+			
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceHome/ButtomBack.png"/>
+				<Property Key="Pos" Value="640 75"/>
+				<Widget Name="Button_PlayerInfoScence" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/PlayerInfoBack.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="215 70"/>
+				</Widget>
+				<Widget Name="HomeHead" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="Common/Head_Man.png"/>
+					<Property Key="Pos" Value="100 70"/>
+					<Property Key="Scale" Value="0.7"/>
+				</Widget>
+				<Widget Name="HomeName" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="帐号"/>
+					<Property Key="FontSize" Value="32"/>
+					<Property Key="Pos" Value="160 70"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+			</Widget>
+			<Widget Name="Button_GoldRankScence" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceHome/Button_Rank1.png"/>
+				<Property Key="PressTexture" Value="ScenceHome/Button_Rank2.png"/>
+				<Property Key="Pos" Value="640 97"/>
+				<Widget Name="HomeRank0" SkinTempName="HomeRankHead1">
+					<Property Key="Pos" Value="284 67"/>
+				</Widget>
+				<Widget Name="HomeRank1" SkinTempName="HomeRankHead2">
+					<Property Key="Pos" Value="127 59"/>
+				</Widget>
+				<Widget Name="HomeRank2" SkinTempName="HomeRankHead2">
+					<Property Key="Pos" Value="441 59"/>
+				</Widget>
+				<Widget Name="" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/RankHead1.png"/>
+					<Property Key="Pos" Value="285 130"/>
+				</Widget>
+				<Widget Name="" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/RankHead2.png"/>
+					<Property Key="Pos" Value="129 110"/>
+				</Widget>
+				<Widget Name="" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="ScenceHome/RankHead3.png"/>
+					<Property Key="Pos" Value="443 110"/>
+				</Widget>
+			</Widget>
+			<Widget Name="Button_Bank" SkinTempName="ButtonTxtEmpty">
+				<Property Key="Pos" Value="1180 675"/>
+				<Property Key="NomalTexture" Value="ScenceHome/Button_Bank.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="银行"/>
+				<Property Key="FontSize" Value="40"/>
+			</Widget>
+			
+			<Widget SkinTempName="public_Clipper">
+				<Property Key="Pos" Value="1100 70"/>
+				<Widget Name="Button_Shop" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_Shop.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+				</Widget>
+				<Widget Name="Button_Rank" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="ScenceHome/Button_Shop.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+				</Widget>
+				<Widget SkinTempName="Empty">
+					<Widget SkinTempName="HomeShopEffect">
+					</Widget>
+				</Widget>
+				<Property Key="Stencil" Value="Button_Shop"/>
+				<Property Key="alphaThreshold" Value="0.8"/>
+				<Property Key="inverted" Value="false"/>
+			</Widget>
+			<Widget SkinTempName="Empty">
+				<Property Key="Pos" Value="1230 360"/>
+				<Widget SkinTempName="HomeEffectPointTo">
+					<Property Key="Scale" Value="0.7"/>
+				</Widget>
+			</Widget>
+		</Widget>
+	</Widget>

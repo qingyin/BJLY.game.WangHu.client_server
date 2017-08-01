@@ -1,0 +1,64 @@
+﻿ <root>
+	<ScriptValueStr Key="NetError" Value="网络错误。"/>
+	<ScriptValueStr Key="YouKe" Value="游客"/>
+	
+	<ScriptValueStr Key="HuRight0"  Value=" 平胡"/>
+	<ScriptValueStr Key="HuRight1"  Value=" 门清"/>
+	<ScriptValueStr Key="HuRight2"  Value=" 大碰对"/>
+	<ScriptValueStr Key="HuRight3"  Value=" 七小对"/>
+	<ScriptValueStr Key="HuRight4"  Value=" 清一色"/>
+	<ScriptValueStr Key="HuRight5"  Value=" 龙七对"/>
+	<ScriptValueStr Key="HuRight6"  Value=" 门清清一色"/>
+	<ScriptValueStr Key="HuRight7"  Value=" 门清大碰对"/>
+	<ScriptValueStr Key="HuRight8"  Value=" 清一色大碰对"/>
+	<ScriptValueStr Key="HuRight9"  Value=" 风一色"/>
+	<ScriptValueStr Key="HuRight10" Value=" 十三幺"/>
+	<ScriptValueStr Key="HuRight11" Value=" 十八罗汉"/>
+	
+	<ScriptValueStr Key="HuRight12"  Value=" 杠上开花"/>
+	<ScriptValueStr Key="HuRight13" Value=" 抢杠胡"/>
+	<ScriptValueStr Key="HuRight14" Value=" 杠上炮"/>
+	
+	<ScriptValueStr Key="HuRight_Gen" Value="根"/>
+	<ScriptValueStr Key="HuRight_Fan" Value="番 "/>
+	
+	<ScriptValueStr Key="HuRight_ZiMo" Value="自摸 "/>
+	<ScriptValueStr Key="HuRight_PingHu" Value="平胡 "/>
+	
+	
+	<ScriptValueStr Key="HU_TYPE_ZIMO" Value=" 自摸"/>
+	<ScriptValueStr Key="HU_TYPE_JIEPAO" Value=" 接炮"/>
+	<ScriptValueStr Key="HU_TYPE_FANGPAO" Value=" 放炮"/>
+	
+	<ScriptValueStr Key="MingGang" Value=" 明杠"/>
+	<ScriptValueStr Key="ZiMoMingGang" Value=" 自摸明杠"/>
+	<ScriptValueStr Key="AnGang" Value=" 暗杠"/>
+	
+	<ScriptValueStr Key="ZHONG_NIAO" Value="  中鸟"/>
+	<ScriptValueStr Key="ZHONG_GE" Value="个"/>
+	
+	<ScriptValueStr Key="GFXY" Value="刮风下雨"/>
+	<ScriptValueStr Key="RoomFull" Value="抱歉，房间人数已满，请选择其他房间。"/>
+	
+	<ScriptValueStr Key="Match_Free1" Value="参加比赛将扣除#金币，是否报名？"/>
+	
+	<ScriptValueStr Key="PrivateTxt0" Value="解散房间不扣房卡，是否解散？"/>
+	<ScriptValueStr Key="PrivateTxt1" Value="房号:#，闲来麻将，速度来啊！"/>
+	<ScriptValueStr Key="WeiXinSharTitle" Value="邵阳麻将"/>
+	<ScriptValueStr Key="WeiXinSharDes" Value="和朋友一起来玩吧！"/>
+	<ScriptValueStr Key="WeiXinSharUrl" Value="www.baidu.com"/>
+	
+	<ScriptValueStr Key="RouletteHaveDone" Value="今天幸运转盘已经使用完，请明天再来。"/>
+	<ScriptValueStr Key="RouletteTxt0" Value="恭喜你获得#金币！"/>
+	<ScriptValueStr Key="RouletteTxt1" Value="恭喜你获得#张钻石！"/>
+	
+	<ScriptValueStr Key="NetReconnectError" Value="网络异常，正在尝试重连。"/>
+	<ScriptValueStr Key="JoinRoomNumError" Value="没有找到该房间，可能房主已经退出。"/>
+	
+	<ScriptValueStr Key="HNGameType0" Value="邵阳麻将"/>
+	<ScriptValueStr Key="HNGameType1" Value="邵阳麻将"/>
+	
+	<ScriptValueStr Key="HNRule1" Value="带风"/>
+	<ScriptValueStr Key="HNRule2" Value="可以吃"/>
+ </root>
+ 

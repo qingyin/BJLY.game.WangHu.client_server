@@ -1,0 +1,95 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNSetSkin.xml"/>
+	<Widget Name="SetPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/set_Bg1.png"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceSet/set_xiaokuang.png"/>
+			<Property Key="Size" Value="701 339"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget  SkinTempName="Button_Close">
+			<Property Key="Pos" Value="340 160"/>
+			<Action Key="Hide" Value="SetPlane"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceSet/set_Bg3.png"/>
+			<Property Key="Size" Value="200 310"/>
+			<Property Key="Pos" Value="-235 -0"/>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceSet/set_genghuan.png"/>
+				<Property Key="Pos" Value="100 270"/>
+				<Property Key="Scale" Value="0.8"/>
+			</Widget>
+			<Widget Name="HeadImagic" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="Head/Head0.png"/>
+				<Property Key="Pos" Value="100 170"/>
+				<Property Key="Scale" Value="0.9"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceSet/set_txkuang.png"/>
+				<Property Key="Pos" Value="100 170"/>
+			</Widget>
+			<Widget Name="Button_SetChangeAccount" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceSet/set_genghuan1.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="100 50"/>
+				<Property Key="Scale" Value="0.8"/>
+			</Widget>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceSet/set_bj4.png"/>
+			<Property Key="Pos" Value="130 0"/>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceSet/set_shengxiao.png"/>
+				<Property Key="Pos" Value="183 235"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceSet/set_yinxiao.png"/>
+				<Property Key="Pos" Value="83 160"/>
+			</Widget>
+			<Widget Name="" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScenceSet/set_yinyue.png"/>
+				<Property Key="Pos" Value="83 70"/>
+			</Widget>
+			<Widget Name="Button_EffectGuan" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceSet/set_kai.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="180 160"/>
+				<Property Key="Scale" Value="0.9"/>
+				<Action Key="Hide" Value="Button_EffectGuan"/>
+				<Action Key="Show" Value="Button_EffectKai"/>
+			</Widget>
+			<Widget Name="Button_EffectKai" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceSet/set_guan.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="180 160"/>
+				<Property Key="Scale" Value="0.9"/>
+				<Property Key="Visible" Value="false"/>
+				<Action Key="Show" Value="Button_EffectGuan"/>
+				<Action Key="Hide" Value="Button_EffectKai"/>
+			</Widget>
+			<Widget Name="Button_SoundGuan" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceSet/set_kai.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="180 70"/>
+				<Property Key="Scale" Value="0.9"/>
+				<Action Key="Hide" Value="Button_SoundGuan"/>
+				<Action Key="Show" Value="Button_SoundKai"/>
+			</Widget>
+			<Widget Name="Button_SoundKai" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceSet/set_guan.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="180 70"/>
+				<Property Key="Scale" Value="0.9"/>
+				<Property Key="Visible" Value="false"/>
+				<Action Key="Show" Value="Button_SoundGuan"/>
+				<Action Key="Hide" Value="Button_SoundKai"/>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

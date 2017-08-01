@@ -1,0 +1,20 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNLogonSkin.xml"/>
+	<Widget Name="LogonScencePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceLogin/loginBg.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="0 60"/>
+			<Property Key="ImagicTexture" Value="ScenceLogin/loginTitle.png"/>
+		</Widget>
+		<Widget Name="Button_WeiXinLogon" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_WeiXinLogon.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="0 -240"/>
+		</Widget>
+	</Widget>
+ </root>

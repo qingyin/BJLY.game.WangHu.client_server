@@ -1,0 +1,57 @@
+﻿ <root>
+	<Widget9Sprite Name="BeginnerPlane" BackTexture="ScenceBeginner/Back.png" Size="100 100">	
+	</Widget9Sprite>
+	<Widget9Sprite Name="BeginnerLayer" BackTexture="ScenceBeginner/bg2.png" Size="100 100">	
+	</Widget9Sprite>
+	<WidgetNode Name="BeginnerItem">	
+		<Property Key="Visible" Value="false"/>
+		<WidgetImagic Name="" TextureInfo="ScenceBeginner/ItemBack.png">
+		</WidgetImagic>
+		<WidgetImagic Name="ItemImagic" TextureInfo="ScenceBeginner/Box1.png">
+			<UserInfo Key="ImagicGold" Value="ScenceBeginner/Box1.png"/>
+			<UserInfo Key="ImagicPhone" Value="ScenceBeginner/Box2.png"/>
+		</WidgetImagic>
+		<WidgetTxt Name="TxtAward" ShowTxt="200金币" FontName="" FontSize="22">
+			<Property Key="Color" Value="255 255 255"/>
+			<Property Key="OutLine" Value="255 255 255 255:1"/>
+			<Property Key="Pos" Value="0 35"/>
+			<UserInfo Key="Txt1" Value="#金币"/>
+			<UserInfo Key="Txt2" Value="#话费券"/>
+		</WidgetTxt>
+		<WidgetTxt Name="DayAward" ShowTxt="第3天" FontName="" FontSize="22">
+			<Property Key="Color" Value="255 255 255"/>
+			<Property Key="OutLine" Value="255 255 255 255:1"/>
+			<Property Key="Pos" Value="0 -35"/>
+			<UserInfo Key="Txt" Value="第#天"/>
+		</WidgetTxt>
+		<WidgetImagic Name="ItemAward" TextureInfo="ScenceBeginner/Award.png">
+			<Property Key="Pos" Value="-30 25"/>
+			<Property Key="Rotation" Value="-30"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+	</WidgetNode>
+	<WidgetNode Name="BeginnerItemList">
+		<WidgetSkinChild Name="BeginnerItem0" SkinTempName="BeginnerItem">
+			<Property Key="Pos" Value="-470 0"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="BeginnerItem1" SkinTempName="BeginnerItem">
+			<Property Key="Pos" Value="-350 0"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="BeginnerItem2" SkinTempName="BeginnerItem">
+			<Property Key="Pos" Value="-230 0"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="BeginnerItem3" SkinTempName="BeginnerItem">
+			<Property Key="Pos" Value="-110 0"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="BeginnerItem4" SkinTempName="BeginnerItem">
+			<Property Key="Pos" Value="10 0"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="BeginnerItem5" SkinTempName="BeginnerItem">
+			<Property Key="Pos" Value="130 0"/>
+		</WidgetSkinChild>
+		<WidgetSkinChild Name="BeginnerItem6" SkinTempName="BeginnerItem">
+			<Property Key="Pos" Value="250 0"/>
+		</WidgetSkinChild>
+	</WidgetNode>
+ </root>

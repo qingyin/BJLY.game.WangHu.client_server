@@ -1,0 +1,27 @@
+﻿ <root>
+	
+	<WidgetNodeUI Name="SCExchangeItemNode">
+		<Property Key="Size" Value="250 354"/>
+		<WidgetButton Name="Button_SCExchangeItem" NomalTexture="ScenceShop/store_blue.png" PressTexture="ScenceShop/store_blue.png">
+			<Property Key="Pos" Value="125 177"/>
+		</WidgetButton>
+		<WidgetImagic Name="ImgIcon" TextureInfo="ScenceShop/icon_huafei.png">
+			<Property Key="Pos" Value="125 177"/>
+			<Property Key="Scale" Value="2"/>
+		</WidgetImagic>
+		<WidgetImagic Name="ItemTip" TextureInfo="ScenceShop/store_tipbg.png">
+			<Property Key="Pos" Value="125 107"/>
+		</WidgetImagic>
+		
+		<WidgetTxt Name="SCExchange_Titile" ShowTxt="30元话费券" FontName="" FontSize="32">
+			<Property Key="Pos" Value="125 318"/>
+		</WidgetTxt>
+	
+		<WidgetTxt Name="SCExchange_Name" ShowTxt="10000金币" FontName="" FontSize="32">
+			<Property Key="Pos" Value="125 50"/>
+			<Property Key="Color" Value="206 68 0"/>
+		</WidgetTxt>
+		
+	</WidgetNodeUI>
+	
+ </root>

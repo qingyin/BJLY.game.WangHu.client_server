@@ -1,0 +1,85 @@
+﻿ <root>
+	<WidgetNode Name="HNMJPrivateEndPlayerInfo" >
+		<WidgetImagic Name="Head" TextureInfo="Head/Head0.png">
+			<Property Key="Pos" Value="-80 210"/>
+			<Property Key="Scale" Value="0.7"/>
+		</WidgetImagic>
+		<WidgetImagic Name="FangZhu" TextureInfo="GameHNMJ/fangzhu.png">
+			<Property Key="Pos" Value="-110 240"/>
+			<Property Key="Scale" Value="0.8"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="玩家昵称" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-30 230"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="OutLine" Value="0 0 0 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="ID:" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-30 190"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="ID" ShowTxt="15468" FontName="" FontSize="28">
+			<Property Key="Pos" Value="15 190"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="自摸次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 130"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt0" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="接炮次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 80"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt1" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="点炮次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 30"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt2" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="暗杠次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 -20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt3" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="明杠次数" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-110 -70"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<WidgetTxt Name="ActionTxt4" ShowTxt="*2" FontName="" FontSize="28">
+				<Property Key="Pos" Value="180 15"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="总成绩" FontName="" FontSize="28">
+			<Property Key="Pos" Value="0 -150"/>
+			<Property Key="Color" Value="255 255 0"/>
+			<Property Key="OutLine" Value="0 0 0 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="TotalScore" ShowTxt="100" FontName="" FontSize="45">
+			<Property Key="Pos" Value="0 -200"/>
+			<Property Key="Color" Value="255 255 0"/>
+		</WidgetTxt>
+		
+		<WidgetImagic Name="DaYingJia" TextureInfo="GameHNMJ/ScencePrivate/over_win.png">
+			<Property Key="Pos" Value="100 -210"/>
+		</WidgetImagic>
+		
+		<WidgetImagic Name="ZuiJiaPaoShou" TextureInfo="GameHNMJ/ScencePrivate/over_zuijia.png">
+			<Property Key="Pos" Value="100 -140"/>
+		</WidgetImagic>
+		
+	</WidgetNode>
+	
+	
+ </root>

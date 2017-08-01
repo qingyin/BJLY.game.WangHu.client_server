@@ -1,0 +1,40 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNShopSkin.xml"/>
+	<Widget Name="ShopPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 350"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceShop/shop_kuang.png"/>
+			<Property Key="Size" Value="600 450"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceShop/shop_daizi.png"/>
+			<Property Key="Pos" Value="0 240"/>
+		</Widget>
+		<Widget  SkinTempName="Button_Close">
+			<Property Key="Pos" Value="290 200"/>
+			<Action Key="Hide" Value="ShopPlane"/>
+		</Widget>
+		<Widget Name="THJShopList" SkinTempName="List">
+			<Property Key="Size" Value="500 400"/>
+			<Property Key="Pos" Value="-250 -198"/>
+			<Property Key="HideBack" Value=""/>
+			<Widget Name="" SkinTempName="ShopListItem1">
+			</Widget>
+			<Widget Name="" SkinTempName="ShopListItem2">
+			</Widget>
+			<Widget Name="" SkinTempName="ShopListItem3">
+			</Widget>
+			<Widget Name="" SkinTempName="ShopListItem4">
+			</Widget>
+			<Widget Name="" SkinTempName="ShopListItem5">
+			</Widget>
+			<Widget Name="" SkinTempName="ShopListItem6">
+			</Widget>
+			<Widget Name="" SkinTempName="ShopListItem7">
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

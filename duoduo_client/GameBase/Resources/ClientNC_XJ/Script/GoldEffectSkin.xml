@@ -1,0 +1,62 @@
+﻿ <root>
+	<WidgetNode Name="GoldEffect">
+		<CreateWidget Name="Start" RootNode="true" WidgetName="GoldEffectImagic">
+			<WaiteTime Time="0.05">
+				<CallAction SelfActionName="Start">
+				</CallAction>
+			</WaiteTime>
+		</CreateWidget>
+		<WaiteTime Time="3">
+			<RemoveSelf>
+			</RemoveSelf>
+		</WaiteTime>
+	</WidgetNode>
+	<WidgetImagic Name="GoldEffectImagic" TextureInfo="Effect/GoldEffect.png:2 432 42 42">
+		<SetPos Pos="0 800:1280 800">
+			<Gravity Time="1.2" Gravity="32:35.9">
+				<BizerBy Time="0.6:1.1" Pos1="0 200:0 400" DestPos="-200 -200:200 -200">
+					<RemoveSelf>
+					</RemoveSelf>
+				</BizerBy>
+				<CreateWidget RootNode="true" WidgetName="GoldEffectLight1">
+				</CreateWidget>
+			</Gravity>
+		</SetPos>
+		<RotaBy Time="1.2" Rota="800:1200">
+			<RotaBy Time="0.4" Rota="550:750">
+				<RotaBy Time="1.2" Rota="500:700">
+				</RotaBy>
+			</RotaBy>
+		</RotaBy>
+		<CreateWidget Name="Start" RootNode="true" OffectPos="0 30" WidgetName="GoldEffectLight">
+			<WaiteTime Time="0.2:0.5">
+				<CallAction SelfActionName="Start">
+				</CallAction>
+			</WaiteTime>
+		</CreateWidget>
+	</WidgetImagic>
+	<WidgetImagic Name="GoldEffectLight" TextureInfo="Effect/GoldEffect.png:2 378 52 52">
+		<MoveBy Time="1:2" Pos="-50 -50:50 50">
+		</MoveBy>
+		<SetScale Scale="0">
+			<ScaleTo Time="0.1" Scale="1.2">
+				<ScaleTo Time="0.1" Scale="1.0">
+					<ApleTo Time="0.3" Aple="0">
+						<RemoveSelf>
+						</RemoveSelf>
+					</ApleTo>
+				</ScaleTo>
+			</ScaleTo>
+		</SetScale>
+	</WidgetImagic>
+	<WidgetImagic Name="GoldEffectLight1" TextureInfo="Effect/GoldEffect.png:2 2 374 374">
+		<SetScale Scale="0">
+			<ScaleTo Time="0.15" Scale="1.2">
+				<ApleTo Time="0.4" Aple="0">
+					<RemoveSelf>
+					</RemoveSelf>
+				</ApleTo>
+			</ScaleTo>
+		</SetScale>
+	</WidgetImagic>
+ </root>

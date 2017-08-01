@@ -1,0 +1,82 @@
+﻿ <root>
+	<LoadSkin Skin="Script/SCExchangeSkin.xml"/>
+	<Widget Name="SCShopPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceHome/Back.png"/>
+		</Widget>
+		
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceShop/shop_bg.png"/>
+			<Property Key="Pos" Value="0 -40"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceShop/table_blue.png"/>
+			<Property Key="Pos" Value="0 286"/>
+		</Widget>
+		<Widget Name="Button_BackHome" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="-560 300"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="商品兑换"/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="0 291"/>
+			<Property Key="Color" Value="250 250 0"/>
+		</Widget>
+		
+		<Widget  Name="SCExchangeList" SkinTempName="List">
+			<Property Key="Size" Value="1000 400"/>
+			<Property Key="Direction" Value="2"/>
+			<Property Key="Pos" Value="-500 -180"/>
+			<Property Key="ClippingEnabled" Value="true"/>
+			<Property Key="HideBack" Value=""/>
+			
+			<Widget Name="" SkinTempName="SCExchangeItemNode">
+			</Widget>
+			<Widget Name="" SkinTempName="SCExchangeItemNode">
+			</Widget>
+			<Widget Name="" SkinTempName="SCExchangeItemNode">
+			</Widget>
+			<Widget Name="" SkinTempName="SCExchangeItemNode">
+			</Widget>
+			<Widget Name="" SkinTempName="SCExchangeItemNode">
+			</Widget>
+		</Widget>
+		
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceShop/shop_downbg.png"/>
+			<Property Key="Pos" Value="0 -270"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="如果有支付问题请联系客服QQ:12345678"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="-500 -200"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		
+		
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceShop/shop_coin_bg.png"/>
+			<Property Key="Pos" Value="0 -270"/>
+			<Property Key="Scale" Value="1.5"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceShop/store_huafei.png"/>
+			<Property Key="Pos" Value="-200 -270"/>
+			<Property Key="Scale" Value="1"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="0"/>
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="Pos" Value="-130 -270"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="245 251 5"/>
+		</Widget>
+		
+	</Widget>
+ </root>

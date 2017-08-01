@@ -1,0 +1,236 @@
+﻿ <root>
+ 
+	<WidgetButton Name="NNButtonTxtEmpty" NomalTexture="public/Button_Public.png" PressTexture="AutoPress">
+		<Property Key="FontSize" Value="30"/>
+	</WidgetButton>
+	
+	<WidgetTxtAtlas Name="NNTxtAtlaBei" Texture="GameNN/room63_n.png" ShowTxt="0" Width="19" Height="29" StartChar="48">
+			<Property Key="AnchorPos" Value="1 0.5"/>
+	</WidgetTxtAtlas>
+	
+	<WidgetTxtAtlas Name="NNTxtAtlasWin" Texture="GameNN/room66_n.png" ShowTxt="0" Width="63" Height="93" StartChar="43">
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+	</WidgetTxtAtlas>
+	
+	<WidgetTxtAtlas Name="NNTxtAtlaLose" Texture="GameNN/room66_s.png" ShowTxt="0" Width="63" Height="93" StartChar="43">
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+	</WidgetTxtAtlas>
+	<!--玩家头像-->
+	<WidgetNode Name="NN_PLAYER_HEAD" >
+		
+		<WidgetImagic Name="HeadImagicEmpty" TextureInfo="GameNN/HeadImagic.png">
+			<Property Key="Pos" Value="-0.5 -40"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetImagic Name="HeadImagic" TextureInfo="Head/Head0.png">
+			<Property Key="Pos" Value="0 -40"/>
+			<Property Key="Scale" Value="0.6"/>
+		</WidgetImagic>
+		<WidgetButton Name="ButtonPlayerHeadClick" NomalTexture="GameNN/HeadBack.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="0 -40"/>
+		</WidgetButton>
+		<WidgetImagic Name="Zhuang" TextureInfo="GameNN/zhuang.png">
+			<Property Key="Pos" Value="40 -66"/>
+			<Property Key="Visible" Value="true"/>
+			
+			<SetPos Pos="Key:FromPos" Name="MoveAni" SaveAction="true">
+				<Visible Visible="true"/>
+				<MoveTo Time="1" Pos="40 -66" >
+				</MoveTo>
+			</SetPos>
+		</WidgetImagic>
+		<WidgetImagic Name="Offline" TextureInfo="GameNN/off_line_sign.png">
+			<Property Key="Pos" Value="35 -66"/>
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetImagic Name="FangZhu" TextureInfo="GameNN/fangzhu.png">
+			<Property Key="Pos" Value="35 -10"/>
+			<Property Key="Visible" Value="true"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="名字" FontName="" FontSize="30">
+			<Property Key="Pos" Value="0 22"/>
+		</WidgetTxt>
+		<WidgetImagic Name="GoldImagic" TextureInfo="GameNN/GoldBack.png">
+			<Property Key="Pos" Value="0 -105"/>
+			<WidgetTxt Name="GoldTxt" ShowTxt="100" FontName="" FontSize="30">
+				<Property Key="Pos" Value="77 17"/>
+			</WidgetTxt>
+		</WidgetImagic>
+		
+		<WidgetTxtAtlas Name="AddGoldTxtWin" Texture="GameNN/room66_n.png" ShowTxt="0" Width="63" Height="93" StartChar="43">
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Visible" Value="false"/>
+			<Visible Visible="true" Name="Start" SaveAction="true">
+				<WaiteTime Time="4" >
+					<Visible Visible="false">
+					</Visible>
+				</WaiteTime>
+				<SetPos Pos="0 0">
+				</SetPos>
+				<MoveTo Time="0.5" Pos="0 60">
+				</MoveTo>
+			</Visible>
+			
+		</WidgetTxtAtlas>
+		
+		<WidgetTxtAtlas Name="AddGoldTxtLose" Texture="GameNN/room66_s.png" ShowTxt="0" Width="63" Height="93" StartChar="43">
+			<Property Key="AnchorPos" Value="0.5 0.5"/>
+			<Property Key="Visible" Value="false"/>
+			<Visible Visible="true" Name="Start" SaveAction="true">
+				<WaiteTime Time="4" >
+					<Visible Visible="false">
+					</Visible>
+				</WaiteTime>
+				<SetPos Pos="0 0">
+				</SetPos>
+				<MoveTo Time="0.5" Pos="0 60">
+				</MoveTo>
+			</Visible>
+		</WidgetTxtAtlas>
+		
+	</WidgetNode>
+	
+	
+	
+	<WidgetNode Name="NN_PlayerStatusNode">
+		<WidgetImagic Name="ReadyState" TextureInfo="GameNN/Status_Ready.png">
+			<UserInfo Key="Ready" Value="GameNN/Status_Ready.png"/>
+		</WidgetImagic>
+		<WidgetImagic Name="EffectImagic" TextureInfo="GameNN/Status_Ready.png">
+			<UserInfo Key="Hu" Value="GameNN/Effect_Hu.png"/>
+			<Property Key="Visible" Value="false"/>
+			<Visible Visible="true" Name="Start" SaveAction="true">
+				<WaiteTime Time="4" >
+					<Visible Visible="false">
+					</Visible>
+				</WaiteTime>
+			</Visible>
+		</WidgetImagic>
+	</WidgetNode>
+	
+	<WidgetNode Name="NN_PlayerClock">
+		<WidgetImagic Name="" TextureInfo="GameNN/icon_clock0.png">
+			<Property Key="Scale" Value="1.2"/>
+			<WidgetTxt Name="ClockTime" ShowTxt="10" FontName="" FontSize="25">
+				<Property Key="Pos" Value="40 35"/>
+				<Property Key="Color" Value="35 35 35"/>
+			</WidgetTxt>
+		</WidgetImagic>
+	</WidgetNode>
+	
+	<!--牌背-->
+	<WidgetImagic Name="NN_CardBack" TextureInfo="GameNN/poker_bottom_bk.png">
+		<Property Key="Scale" Value="0.72" />
+	</WidgetImagic>
+	<!--牌-->
+	<WidgetNode Name="NN_PlayerCard">
+		<WidgetImagic Name="CardShow" TextureInfo="dalete/poker.png">			
+			<UserInfo Key="Press" Value="dalete/poker_layer.png"/>
+			<UserInfo Key="Normal" Value="dalete/poker.png"/>
+			<UserInfo Key="DisCard" Value="dalete/poker.png"/>
+			<WidgetImagic Name="Number" TextureInfo="dalete/b_3.png">
+				<Property Key="Pos" Value="18 106"/>
+			</WidgetImagic>
+			<WidgetImagic Name="Joker" TextureInfo="dalete/joker-b.png">
+				<Property Key="Pos" Value="13 76"/>
+				<Property Key="Visible" Value="false"/>
+				<UserInfo Key="black" Value="dalete/joker-b.png"/>
+				<UserInfo Key="Red" Value="dalete/joker-r.png"/>
+				<Property Key="Oder" Value="1"/>
+			</WidgetImagic>
+			<WidgetImagic Name="OtherImagicBig" TextureInfo="GameNN/poker_joker_black.png">
+				<Property Key="Pos" Value="56 64"/>
+				<Property Key="Visible" Value="false"/>
+				<UserInfo Key="blackJoker" Value="GameNN/poker_joker_black.png"/>
+				<UserInfo Key="RedJoker" Value="GameNN/poker_joker_red.png"/>
+			</WidgetImagic>
+			<WidgetImagic Name="ImagicBig" TextureInfo="dalete/Type1.png">
+				<Property Key="Pos" Value="56 44"/>
+			</WidgetImagic>
+			<WidgetImagic Name="ImagicSmall" TextureInfo="dalete/TypeS1.png">
+				<Property Key="Pos" Value="19 73"/>
+			</WidgetImagic>
+		</WidgetImagic>
+		<WidgetImagic Name="layer" TextureInfo="dalete/poker_layer.png">
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		<WidgetImagic Name="CardBack" TextureInfo="GameNN/poker_bottom_bk.png">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="Scale" Value="0.72" />
+		</WidgetImagic>
+		<Property Key="Scale" Value="0.9" />
+		
+		<SetPos Pos="Key:RootPos" Name="SendAni" SaveAction="true">
+			<Visible Visible="false"/>
+			<SetScale Scale="0.5">
+				<WaiteTime Time="Key:SendWaitTimeTemp" >
+					<Visible Visible="true"/>
+					<ScaleTo Time="0.1" Scale="0.9">
+					</ScaleTo>
+					<RotaTo Time="0.1" Rota="180">
+						<SetRota  Rota="0">
+						</SetRota>
+					</RotaTo>
+					<MoveTo Time="0.1" Pos="Key:EndPos" >
+					</MoveTo>
+				</WaiteTime>
+			</SetScale>
+		</SetPos>
+		
+	</WidgetNode>
+	
+	
+	<!--牌型-->
+	<WidgetNode Name="NN_CardType">
+		<WidgetImagic Name="" TextureInfo="GameNN/niu_Back.png">
+			<Property Key="Scale" Value="0.45" />
+		</WidgetImagic>
+		<WidgetImagic Name="TypeCard" TextureInfo="GameNN/niu_1.png">
+			<Property Key="Scale" Value="0.45" />
+		</WidgetImagic>
+	</WidgetNode>
+		
+	<WidgetNode Name="QiangZhuangWait">
+		<WaiteTime  Name="QiangZhuangWaitAni" Time="Key:WaitTime" SaveAction="true">
+			<CallButton ButtonName="NNButton_SendCardEnd" >
+			</CallButton>
+		</WaiteTime>
+	</WidgetNode>
+	
+	
+	<WidgetNode Name="JieSuanNodeScale">
+		<SetScale Scale="0" Name="ShowAni" SaveAction="">
+			<ScaleTo Time="0.2" Scale="1">
+				<WaiteTime Time="3" SaveAction="true">
+					<Visible Visible="false"/>
+				</WaiteTime>
+			</ScaleTo>
+		</SetScale>
+	</WidgetNode>
+	
+	<WidgetImagic Name="ZhuangFlagCheck" TextureInfo="GameNN/room56_n.png">
+		<Visible Visible="true"Name="BlinkAni" SaveAction="true">
+			<WaiteTime Time="0.1">
+				<Visible Visible="false">
+					<WaiteTime Time="0.1">
+						<CallAction ActionParentName="BlinkAni">
+						</CallAction>
+					</WaiteTime>
+				</Visible>
+			</WaiteTime>
+			<WaiteTime Time="2">			
+				<CallButton ButtonName="NNButton_CheakZhuangEnd" >
+					<StopAllAction />
+				</CallButton>
+			</WaiteTime>
+		</Visible>
+		
+		<Visible Visible="true"Name="ShowAni" SaveAction="true">
+			<WaiteTime Time="0.3">
+				<Visible Visible="false">	
+				</Visible>
+			</WaiteTime>
+		</Visible>
+		
+	</WidgetImagic>
+ </root>

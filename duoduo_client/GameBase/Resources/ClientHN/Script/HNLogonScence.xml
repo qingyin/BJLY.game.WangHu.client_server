@@ -1,0 +1,65 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNLogonSkin.xml"/>
+	<Widget Name="LogonScencePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceLogin/loginBg.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="Pos" Value="0 130"/>
+			<Property Key="ImagicTexture" Value="ScenceLogin/logo_hunan.png"/>
+		</Widget>
+		<Widget Name="Button_WeiXinLogon" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/Button_WeiXinLogon.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="0 -175"/>
+		</Widget>
+		
+		<Widget Name="Button_UserXieYiCheak" SkinTempName="public_CheckBox">
+			<Property Key="UnSelectTexture" Value="ScenceLogin/btn_checkbox.png"/>
+			<Property Key="SelectTexture" Value="ScenceLogin/check_mark.png"/>
+			<UserInfo Key="Idex" Value="1"/>
+			<Property Key="Pos" Value="-100 -290"/>
+		</Widget>
+		
+		<Widget Name="Button_UserXieYi" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="ScenceLogin/wenzi.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="30 -290"/>
+			<Property Key="Scale" Value="1.2"/>
+			<Action Key="Show" Value="XieYiNode"/>
+		</Widget>
+		
+		<Widget Name="XieYiNode" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget SkinTempName="BtnFullEmpty">
+				<Action Key="Hide" Value="XieYiNode"/>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="public_9sprite">
+				<Property Key="ImagicTexture" Value="ScenceHome/public_frame_a.png"/>
+				<Property Key="Size" Value="980 550"/>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceLogin/X001.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="480 250"/>
+				<Action Key="Hide" Value="XieYiNode"/>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="List">
+				<Property Key="Pos" Value="-430 -255"/>
+				<Property Key="Size" Value="860 520"/>
+				<Property Key="HideBack" Value=""/>
+				<Widget Name="" SkinTempName="UserXieYiListItem">
+				</Widget>
+			</Widget>
+		</Widget>
+		
+		
+		
+	</Widget>
+ </root>

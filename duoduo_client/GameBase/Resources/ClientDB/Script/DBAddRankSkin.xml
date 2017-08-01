@@ -1,0 +1,45 @@
+﻿ <root>
+	
+	<WidgetNodeUI Name="RankListItem">
+		<Property Key="Size" Value="860 65"/>
+		<WidgetNodeUI Name="">
+			<Property Key="Pos" Value="320 30"/>
+			<WidgetImagic Name="" TextureInfo="ScenceAddRank/res_ranking_PHB017.png">
+				<Property Key="Pos" Value="220 0"/>
+			</WidgetImagic>
+			<WidgetImagic Name="RankOther" TextureInfo="ScenceAddRank/RankBack.png">
+				<Property Key="Pos" Value="-220 0"/>
+				<Property Key="Scale" Value="0.8"/>
+				<WidgetTxt Name="RankTxt" ShowTxt="2" FontName="" FontSize="40">
+					<Property Key="Pos" Value="35 35"/>
+					<Property Key="Color" Value="70 20 20"/>
+				</WidgetTxt>
+			</WidgetImagic>
+			<WidgetImagic Name="Rank123" TextureInfo="ScenceAddRank/rank1.png">
+				<Property Key="Pos" Value="-220 0"/>
+				<UserInfo Key="Rank0" Value="ScenceAddRank/rank1.png"/>
+				<UserInfo Key="Rank1" Value="ScenceAddRank/rank2.png"/>
+				<UserInfo Key="Rank2" Value="ScenceAddRank/rank3.png"/>
+			</WidgetImagic>
+			<WidgetImagic Name="RankOut" TextureInfo="ScenceAddRank/NotinRank.png">
+				<Property Key="Pos" Value="-220 0"/>
+				<Property Key="Scale" Value="0.8"/>
+				<WidgetTxt Name="RankOutTxt" ShowTxt="未上榜" FontName="" FontSize="30">
+					<Property Key="Pos" Value="59 28"/>
+				</WidgetTxt>
+			</WidgetImagic>
+			<WidgetTxt Name="RankName" ShowTxt="啦啦啦啦啦" FontName="" FontSize="30">
+				<Property Key="Pos" Value="-110 0"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+			<WidgetImagic Name="" TextureInfo="ScenceAddRank/res_common_JFCJ009.png">
+				<Property Key="Pos" Value="510 10"/>
+			</WidgetImagic>
+			<WidgetTxt Name="RankPoint" ShowTxt="2000" FontName="" FontSize="35">
+				<Property Key="Pos" Value="580 0"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="Color" Value="250 250 0"/>
+			</WidgetTxt>
+		</WidgetNodeUI>
+	</WidgetNodeUI>
+ </root>

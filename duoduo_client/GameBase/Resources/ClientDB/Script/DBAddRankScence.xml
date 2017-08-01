@@ -1,0 +1,40 @@
+﻿ <root>
+	<LoadSkin Skin="Script/DBAddRankSkin.xml"/>
+	<Widget Name="AddRankPlane" SkinTempName="PopNode">
+		<Property Key="Visible" Value="true"/>
+		<Property Key="Pos" Value="640 345"/>
+		<Widget SkinTempName="BtnFullEmpty">
+			<Property Key="Aple" Value="0.7"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="Common/res_common_TY031.png"/>
+			<Property Key="Size" Value="1100 565"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Close">
+			<Property Key="Pos" Value="550 270"/>
+			<Action Key="ActionEnd" Value="AddRankPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="排行榜"/>
+			<Property Key="FontSize" Value="60"/>
+			<Property Key="Pos" Value="0 235"/>
+		</Widget>
+		<Widget Name="Rank3" SkinTempName="Empty">
+			<Widget Name="Rank_List" SkinTempName="List">
+				<Property Key="Size" Value="1140 440"/>
+				<Property Key="Pos" Value="-540 -265"/>
+				<Property Key="HideBack" Value=""/>
+				<Widget Name="" SkinTempName="RankListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="RankListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="RankListItem">
+				</Widget>
+				<Widget Name="" SkinTempName="RankListItem">
+				</Widget>
+			</Widget>
+		</Widget>
+		
+	</Widget>
+	
+ </root>

@@ -1,0 +1,41 @@
+﻿ <root>
+	<Widget9Sprite Name="public_9spriteSiginLayer" BackTexture="ScenceSignIn/bg2.png" Size="100 100">	
+	</Widget9Sprite>
+	<WidgetNode Name="SignInItemEmpty">
+		<WidgetNode Name="HaveSignIn">
+			<Widget9Sprite BackTexture="ScenceSignIn/FullEmpty.png" Size="190 354">	
+				<Property Key="Pos" Value="2 -5"/>
+				<Property Key="Aple" Value="0.1"/>
+			</Widget9Sprite>
+			<WidgetImagic TextureInfo="ScenceSignIn/sign_3.png">
+				<Property Key="Pos" Value="0 -150"/>
+			</WidgetImagic>
+		</WidgetNode>
+		<WidgetTxt Name="ItemName" ShowTxt="3次签到礼包" FontName="" FontSize="27">
+			<Property Key="Pos" Value="0 95"/>
+			<Property Key="Color" Value="200 200 50"/>
+			<UserInfo Key="Txt" Value="次签到礼包"/>
+		</WidgetTxt>
+		<WidgetTxt Name="ItemGold" ShowTxt="2000金币" FontName="" FontSize="27">
+			<Property Key="Pos" Value="0 -95"/>
+			<Property Key="Color" Value="140 140 50"/>
+			<UserInfo Key="Txt1" Value="金币"/>
+		</WidgetTxt>
+		<WidgetButton Name="Button_ItemClick" NomalTexture="ScenceSignIn/ItemBack.png" PressTexture="AutoPress">
+		</WidgetButton>
+		<WidgetImagic Name="ItemPic" TextureInfo="ScenceSignIn/Box1.png">
+		</WidgetImagic>
+		<WidgetImagic Name="NextCanSignIn" TextureInfo="ScenceSignIn/sign_2.png">
+			<Property Key="Pos" Value="40 130"/>
+			<WidgetTxt Name="" ShowTxt="下次领取" FontName="" FontSize="18">
+				<Property Key="Pos" Value="50 26"/>
+			</WidgetTxt>
+		</WidgetImagic>
+		<WidgetImagic Name="NowCanSignIn" TextureInfo="ScenceSignIn/sign_1.png">
+			<Property Key="Pos" Value="40 130"/>
+			<WidgetTxt Name="" ShowTxt="点击领取" FontName="" FontSize="18">
+				<Property Key="Pos" Value="50 26"/>
+			</WidgetTxt>
+		</WidgetImagic>
+	</WidgetNode>
+ </root>

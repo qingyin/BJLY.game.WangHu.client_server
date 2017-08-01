@@ -1,0 +1,75 @@
+﻿ <root>
+	<WidgetNodeUI Name="GameReocrdListItem">
+		<Property Key="Size" Value="350 130"/>
+		<WidgetButton Name="Button_ShowTotal" NomalTexture="ScenceGameRecord/bg3.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="590 60"/>
+			<Property Key="ScaleX" Value="0.9"/>
+		</WidgetButton>
+		<WidgetTxt Name="WinImagic" ShowTxt="赢" FontName="" FontSize="45">
+			<Property Key="Pos" Value="120 60"/>
+		</WidgetTxt>
+		<WidgetTxt Name="LoseImagic" ShowTxt="输" FontName="" FontSize="45">
+			<Property Key="Pos" Value="120 60"/>
+		</WidgetTxt>
+		<WidgetTxt Name="RoomNum" ShowTxt="1860174" FontName="" FontSize="30">
+			<Property Key="Pos" Value="260 60"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayerTxt0" ShowTxt="" FontName="" FontSize="30">
+			<Property Key="Pos" Value="390 90"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayerTxt1" ShowTxt="" FontName="" FontSize="30">
+			<Property Key="Pos" Value="610 90"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayerTxt2" ShowTxt="" FontName="" FontSize="30">
+			<Property Key="Pos" Value="390 35"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayerTxt3" ShowTxt="" FontName="" FontSize="30">
+			<Property Key="Pos" Value="610 35"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayTime" ShowTxt="1988:10:10" FontName="" FontSize="30">
+			<Property Key="Pos" Value="990 60"/>
+		</WidgetTxt>
+	</WidgetNodeUI>
+	<WidgetNodeUI Name="GameReocrdTotalItem">
+		<Property Key="Size" Value="350 110"/>
+		<Widget9Sprite Name="public_9sprite" BackTexture="public/9Scale1.png" Size="1100 100">	
+			<Property Key="Pos" Value="590 60"/>
+		</Widget9Sprite>
+		<WidgetTxt Name="IdexTxt" ShowTxt="0" FontName="" FontSize="30">
+			<Property Key="Pos" Value="90 60"/>
+			<Property Key="Color" Value="51 23 16"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayTime" ShowTxt="2988:10:10" FontName="" FontSize="30">
+			<Property Key="Pos" Value="178 60"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="51 23 16"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayerTxt0" ShowTxt="1" FontName="" FontSize="30">
+			<Property Key="Pos" Value="430 60"/>
+			<Property Key="Color" Value="51 23 16"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayerTxt1" ShowTxt="1" FontName="" FontSize="30">
+			<Property Key="Pos" Value="590 60"/>
+			<Property Key="Color" Value="51 23 16"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayerTxt2" ShowTxt="1" FontName="" FontSize="30">
+			<Property Key="Pos" Value="760 60"/>
+			<Property Key="Color" Value="51 23 16"/>
+		</WidgetTxt>
+		<WidgetTxt Name="PlayerTxt3" ShowTxt="1" FontName="" FontSize="30">
+			<Property Key="Pos" Value="910 60"/>
+			<Property Key="Color" Value="51 23 16"/>
+		</WidgetTxt>
+		<WidgetButton Name="Button_StartGameRecord" NomalTexture="public/Button_Public.png" PressTexture="AutoPress">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="回放"/>
+			<Property Key="Pos" Value="1050 60"/>
+			<Property Key="Scale" Value="0.7"/>
+		</WidgetButton>
+	
+	</WidgetNodeUI>
+ </root>

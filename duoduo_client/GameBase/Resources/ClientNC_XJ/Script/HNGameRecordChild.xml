@@ -1,0 +1,46 @@
+﻿ <root>
+	<Widget Name="GameRecordControlPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="进度:"/>
+			<Property Key="Pos" Value="-30 90"/>
+		</Widget>
+		<Widget Name="GameRecordPercentTxt" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="ShowTxt" Value="1%"/>
+			<Property Key="Pos" Value="20 90"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceGameRecord/hist_rec_play_bg.png"/>
+			<Property Key="Pos" Value="0 00"/>
+			<Widget Name="Button_GameRecordPlay" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceGameRecord/hist_rec_play.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="180 55"/>
+			</Widget>
+			<Widget Name="Button_GameRecordPase" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceGameRecord/hist_rec_pause.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="180 55"/>
+				<Property Key="Visible" Value="false"/>
+			</Widget>
+			<Widget Name="Button_GameRecordLeft" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceGameRecord/hist_rec_backward.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="70 55"/>
+			</Widget>
+			<Widget Name="Button_GameRecordRight" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceGameRecord/hist_rec_forward.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="290 55"/>
+			</Widget>
+			<Widget Name="Button_GameRecordExit" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="ScenceGameRecord/hist_rec_exit.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="400 55"/>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

@@ -1,0 +1,79 @@
+﻿ <root>
+	<LoadSkin Skin="Script/SCBeginnerSkin.xml"/>
+	<Widget Name="BeginnerPlane" SkinTempName="PopNode">
+		<Property Key="Visible" Value="true"/>
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceBeginner/Title.png"/>
+			<Property Key="Pos" Value="0 300"/>
+		</Widget>
+		<Widget SkinTempName="BeginnerPlane">
+			<Property Key="Pos" Value="0 -40"/>
+			<Property Key="Size" Value="1140 600"/>
+		</Widget>
+		<Widget SkinTempName="BeginnerLayer">
+			<Property Key="Pos" Value="442 -37"/>
+			<Property Key="Size" Value="224 576"/>
+		</Widget>
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="新手活动"/>
+			<Property Key="FontSize" Value="42"/>
+			<Property Key="Pos" Value="0 300"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Button_Close">
+			<Property Key="FoSize" Value="40"/>
+			<Property Key="Pos" Value="556 250"/>
+			<Action Key="ActionEnd" Value="BeginnerPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Empty">
+			<Widget Name="BeginnerItemList0" SkinTempName="BeginnerItemList">
+				<Property Key="Pos" Value="0 180"/>
+			</Widget>
+			<Widget Name="BeginnerItemList1" SkinTempName="BeginnerItemList">
+				<Property Key="Pos" Value="0 70"/>
+			</Widget>
+			<Widget Name="BeginnerItemList2" SkinTempName="BeginnerItemList">
+				<Property Key="Pos" Value="0 -40"/>
+			</Widget>
+			<Widget Name="BeginnerItemList3" SkinTempName="BeginnerItemList">
+				<Property Key="Pos" Value="0 -150"/>
+			</Widget>
+			<Widget Name="BeginnerItemList4" SkinTempName="BeginnerItemList">
+				<Property Key="Pos" Value="0 -260"/>
+			</Widget>
+		</Widget>
+		<Widget Name="NextBigAwardItem" SkinTempName="BeginnerItem">
+			<Property Key="Pos" Value="440 80"/>
+			<Widget SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="下一个免费话费"/>
+				<Property Key="FontSize" Value="23"/>
+				<Property Key="Pos" Value="0 80"/>
+				<Property Key="Color" Value="70 20 20"/>
+			</Widget>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="规则:
+			    必须完成一局游戏(普通房或者比赛)才能领取活动奖励。"/>
+			<Property Key="FontSize" Value="24"/>
+			<Property Key="Color" Value="70 20 20"/>
+			<Property Key="IsLeft" Value="true"/>
+			<Property Key="Dimensions" Value="180 400"/>
+			<Property Key="Pos" Value="440 -370"/>
+		</Widget>
+		
+		<Widget SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="已领取"/>
+			<Property Key="FontSize" Value="30"/>
+			<Property Key="Pos" Value="220 -280"/>
+			<Property Key="Color" Value="70 20 20"/>
+		</Widget>
+		<Widget Name="BegiinerButton_Award" SkinTempName="ButtonTxtEmpty">
+			<Property Key="ShowTxt" Value="领取奖励"/>
+			<Property Key="Pos" Value="220 -280"/>
+		</Widget>
+	</Widget>
+	
+ </root>

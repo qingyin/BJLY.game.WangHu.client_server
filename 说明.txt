@@ -1,0 +1,51 @@
+游戏客户端 分两个
+
+1  公共库
+
+在 \duoduo_new\GameBase  目录下
+
+cocos2d 这个目录下有现成的 cocos库  不能替换 
+
+工程目录在  \duoduo_new\GameBase\proj.win32 目录下
+
+工程名 TaiTan.sln  
+
+打开这个工程 全部重新生成一次库
+
+
+2  游戏客户端库
+
+
+ 在 \duoduo_new\Game_HJ_ZZ_CS 目录下
+
+因为太大这个目录下没有 cocos2d 这个目录  可以从  \duoduo_new\GameBase  这个目录下复制一份过去
+
+
+
+工程目录在  \Game_HJ_ZZ_CS\proj.win32 目录下
+
+工程名  Game_HJ_15.sln 
+
+打开这个工程编译前，要先 编译 游戏库  ！！！！！！
+
+
+ 在这个 duoduo_new\Game_HJ_ZZ_CS\Resources\ClientHN_SC_HJ\Script  目录下
+
+HNScriptValue.xml 这个文件
+
+ <root>
+	<ScriptValueFloat Key="UseWidth" Value="1280"/>
+	<ScriptValueFloat Key="UseHeight" Value="720"/>
+	
+	<ScriptValueStr Key="address" Value="112.74.34.103"/> 《《《=== 这个地址可以修改 连接服务器所在的地址
+	
+	<ScriptValueInt Key="Port" Value="8300"/>
+	<ScriptValueStr Key="Host" Value=""/><!--192.168.2.182  101.200.181.246 123.57.77.152-->
+	<ScriptValueStr Key="PCImei" Value="17"/>
+	
+	<ScriptValueStr Key="UITest" Value=""/>
+	<ScriptValueInt Key="UITestMaskAple" Value="150"/>
+	
+	<ScriptValueInt Key="GameType" Value="1"/>
+	
+ </root>

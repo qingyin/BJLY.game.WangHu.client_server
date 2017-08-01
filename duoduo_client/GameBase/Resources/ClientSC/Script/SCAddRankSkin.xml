@@ -1,0 +1,64 @@
+﻿ <root>
+	<WidgetButton Name="AddBankButtonTxt" NomalTexture="ScenceAddRank/Button_Title1.png" 
+		PressTexture="AutoPress" DisableTexture="ScenceAddRank/Button_Title2.png">
+		<Property Key="FontSize" Value="45"/>
+	</WidgetButton>
+	
+	<WidgetNode Name="RankListItemChild">
+		<WidgetImagic Name="RankOther" TextureInfo="ScenceAddRank/RankBack.png">
+			<Property Key="Pos" Value="-220 0"/>
+			<WidgetTxt Name="RankTxt" ShowTxt="2" FontName="" FontSize="40">
+				<Property Key="Pos" Value="35 35"/>
+				<Property Key="Color" Value="70 20 20"/>
+			</WidgetTxt>
+		</WidgetImagic>
+		<WidgetImagic Name="Rank123" TextureInfo="ScenceAddRank/rank1.png">
+			<Property Key="Pos" Value="-220 0"/>
+			<UserInfo Key="Rank0" Value="ScenceAddRank/rank1.png"/>
+			<UserInfo Key="Rank1" Value="ScenceAddRank/rank2.png"/>
+			<UserInfo Key="Rank2" Value="ScenceAddRank/rank3.png"/>
+		</WidgetImagic>
+		<WidgetImagic Name="RankOut" TextureInfo="ScenceAddRank/NotinRank.png">
+			<Property Key="Pos" Value="-220 0"/>
+			<WidgetTxt Name="RankOutTxt" ShowTxt="未上榜" FontName="" FontSize="30">
+				<Property Key="Pos" Value="59 28"/>
+				<Property Key="Color" Value="70 20 20"/>
+			</WidgetTxt>
+		</WidgetImagic>
+		<WidgetImagic Name="ItemAward" TextureInfo="Head/Head0.png">
+			<Property Key="Scale" Value="0.3"/>
+			<Property Key="Pos" Value="-100 2"/>
+		</WidgetImagic>
+		<WidgetTxt Name="RankName" ShowTxt="啦啦啦啦啦" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-30 23"/>
+			<Property Key="Color" Value="70 20 20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="RankPointTxt" ShowTxt="积分" FontName="" FontSize="30">
+			<Property Key="Pos" Value="-30 -23"/>
+			<Property Key="Color" Value="200 100 20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="RankPoint" ShowTxt="2000" FontName="" FontSize="30">
+			<Property Key="Pos" Value="40 -23"/>
+			<Property Key="Color" Value="200 100 20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+	</WidgetNode>
+	
+	<WidgetNodeUI Name="RankListItem">
+		<Property Key="Size" Value="350 130"/>
+		<WidgetImagic Name="BackImagic0" TextureInfo="ScenceAddRank/ItemBack.png">
+			<Property Key="Pos" Value="290 60"/>
+		</WidgetImagic>
+		<WidgetSkinChild Name="Item0" SkinTempName="RankListItemChild">
+			<Property Key="Pos" Value="290 60"/>
+		</WidgetSkinChild>
+		<WidgetImagic Name="BackImagic1" TextureInfo="ScenceAddRank/ItemBack.png">
+			<Property Key="Pos" Value="880 60"/>
+		</WidgetImagic>
+		<WidgetSkinChild Name="Item1" SkinTempName="RankListItemChild">
+			<Property Key="Pos" Value="880 60"/>
+		</WidgetSkinChild>
+	</WidgetNodeUI>
+ </root>

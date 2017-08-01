@@ -1,0 +1,729 @@
+﻿ <root>
+	<LoadSkin Skin="Script/GameBJL/BJLGameSkin.xml"/>
+	<Widget Name="GameBJLPlane" SkinTempName="Empty">
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameBJL/Back.png"/>
+			<Property Key="Pos" Value="640 360"/>
+		</Widget>
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameBJL/GoldBack1.png"/>
+				<Property Key="Pos" Value="-160 -185"/>
+			</Widget>
+			<Widget Name="SelfGoldPoint" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameBJL/GoldBack2.png"/>
+				<Property Key="Pos" Value="-247 -185"/>
+			</Widget>
+			<Widget Name="BJLSelfGold" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value="41110"/>
+				<Property Key="FontSize" Value="32"/>
+				<Property Key="Pos" Value="-217 -185"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+				<Property Key="OutLine" Value="0 0 0 255:1"/>
+			</Widget>
+		</Widget>
+		<Widget Name="BJLTime" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="10"/>
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="Pos" Value="640 510"/>
+		</Widget>
+		<Widget Name="BJLTime_Desc" SkinTempName="TxtEmpty">
+			<UserInfo Key="TxtFree" Value="空闲时间"/>
+			<UserInfo Key="TxtBet" Value="下注时间"/>
+			<UserInfo Key="TxtResult" Value="开牌时间"/>
+			<Property Key="ShowTxt" Value="空闲时间"/>
+			<Property Key="FontSize" Value="20"/>
+			<Property Key="Pos" Value="640 478"/>
+		</Widget>
+		<Widget Name="BJL_LeftCard" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="10"/>
+			<Property Key="FontSize" Value="20"/>
+			<Property Key="Pos" Value="750 515"/>
+		</Widget>
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Widget Name="BJHButton_Bet_0" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Desk_Xian.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-260 -62"/>
+				<UserInfo Key="Area" Value="0"/>
+			</Widget>
+			<Widget Name="BJLZhuPlane0" SkinTempName="Empty">
+				<Property Key="Pos" Value="-260 0"/>
+				<Widget SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="闲"/>
+					<Property Key="FontSize" Value="70"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 -40"/>
+				</Widget>
+				<Widget Name="BJH_XianDoubleTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="(1:1)"/>
+					<Property Key="FontSize" Value="35"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 -100"/>
+				</Widget>
+				<Widget Name="SelfTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 200"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 25"/>
+				</Widget>
+				<Widget Name="TotalTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 0"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 -148"/>
+				</Widget>
+			</Widget>
+			<Widget Name="BJHButton_Bet_1" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Desk_He.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="0 34"/>
+				<UserInfo Key="Area" Value="1"/>
+			</Widget>
+			<Widget Name="BJLZhuPlane1" SkinTempName="Empty">
+				<Widget SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="和"/>
+					<Property Key="FontSize" Value="50"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 50"/>
+				</Widget>
+				<Widget Name="BJH_XianDoubleTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="(1:8)"/>
+					<Property Key="FontSize" Value="30"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 10"/>
+				</Widget>
+				<Widget Name="SelfTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 200"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 90"/>
+				</Widget>
+				<Widget Name="TotalTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 0"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 -20"/>
+				</Widget>
+			</Widget>
+			<Widget Name="BJHButton_Bet_2" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Desk_Xian.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="260 -62"/>
+				<Property Key="ScaleX" Value="-1"/>
+				<UserInfo Key="Area" Value="2"/>
+			</Widget>
+			<Widget Name="BJLZhuPlane2" SkinTempName="Empty">
+				<Property Key="Pos" Value="260 0"/>
+				<Widget SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="庄"/>
+					<Property Key="FontSize" Value="70"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 -40"/>
+				</Widget>
+				<Widget Name="BJH_XianDoubleTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="(1:0.95)"/>
+					<Property Key="FontSize" Value="35"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 -100"/>
+				</Widget>
+				<Widget Name="SelfTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 200"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 25"/>
+				</Widget>
+				<Widget Name="TotalTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 0"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 -148"/>
+				</Widget>
+			</Widget>
+			<Widget Name="BJHButton_Bet_6" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Desk_Dui.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-68 -94"/>
+				<UserInfo Key="Area" Value="6"/>
+			</Widget>
+			<Widget Name="BJLZhuPlane6" SkinTempName="Empty">
+				<Property Key="Pos" Value="-65 -130"/>
+				<Widget SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="闲对"/>
+					<Property Key="FontSize" Value="45"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 50"/>
+				</Widget>
+				<Widget Name="BJH_XianDoubleTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="(1:11)"/>
+					<Property Key="FontSize" Value="25"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 10"/>
+				</Widget>
+				<Widget Name="SelfTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 200"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 90"/>
+				</Widget>
+				<Widget Name="TotalTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 0"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 -20"/>
+				</Widget>
+			</Widget>
+			<Widget Name="BJHButton_Bet_7" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Desk_Dui.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="68 -94"/>
+				<UserInfo Key="Area" Value="7"/>
+			</Widget>
+			<Widget Name="BJLZhuPlane7" SkinTempName="Empty">
+				<Property Key="Pos" Value="65 -130"/>
+				<Widget SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="庄对"/>
+					<Property Key="FontSize" Value="45"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 50"/>
+				</Widget>
+				<Widget Name="BJH_XianDoubleTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="(1:11)"/>
+					<Property Key="FontSize" Value="25"/>
+					<Property Key="Color" Value="200 200 0"/>
+					<Property Key="Pos" Value="0 10"/>
+				</Widget>
+				<Widget Name="SelfTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 200"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 90"/>
+				</Widget>
+				<Widget Name="TotalTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="26512"/>
+					<Property Key="FontSize" Value="24"/>
+					<Property Key="Color" Value="250 250 0"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="Pos" Value="0 -20"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="GoldPlane" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+		</Widget>
+	
+		<Widget Name="BJLButton_GameExit" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="GameBJL/Button_Back.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="65 665"/>
+		</Widget>
+		
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="640 110"/>
+			<Widget Name="BJLButton_Zhu_0" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Zhu0.png"/>
+				<Property Key="PressTexture" Value="GameBJL/Button_Zhu01.png"/>
+				<Property Key="DisableTexture" Value="GameBJL/Button_Zhu01.png"/>
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="100"/>
+				<Property Key="Color" Value="0 0 0"/>
+				<Property Key="Pos" Value="-180 0"/>
+				<UserInfo Key="Idex" Value="0"/>
+			</Widget>
+			<Widget Name="BJLButton_Zhu_1" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Zhu1.png"/>
+				<Property Key="PressTexture" Value="GameBJL/Button_Zhu11.png"/>
+				<Property Key="DisableTexture" Value="GameBJL/Button_Zhu11.png"/>
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="200"/>
+				<Property Key="Color" Value="0 0 0"/>
+				<Property Key="Pos" Value="-60 0"/>
+				<UserInfo Key="Idex" Value="1"/>
+			</Widget>
+			<Widget Name="BJLButton_Zhu_2" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Zhu2.png"/>
+				<Property Key="PressTexture" Value="GameBJL/Button_Zhu21.png"/>
+				<Property Key="DisableTexture" Value="GameBJL/Button_Zhu21.png"/>
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="500"/>
+				<Property Key="Color" Value="0 0 0"/>
+				<Property Key="Pos" Value="60 0"/>
+				<UserInfo Key="Idex" Value="2"/>
+			</Widget>
+			<Widget Name="BJLButton_Zhu_3" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/Button_Zhu3.png"/>
+				<Property Key="PressTexture" Value="GameBJL/Button_Zhu31.png"/>
+				<Property Key="DisableTexture" Value="GameBJL/Button_Zhu31.png"/>
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="1000"/>
+				<Property Key="Color" Value="0 0 0"/>
+				<Property Key="Pos" Value="180 0"/>
+				<UserInfo Key="Idex" Value="3"/>
+			</Widget>
+		</Widget>
+	
+		<Widget Name="Start_Bet_State" SkinTempName="StateActionNode">
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_BJL080.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget Name="State_StartBet" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameBJL/Pic_Start_Bet.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget Name="State_StopBet" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_BJL083.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="Result_State" SkinTempName="ResultActionNode">
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_BJL080.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget Name="Result_State_WinArea" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameBJL/Result_State0.png"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget Name="Result_State_WinNode" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_BJL080.png"/>
+				<Property Key="Pos" Value="640 290"/>
+				
+				<Widget Name="Chip" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_chouma.png"/>
+					<Property Key="Pos" Value="50 40"/>
+				</Widget>
+				<Widget Name="Result_State_WinChipTxt" SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="+500"/>
+					<Property Key="FontSize" Value="40"/>
+					<Property Key="Color" Value="250 250 30"/>
+					<Property Key="OutLine" Value="0 0 0 255:1"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+					<Property Key="Pos" Value="120 40"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Widget Name="BJLPlayer0" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="510 -110"/>
+				<UserInfo Key="ZhuangIcon_Pos" Value="-65 -40"/>
+			</Widget>
+			<Widget Name="BJLPlayer1" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="550 60"/>
+				<UserInfo Key="ZhuangIcon_Pos" Value="-65 -40"/>
+			</Widget>
+			<Widget Name="BJLPlayer2" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="480 230"/>
+				<UserInfo Key="ZhuangIcon_Pos" Value="-65 -40"/>
+			</Widget>
+			<Widget Name="BJLPlayer3" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="330 250"/>
+			</Widget>
+			<Widget Name="BJLPlayer4" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="180 260"/>
+			</Widget>
+			
+			<Widget Name="BJLPlayer5" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="-160 260"/>
+			</Widget>
+			<Widget Name="BJLPlayer6" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="-310 250"/>
+			</Widget>
+			<Widget Name="BJLPlayer7" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="-460 230"/>
+			</Widget>
+			<Widget Name="BJLPlayer8" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="-530 60"/>
+			</Widget>
+			<Widget Name="BJLPlayer9" SkinTempName="BJLPlayerSeat">
+				<Property Key="Pos" Value="-490 -110"/>
+			</Widget>
+		</Widget>
+		
+		
+		<Widget SkinTempName="Empty">
+			<Property Key="Pos" Value="640 360"/>
+			<Widget  Name="BJL_AreaIcon_0" SkinTempName="AreaIconNode">
+				<Property Key="Pos" Value="-332 90"/>
+				<UserInfo Key="Icon_Pos" Value="-332 90"/>
+				<UserInfo Key="Player_Pos" Value="0 0"/>
+				<Widget SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameBJL/AreaIcon_xian.png"/>
+				</Widget>
+			</Widget>
+			<Widget  Name="BJL_AreaIcon_1" SkinTempName="AreaIconNode">
+				<Property Key="Pos" Value="185 90"/>
+				<UserInfo Key="Icon_Pos" Value="185 90"/>
+				<UserInfo Key="Player_Pos" Value="0 0"/>
+				<Widget  SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameBJL/AreaIcon_zhuang.png"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="RootCard" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_BJL020.png"/>
+			<Property Key="Pos" Value="735 535"/>
+		</Widget>
+		
+		<Widget Name="BJL_HistoryBg" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_BJL013.png"/>
+			<Property Key="Pos" Value="150 80"/>
+			<Widget Name="HistoryArea_Zhuang" SkinTempName="HistoryArea">
+				<Property Key="Pos" Value="22 133"/>
+			</Widget>
+			<Widget Name="HistoryArea_Ping" SkinTempName="HistoryArea">
+				<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_BJL011.png"/>
+				<Property Key="Pos" Value="22 80"/>
+			</Widget>
+			<Widget Name="HistoryArea_Xian" SkinTempName="HistoryArea">
+				<Property Key="ImagicTexture" Value="GameBJL/res_baccarat_BJL010.png"/>
+				<Property Key="Pos" Value="22 27"/>
+			</Widget>
+			
+			<Widget Name="WinPointRow0" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="55 145"/>
+			</Widget>
+			<Widget Name="WinPointRow1" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="80 145"/>
+			</Widget>
+			<Widget Name="WinPointRow2" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="105 145"/>
+			</Widget>
+			<Widget Name="WinPointRow3" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="130 145"/>
+			</Widget>
+			<Widget Name="WinPointRow4" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="155 145"/>
+			</Widget>
+			<Widget Name="WinPointRow5" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="180 145"/>
+			</Widget>
+			<Widget Name="WinPointRow6" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="205 145"/>
+			</Widget>
+			<Widget Name="WinPointRow7" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="230 145"/>
+			</Widget>
+			<Widget Name="WinPointRow8" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="255 145"/>
+			</Widget>
+			<Widget Name="WinPointRow9" SkinTempName="WinPointRow">
+				<Property Key="Pos" Value="280 145"/>
+			</Widget>
+
+		</Widget>
+		
+		<Widget Name="BJLButton_Admin" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameBJL/btn_admin.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="管理员控制"/>
+			<Property Key="Pos" Value="980 40"/>
+			<Action Key="Show" Value="BJLAdminPopo"/>
+		</Widget>
+		<Widget Name="BJLButton_ZhuangList" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameBJL/btn_admin.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="FontSize" Value="26"/>
+			<Property Key="ShowTxt" Value="上庄"/>
+			<Property Key="Pos" Value="1150 40"/>
+			<Action Key="Show" Value="BJLZhuangListNode"/>
+		</Widget>
+		
+		<Widget Name="BJLButton_CancleBet" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameBJL/res_baccarat_BJL004.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="510 35"/>
+		</Widget>
+		<Widget Name="BJLButton_LastBet" SkinTempName="ButtonTxtEmpty">
+			<Property Key="NomalTexture" Value="GameBJL/res_baccarat_BJL003.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="750 35"/>
+		</Widget>
+		
+		<Widget SkinTempName="Empty">
+			<Widget Name="MaxBetInfo0" SkinTempName="MaxBetInfo">
+				<Property Key="Pos" Value="405 460"/>
+			</Widget>
+			<Widget Name="MaxBetInfo1" SkinTempName="MaxBetInfo">
+				<Property Key="Pos" Value="925 460"/>
+			</Widget>
+			
+			<Widget Name="CardNode0" SkinTempName="Empty">
+				<Widget Name="ResultPoint" SkinTempName="BJLTxtAtlas">
+					<Property Key="ShowTxt" Value="8"/>
+					<Property Key="Pos" Value="285 460"/>
+				</Widget>
+				<Widget Name="Card0" SkinTempName="BJLPlayerCard">
+					<UserInfo Key="EndPos" Value="350 460"/>
+					<UserInfo Key="SendWaitTime" Value="0"/>
+					<UserInfo Key="ShadowEndPos" Value="370 200"/>
+					<Property Key="Scale" Value="0.6"/>
+					<Property Key="Pos" Value="350 460"/>
+				</Widget>
+				<Widget Name="Card1" SkinTempName="BJLPlayerCard">
+					<UserInfo Key="EndPos" Value="445 460"/>
+					<UserInfo Key="SendWaitTime" Value="1"/>
+					<UserInfo Key="MoveByPos" Value="-47.5 0"/>
+					<UserInfo Key="ShadowEndPos" Value="880 200"/>
+					<Property Key="Scale" Value="0.6"/>
+					<Property Key="Pos" Value="445 460"/>
+				</Widget>
+				<Widget Name="Card2" SkinTempName="BJLPlayerCard">
+					<UserInfo Key="EndPos" Value="445 460"/>
+					<UserInfo Key="SendWaitTime" Value="0.4"/>
+					<UserInfo Key="ShadowEndPos" Value="640 200"/>
+					<Property Key="Scale" Value="0.6"/>
+					<Property Key="Pos" Value="445 460"/>
+				</Widget>
+			</Widget>
+			<Widget Name="CardNode1" SkinTempName="Empty">
+				<Widget Name="ResultPoint" SkinTempName="BJLTxtAtlas">
+					<Property Key="ShowTxt" Value="8"/>
+					<Property Key="Pos" Value="805 460"/>
+				</Widget>
+				<Widget Name="Card0" SkinTempName="BJLPlayerCard">
+					<UserInfo Key="EndPos" Value="870 460"/>
+					<UserInfo Key="SendWaitTime" Value="0.5"/>
+					<UserInfo Key="ShadowEndPos" Value="370 200"/>
+					<Property Key="Scale" Value="0.6"/>
+					<Property Key="Pos" Value="870 460"/>
+				</Widget>
+				<Widget Name="Card1" SkinTempName="BJLPlayerCard">
+					<UserInfo Key="EndPos" Value="965 460"/>
+					<UserInfo Key="SendWaitTime" Value="1.5"/>
+					<UserInfo Key="MoveByPos" Value="-47.5 0"/>
+					<UserInfo Key="ShadowEndPos" Value="880 200"/>
+					<Property Key="Scale" Value="0.6"/>
+					<Property Key="Pos" Value="965 460"/>
+				</Widget>
+				<Widget Name="Card2" SkinTempName="BJLPlayerCard">
+					<UserInfo Key="EndPos" Value="965 460"/>
+					<UserInfo Key="SendWaitTime" Value="0.4"/>
+					<UserInfo Key="ShadowEndPos" Value="640 200"/>
+					<Property Key="Scale" Value="0.6"/>
+					<Property Key="Pos" Value="965 460"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="BJLOpenShadow" SkinTempName="OpenCardShadow">
+			<Property Key="Aple" Value="0.7"/>
+			<Property Key="Visible" Value="false"/>
+		</Widget>
+		<Widget Name="BJLZhuangListNode"SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="AdminBg">
+				<Property Key="Size" Value="500 500"/>
+				<Property Key="Pos" Value="640 325"/>
+				
+				<Widget SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="庄家列表"/>
+					<Property Key="FontSize" Value="40"/>
+					<Property Key="Color" Value="100 170 120"/>
+					<Property Key="Pos" Value="250 450"/>
+				</Widget>
+				
+				<Widget Name="" SkinTempName="AdminBg1">
+					<Property Key="Size" Value="450 310"/>
+					<Property Key="Pos" Value="250 270"/>
+				</Widget>
+				<Widget Name="BJLZhuang_List" SkinTempName="List">
+					<Property Key="Size" Value="450 300"/>
+					<Property Key="Pos" Value="25 120"/>
+					<Property Key="ClippingEnabled" Value="true"/>
+					<Property Key="HideBack" Value=""/>
+					<Widget Name="" SkinTempName="BJLZhuangNode">
+					</Widget>
+					<Widget Name="" SkinTempName="BJLZhuangNode">
+					</Widget>
+					<Widget Name="" SkinTempName="BJLZhuangNode">
+					</Widget>
+					<Widget Name="" SkinTempName="BJLZhuangNode">
+					</Widget>
+					<Widget Name="" SkinTempName="BJLZhuangNode">
+					</Widget>
+					<Widget Name="" SkinTempName="BJLZhuangNode">
+					</Widget>
+					<Widget Name="" SkinTempName="BJLZhuangNode">
+					</Widget>
+					<Widget Name="" SkinTempName="BJLZhuangNode">
+					</Widget>
+				</Widget>
+			
+			</Widget>
+			<Widget Name="BJLZhuang_close" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="Common/res_common_TY015.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="870 550"/>
+				<Action Key="Hide" Value="BJLZhuangListNode"/>
+			</Widget>
+			
+			<Widget Name="BJLButton_Shangzhuang" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/BJL_shangzhuang.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="申请上庄"/>
+				<Property Key="Pos" Value="640 145"/>
+				<Property Key="Visible" Value="true"/>
+			</Widget>
+			<Widget Name="BJLButton_QuXiaoZhuang" SkinTempName="ButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameBJL/BJL_shangzhuang.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="取消申请"/>
+				<Property Key="Pos" Value="640 145"/>
+				<Property Key="Visible" Value="true"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="BJLAdminPopo"SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="AdminBg">
+				<Property Key="Pos" Value="640 360"/>
+				<Widget Name="BJLAdmin_close" SkinTempName="ButtonTxtEmpty">
+					<Property Key="NomalTexture" Value="Common/res_common_TY015.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="780 430"/>
+					<Action Key="Hide" Value="BJLAdminPopo"/>
+				</Widget>
+				<Widget SkinTempName="TxtEmpty">
+					<Property Key="ShowTxt" Value="请选择下一局想要赢的区域！"/>
+					<Property Key="FontSize" Value="40"/>
+					<Property Key="Color" Value="100 170 120"/>
+					<Property Key="Pos" Value="400 350"/>
+				</Widget>
+				<Widget SkinTempName="Empty">
+					<Property Key="Pos" Value="400 200"/>
+					<Widget Name="BJHButton_ContorXian" SkinTempName="ButtonEmpty">
+						<Property Key="NomalTexture" Value="GameBJL/Button_Desk_Xian.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="-260 -62"/>
+						<UserInfo Key="Area" Value="2"/>
+						<Action Key="Hide" Value="BJLAdminPopo"/>
+					</Widget>
+					<Widget SkinTempName="Empty">
+						<Property Key="Pos" Value="-260 0"/>
+						<Widget SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="闲"/>
+							<Property Key="FontSize" Value="70"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 -40"/>
+						</Widget>
+						<Widget SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="(1:1)"/>
+							<Property Key="FontSize" Value="35"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 -100"/>
+						</Widget>
+					</Widget>
+					<Widget Name="BJHButton_ContorHe" SkinTempName="ButtonEmpty">
+						<Property Key="NomalTexture" Value="GameBJL/Button_Desk_He.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="0 34"/>
+						<UserInfo Key="Area" Value="5"/>
+						<Action Key="Hide" Value="BJLAdminPopo"/>
+					</Widget>
+					<Widget  SkinTempName="Empty">
+						<Widget SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="和"/>
+							<Property Key="FontSize" Value="50"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 50"/>
+						</Widget>
+						<Widget  SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="(1:8)"/>
+							<Property Key="FontSize" Value="30"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 10"/>
+						</Widget>
+					</Widget>
+					<Widget Name="BJHButton_ContorZhuang" SkinTempName="ButtonEmpty">
+						<Property Key="NomalTexture" Value="GameBJL/Button_Desk_Xian.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="260 -62"/>
+						<Property Key="ScaleX" Value="-1"/>
+						<UserInfo Key="Area" Value="7"/>
+						<Action Key="Hide" Value="BJLAdminPopo"/>
+					</Widget>
+					<Widget  SkinTempName="Empty">
+						<Property Key="Pos" Value="260 0"/>
+						<Widget SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="庄"/>
+							<Property Key="FontSize" Value="70"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 -40"/>
+						</Widget>
+						<Widget SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="(1:1)"/>
+							<Property Key="FontSize" Value="35"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 -100"/>
+						</Widget>
+					</Widget>
+					<Widget Name="BJHButton_ContorXianDui" SkinTempName="ButtonEmpty">
+						<Property Key="NomalTexture" Value="GameBJL/Button_Desk_Dui.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="-68 -94"/>
+						<UserInfo Key="Area" Value="1"/>
+						<Action Key="Hide" Value="BJLAdminPopo"/>
+					</Widget>
+					<Widget  SkinTempName="Empty">
+						<Property Key="Pos" Value="-65 -130"/>
+						<Widget SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="闲对"/>
+							<Property Key="FontSize" Value="45"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 50"/>
+						</Widget>
+						<Widget SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="(1:11)"/>
+							<Property Key="FontSize" Value="25"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 10"/>
+						</Widget>
+					</Widget>
+					<Widget Name="BJHButton_ContorZhuangDui" SkinTempName="ButtonEmpty">
+						<Property Key="NomalTexture" Value="GameBJL/Button_Desk_Dui.png"/>
+						<Property Key="PressTexture" Value="AutoPress"/>
+						<Property Key="Pos" Value="68 -94"/>
+						<UserInfo Key="Area" Value="6"/>
+						<Action Key="Hide" Value="BJLAdminPopo"/>
+					</Widget>
+					<Widget  SkinTempName="Empty">
+						<Property Key="Pos" Value="65 -130"/>
+						<Widget SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="庄对"/>
+							<Property Key="FontSize" Value="45"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 50"/>
+						</Widget>
+						<Widget  SkinTempName="TxtEmpty">
+							<Property Key="ShowTxt" Value="(1:11)"/>
+							<Property Key="FontSize" Value="25"/>
+							<Property Key="Color" Value="200 200 0"/>
+							<Property Key="Pos" Value="0 10"/>
+						</Widget>
+					</Widget>
+				</Widget>
+			</Widget>
+		</Widget>
+		
+	</Widget>
+ </root>

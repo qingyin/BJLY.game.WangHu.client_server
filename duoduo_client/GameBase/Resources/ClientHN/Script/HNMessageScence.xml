@@ -1,0 +1,50 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNGameRecordSkin.xml"/>
+	<Widget Name="MessagePlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceGameRecord/public_bg.png"/>
+		</Widget>
+		<Widget Name="Button_BackHome" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="-580 310"/>
+			<Action Key="Hide" Value="MessagePlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="ScenceGameRecord/hist_rec_title_bg_1.png"/>
+			<Property Key="Pos" Value="0 310"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="消 息"/>
+			<Property Key="Pos" Value="0 310"/>
+			<Property Key="Color" Value="255 255 0"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="ScenceHome/laoyue_bg.png"/>
+			<Property Key="Size" Value="1180 550"/>
+			<Property Key="Pos" Value="0 -50"/>
+		</Widget>
+		
+		
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="Pos" Value="0 -50"/>
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="亲爱的玩家：
+			
+			近期有玩家担心麻将有游戏外挂，近期有玩家担心麻将有游戏外挂，近期有玩家担心麻将有游戏外挂，近期有玩家担心麻将有游戏外挂，近期有玩家担心麻将有游戏外挂，近期有玩家担心麻将有游戏外挂，近期有玩家担心麻将有游戏外挂，
+			
+			祝你在游戏中玩的开心！"/>
+			
+			<Property Key="Dimensions" Value="980 450"/>
+			<Property Key="Color" Value="238 233 210"/>
+			<Property Key="IsLeft" Value="true"/>
+			
+		</Widget>
+		
+		
+		
+	</Widget>
+ </root>

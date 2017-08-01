@@ -1,0 +1,14 @@
+﻿ <root>
+	<ScriptValueFloat Key="UseWidth" Value="1280"/>
+	<ScriptValueFloat Key="UseHeight" Value="720"/>
+	
+	<ScriptValueStr Key="address" Value="127.0.0.1"/>
+	<ScriptValueInt Key="Port" Value="8300"/>
+	<ScriptValueStr Key="Host" Value=""/><!-- 123.57.77.152 Script/SCLogonScence.xml-->
+	<ScriptValueStr Key="PCImei" Value="17"/>
+	
+	<ScriptValueStr Key="UITest" Value=""/>
+	<ScriptValueInt Key="UITestMaskAple" Value="150"/>
+	
+	
+ </root>

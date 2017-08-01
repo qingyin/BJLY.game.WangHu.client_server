@@ -1,0 +1,210 @@
+﻿ <root>
+	<WidgetNode Name="HomeRankHead1">
+		<WidgetImagic TextureInfo="Common/Head_Man.png">
+			<Property Key="Scale" Value="0.83"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/RankNameBack.png">
+			<Property Key="Pos" Value="0 -48"/>
+		</WidgetImagic>
+		<WidgetTxt Name="HomeRankName" ShowTxt="名字" FontName="" FontSize="24">
+			<Property Key="Pos" Value="0 -48"/>
+		</WidgetTxt>
+	</WidgetNode>
+	
+	<WidgetImagic Name="HomeShopEffect" TextureInfo="ScenceHome/EffectLight.png">
+		<Property Key="Aple" Value="0.3"/>
+		<SetPos Pos="-400 0" Name="Start" SaveAction="">
+			<MoveTo Time="3.5" Pos="400 0">
+				<CallAction ActionParentName="Start">
+				</CallAction>
+			</MoveTo>
+		</SetPos>
+	</WidgetImagic>
+
+	<WidgetNode Name="HomeRankHead2">
+		<WidgetImagic TextureInfo="Common/Head_Man.png">
+			<Property Key="Scale" Value="0.69"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/RankNameBack.png">
+			<Property Key="Pos" Value="0 -40"/>
+		</WidgetImagic>
+		<WidgetTxt Name="HomeRankName" ShowTxt="名字" FontName="" FontSize="24">
+			<Property Key="Pos" Value="0 -40"/>
+		</WidgetTxt>
+	</WidgetNode>
+	<WidgetNodeUI Name="HomeGameNode1">
+		<Property Key="Size" Value="350 220"/>
+		<WidgetButton Name="Button_BJL" NomalTexture="ScenceHome/Button_HomeDeZhou.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="220 0"/>
+		</WidgetButton>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_DeZhouPic1.png">
+			<Property Key="Pos" Value="270 -10"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_DeZhouPic2.png">
+			<Property Key="Pos" Value="252 105"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_DeZhouPic3.png">
+			<Property Key="Pos" Value="221 -195"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	<WidgetNodeUI Name="HomeGameNode2">
+		<Property Key="Size" Value="350 220"/>
+		<WidgetButton Name="Button_CAR" NomalTexture="ScenceHome/Button_HomeCar.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="220 0"/>
+		</WidgetButton>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_HomeCarImg1.png">
+			<Property Key="Pos" Value="220 13"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_HomeCarImg2.png">
+			<Property Key="Pos" Value="221 -195"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	<WidgetNodeUI Name="HomeGameNode3">
+		<Property Key="Size" Value="350 220"/>
+		<WidgetButton Name="Button_LP" NomalTexture="ScenceHome/Button_HomeLP.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="220 0"/>
+		</WidgetButton>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_HomeLPImg1.png">
+			<Property Key="Pos" Value="195 -18"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_HomeLPImg2.png">
+			<Property Key="Pos" Value="221 -198"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	<WidgetNodeUI Name="HomeGameNode4">
+		<Property Key="Size" Value="350 220"/>
+		<WidgetButton Name="Button_Other" NomalTexture="ScenceHome/Button_HomeOther.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="220 0"/>
+		</WidgetButton>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_HomeOtherImg1.png">
+			<Property Key="Pos" Value="220 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_HomeOtherImg2.png">
+			<Property Key="Pos" Value="221 -195"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	<WidgetNodeUI Name="HomeGameNode5">
+		<Property Key="Size" Value="350 220"/>
+		<WidgetButton Name="Button_Other1" NomalTexture="ScenceHome/res_main_Slot.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="220 0"/>
+		</WidgetButton>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_Home1.png">
+			<Property Key="Pos" Value="220 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="" TextureInfo="ScenceHome/Button_HomeOtherImg2.png">
+			<Property Key="Pos" Value="221 -195"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	
+	
+	<WidgetList Name="HallList">
+		<SetPos Pos="1280 140" Name="MoveIn" SaveAction="true">
+				<MoveTo Time="0.6" Pos="-20 140">
+					<MoveTo Time="0.2" Pos="20 140">
+						<MoveTo Time="0.1" Pos="0 140">
+						</MoveTo>
+					</MoveTo>
+				</MoveTo>
+		</SetPos>
+		
+		<SetPos Pos="0 140" Name="MoveOut" SaveAction="true">
+			<MoveTo Time="0.6" Pos="1280 140">
+			</MoveTo>
+		</SetPos>
+		
+	</WidgetList>
+	
+	<WidgetNodeUI Name="HomeHallNode1">
+		<Property Key="Size" Value="400 220"/>		
+		<WidgetButton Name="Button_BJLHall" NomalTexture="ScenceHome/res_hall1.png" PressTexture="ScenceHome/res_hall1.png">
+			<Property Key="Pos" Value="220 0"/>
+			<UserInfo Key="GameServerID" Value="1"/>
+		</WidgetButton>
+		<WidgetTxt Name="desc" ShowTxt="限红:100-2万" FontName="" FontSize="25">
+			<Property Key="Pos" Value="220 -165"/>
+			<Property Key="Color" Value="120 220 255"/>
+		</WidgetTxt>
+		
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="HomeHallNode2">
+		<Property Key="Size" Value="400 220"/>		
+		<WidgetButton Name="Button_BJLHall" NomalTexture="ScenceHome/res_hall2.png" PressTexture="ScenceHome/res_hall2.png">
+			<Property Key="Pos" Value="220 0"/>
+			<UserInfo Key="GameServerID" Value="2"/>
+		</WidgetButton>
+		<WidgetTxt Name="desc" ShowTxt="限红:2000-50万" FontName="" FontSize="25">
+			<Property Key="Pos" Value="220 -165"/>
+			<Property Key="Color" Value="120 220 255"/>
+		</WidgetTxt>
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="HomeHallNode3">
+		<Property Key="Size" Value="400 220"/>		
+		<WidgetButton Name="Button_BJLHall" NomalTexture="ScenceHome/res_hall3.png" PressTexture="ScenceHome/res_hall3.png">
+			<Property Key="Pos" Value="220 0"/>
+			<UserInfo Key="GameServerID" Value="3"/>
+		</WidgetButton>
+		<WidgetTxt Name="desc" ShowTxt="限红:5万-2000万" FontName="" FontSize="25">
+			<Property Key="Pos" Value="220 -165"/>
+			<Property Key="Color" Value="120 220 255"/>
+		</WidgetTxt>
+	</WidgetNodeUI>
+	
+	
+	<WidgetNode Name="HomeEffectPointTo">
+		<WidgetImagic Name="" TextureInfo="ScenceHome/PointToEffect1.png">
+			<MoveTo Time="0.5" Pos="20 0" Name="Start">
+				<MoveTo Time="0.7" Pos="0 0">
+				<CallAction ActionParentName="Start">
+				</CallAction>
+				</MoveTo>
+			</MoveTo>
+			<WidgetImagic Name="" TextureInfo="ScenceHome/PointToEffect2.png">
+				<Property Key="Pos" Value="30 33"/>
+				<Property Key="Aple" Value="0"/>
+				<ApleTo Time="0.5" Aple="1" Name="Start">
+					<ApleTo Time="0.7" Aple="0">
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</ApleTo>
+				</ApleTo>
+			</WidgetImagic>
+		</WidgetImagic>
+	</WidgetNode>
+	
+	<WidgetImagic Name="HomeEffect20" TextureInfo="ScenceHome/EffectLight20.png">
+		<Property Key="Scale" Value="0.5"/>
+		<Visible Visible="true" Name="Start" SaveAction="">
+			<SetPos Pos="0 100:1280 600">
+			<SetAple Aple="0">
+			<WaiteTime Time="0.3:1" >
+				<ApleTo Time="1.0:2.5" Aple="1">
+					<Visible Visible="false">
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</Visible>
+				</ApleTo>
+			</WaiteTime>
+			</SetAple>
+			</SetPos>
+		</Visible>
+	</WidgetImagic>
+	<WidgetImagic Name="HomeEffect21" TextureInfo="ScenceHome/EffectLight21.png">
+		<Property Key="Scale" Value="0.5"/>
+		<Visible Visible="true" Name="Start" SaveAction="">
+			<SetPos Pos="0 100:1280 600">
+			<SetAple Aple="0">
+			<WaiteTime Time="0.3:1" >
+				<ApleTo Time="2.0:4.5" Aple="1">
+					<Visible Visible="false">
+						<CallAction ActionParentName="Start">
+						</CallAction>
+					</Visible>
+				</ApleTo>
+			</WaiteTime>
+			</SetAple>
+			</SetPos>
+		</Visible>
+	</WidgetImagic>
+ </root>

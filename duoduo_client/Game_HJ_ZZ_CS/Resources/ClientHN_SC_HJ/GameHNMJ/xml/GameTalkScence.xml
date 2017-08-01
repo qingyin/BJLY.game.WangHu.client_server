@@ -1,0 +1,101 @@
+﻿ <root>
+	<LoadSkin Skin="GameHNMJ/xml/GameTalkSkin.xml"/>
+	<Widget Name="GameTalkPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 400"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+			<Action Key="Hide" Value="GameTalkPlane"/>
+		</Widget>
+		
+		<Widget Name="" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="GameHNMJ/Talk/chat_bg.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Scale9" Value="true"/>
+			<Property Key="Size" Value="630 520"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="GameHNMJ/Talk/chat_bg.png"/>
+			<Property Key="Size" Value="630 520"/>
+			<Property Key="Pos" Value="0 -0"/>
+		</Widget>
+		<Widget Name="Button_TalkType0" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="GameHNMJ/Talk/chat_btn_select.png"/>
+			<Property Key="PressTexture" Value="GameHNMJ/Talk/chat_btn_normal.png"/>
+			<Property Key="DisableTexture" Value="GameHNMJ/Talk/chat_btn_normal.png"/>
+			<Property Key="Pos" Value="-150 220"/>
+			<Property Key="Enable" Value="false"/>
+			<Action Key="Able" Value="Button_TalkType1"/>
+			<Action Key="Disable" Value="Button_TalkType0"/>
+			<Action Key="Show" Value="TalkTypePlane0"/>
+			<Action Key="Hide" Value="TalkTypePlane1"/>
+		</Widget>
+		
+		<Widget Name="Button_TalkType1" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="GameHNMJ/Talk/chat_btn_select.png"/>
+			<Property Key="PressTexture" Value="GameHNMJ/Talk/chat_btn_normal.png"/>
+			<Property Key="DisableTexture" Value="GameHNMJ/Talk/chat_btn_normal.png"/>
+			<Property Key="Pos" Value="150 220"/>
+			<Action Key="Able" Value="Button_TalkType0"/>
+			<Action Key="Disable" Value="Button_TalkType1"/>
+			<Action Key="Show" Value="TalkTypePlane1"/>
+			<Action Key="Hide" Value="TalkTypePlane0"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="常用语"/>
+			<Property Key="Pos" Value="-150 220"/>
+			<Property Key="Color" Value="200 200 100"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="表情"/>
+			<Property Key="Pos" Value="150 220"/>
+			<Property Key="Color" Value="200 200 100"/>
+		</Widget>
+		<Widget Name="TalkTypePlane0" SkinTempName="Empty">
+			<Widget Name="GameTalkList" SkinTempName="List">
+				<Property Key="Size" Value="600 350"/>
+				<Property Key="Pos" Value="-300 -160"/>
+				<Property Key="HideBack" Value="true"/>
+			</Widget>
+			<Widget Name="" SkinTempName="Empty">
+				<Property Key="Pos" Value="0 -210"/>
+				<Widget Name="" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameHNMJ/Talk/chat_input_bg.png"/>
+					<Property Key="Pos" Value="-80 0"/>
+				</Widget>
+				<Widget  Name="GameTalkEdit" SkinTempName="HNMJGameTalkEdit">
+					<Property Key="Pos" Value="-80 0"/>
+				</Widget>
+				<Widget Name="Button_Send_TalkStr" SkinTempName="ButtonEmpty">
+					<Property Key="NomalTexture" Value="GameHNMJ/Talk/chat_btn_send.png"/>
+					<Property Key="PressTexture" Value="AutoPress"/>
+					<Property Key="Pos" Value="220 0"/>
+					<Property Key="Scale" Value="0.9"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget Name="TalkTypePlane1" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="BiaoQing0" SkinTempName="HNMJTalkBiaoQing">
+				<Property Key="Pos" Value="0 150"/>
+			</Widget>
+			<Widget Name="BiaoQing1" SkinTempName="HNMJTalkBiaoQing">
+				<Property Key="Pos" Value="0 80"/>
+			</Widget>
+			<Widget Name="BiaoQing2" SkinTempName="HNMJTalkBiaoQing">
+				<Property Key="Pos" Value="0 10"/>
+			</Widget>
+			<Widget Name="BiaoQing3" SkinTempName="HNMJTalkBiaoQing">
+				<Property Key="Pos" Value="0 -60"/>
+			</Widget>
+			<Widget Name="BiaoQing4" SkinTempName="HNMJTalkBiaoQing">
+				<Property Key="Pos" Value="0 -130"/>
+			</Widget>
+			<Widget Name="BiaoQing5" SkinTempName="HNMJTalkBiaoQing">
+				<Property Key="Pos" Value="0 -200"/>
+			</Widget>
+			
+		</Widget>
+	</Widget>
+ </root>

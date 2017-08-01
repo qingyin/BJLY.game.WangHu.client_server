@@ -1,0 +1,41 @@
+﻿ <root>
+ 
+	<LoadSkin Skin="Script/CardTurnSkin.xml"/>
+	<Widget Name="TurnCardRoot" SkinTempName="Empty">
+		<UserInfo Key="CardWidth" Value="150"/>
+		<UserInfo Key="CardHeight" Value="200"/>
+	
+		<Widget Name="CardTurn0" SkinTempName="Empty">
+			<Property Key="Scale" Value="0.9"/>
+			<Property Key="Pos" Value="640 200"/>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScencePokerTurn/Back.png"/>
+				<Property Key="Scale" Value="1.1"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="CardTurn1" SkinTempName="Empty">
+			<Property Key="Scale" Value="0.9"/>
+			<Property Key="Pos" Value="380 200"/>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScencePokerTurn/Back.png"/>
+				<Property Key="Scale" Value="1.1"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="CardTurn2" SkinTempName="Empty">
+			<Property Key="Scale" Value="0.9"/>
+			<Property Key="Pos" Value="900 200"/>
+			<Widget SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="ScencePokerTurn/Back.png"/>
+				<Property Key="Scale" Value="1.1"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="BJLOpenShadowInfo" SkinTempName="CardTurnOpenShadowInfo">
+			<Property Key="Visible" Value="false"/>
+		</Widget>
+		
+	</Widget>
+	
+ </root>

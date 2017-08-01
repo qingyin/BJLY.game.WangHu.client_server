@@ -1,0 +1,34 @@
+﻿ <root>
+	<WidgetNode Name="PrivateEndPlayerInfo" >
+		<Widget9Sprite Name="public_9sprite" BackTexture="ScencePrivate/over_jieshuUI.png" Size="800 100">	
+		</Widget9Sprite>
+		
+		<WidgetImagic Name="Head" TextureInfo="Head/Head0.png">
+			<Property Key="Pos" Value="-350 0"/>
+			<Property Key="Scale" Value="0.7"/>
+		</WidgetImagic>
+		<WidgetTxt Name="Name" ShowTxt="玩家昵称" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-300 20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="OutLine" Value="0 0 0 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="ID:" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-300 -20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="ID" ShowTxt="1546800000" FontName="" FontSize="28">
+			<Property Key="Pos" Value="-260 -20"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+		<WidgetTxt Name="" ShowTxt="总成绩:" FontName="" FontSize="28">
+			<Property Key="Pos" Value="160 0"/>
+			<Property Key="Color" Value="255 255 0"/>
+			<Property Key="OutLine" Value="0 0 0 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="TotalScore" ShowTxt="100" FontName="" FontSize="45">
+			<Property Key="Pos" Value="220 0"/>
+			<Property Key="Color" Value="255 255 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+		</WidgetTxt>
+	</WidgetNode>
+ </root>

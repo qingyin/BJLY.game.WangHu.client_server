@@ -1,0 +1,26 @@
+﻿ <root>
+	
+	<WidgetNodeUI Name="SCShopItemNode">
+		<Property Key="Size" Value="250 354"/>
+		<WidgetButton Name="Button_SCShopItem" NomalTexture="ScenceShop/store_red.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="125 177"/>
+		</WidgetButton>
+		<WidgetImagic Name="ImgIcon" TextureInfo="ScenceShop/shop_gold.png">
+			<Property Key="Pos" Value="125 177"/>
+		</WidgetImagic>
+		<WidgetImagic Name="ItemTip" TextureInfo="ScenceShop/store_tipbg.png">
+			<Property Key="Pos" Value="125 107"/>
+		</WidgetImagic>
+		
+		<WidgetTxt Name="SCShop_Titile" ShowTxt="6元" FontName="" FontSize="32">
+			<Property Key="Pos" Value="125 315"/>
+		</WidgetTxt>
+	
+		<WidgetTxt Name="SCShop_GoldNum" ShowTxt="68,000金币" FontName="" FontSize="32">
+			<Property Key="Pos" Value="125 50"/>
+			<Property Key="Color" Value="206 68 0"/>
+		</WidgetTxt>
+		
+	</WidgetNodeUI>
+	
+ </root>

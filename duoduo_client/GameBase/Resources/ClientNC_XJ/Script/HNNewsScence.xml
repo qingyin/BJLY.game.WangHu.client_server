@@ -1,0 +1,126 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNNewsSkin.xml"/>
+	<Widget Name="NewsPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget  SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="NewsScence/new_diban.png"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="NewsScence/new_jinbian.png"/>
+		</Widget>
+		<Widget  SkinTempName="public_9sprite">
+			<Property Key="ImagicTexture" Value="NewsScence/new_heiban.png"/>
+			<Property Key="Size" Value="800 400"/>
+			<Property Key="Pos" Value="0 -40"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="NewsScence/new_xinwen.png"/>
+			<Property Key="Pos" Value="0 205"/>
+		</Widget>
+		<Widget Name="" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="NewsScence/new_biankxiao.png"/>
+			<Property Key="Pos" Value="0 -30"/>
+		</Widget>
+		<Widget  SkinTempName="Button_Close">
+			<Property Key="Pos" Value="430 240"/>
+			<Action Key="Hide" Value="NewsPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="List">
+			<Property Key="Size" Value="260 365"/>
+			<Property Key="Pos" Value="-382 -210"/>
+			<Property Key="HideBack" Value="-382 -210"/>
+			<Widget Name="" SkinTempName="NewsListItem">
+			</Widget>
+		</Widget>
+		
+		<Widget Name="NewsPlane0" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="最新活动"/>
+				<Property Key="Color" Value="250 250 0"/>
+				<Property Key="Pos" Value="140 120"/>
+			</Widget>
+			<Widget Name="NC_NEWS_TXT_0" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="25"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Dimensions" Value="400 300"/>
+				<Property Key="IsTop" Value="true"/>
+				<Property Key="IsLeft" Value="true"/>
+				<Property Key="Pos" Value="140 -80"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="NewsPlane1" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="联系我们"/>
+				<Property Key="Color" Value="250 250 0"/>
+				<Property Key="Pos" Value="140 120"/>
+			</Widget>
+			<Widget Name="NC_NEWS_TXT_1" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="25"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Dimensions" Value="400 300"/>
+				<Property Key="IsTop" Value="true"/>
+				<Property Key="IsLeft" Value="true"/>
+				<Property Key="Pos" Value="140 -80"/>
+			</Widget>
+		</Widget>
+		<Widget Name="NewsPlane2" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="免责声明"/>
+				<Property Key="Color" Value="250 250 0"/>
+				<Property Key="Pos" Value="140 120"/>
+			</Widget>
+			<Widget Name="NC_NEWS_TXT_2" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="25"/>
+				<Property Key="ShowTxt" Value="    本游戏适合18周岁以上的成年人用户，未满18周岁的未成年用户，请在家长的监督下进行游戏。
+				    禁止任何利用本平台游戏进行赌博的行为，让我们共同净化游戏环境，一旦发现有违反用户协议的行为，我们将立即封杀账号！"/>
+				<Property Key="Dimensions" Value="400 300"/>
+				<Property Key="IsTop" Value="true"/>
+				<Property Key="IsLeft" Value="true"/>
+				<Property Key="Pos" Value="140 -80"/>
+			</Widget>
+		</Widget>
+		<Widget Name="NewsPlane3" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="代理"/>
+				<Property Key="Color" Value="250 250 0"/>
+				<Property Key="Pos" Value="140 120"/>
+			</Widget>
+			<Widget Name="NC_NEWS_TXT_3" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="25"/>
+				<Property Key="ShowTxt" Value="    "/>
+				<Property Key="Dimensions" Value="400 300"/>
+				<Property Key="IsTop" Value="true"/>
+				<Property Key="IsLeft" Value="true"/>
+				<Property Key="Pos" Value="140 -80"/>
+			</Widget>
+		</Widget>
+		<Widget Name="NewsPlane4" SkinTempName="Empty">
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="ShowTxt" Value="敬请期待"/>
+				<Property Key="Color" Value="250 250 0"/>
+				<Property Key="Pos" Value="140 120"/>
+			</Widget>
+			<Widget Name="NC_NEWS_TXT_4" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="25"/>
+				<Property Key="ShowTxt" Value="敬请期待"/>
+				<Property Key="Dimensions" Value="400 300"/>
+				<Property Key="IsTop" Value="true"/>
+				<Property Key="IsLeft" Value="true"/>
+				<Property Key="Pos" Value="140 -80"/>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

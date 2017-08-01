@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Main">
+      <UniqueIdentifier>{51909714-0bd1-40ed-abd9-96ed3320f948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientHN">
+      <UniqueIdentifier>{d5f09012-3d88-4964-9522-d228be8b2932}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientHN\Scene">
+      <UniqueIdentifier>{7d3bbea5-f9bb-4f45-92e1-1b5021f395d2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Main\AppDelegate.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Main\HNGame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\WindowsMain\main.h" />
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNLogonScence.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNPrivateScenceHN.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNScenceManager.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNHomeScence.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\HNGameManager.h">
+      <Filter>ClientHN</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNSetScence.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNNewsScence.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNHelpScence.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNRouletteScence.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNGameRecord.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNShopScence.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientHN_THJ\Scene\HNExchangeScence.h">
+      <Filter>ClientHN\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Main\AppDelegate.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Main\HNGame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\WindowsMain\main.cpp" />
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNPrivateScenceHN.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNScenceManager.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNHomeScence.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNHomeScence_Button.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNHomeScence_Sink.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNLogonScence.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\HNGameManager.cpp">
+      <Filter>ClientHN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\HNGameManager_Game.cpp">
+      <Filter>ClientHN</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNSetScence.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNNewsScence.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNHelpScence.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNRouletteScence.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNGameRecord.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNShopScence.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientHN_THJ\Scene\HNExchangeScence.cpp">
+      <Filter>ClientHN\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

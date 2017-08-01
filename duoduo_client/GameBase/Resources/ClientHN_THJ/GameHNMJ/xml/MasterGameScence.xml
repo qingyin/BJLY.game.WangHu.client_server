@@ -1,0 +1,103 @@
+﻿ <root>
+	<LoadSkin Skin="GameHNMJ/xml/MasterGameSkin.xml"/>
+	<Widget Name="GameMaterPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="0 30"/>
+		<Property Key="Visible" Value="true"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameHNMJ/GameMaster/MasterBack.png"/>
+			<Property Key="Pos" Value="640 310"/>
+			<Property Key="ScaleY" Value="1.2"/>
+		</Widget>
+		
+		<Widget Name="MasterCardNode" SkinTempName="Empty">
+			<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+			<UserInfo Key="HandAddPosX" Value="61 0"/>
+			<UserInfo Key="HandAddPosY" Value="0 -100"/>
+			<Property Key="Pos" Value="320 510"/>
+		</Widget>
+		
+		<Widget Name="Button_MasterClose" SkinTempName="Button_Close">
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="980 540"/>
+			<Action Key="Hide" Value="GameMaterPlane"/>
+		</Widget>
+		
+		<Widget Name="HNMJButton_Master" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="GameHNMJ/GameMaster/Button_MasterUpdate.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="940 310"/>
+		</Widget>
+		<Widget Name="MasterCheakCard" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameHNMJ/2/mingmah_11.png"/>
+			<Property Key="Pos" Value="920 210"/>
+			<Property Key="Scale" Value="0.6"/>
+			<Property Key="Visible" Value="false"/>
+			<UserInfo Key="MingImagic" Value="GameHNMJ/2/mingmah_"/>
+		</Widget>
+		<Widget Name="" SkinTempName="Empty">
+			<Property Key="Pos" Value="330 130"/>
+			<Widget Name="MasterZhaNiao1" SkinTempName="Master_CheckBox_ZhaNiao">
+				<Property Key="Pos" Value="0 0"/>
+				<UserInfo Key="NiaoCout" Value="1"/>
+				<Widget SkinTempName = "TxtEmpty">
+					<Property Key = "FontSize" Value = "26"/>
+					<Property Key = "ShowTxt" Value = "中鸟1个"/>
+					<Property Key = "Pos" Value = "50 20"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+			</Widget>
+			<Widget Name="MasterZhaNiao2" SkinTempName="Master_CheckBox_ZhaNiao">
+				<Property Key="Pos" Value="200 0"/>
+				<UserInfo Key="NiaoCout" Value="2"/>
+				<Widget SkinTempName = "TxtEmpty">
+					<Property Key = "FontSize" Value = "26"/>
+					<Property Key = "ShowTxt" Value = "中鸟2个"/>
+					<Property Key = "Pos" Value = "50 20"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+			</Widget>
+			<Widget Name="MasterZhaNiao3" SkinTempName="Master_CheckBox_ZhaNiao">
+				<Property Key="Pos" Value="400 0"/>
+				<UserInfo Key="NiaoCout" Value="3"/>
+				<Widget SkinTempName = "TxtEmpty">
+					<Property Key = "FontSize" Value = "26"/>
+					<Property Key = "ShowTxt" Value = "中鸟3个"/>
+					<Property Key = "Pos" Value = "50 20"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+			</Widget>
+			<Widget Name="MasterZhaNiao4" SkinTempName="Master_CheckBox_ZhaNiao">
+				<Property Key="Pos" Value="0 -50"/>
+				<UserInfo Key="NiaoCout" Value="4"/>
+				<Widget SkinTempName = "TxtEmpty">
+					<Property Key = "FontSize" Value = "26"/>
+					<Property Key = "ShowTxt" Value = "中鸟4个"/>
+					<Property Key = "Pos" Value = "50 20"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+			</Widget>
+			<Widget Name="MasterZhaNiao5" SkinTempName="Master_CheckBox_ZhaNiao">
+				<Property Key="Pos" Value="200 -50"/>
+				<UserInfo Key="NiaoCout" Value="5"/>
+				<Widget SkinTempName = "TxtEmpty">
+					<Property Key = "FontSize" Value = "26"/>
+					<Property Key = "ShowTxt" Value = "中鸟5个"/>
+					<Property Key = "Pos" Value = "50 20"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+			</Widget>
+			<Widget Name="MasterZhaNiao6" SkinTempName="Master_CheckBox_ZhaNiao">
+				<Property Key="Pos" Value="400 -50"/>
+				<UserInfo Key="NiaoCout" Value="6"/>
+				<Widget SkinTempName = "TxtEmpty">
+					<Property Key = "FontSize" Value = "26"/>
+					<Property Key = "ShowTxt" Value = "中鸟6个"/>
+					<Property Key = "Pos" Value = "50 20"/>
+					<Property Key="AnchorPos" Value="0 0.5"/>
+				</Widget>
+			</Widget>
+		</Widget>
+	</Widget>
+ </root>

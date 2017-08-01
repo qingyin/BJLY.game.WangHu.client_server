@@ -1,0 +1,78 @@
+﻿ <root>
+	<!--<WidgetNodeUI Name="ShopListItem1">
+		<Property Key="Size" Value="500 100"/>
+		<WidgetButton Name="ShopButton_Buy" NomalTexture="ScenceShop/shop_lan1.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="250 50"/>
+		</WidgetButton>
+		
+		<WidgetImagic Name="ShopPriceImg" TextureInfo="ScenceShop/lan_1.png">
+			<Property Key="Pos" Value="350 50"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="ShopListItem2">
+		<Property Key="Size" Value="500 100"/>
+		<WidgetButton Name="ShopButton_Buy" NomalTexture="ScenceShop/shop_lan2.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="250 50"/>
+		</WidgetButton>
+		
+		<WidgetImagic Name="ShopPriceImg" TextureInfo="ScenceShop/lan_2.png">
+			<Property Key="Pos" Value="350 50"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="ShopListItem3">
+		<Property Key="Size" Value="500 100"/>
+		<WidgetButton Name="ShopButton_Buy" NomalTexture="ScenceShop/shop_lan3.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="250 50"/>
+		</WidgetButton>
+		
+		<WidgetImagic Name="ShopPriceImg" TextureInfo="ScenceShop/lan_3.png">
+			<Property Key="Pos" Value="350 50"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="ShopListItem4">
+		<Property Key="Size" Value="500 100"/>
+		<WidgetButton Name="ShopButton_Buy" NomalTexture="ScenceShop/shop_lan4.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="250 50"/>
+		</WidgetButton>
+		
+		<WidgetImagic Name="ShopPriceImg" TextureInfo="ScenceShop/lan_4.png">
+			<Property Key="Pos" Value="350 50"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="ShopListItem5">
+		<Property Key="Size" Value="500 100"/>
+		<WidgetButton Name="ShopButton_Buy" NomalTexture="ScenceShop/shop_lan5.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="250 50"/>
+		</WidgetButton>
+		
+		<WidgetImagic Name="ShopPriceImg" TextureInfo="ScenceShop/lan_5.png">
+			<Property Key="Pos" Value="350 50"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="ShopListItem6">
+		<Property Key="Size" Value="500 100"/>
+		<WidgetButton Name="ShopButton_Buy" NomalTexture="ScenceShop/shop_lan6.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="250 50"/>
+		</WidgetButton>
+		
+		<WidgetImagic Name="ShopPriceImg" TextureInfo="ScenceShop/lan_6.png">
+			<Property Key="Pos" Value="350 50"/>
+		</WidgetImagic>
+	</WidgetNodeUI>
+	
+	<WidgetNodeUI Name="ShopListItem7">
+		<Property Key="Size" Value="500 100"/>
+		<WidgetButton Name="ShopButton_Buy" NomalTexture="ScenceShop/shop_lan7.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="250 50"/>
+		</WidgetButton>
+		
+		<WidgetImagic Name="ShopPriceImg" TextureInfo="ScenceShop/lan_7.png">
+			<Property Key="Pos" Value="350 50"/>
+		</WidgetImagic>
+	</WidgetNodeUI>-->
+ </root>

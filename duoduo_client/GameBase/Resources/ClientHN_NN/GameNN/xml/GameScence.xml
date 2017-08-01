@@ -1,0 +1,700 @@
+﻿ <root>
+	<LoadSkin Skin="GameNN/xml/GameSkin.xml"/>
+	<Widget Name="GameHNNNPlane" SkinTempName="Empty">
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameNN/room1_n.jpg"/>
+			<Property Key="Pos" Value="640 360"/>
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GameNN/room4_n.png"/>
+			<Property Key="Pos" Value="640 360"/>
+		</Widget>
+		
+		<Widget Name="Player1" SkinTempName="Empty">
+			<Property Key="Pos" Value="1180 420"/>
+			<UserInfo Key="ZhuangRootPos" Value="-536 40"/>
+
+			<Widget Name="Head" SkinTempName="NN_PLAYER_HEAD">
+				<Property Key="Pos" Value="0 0"/>
+				<Property Key="Scale" Value="0.8"/>
+			</Widget>
+			
+			<Widget Name="CardNode" SkinTempName="Empty">
+				<Property Key="Pos" Value="-180 -40"/>
+				<Widget Name="Card4" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-60 0"/>
+					<UserInfo Key="RootPos" Value="-356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0"/>
+					<UserInfo Key="EndPos" Value="-60 0"/>
+				</Widget>
+				<Widget Name="Card3" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-30 0"/>
+					<UserInfo Key="RootPos" Value="-356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0.1"/>
+					<UserInfo Key="EndPos" Value="-30 0"/>
+				</Widget>
+				<Widget Name="Card2" SkinTempName="NN_PlayerCard">
+					<UserInfo Key="RootPos" Value="-356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0.2"/>
+					<UserInfo Key="EndPos" Value="0 0"/>
+				</Widget>
+				<Widget Name="Card1" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="30 0"/>
+					<UserInfo Key="RootPos" Value="-356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0.3"/>
+					<UserInfo Key="EndPos" Value="30 0"/>
+				</Widget>
+				<Widget Name="Card0" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="60 0"/>
+					<UserInfo Key="RootPos" Value="-356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0.4"/>
+					<UserInfo Key="EndPos" Value="60 0"/>
+				</Widget>
+				<Widget Name="NN_CardType" SkinTempName="NN_CardType">
+					<Property Key="Pos" Value="0 -30"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="NN_PlayerStatusNode">
+				<Property Key="Pos" Value="-180 -40"/>
+			</Widget>
+			
+			<Widget Name="BeiImg" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room67_n.png"/>
+				<Property Key="Pos" Value="-180 40"/>
+				
+				<Widget Name="NNBeiNum"SkinTempName="NNTxtAtlaBei">
+					<Property Key="ShowTxt" Value="40"/>
+					<Property Key="Pos" Value="-5 15"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="QaingZhuangIcon" SkinTempName="Empty">
+				
+				<Widget Name="BuQiang" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameNN/room57_n.png"/>
+					<Property Key="Pos" Value="-350 -40"/>
+				</Widget>
+				
+				<Widget Name="Qiang" SkinTempName="ZhuangFlagCheck">
+					<Property Key="ImagicTexture" Value="GameNN/room56_n.png"/>
+					<Property Key="Pos" Value="-350 -40"/>
+				</Widget>
+			</Widget>
+			
+			
+		</Widget>
+		<Widget Name="Player2" SkinTempName="Empty">
+			<Property Key="Pos" Value="1180 600"/>
+			<UserInfo Key="ZhuangRootPos" Value="-536 -160"/>
+			
+			<Widget Name="Head" SkinTempName="NN_PLAYER_HEAD">
+				<Property Key="Pos" Value="0 0"/>
+				<Property Key="Scale" Value="0.8"/>
+			</Widget>
+			
+			<Widget Name="CardNode" SkinTempName="Empty">
+				<Property Key="Pos" Value="-180 -40"/>
+				<Widget Name="Card4" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-60 0"/>
+					<UserInfo Key="RootPos" Value="-356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0"/>
+					<UserInfo Key="EndPos" Value="-60 0"/>
+				</Widget>
+				<Widget Name="Card3" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-30 0"/>
+					<UserInfo Key="RootPos" Value="-356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0.1"/>
+					<UserInfo Key="EndPos" Value="-30 0"/>
+				</Widget>
+				<Widget Name="Card2" SkinTempName="NN_PlayerCard">
+					<UserInfo Key="RootPos" Value="-356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0.2"/>
+					<UserInfo Key="EndPos" Value="0 0"/>
+				</Widget>
+				<Widget Name="Card1" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="30 0"/>
+					<UserInfo Key="RootPos" Value="-356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0.3"/>
+					<UserInfo Key="EndPos" Value="30 0"/>
+				</Widget>
+				<Widget Name="Card0" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="60 0"/>
+					<UserInfo Key="RootPos" Value="-356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0.4"/>
+					<UserInfo Key="EndPos" Value="60 0"/>
+				</Widget>
+				<Widget Name="NN_CardType" SkinTempName="NN_CardType">
+					<Property Key="Pos" Value="0 -30"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="NN_PlayerStatusNode">
+				<Property Key="Pos" Value="-180 -40"/>
+			</Widget>
+			
+			<Widget Name="BeiImg" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room67_n.png"/>
+				<Property Key="Pos" Value="-180 40"/>
+				
+				<Widget Name="NNBeiNum"SkinTempName="NNTxtAtlaBei">
+					<Property Key="ShowTxt" Value="40"/>
+					<Property Key="Pos" Value="-5 15"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="QaingZhuangIcon" SkinTempName="Empty">
+				
+				<Widget Name="BuQiang" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameNN/room57_n.png"/>
+					<Property Key="Pos" Value="-350 -40"/>
+				</Widget>
+				
+				<Widget Name="Qiang" SkinTempName="ZhuangFlagCheck">
+					<Property Key="ImagicTexture" Value="GameNN/room56_n.png"/>
+					<Property Key="Pos" Value="-350 -40"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget Name="Player3" SkinTempName="Empty">
+			<Property Key="Pos" Value="104 600"/>
+			<UserInfo Key="ZhuangRootPos" Value="536 -160"/>
+			
+			<Widget Name="Head" SkinTempName="NN_PLAYER_HEAD">
+				<Property Key="Scale" Value="0.8"/>
+				<Property Key="Pos" Value="0 0"/>
+			</Widget>
+			
+			<Widget Name="CardNode" SkinTempName="Empty">
+				<Property Key="Pos" Value="180 -40"/>
+				<Widget Name="Card0" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-60 0"/>
+					<UserInfo Key="RootPos" Value="356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0"/>
+					<UserInfo Key="EndPos" Value="-60 0"/>
+				</Widget>
+				<Widget Name="Card1" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-30 0"/>
+					<UserInfo Key="RootPos" Value="356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0.1"/>
+					<UserInfo Key="EndPos" Value="-30 0"/>
+				</Widget>
+				<Widget Name="Card2" SkinTempName="NN_PlayerCard">
+					<UserInfo Key="RootPos" Value="356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0.2"/>
+					<UserInfo Key="EndPos" Value="0 0"/>
+				</Widget>
+				<Widget Name="Card3" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="30 0"/>
+					<UserInfo Key="RootPos" Value="356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0.3"/>
+					<UserInfo Key="EndPos" Value="30 0"/>
+				</Widget>
+				<Widget Name="Card4" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="60 0"/>
+					<UserInfo Key="RootPos" Value="356 -20"/>
+					<UserInfo Key="SendWaitTime" Value="0.4"/>
+					<UserInfo Key="EndPos" Value="60 0"/>
+				</Widget>
+				<Widget Name="NN_CardType" SkinTempName="NN_CardType">
+					<Property Key="Pos" Value="0 -30"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="" SkinTempName="NN_PlayerStatusNode">
+				<Property Key="Pos" Value="180 -40"/>
+			</Widget>
+			
+			<Widget Name="BeiImg" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room67_n.png"/>
+				<Property Key="Pos" Value="180 40"/>
+				
+				<Widget Name="NNBeiNum"SkinTempName="NNTxtAtlaBei">
+					<Property Key="ShowTxt" Value="40"/>
+					<Property Key="Pos" Value="-5 15"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="QaingZhuangIcon" SkinTempName="Empty">
+				
+				<Widget Name="BuQiang" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameNN/room57_n.png"/>
+					<Property Key="Pos" Value="350 -40"/>
+				</Widget>
+				
+				<Widget Name="Qiang" SkinTempName="ZhuangFlagCheck">
+					<Property Key="ImagicTexture" Value="GameNN/room56_n.png"/>
+					<Property Key="Pos" Value="350 -40"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		<Widget Name="Player4" SkinTempName="Empty">
+			<Property Key="Pos" Value="104 420"/>
+			<UserInfo Key="ZhuangRootPos" Value="536 40"/>
+			
+			<Widget Name="Head" SkinTempName="NN_PLAYER_HEAD">
+				<Property Key="Scale" Value="0.8"/>
+				<Property Key="Pos" Value="0 0"/>
+			</Widget>
+			
+			<Widget Name="CardNode" SkinTempName="Empty">
+				<Property Key="Pos" Value="180 -40"/>
+				<Widget Name="Card0" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-60 0"/>
+					<UserInfo Key="RootPos" Value="356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0"/>
+					<UserInfo Key="EndPos" Value="-60 0"/>
+				</Widget>
+				<Widget Name="Card1" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-30 0"/>
+					<UserInfo Key="RootPos" Value="356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0.1"/>
+					<UserInfo Key="EndPos" Value="-30 0"/>
+				</Widget>
+				<Widget Name="Card2" SkinTempName="NN_PlayerCard">
+					<UserInfo Key="RootPos" Value="356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0.2"/>
+					<UserInfo Key="EndPos" Value="0 0"/>
+				</Widget>
+				<Widget Name="Card3" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="30 0"/>
+					<UserInfo Key="RootPos" Value="356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0.3"/>
+					<UserInfo Key="EndPos" Value="30 0"/>
+				</Widget>
+				<Widget Name="Card4" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="60 0"/>
+					<UserInfo Key="RootPos" Value="356 150"/>
+					<UserInfo Key="SendWaitTime" Value="0.4"/>
+					<UserInfo Key="EndPos" Value="60 0"/>
+				</Widget>
+				<Widget Name="NN_CardType" SkinTempName="NN_CardType">
+					<Property Key="Pos" Value="0 -30"/>
+				</Widget>
+			</Widget>
+			<Widget Name="" SkinTempName="NN_PlayerStatusNode">
+				<Property Key="Pos" Value="180 -40"/>
+			</Widget>
+			
+			<Widget Name="BeiImg" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room67_n.png"/>
+				<Property Key="Pos" Value="180 40"/>
+				
+				<Widget Name="NNBeiNum"SkinTempName="NNTxtAtlaBei">
+					<Property Key="ShowTxt" Value="40"/>
+					<Property Key="Pos" Value="-5 15"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="QaingZhuangIcon" SkinTempName="Empty">
+				
+				<Widget Name="BuQiang" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameNN/room57_n.png"/>
+					<Property Key="Pos" Value="350 -40"/>
+				</Widget>
+				
+				<Widget Name="Qiang" SkinTempName="ZhuangFlagCheck">
+					<Property Key="ImagicTexture" Value="GameNN/room56_n.png"/>
+					<Property Key="Pos" Value="350 -40"/>
+				</Widget>
+			</Widget>
+		</Widget>
+	
+		
+		<Widget Name="Player0" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 0"/>
+			<UserInfo Key="ZhuangRootPos" Value="400 360"/>
+			
+			<Widget Name="Head" SkinTempName="NN_PLAYER_HEAD">
+				<Property Key="Pos" Value="-400 140"/>
+			</Widget>
+			
+			<Widget Name="CardNode" SkinTempName="Empty">
+				<Property Key="Pos" Value="0 90"/>
+				<Property Key="Scale" Value="1.4"/>
+				<Widget Name="Card0" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-180 0"/>
+					<UserInfo Key="RootPos" Value="0 270"/>
+					<UserInfo Key="SendWaitTime" Value="0"/>
+					<UserInfo Key="EndPos" Value="-180 0"/>
+				</Widget>
+				<Widget Name="Card1" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="-90 0"/>
+					<UserInfo Key="RootPos" Value="0 270"/>
+					<UserInfo Key="SendWaitTime" Value="0.1"/>
+					<UserInfo Key="EndPos" Value="-90 0"/>
+				</Widget>
+				<Widget Name="Card2" SkinTempName="NN_PlayerCard">
+					<UserInfo Key="RootPos" Value="0 270"/>
+					<UserInfo Key="SendWaitTime" Value="0.2"/>
+					<UserInfo Key="EndPos" Value="0 0"/>
+				</Widget>
+				<Widget Name="Card3" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="90 0"/>
+					<UserInfo Key="RootPos" Value="0 270"/>
+					<UserInfo Key="SendWaitTime" Value="0.3"/>
+					<UserInfo Key="EndPos" Value="90 0"/>
+				</Widget>
+				<Widget Name="Card4" SkinTempName="NN_PlayerCard">
+					<Property Key="Pos" Value="180 0"/>
+					<UserInfo Key="RootPos" Value="0 270"/>
+					<UserInfo Key="SendWaitTime" Value="0.4"/>
+					<UserInfo Key="EndPos" Value="180 0"/>
+				</Widget>
+				<Widget Name="NN_CardType" SkinTempName="NN_CardType">
+					<Property Key="Pos" Value="0 -23"/>
+					<Property Key="Scale" Value="1.3"/>
+				</Widget>
+			</Widget>
+		
+			<Widget Name="" SkinTempName="NN_PlayerStatusNode">
+				<Property Key="Pos" Value="0 230"/>
+			</Widget>
+			
+			<Widget Name="PlayerClock" SkinTempName="NN_PlayerClock">
+				<Property Key="Pos" Value="0 380"/>
+			</Widget>
+			
+			<Widget Name="BeiImg" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room67_n.png"/>
+				<Property Key="Pos" Value="20 350"/>
+				
+				<Widget Name="NNBeiNum"SkinTempName="NNTxtAtlaBei">
+					<Property Key="ShowTxt" Value="40"/>
+					<Property Key="Pos" Value="-5 15"/>
+				</Widget>
+			</Widget>
+			
+			<Widget Name="QaingZhuangIcon" SkinTempName="Empty">
+				
+				<Widget Name="BuQiang" SkinTempName="ImagicEmpty">
+					<Property Key="ImagicTexture" Value="GameNN/room57_n.png"/>
+					<Property Key="Pos" Value="0 270"/>
+				</Widget>
+				
+				<Widget Name="Qiang" SkinTempName="ZhuangFlagCheck">
+					<Property Key="ImagicTexture" Value="GameNN/room56_n.png"/>
+					<Property Key="Pos" Value="0 270"/>
+				</Widget>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="PrivateInfo" SkinTempName="Empty">
+			<Widget Name="" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="ID:"/>
+				<Property Key="Pos" Value="10 695"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="RoomID" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="24561"/>
+				<Property Key="Pos" Value="55 695"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			<Widget Name="RoomNum" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="26"/>
+				<Property Key="ShowTxt" Value="2/5局"/>
+				<UserInfo Key="Txt" Value="#局"/>
+				<Property Key="Pos" Value="10 660"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameType" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 630"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule0" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 600"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule1" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 570"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule2" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 540"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule3" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 510"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="RoomGameRule4" SkinTempName="TxtEmpty">
+				<Property Key="FontSize" Value="22"/>
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="Pos" Value="10 480"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</Widget>
+			
+			<Widget Name="NNButton_GameExit" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GamePrivate/btn_back_sala.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="1160 665"/>
+			</Widget>
+			<Widget Name="Button_DismissPrivate" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GamePrivate/btn_dismiss_room.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="1160 665"/>
+			</Widget>
+			<Widget Name="NNButton_WeiXinFriend" SkinTempName="ButtonEmpty">
+				<Property Key="NomalTexture" Value="GamePrivate/btn_weixin_invite.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="640 360"/>
+			</Widget>
+			<Widget Name="TalkImagic" SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GamePrivate/play_huatong.png"/>
+				<Property Key="Pos" Value="640 360"/>
+				<Property Key="Visible" Value="false"/>
+			</Widget>
+			<Widget Name="HNMJButton_Talk" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GamePrivate/play_huatong.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="1140 120"/>
+				<Property Key="Scale" Value="1.3"/>
+			</Widget>
+		</Widget>
+		
+		
+		<Widget Name="FreeStateNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 260"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="NNButton_Ready" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/an6_s.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="准备"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="QiangZhuangStateNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 260"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="NNButton_BuQiang" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/room72_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="不抢"/>
+				<Property Key="Pos" Value="-300 0"/>
+				<Property Key="FontSize" Value="40"/>
+				<UserInfo Key="Socre" Value="0"/>
+			</Widget>
+			<Widget Name="NNButton_QiangZhuang" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/room71_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="1倍"/>
+				<Property Key="Pos" Value="-150 0"/>
+				<Property Key="FontSize" Value="40"/>
+				<UserInfo Key="Socre" Value="1"/>
+			</Widget>
+			<Widget Name="NNButton_QiangZhuang" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/room71_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="2倍"/>
+				<Property Key="Pos" Value="0 0"/>
+				<Property Key="FontSize" Value="40"/>
+				<UserInfo Key="Socre" Value="2"/>
+			</Widget>
+			<Widget Name="NNButton_QiangZhuang" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/room71_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="3倍"/>
+				<Property Key="Pos" Value="150 0"/>
+				<Property Key="FontSize" Value="40"/>
+				<UserInfo Key="Socre" Value="3"/>
+			</Widget>
+			<Widget Name="NNButton_QiangZhuang" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/room71_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="4倍"/>
+				<Property Key="Pos" Value="300 0"/>
+				<Property Key="FontSize" Value="40"/>
+				<UserInfo Key="Socre" Value="4"/>
+			</Widget>
+			
+		</Widget>
+		
+		<Widget Name="BetStateNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 260"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget Name="NNButton_Bet" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/room71_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="10倍"/>
+				<Property Key="Pos" Value="-250 0"/>
+				<UserInfo Key="Gold" Value="10"/>
+			</Widget>
+			<Widget Name="NNButton_Bet" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/room71_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="20倍"/>
+				<Property Key="Pos" Value="0 0"/>
+				<UserInfo Key="Gold" Value="20"/>
+			</Widget>
+			<Widget Name="NNButton_Bet" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/room71_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="30倍"/>
+				<Property Key="Pos" Value="250 0"/>
+				<UserInfo Key="Gold" Value="30"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="OpenCardStateNode" SkinTempName="Empty">
+			<Property Key="Pos" Value="640 260"/>
+			<Property Key="Visible" Value="false"/>
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room35_n.png"/>
+			</Widget>
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room5_n.png"/>
+				<Property Key="Pos" Value="-260 0"/>
+				<Property Key="Scale" Value="1.3"/>
+					<Widget Name="BoxNum0" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="35"/>
+						<Property Key="Pos" Value="34 18"/>
+					</Widget>
+			</Widget>
+			
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room36_n.png"/>
+				<Property Key="Pos" Value="-195 0"/>
+			</Widget>
+			
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room5_n.png"/>
+				<Property Key="Pos" Value="-130 0"/>
+				<Property Key="Scale" Value="1.3"/>
+					<Widget Name="BoxNum1" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="35"/>
+						<Property Key="Pos" Value="34 18"/>
+					</Widget>
+			</Widget>
+			
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room36_n.png"/>
+				<Property Key="Pos" Value="-65 0"/>
+			</Widget>
+			
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room5_n.png"/>
+				<Property Key="Pos" Value="0 0"/>
+				<Property Key="Scale" Value="1.3"/>
+					<Widget Name="BoxNum2" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="35"/>
+						<Property Key="Pos" Value="34 18"/>
+					</Widget>
+			</Widget>
+			
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room34_n.png"/>
+				<Property Key="Pos" Value="65 0"/>
+			</Widget>
+			
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/room5_n.png"/>
+				<Property Key="Pos" Value="130 0"/>
+				<Property Key="Scale" Value="1.3"/>
+					<Widget Name="BoxNum3" SkinTempName="TxtEmpty">
+						<Property Key="ShowTxt" Value=""/>
+						<Property Key="FontSize" Value="35"/>
+						<Property Key="Pos" Value="34 18"/>
+					</Widget>
+			</Widget>
+			
+			
+			<Widget Name="ReroultText" SkinTempName="TxtEmpty">
+				<Property Key="ShowTxt" Value=""/>
+				<Property Key="FontSize" Value="35"/>
+				<Property Key="Pos" Value="220 0"/>
+			</Widget>
+			
+			
+			<Widget Name="NNButton_YouNiu" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/an6_s.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="有牛"/>
+				<Property Key="Pos" Value="400 -130"/>
+				<Property Key="Scale" Value="0.7"/>
+				<Property Key="FontSize" Value="45"/>
+				<UserInfo Key="Gold" Value="10"/>
+			</Widget>
+			<Widget Name="NNButton_MeiYou" SkinTempName="NNButtonTxtEmpty">
+				<Property Key="NomalTexture" Value="GameNN/an5_n.png"/>
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="ShowTxt" Value="没牛"/>
+				<Property Key="Pos" Value="400 -230"/>
+				<Property Key="Scale" Value="0.7"/>
+				<Property Key="FontSize" Value="45"/>
+				<UserInfo Key="Gold" Value="30"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="NNQiangZhuangWait" SkinTempName="QiangZhuangWait">
+		</Widget>
+		
+		
+		<Widget Name="JieSuanNodeWin" SkinTempName="JieSuanNodeScale">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="Pos" Value="640 360"/>
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/ying1_n.png"/>
+				<Property Key="Pos" Value="0 180"/>
+			</Widget>
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/ying2_n.png"/>
+				<Property Key="Pos" Value="0 0"/>
+			</Widget>
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/ying3_n.png"/>
+				<Property Key="Pos" Value="10 50"/>
+			</Widget>
+			
+			<Widget  Name="JieSuanGoldWin"SkinTempName="NNTxtAtlasWin">
+				<Property Key="Pos" Value="10 -40"/>
+				<Property Key="Scale" Value="0.6"/>
+				<Property Key="ShowTxt" Value="+10000"/>
+			</Widget>
+		</Widget>
+		
+		<Widget Name="JieSuanNodeLose" SkinTempName="JieSuanNodeScale">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="Pos" Value="640 360"/>
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/shu1_n.png"/>
+				<Property Key="Pos" Value="0 180"/>
+			</Widget>
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/shu3_n.png"/>
+				<Property Key="Pos" Value="0 0"/>
+			</Widget>
+			<Widget  SkinTempName="ImagicEmpty">
+				<Property Key="ImagicTexture" Value="GameNN/shu4_n.png"/>
+				<Property Key="Pos" Value="10 50"/>
+			</Widget>
+			
+			<Widget  Name="JieSuanGoldLose" SkinTempName="NNTxtAtlaLose">
+				<Property Key="Pos" Value="10 -40"/>
+				<Property Key="Scale" Value="0.6"/>
+				<Property Key="ShowTxt" Value="-10000"/>
+			</Widget>
+		</Widget>
+		
+	</Widget>
+ </root>

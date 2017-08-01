@@ -1,0 +1,187 @@
+﻿ <root>
+	<LoadSkin Skin="Script/HNGamePrivateSkin.xml"/>
+	<Widget Name="PrivateDismissPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget Name="" SkinTempName="public_9sprite">
+			<Property Key="Size" Value="600 400"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="40"/>
+			<Property Key="ShowTxt" Value="房间解散"/>
+			<Property Key="Pos" Value="0 160"/>
+		</Widget>
+		
+		<Widget Name="DissPrivateName0" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="名字名:"/>
+			<Property Key="Pos" Value="-10 80"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+			<Property Key="Color" Value="255 0 0"/>
+		</Widget>
+		<Widget Name="DissPrivateState0" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="名字名字"/>
+			<UserInfo Key="Text0" Value="同意"/>
+			<UserInfo Key="Text1" Value="拒绝"/>
+			<Property Key="Pos" Value="10 80"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="255 0 0"/>
+		</Widget>
+		<Widget Name="DissPrivateName1" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="名字:"/>
+			<Property Key="Color" Value="255 0 0"/>
+			<Property Key="Pos" Value="-10 40"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="DissPrivateState1" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="同意"/>
+			<UserInfo Key="Text0" Value="同意"/>
+			<UserInfo Key="Text1" Value="拒绝"/>
+			<Property Key="Pos" Value="10 40"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="255 0 0"/>
+		</Widget>
+		<Widget Name="DissPrivateName2" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="名字:"/>
+			<Property Key="Color" Value="255 0 0"/>
+			<Property Key="Pos" Value="-10 0"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="DissPrivateState2" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="同意"/>
+			<UserInfo Key="Text0" Value="同意"/>
+			<UserInfo Key="Text1" Value="拒绝"/>
+			<Property Key="Pos" Value="10 0"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="255 0 0"/>
+		</Widget>
+		<Widget Name="DissPrivateName3" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="名字:"/>
+			<Property Key="Color" Value="255 0 0"/>
+			<Property Key="Pos" Value="-10 -40"/>
+			<Property Key="AnchorPos" Value="1 0.5"/>
+		</Widget>
+		<Widget Name="DissPrivateState3" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="同意"/>
+			<UserInfo Key="Text0" Value="同意"/>
+			<UserInfo Key="Text1" Value="拒绝"/>
+			<Property Key="Pos" Value="10 -40"/>
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Color" Value="255 0 0"/>
+		</Widget>
+		
+		<Widget Name="PrivateDismissAction" SkinTempName="Empty">
+			<Widget Name="Button_DismissPrivate" SkinTempName="ButtonTxtEmpty">
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="-120 -120"/>
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="同意解散"/>
+				<UserInfo Key="Pop" Value="1"/>
+			</Widget>
+			<Widget Name="Button_DismissPrivateNot" SkinTempName="ButtonTxtEmpty">
+				<Property Key="PressTexture" Value="AutoPress"/>
+				<Property Key="Pos" Value="120 -120"/>
+				<Property Key="FontSize" Value="40"/>
+				<Property Key="ShowTxt" Value="拒绝解散"/>
+			</Widget>
+		</Widget>
+	</Widget>
+
+	<Widget Name="PrivateEndPlane" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="GamePrivate/Back.png"/>
+		</Widget>
+		<Widget Name="XZDDButton_GameExit" SkinTempName="Button_Back">
+			<Property Key="Pos" Value="-580 310"/>
+			<Action Key="Hide" Value="PrivateEndPlane"/>
+		</Widget>
+		<Widget Name="" SkinTempName="TxtEmpty">
+			<Property Key="FontSize" Value="60"/>
+			<Property Key="ShowTxt" Value="结算"/>
+			<Property Key="Pos" Value="0 310"/>
+		</Widget>
+		<Widget Name="PrivateEndPlayer0" SkinTempName="PrivateEndPlayerInfo">
+			<Property Key="Pos" Value="-460 0"/>
+		</Widget>
+		<Widget Name="PrivateEndPlayer1" SkinTempName="PrivateEndPlayerInfo">
+			<Property Key="Pos" Value="-150 0"/>
+		</Widget>
+		<Widget Name="PrivateEndPlayer2" SkinTempName="PrivateEndPlayerInfo">
+			<Property Key="Pos" Value="160 0"/>
+		</Widget>
+		<Widget Name="PrivateEndPlayer3" SkinTempName="PrivateEndPlayerInfo">
+			<Property Key="Pos" Value="470 0"/>
+		</Widget>
+		<Widget Name="XZDDButton_WeiXinImagic" SkinTempName="ButtonTxtEmpty">
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="0 -310"/>
+			<Property Key="FontSize" Value="35"/>
+			<Property Key="ShowTxt" Value="微信分享"/>
+		</Widget>
+	</Widget>
+ 
+	<Widget Name="GameJieSuanNode" SkinTempName="Empty">
+		<Property Key="Pos" Value="640 360"/>
+		<Property Key="Visible" Value="false"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="JieSuan/over_bj.jpg"/>
+		</Widget>
+		<Widget Name="JieSuan_NPC" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="JieSuan/over_xiao.png"/>
+			<UserInfo Key="NPC_Smile" Value="JieSuan/over_xiao.png"/>
+			<UserInfo Key="NPC_Cry" Value="JieSuan/over_ku.png"/>
+			<Property Key="Pos" Value="480 -100"/>
+		</Widget>
+		
+		<Widget Name="JieSuan_Title" SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="JieSuan/over_peida.png"/>
+			<UserInfo Key="Title_Win" Value="JieSuan/over_hupai.png"/>
+			<UserInfo Key="Title_Lose" Value="JieSuan/over_shule.png"/>
+			<UserInfo Key="Title_Ping" Value="JieSuan/over_peida.png"/>
+			<UserInfo Key="Title_LiuJu" Value="JieSuan/over_liuju.png"/>
+			<Property Key="Pos" Value="0 310"/>
+		</Widget>
+		
+		
+		<Widget Name="JieSuanInfo0" SkinTempName="JieSuanInfoNode">
+			<Property Key="Pos" Value="-150 200"/>
+		</Widget>
+		<Widget Name="JieSuanInfo1" SkinTempName="JieSuanInfoNode">
+			<Property Key="Pos" Value="-150 70"/>
+		</Widget>
+		<Widget Name="JieSuanInfo2" SkinTempName="JieSuanInfoNode">
+			<Property Key="Pos" Value="-150 -60"/>
+		</Widget>
+		<Widget Name="JieSuanInfo3" SkinTempName="JieSuanInfoNode">
+			<Property Key="Pos" Value="-150 -190"/>
+		</Widget>
+		
+		
+		<Widget Name="XZDDButton_WeiXinImagic" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="JieSuan/over_xuanyao.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="-200 -300"/>
+		</Widget>
+		
+		<Widget Name="HNMJButton_JieSuanStart" SkinTempName="ButtonEmpty">
+			<Property Key="NomalTexture" Value="JieSuan/over_kaishi.png"/>
+			<Property Key="PressTexture" Value="AutoPress"/>
+			<Property Key="Pos" Value="200 -300"/>
+			<Action Key="Hide" Value="GameJieSuanNode"/>
+		</Widget>
+		
+	</Widget>
+ </root>

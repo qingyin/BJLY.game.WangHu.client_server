@@ -1,0 +1,25 @@
+﻿ <root>
+	<WidgetNodeUI Name="NewsListItem">
+		<Property Key="Size" Value="260 430"/>
+		<WidgetButton Name="Button_NewsShow" NomalTexture="NewsScence/news1_1.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="130 380"/>
+			<UserInfo Key="Idex" Value="0"/>
+		</WidgetButton>
+		<WidgetButton Name="Button_NewsShow" NomalTexture="NewsScence/news2_1.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="130 295"/>
+			<UserInfo Key="Idex" Value="1"/>
+		</WidgetButton>
+		<WidgetButton Name="Button_NewsShow" NomalTexture="NewsScence/news3_1.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="130 210"/>
+			<UserInfo Key="Idex" Value="2"/>
+		</WidgetButton>
+		<WidgetButton Name="Button_NewsShow" NomalTexture="NewsScence/news4_1.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="130 125"/>
+			<UserInfo Key="Idex" Value="3"/>
+		</WidgetButton>
+		<WidgetButton Name="Button_NewsShow" NomalTexture="NewsScence/news5_1.png" PressTexture="AutoPress">
+			<Property Key="Pos" Value="130 40"/>
+			<UserInfo Key="Idex" Value="4"/>
+		</WidgetButton>
+	</WidgetNodeUI>
+ </root>

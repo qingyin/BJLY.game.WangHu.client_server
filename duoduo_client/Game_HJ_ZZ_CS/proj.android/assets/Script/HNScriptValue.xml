@@ -1,0 +1,15 @@
+﻿ <root>
+	<ScriptValueFloat Key="UseWidth" Value="1280"/>
+	<ScriptValueFloat Key="UseHeight" Value="720"/>
+	
+	<ScriptValueStr Key="address" Value="120.25.125.56"/>
+	<ScriptValueInt Key="Port" Value="8300"/>
+	<ScriptValueStr Key="Host" Value=""/><!-- 120.25.125.56 101.200.181.246 123.57.77.152-->
+	<ScriptValueStr Key="PCImei" Value="17"/>
+	
+	<ScriptValueStr Key="UITest" Value=""/>
+	<ScriptValueInt Key="UITestMaskAple" Value="150"/>
+	
+	<ScriptValueInt Key="GameType" Value="1"/>
+	
+ </root>

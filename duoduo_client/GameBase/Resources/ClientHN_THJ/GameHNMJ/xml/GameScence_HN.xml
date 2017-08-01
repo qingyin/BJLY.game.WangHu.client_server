@@ -1,0 +1,12 @@
+﻿ <root>
+	<Widget Name="HNMJButton_GameExit" SkinTempName="ButtonEmpty">
+		<Property Key="NomalTexture" Value="GameHNMJ/GamePrivate/btn_back_sala.png"/>
+		<Property Key="PressTexture" Value="AutoPress"/>
+		<Property Key="Pos" Value="1160 665"/>
+	</Widget>
+	<Widget Name="Button_DismissPrivate" SkinTempName="ButtonEmpty">
+		<Property Key="NomalTexture" Value="GameHNMJ/GamePrivate/btn_dismiss_room.png"/>
+		<Property Key="PressTexture" Value="AutoPress"/>
+		<Property Key="Pos" Value="1160 665"/>
+	</Widget>
+ </root>

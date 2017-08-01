@@ -1,0 +1,315 @@
+﻿ <root>
+	<!--牌背-->
+	<WidgetImagic Name="BJLCardBack" TextureInfo="GameBJL/dalete/poker.png">
+	</WidgetImagic>
+	<!--牌-->
+	<WidgetNode Name="BJLPlayerCard">
+		<UserInfo Key="RootPos" Value="730 540"/>
+		<Property Key="Visible" Value="true"/>
+		<WidgetImagic Name="CardShow" TextureInfo="GameBJL/cards/39.png">
+		</WidgetImagic>
+		<WidgetImagic Name="CardBack" TextureInfo="GameBJL/cards/cardback.png">
+			<Property Key="Visible" Value="false"/>
+		</WidgetImagic>
+		
+		<SetPos Pos="Key:RootPos" Name="SendAni" SaveAction="true">
+			<SetScale Scale="0">
+				<WaiteTime Time="Key:SendWaitTime" >
+					<CallButton ButtonName="BJL_SubCard" >
+					</CallButton>
+					<PlaySound SoundName="BJLSound/effect_fapai.mp3"/>
+					<ScaleTo Time="0.5" Scale="0.6">
+					</ScaleTo>
+					<RotaTo Time="0.5" Rota="180">
+						<SetRota  Rota="0">
+						</SetRota>
+					</RotaTo>
+					<MoveTo Time="0.5" Pos="Key:EndPos" >
+					</MoveTo>
+				</WaiteTime>
+			</SetScale>
+		</SetPos>
+		
+		
+		<SetPos Pos="Key:EndPos" Name="Send_NoAni" SaveAction="true">
+			<CallButton ButtonName="BJL_SubCard" >
+			</CallButton>
+			<SetScale Scale="0.6">
+			</SetScale>
+		</SetPos>
+		
+		<MoveBy Time="0.3" Pos="-47.5 0" Name="MoveByPos" SaveAction="true" >
+		</MoveBy>
+		
+		<SetPos Pos="Key:EndPos" Name="MoveToOpen" SaveAction="true">
+			<ScaleTo Time="0.5" Scale="1"/>
+			<MoveTo Time="0.5" Pos="Key:ShadowEndPos">
+				<Visible Visible="false"/>
+				<CallButton ButtonName="BJL_TurnCard" >
+				</CallButton>
+			</MoveTo>
+		</SetPos>
+		
+		<SetPos Pos="Key:EndPos" Name="MoveToOpen_Self" SaveAction="true">
+			<ScaleTo Time="0.5" Scale="1"/>
+			<MoveTo Time="0.5" Pos="Key:ShadowEndPos">
+				<Visible Visible="false"/>
+				<CallButton ButtonName="BJL_TurnCard" >
+				</CallButton>
+			</MoveTo>
+		</SetPos>
+		
+		<SetPos Pos="Key:RootPos" Name="MoveToOpen_3Card" SaveAction="true">
+			<SetScale Scale="0">
+				<WaiteTime Time="Key:SendWaitTime" >
+					<PlaySound SoundName="BJLSound/effect_fapai.mp3"/>
+					<ScaleTo Time="0.5" Scale="0.6">
+					</ScaleTo>
+					<RotaTo Time="0.5" Rota="180">
+						<SetRota  Rota="0">
+						</SetRota>
+					</RotaTo>
+					<CallButton ButtonName="BJL_SubCard" >
+					</CallButton>
+					<MoveTo Time="0.5" Pos="Key:EndPos" >
+						<WaiteTime Time="0.7" >
+							<ScaleTo Time="0.5" Scale="1"/>
+							<MoveTo Time="0.5" Pos="Key:ShadowEndPos">
+								<Visible Visible="false"/>
+								<CallButton ButtonName="BJL_TurnCard" >
+								</CallButton>
+							</MoveTo>
+						</WaiteTime>
+					</MoveTo>
+				</WaiteTime>
+			</SetScale>
+		</SetPos>
+		
+		<SetPos Pos="Key:RootPos" Name="MoveToOpen_Self_3Card" SaveAction="true">
+			<SetScale Scale="0">
+				<WaiteTime Time="Key:SendWaitTime" >
+					<PlaySound SoundName="BJLSound/effect_fapai.mp3"/>
+					<ScaleTo Time="0.3" Scale="0.6">
+					</ScaleTo>
+					<RotaTo Time="0.3" Rota="180">
+						<SetRota  Rota="0">
+						</SetRota>
+					</RotaTo>
+					<CallButton ButtonName="BJL_SubCard" >
+					</CallButton>
+					<MoveTo Time="0.3" Pos="Key:EndPos" >
+						<WaiteTime Time="0.7" >
+							<ScaleTo Time="0.5" Scale="1"/>
+							<MoveTo Time="0.5" Pos="Key:ShadowEndPos">
+								<Visible Visible="false"/>
+								<CallButton ButtonName="BJL_TurnCard" >
+								</CallButton>
+							</MoveTo>
+						</WaiteTime>
+					</MoveTo>
+				</WaiteTime>
+			</SetScale>
+		</SetPos>
+		
+		
+		<SetPos Pos="Key:ShadowEndPos" Name="MoveToArea" SaveAction="true">
+			<Visible Visible="true"/>
+			<ScaleTo Time="0.5" Scale="0.6"/>
+			<MoveTo Time="0.5" Pos="Key:EndPos">
+			</MoveTo>
+		</SetPos>
+		
+	</WidgetNode>
+	
+	<WidgetNode Name="StateActionNode">
+		<Property Key="Visible" Value="false"/>
+		<Visible Visible="true" Name="Start" SaveAction="true">
+			<SetPos Pos="0 0"/>
+			<MoveTo Time="0.5" Pos="0 100">
+				<WaiteTime Time="0.3" >
+					<Visible  Visible="false" />
+				</WaiteTime>
+			</MoveTo>
+		</Visible>
+	</WidgetNode>
+	
+	<WidgetNode Name="ResultActionNode">
+		<Property Key="Visible" Value="false"/>
+		<WaiteTime Time="0.6" Name="Start" SaveAction="true">
+			<Visible Visible="true"/>
+			<SetPos Pos="0 0"/>
+			<MoveTo Time="0.5" Pos="0 100">
+				<WaiteTime Time="3" >
+					<Visible  Visible="false" />
+				</WaiteTime>
+			</MoveTo>
+		</WaiteTime>
+	</WidgetNode>
+	
+	<WidgetTxtAtlas Name="BJLTxtAtlas" Texture="GameBJL/num_vip.png" Width="15" Height="24" StartChar="48" >
+		<Property Key="AnchorPos" Value="0.5 0.5"/>
+		
+		<WaiteTime Time="0.5" Name="Start" SaveAction="true">
+			<Visible  Visible="true" />
+		</WaiteTime>
+		
+	</WidgetTxtAtlas>
+	
+	<WidgetNode Name="BJLPlayerSeat">
+		<WidgetImagic Name="SeatBack" TextureInfo="Common/res_common_TY001-1.png">
+		</WidgetImagic>
+		<WidgetImagic Name="HeadImg" TextureInfo="Common/res_common_TY004-1.png">
+		</WidgetImagic>
+		
+		<WidgetTxt Name="NickName" ShowTxt="布莱恩特" FontName="" FontSize="22">
+			<Property Key="Pos" Value="0 60"/>
+		</WidgetTxt>
+		<WidgetTxt Name="UserGold" ShowTxt="10000" FontName="" FontSize="24">
+			<Property Key="Color" Value="235 235 30"/>
+			<Property Key="Pos" Value="0 -60"/>
+		</WidgetTxt>
+		
+		<WidgetNode Name="ResultActionNode">
+			<Property Key="Visible" Value="false"/>
+			
+			<WidgetImagic Name="ChipBg" TextureInfo="GameBJL/res_baccarat_BJL080.png">
+				<Property Key="Pos" Value="0 -60"/>
+				<Property Key="Scale" Value="0.5"/>
+				<Property Key="Aple" Value="0.5"/>
+			</WidgetImagic>
+			
+			<WidgetImagic Name="Chip" TextureInfo="GameBJL/res_baccarat_chouma.png">
+				<Property Key="Pos" Value="-40 -60"/>
+				<Property Key="Scale" Value="0.5"/>
+			</WidgetImagic>
+			
+			<WidgetTxt Name="UserWinGold" ShowTxt="+10000" FontName="" FontSize="22">
+				<Property Key="Color" Value="235 235 30"/>
+				<Property Key="Pos" Value="-22 -60"/>
+				<Property Key="AnchorPos" Value="0 0.5"/>
+			</WidgetTxt>
+			
+			<WaiteTime Time="0.6" Name="Start" SaveAction="true">
+				<Visible Visible="true"/>
+				<SetPos Pos="0 0"/>
+				<MoveTo Time="0.5" Pos="0 80">
+					<WaiteTime Time="1.8" >
+						<Visible  Visible="false" />
+					</WaiteTime>
+				</MoveTo>
+			</WaiteTime>
+		</WidgetNode>
+		
+		<WidgetImagic Name="BoxLine" TextureInfo="GameBJL/res_baccarat_BJL061.png">
+		</WidgetImagic>
+		<WidgetImagic Name="LookingCardIcon" TextureInfo="GameBJL/res_baccarat_BJL065.png">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="Pos" Value="0 85"/>
+		</WidgetImagic>
+		
+		<WidgetImagic Name="BJLZhuangIcon" TextureInfo="GameBJL/ZhuangIcon.png">
+			<Property Key="Visible" Value="false"/>
+			<Property Key="Scale" Value="0.7"/>
+			<Property Key="Pos" Value="-65 -40"/>
+		</WidgetImagic>
+	</WidgetNode >
+	
+	
+	<WidgetNode Name="AreaIconNode">
+		<Property Key="Visible" Value="false"/>
+		<Visible Visible="true" Name="Start" SaveAction="true">
+			<SetPos Pos="0 240"/>
+			<SetScale Scale="0"/>
+			<MoveTo Time="0.4" Pos="Key:Icon_Pos"/>
+			<ScaleTo Time="0.4" Scale="1"/>
+		</Visible>
+		
+		<Visible Visible="true" Name="MoveToPlayer" SaveAction="true">
+			<SetPos Pos="Key:Icon_Pos"/>
+			<MoveTo Time="0.4" Pos="Key:Player_Pos"/>
+			<ScaleTo Time="0.4" Scale="0.6"/>
+		</Visible>
+	</WidgetNode >
+	
+	
+	<WidgetNode Name="MaxBetInfo">
+		<WidgetTxt ShowTxt="最高下注" FontName="" FontSize="22">
+			<Property Key="Pos" Value="0 33"/>
+			<Property Key="Color" Value="0 230 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="NickName" ShowTxt="布莱恩特" FontName="" FontSize="22">
+			<Property Key="Pos" Value="0 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="BetChips" ShowTxt="1000" FontName="" FontSize="22">
+			<Property Key="Pos" Value="0 -33"/>
+		</WidgetTxt>
+		
+	</WidgetNode >
+	
+	<WidgetPanle Name="OpenCardShadow" Color="0 0 0" Size="1280 720">
+		<Visible Visible="true" Name="ShowShadow" SaveAction="true">
+			<SetAple Aple="0"/>
+			<ApleTo Time="0.1" Aple="0.7"/>
+		</Visible>
+		<Visible Visible="true" Name="HideShadow" SaveAction="true">
+			<SetAple Aple="0.7"/>
+			<ApleTo Time="0.1" Aple="0"/>
+		</Visible>
+	</WidgetPanle >
+	
+	<WidgetImagic Name="HistoryArea" TextureInfo="GameBJL/res_baccarat_BJL012.png">
+		<WidgetTxt Name="AreaWinNum" ShowTxt="0" FontName="" FontSize="24">
+			<Property Key="Pos" Value="18 13"/>
+		</WidgetTxt>
+	</WidgetImagic>
+	
+	
+	<WidgetNode Name="WinPointRow">
+		<WidgetImagic Name="Point0" TextureInfo="GameBJL/res_baccarat_BJL030-2.png">
+			<Property Key="Pos" Value="0 0"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Point1" TextureInfo="GameBJL/res_baccarat_BJL030-2.png">
+			<Property Key="Pos" Value="0 -25"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Point2" TextureInfo="GameBJL/res_baccarat_BJL030-2.png">
+			<Property Key="Pos" Value="0 -50"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Point3" TextureInfo="GameBJL/res_baccarat_BJL030-2.png">
+			<Property Key="Pos" Value="0 -75"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Point4" TextureInfo="GameBJL/res_baccarat_BJL030-2.png">
+			<Property Key="Pos" Value="0 -100"/>
+		</WidgetImagic>
+		<WidgetImagic Name="Point5" TextureInfo="GameBJL/res_baccarat_BJL030-2.png">
+			<Property Key="Pos" Value="0 -125"/>
+		</WidgetImagic>
+	</WidgetNode >
+	
+	<Widget9Sprite Name="AdminBg" BackTexture="public/9Scale.png" Size="800 450"  InsetsRect="150 150 100 100">
+	</Widget9Sprite>
+	<Widget9Sprite Name="AdminBg1" BackTexture="GameBJL/res_baccarat_BJL013.png" Size="291 161"  InsetsRect="120 50 50 50">
+	</Widget9Sprite>
+	
+	
+	<WidgetNodeUI Name="BJLZhuangNode">
+		<Property Key="Size" Value="450 40"/>
+		<WidgetTxt Name="zhuang_order" ShowTxt="1" FontName="" FontSize="28">
+			<Property Key="Pos" Value="40 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="zhuang_name" ShowTxt="布莱恩特" FontName="" FontSize="28">
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Pos" Value="100 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="zhuang_gold" ShowTxt="10000" FontName="" FontSize="28">
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Pos" Value="280 0"/>
+			<Property Key="Color" Value="255 233 0"/>
+		</WidgetTxt>
+		<WidgetTxt Name="zhuang_text" ShowTxt="庄" FontName="" FontSize="28">
+			<Property Key="AnchorPos" Value="0 0.5"/>
+			<Property Key="Pos" Value="400 0"/>
+			<Property Key="Color" Value="255 233 0"/>
+		</WidgetTxt>
+	</WidgetNodeUI>
+	
+ </root>

@@ -1,0 +1,48 @@
+﻿生成启动时间为 2017/3/15 15:26:37。
+     1>项目“C:\Users\kfa\Desktop\湖南麻将发给客户\客户端\duoduo_new\GameBase\cocos2d\external\recast\proj.win32\librecast.vcxproj”在节点 3 上(Build 个目标)。
+       项目文件包含 ToolsVersion="12.0"。此工具集可能未知或缺失。在这种情况下，通过安装 MSBuild 的正确版本，或许可以解决此问题。否则，该 build 可能已因策略原因而被强制为某个特定 ToolsVersion。将该项目视为其已具有 ToolsVersion="4.0"。有关详细信息，请参阅 http://go.microsoft.com/fwlink/?LinkId=291333。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../ /Zi /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt ..\DebugUtils\DebugDraw.cpp ..\DebugUtils\DetourDebugDraw.cpp ..\DetourCrowd\DetourCrowd.cpp ..\DetourCrowd\DetourLocalBoundary.cpp ..\DetourCrowd\DetourObstacleAvoidance.cpp ..\DetourCrowd\DetourPathCorridor.cpp ..\DetourCrowd\DetourPathQueue.cpp ..\DetourCrowd\DetourProximityGrid.cpp ..\DetourTileCache\DetourTileCache.cpp ..\DetourTileCache\DetourTileCacheBuilder.cpp ..\Detour\DetourAlloc.cpp ..\Detour\DetourCommon.cpp ..\Detour\DetourNavMesh.cpp ..\Detour\DetourNavMeshBuilder.cpp ..\Detour\DetourNavMeshQuery.cpp ..\Detour\DetourNode.cpp
+         DebugDraw.cpp
+         DetourDebugDraw.cpp
+         DetourCrowd.cpp
+         DetourLocalBoundary.cpp
+         DetourObstacleAvoidance.cpp
+         DetourPathCorridor.cpp
+     1>..\DetourCrowd\DetourObstacleAvoidance.cpp(334): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据 (..\DetourCrowd\DetourObstacleAvoidance.cpp)
+         DetourPathQueue.cpp
+         DetourProximityGrid.cpp
+         DetourTileCache.cpp
+         DetourTileCacheBuilder.cpp
+         DetourAlloc.cpp
+         DetourCommon.cpp
+         DetourNavMesh.cpp
+         DetourNavMeshBuilder.cpp
+         DetourNavMeshQuery.cpp
+         DetourNode.cpp
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I../../ /Zi /nologo /W3 /WX- /MP /Od /Oy- /D WIN32 /D _DEBUG /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt ..\fastlz\fastlz.c
+         fastlz.c
+       Lib:
+         D:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\Lib.exe /OUT:"C:\Users\kfa\Desktop\湖南麻将发给客户\客户端\duoduo_new\GameBase\proj.win32\Debug.win32\librecast.lib" /NOLOGO Debug.win32\DebugDraw.obj
+         Debug.win32\DetourDebugDraw.obj
+         Debug.win32\DetourCrowd.obj
+         Debug.win32\DetourLocalBoundary.obj
+         Debug.win32\DetourObstacleAvoidance.obj
+         Debug.win32\DetourPathCorridor.obj
+         Debug.win32\DetourPathQueue.obj
+         Debug.win32\DetourProximityGrid.obj
+         Debug.win32\DetourTileCache.obj
+         Debug.win32\DetourTileCacheBuilder.obj
+         Debug.win32\DetourAlloc.obj
+         Debug.win32\DetourCommon.obj
+         Debug.win32\DetourNavMesh.obj
+         Debug.win32\DetourNavMeshBuilder.obj
+         Debug.win32\DetourNavMeshQuery.obj
+         Debug.win32\DetourNode.obj
+         Debug.win32\fastlz.obj
+         librecast.vcxproj -> C:\Users\kfa\Desktop\湖南麻将发给客户\客户端\duoduo_new\GameBase\proj.win32\Debug.win32\librecast.lib
+     1>已完成生成项目“C:\Users\kfa\Desktop\湖南麻将发给客户\客户端\duoduo_new\GameBase\cocos2d\external\recast\proj.win32\librecast.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.09

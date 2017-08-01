@@ -1,0 +1,29 @@
+﻿ <root>
+	<Widget Name="PublicNoticPlane" SkinTempName="Empty">
+		<Property Key="Scale" Value="0.8"/>
+		<Property Key="Pos" Value="640 360"/>
+		<Widget SkinTempName="BtnFullEmpty">
+		</Widget>
+		<Widget SkinTempName="ImagicEmpty">
+			<Property Key="ImagicTexture" Value="PublicNotice/Back.png"/>
+		</Widget>
+		<Widget SkinTempName="Button_Close">
+			<Action Key="Hide" Value="PublicNoticPlane"/>
+			<Property Key="Pos" Value="540 310"/>
+		</Widget>
+		<Widget Name="NoticeName" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value="游戏公告"/>
+			<Property Key="FontSize" Value="55"/>
+			<Property Key="Pos" Value="0 280"/>
+			<Property Key="OutLine" Value="255 0 0 255"/>
+		</Widget>
+		<Widget Name="NoticeTxt" SkinTempName="TxtEmpty">
+			<Property Key="ShowTxt" Value=""/>
+			<Property Key="FontSize" Value="45"/>
+			<Property Key="Pos" Value="0 -100"/>
+			<Property Key="IsLeft" Value="true"/>
+			<Property Key="IsTop" Value="true"/>
+			<Property Key="Dimensions" Value="1000 580"/>
+		</Widget>
+	</Widget>
+ </root>

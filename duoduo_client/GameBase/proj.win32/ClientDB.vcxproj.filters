@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ClientDB">
+      <UniqueIdentifier>{739ab24b-f69f-489d-b9e6-8cd43d129091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientDB\Scene">
+      <UniqueIdentifier>{d9419cd0-213d-4662-b41c-2a989fb1ddd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{cd01f4dc-3231-4a65-8ba5-91efc52ebb7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientDB\Game">
+      <UniqueIdentifier>{a0789c80-6404-47de-87f5-37a62a98490a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientDB\Game\BJL">
+      <UniqueIdentifier>{e9a176d2-450e-47dd-a682-595fa63f4695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientDB\Game\Car">
+      <UniqueIdentifier>{1cb06905-6425-4930-beeb-fbc36b849962}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ClientDB\Game\LP">
+      <UniqueIdentifier>{9cfe0491-d1f7-45c5-b082-3e06513383fa}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\ClientDB\DBGameManager.cpp">
+      <Filter>ClientDB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\DBGameManager_Game.cpp">
+      <Filter>ClientDB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBHomeScence.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBHomeScence_Button.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBHomeScence_Sink.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBLogonScence.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBScenceManager.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Main\AppDelegate.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Main\DBGame.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBPlayerInfoScence.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBPublicNoticeScence.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\BJL\BJLGameScence.cpp">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\BJL\BJLGameScence_CB.cpp">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\BJL\BJLGameScence_Net.cpp">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\Car\CarGameScence.cpp">
+      <Filter>ClientDB\Game\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\BJL\BJLGameScence_Button.cpp">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\BJL\BJLGameScence_Command.cpp">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\Car\CarGameScence_Button.cpp">
+      <Filter>ClientDB\Game\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\Car\CarGameScence_CB.cpp">
+      <Filter>ClientDB\Game\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\Car\CarGameScence_Command.cpp">
+      <Filter>ClientDB\Game\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\Car\CarGameScence_Net.cpp">
+      <Filter>ClientDB\Game\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBBankScence.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\Car\CarGameScence_Time.cpp">
+      <Filter>ClientDB\Game\Car</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBShopScence.cpp" />
+    <ClCompile Include="..\Classes\ClientDB\WindowsMain\main.cpp" />
+    <ClCompile Include="..\Classes\ClientDB\Game\BJL\BJLPlayer.cpp">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\BJL\BJLGameScence_Player.cpp">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\BJL\BJLGameLogic.cpp">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\LP\LPGameScence.cpp">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\LP\LPGameScence_Button.cpp">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\LP\LPGameScence_CB.cpp">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\LP\LPGameScence_Command.cpp">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\LP\LPGameScence_Net.cpp">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\LP\LPGameScence_Touch.cpp">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\LP\LPGameLogic.cpp">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Game\LP\LPYaCel.cpp">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ClientDB\Scene\DBRankScence.cpp">
+      <Filter>ClientDB\Scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\ClientDB\DBGameManager.h">
+      <Filter>ClientDB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Scene\DBHomeScence.h">
+      <Filter>ClientDB\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Scene\DBScenceManager.h">
+      <Filter>ClientDB\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Main\AppDelegate.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Main\DBGame.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Scene\DBPlayerInfoScence.h">
+      <Filter>ClientDB\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Scene\DBLogonScence.h">
+      <Filter>ClientDB\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Scene\DBPublicNoticeScence.h">
+      <Filter>ClientDB\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\BJL\BJLGameScence.h">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\BJL\CMD_Baccarat.h">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\Car\CarGameScence.h">
+      <Filter>ClientDB\Game\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\Car\CMD_RedNine100.h">
+      <Filter>ClientDB\Game\Car</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Scene\DBBankScence.h">
+      <Filter>ClientDB\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Scene\DBShopScence.h" />
+    <ClInclude Include="..\Classes\ClientDB\WindowsMain\main.h" />
+    <ClInclude Include="..\Classes\ClientDB\Game\BJL\BJLPlayer.h">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\BJL\BJLGameLogic.h">
+      <Filter>ClientDB\Game\BJL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\LP\CMD_Land.h">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\LP\LPGameScence.h">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\LP\LPGameLogic.h">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Game\LP\LPYaCell.h">
+      <Filter>ClientDB\Game\LP</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ClientDB\Scene\DBRankScence.h">
+      <Filter>ClientDB\Scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

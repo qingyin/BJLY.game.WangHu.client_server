@@ -1,0 +1,5 @@
+﻿<root>
+	<WidgetButton Name="ButtonCreateTable" NomalTexture="ScenceHome/CreateRoomHN/Button_Title2.png" PressTexture="ScenceHome/CreateRoomHN/Button_Title2.png" DisableTexture="ScenceHome/CreateRoomHN/table_red.png">
+		<Property Key="FontSize" Value="30"/>
+	</WidgetButton>
+</root>
